@@ -22,7 +22,7 @@ description: This is the blog of Marius Hobbhahn. I post projects, papers and co
 navbar-links:
   ML Projects: "MLprojects"
   Opinions: "Opinions"
-  About Me: "aboutme"
+  About Me/CV: "aboutme"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
