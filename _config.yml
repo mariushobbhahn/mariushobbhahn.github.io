@@ -20,9 +20,7 @@ description: This is the blog of Marius Hobbhahn. I post projects, papers and co
 
 # List of links in the navigation bar
 navbar-links:
-  ML Projects: "MLProjects"
-#    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-#    - Learn markdown: "http://www.markdowntutorial.com/"
+  ML Projects: "MLprojects"
   Opinions: "Opinions"
   About Me: "aboutme"
 
