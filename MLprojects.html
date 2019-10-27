@@ -32,9 +32,9 @@ weight: 5
       {% endif %}
       <div class="post-entry">
         {{ post_about.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
+        {% assign excerpt_word_count = post_about.excerpt | number_of_words %}
         {% if post_about.content != post_about.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="{{ post_about.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
         {% endif %}
       </div>
     </div>
