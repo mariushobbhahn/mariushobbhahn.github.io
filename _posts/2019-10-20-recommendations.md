@@ -6,7 +6,7 @@ author:     "Marius Hobbhahn"
 category: opinion
 ---
 
-In this post I wanna lay out a couple of different books, podcasts and other forms of media I consume and give a short pitch of their content. This list will be continuously updated over time when I have new recommendations. If you think there is something missing on feel free to contact me via your prefered means of communication. I need to point out that the media I consume is obviously reflective of the values I hold and the bubble I am part of, meaning you can expect a Rationalist, Bayesian, Effective Altruist, Leftist, etc. bias.
+In this post I wanna lay out a couple of different books, podcasts and other forms of media I consume and give a short pitch of their content. This list will be continuously updated over time when I have new recommendations. If you think there is something missing on feel free to contact me via your prefered means of communication. I need to point out that the media I consume is obviously reflective of the values I hold and the bubble I am part of, meaning you can expect a Rationalist, Bayesian, Effective Altruist, culturally leftleaning, etc. bias.
 
 ## **Media:**
 
@@ -23,7 +23,7 @@ In this post I wanna lay out a couple of different books, podcasts and other for
   * Political Commedy: <a href='https://www.youtube.com/user/LastWeekTonight'>Last Week Tonight</a>, <a href='https://www.youtube.com/channel/UCarEovlrD9QY-fy-Z6apIDQ'>Patriot Act</a>,  <a href='https://www.youtube.com/channel/UC18vz5hUUqxbGvym9ghtX_w'>Full frontal with samantha bee</a>
   * Machine Learning and AI safety: <a href='https://www.youtube.com/channel/UCLB7AzTwc6VFZrBsO2ucBMg'>Rob Miles</a>, <a href='https://www.youtube.com/user/keeroyz'>Two Minute Papers</a>, <a href='https://www.youtube.com/channel/UCNIkB2IeJ-6AmZv7bQ1oBYg'>Arxiv Insights</a>
   * UK Politics: <a href='https://www.youtube.com/channel/UCSMqateX8OA2s1wsOR2EgJA'>TLDR news</a>
-  * Cultural Analysis: <a href='https://www.youtube.com/user/ContraPoints'>ContraPoints</a>, <a href='https://www.youtube.com/user/rebelliouspixels'>Popculture detective</a>
+  * Cultural Analysis: <a href='https://www.youtube.com/user/ContraPoints'>ContraPoints</a>, <a href='https://www.youtube.com/user/rebelliouspixels'>Popculture detective</a>, <a href='https://www.youtube.com/channel/UC5fdssPqmmGhkhsJi4VcckA'>Innuendo Studios</a>
   * Film: <a href='https://www.youtube.com/user/everyframeapainting'>Every Frame a painting</a>
   * Miscellaneous: <a href='https://www.youtube.com/user/JaiWbio'>Alt shift X</a>
   * German public service documentaries: <a href='https://www.youtube.com/channel/UCUuab1dctZzN5ZmRmQnTzkg'>WDR Doku</a>, <a href='https://www.youtube.com/user/ARD'>ARD</a>, <a href='https://www.youtube.com/user/ARTEde'>ARTEde</a>, <a href='https://www.youtube.com/channel/UCfa7jJFYnn3P5LdJXsFkrjw'>STRG F</a>, <a href='https://www.youtube.com/channel/UCLoWcRy-ZjA-Erh0p_VDLjQ'>Y-Kollektiv</a>

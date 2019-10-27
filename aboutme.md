@@ -47,7 +47,7 @@ subtitle: summary of my life (so far)
         <div class="col-md-3"><h3>Education</h3></div>
         <div class="col-md-9">
             <h4>University of Tübingen, Germany</h4>
-            <div>M.Sc., Computer Science/Machine Learning, 2018-</div>
+            <div>M.Sc., Computer Science/Machine Learning, 2018-now</div>
             <div></div>
             <div>Grade (currently 1.5)</div>
 
@@ -70,6 +70,42 @@ subtitle: summary of my life (so far)
 	     <h4>Willstätter Gymnasium Nürnberg, Germany</h4>
             <div>Abitur, 2007 - 2015</div>
             <div>Grade: 1.4 (3.6 <a href="https://en.wikipedia.org/wiki/Academic_grading_in_Germany#Overview">GPA equivalent</a>)</div>
+        </div>
+    </div>
+
+    <div class="row" style="padding-top: 3em;">
+        <div class="col-md-3"><h3>ML Experience</h3></div>
+        <div class="col-md-9">
+            <h4>Object Detection using the Scattering Transform (Grade: 1.7)</h4>
+                [<a href="/files/Scattering_transform_Marius_Hobbhahn.pdf">pdf</a>]
+                [<a href="https://github.com/mariushobbhahn/CompSci_Bachelor_201819">code</a>]
+
+            <div class="row" style="padding-bottom: 2em"></div>
+
+            <h4>Inverse Classification using Generative Models (Grade: 1.3)</h4>
+                [<a href="/files/Bachelor_Kogni_Marius_Hobbhahn_2018.pdf">pdf</a>]
+                [<a href="https://github.com/mariushobbhahn/cogsci_bachelor_2018">code</a>]
+
+            <div class="row" style="padding-bottom: 2em"></div>
+
+            <h4>Reconstruction of the Paper "reading scene text in deep convolutional sequences" (Grade: 1.3)</h4>
+                [<a href="https://github.com/mariushobbhahn/Reading-scene-text-in-deep-convolutional-sequences/blob/master/report/report_deep_sequences.pdf">arxiv</a>]
+                [<a href="https://github.com/mariushobbhahn/Reading-scene-text-in-deep-convolutional-sequences">code</a>]
+
+            <div class="row" style="padding-bottom: 2em"></div>
+
+            <h4>Bayesian Prediction of winprobability in League of Legends</h4>
+            [<a href="https://github.com/mariushobbhahn/BayesLoLPredictions/blob/master/Project/BDA%2BCM_Project_Hobbhahn.html">html</a>]
+            [<a href="https://github.com/mariushobbhahn/BayesLoLPredictions/tree/master/Project">code</a>]
+
+            <div class="row" style="padding-bottom: 2em"></div>
+
+            <h4>Additional Information</h4>
+            <div>Successfully completed over 20 lectures related to ML, AI, NNs, RL, Stats, etc. at the University of Tübingen</div>
+
+            <h4>Programming Experience</h4>
+            <div><h5>Programming Languages:</h5> Python > R > JavaScript, C++, SQL</div>
+	    <div><h5>ML related:</h5> Pytorch, Tensorflow, Keras, Cuda</div>
         </div>
     </div>
 
@@ -167,7 +203,7 @@ subtitle: summary of my life (so far)
     <div class="row" style="padding-top: 3em;">
         <div class="col-md-3"><h3>Language</h3></div>
         <div class="col-md-9">
-            <div>English (IELTS 8.0)</div>
+            <div>English (C2 = IELTS 8.0)</div>
             <div>French (B2)</div>
             <div>German (native) </div>
         </div>
