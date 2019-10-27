@@ -5,7 +5,7 @@ subtitle:   "In this post I will give context about the kinds of projects I will
 date:       2019-10-19 20:28:00
 author:     "Marius Hobbhahn"
 # header-img: "img/Marius2.jpg"
-category:   ML_project
+category:   ML_about
 tags:       [machine learning]
 ---
 
