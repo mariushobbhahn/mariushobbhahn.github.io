@@ -94,7 +94,7 @@ subtitle: summary of my life (so far)
 
             <div class="row" style="padding-bottom: 2em"></div>
 
-            <h4>Bayesian Prediction of winprobability in League of Legends</h4>
+            <h4>Bayesian Prediction of winprobability in League of Legends (Grade: 1.0)</h4>
             [<a href="https://github.com/mariushobbhahn/BayesLoLPredictions/blob/master/Project/BDA%2BCM_Project_Hobbhahn.html">html</a>]
             [<a href="https://github.com/mariushobbhahn/BayesLoLPredictions/tree/master/Project">code</a>]
 
@@ -104,8 +104,8 @@ subtitle: summary of my life (so far)
             <div>Successfully completed over 20 lectures related to ML, AI, NNs, RL, Stats, etc. at the University of Tübingen</div>
 
             <h4>Programming Experience</h4>
-            <div><h5>Programming Languages:</h5> Python > R > JavaScript, C++, SQL</div>
-	    <div><h5>ML related:</h5> Pytorch, Tensorflow, Keras, Cuda</div>
+            <div><b>Programming Languages:</b> Python > R > JavaScript, C++, SQL</div>
+	    <div><b>ML related:</b> Pytorch, Tensorflow, Keras, Cuda</div>
         </div>
     </div>
 
