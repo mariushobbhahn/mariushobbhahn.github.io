@@ -4,7 +4,26 @@ title: "Opinions"
 weight: 4
 ---
 
-<h2> Test </h2>
+{% assign post_about = site.posts | where: 'category', 'opinion_about' %}
+
+<div class="post-preview">
+        <a href="{{ post_about.url | prepend: site.baseurl }}">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="/{% if post_about.header-img %}{{ post_about.header-img }}{% else %}{{ site.header-img }}{% endif %}">
+                </div>
+                <div class="col-sm-8">
+                    <h2 class="post-title">
+                        {{ post_about.title }}
+                    </h2>
+                    {% if post_about.subtitle %}
+                        {{ post_about.subtitle }}
+                    {% endif %}
+                    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+                </div>
+            </div>
+        </a>
+    </div>
 
 {% assign posts = site.posts | where: 'category', 'opinion' %}
 
