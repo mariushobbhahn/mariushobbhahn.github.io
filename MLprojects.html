@@ -4,6 +4,59 @@ title: "ML Projects"
 weight: 5
 ---
 
+{% assign posts_about = site.posts | where: 'category', 'ML_about' %}
+
+{% for post_about in posts_about %}
+  <article class="post-preview">
+    <a href="{{ post_about.url | relative_url }}">
+	  <h2 class="post-title">{{ post_about.title }}</h2>
+
+	  {% if post_about.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post_about.subtitle }}
+	  </h3>
+	  {% endif %}
+    </a>
+
+    <p class="post-meta">
+      Posted on {{ post_about.date | date: site.date_format }}
+    </p>
+
+    <div class="post-entry-container">
+      {% if post_about.image %}
+      <div class="post-image">
+        <a href="{{ post_about.url | relative_url }}">
+          <img src="{{ post_about.image | relative_url }}">
+        </a>
+      </div>
+      {% endif %}
+      <div class="post-entry">
+        {{ post_about.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+        {% assign excerpt_word_count = post.excerpt | number_of_words %}
+        {% if post_about.content != post_about.excerpt or excerpt_word_count > site.excerpt_length %}
+          <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if post_about.tags.size > 0 %}
+    <div class="blog-tags">
+      Tags:
+      {% if site.link-tags %}
+      {% for tag in post_about.tags %}
+      <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+      {% endfor %}
+      {% else %}
+        {{ post_about.tags | join: ", " }}
+      {% endif %}
+    </div>
+    {% endif %}
+
+   </article>
+  {% endfor %}
+
+
+
 {% assign posts = site.posts | where: 'category', 'ML_project' %}
 
 {% for post in posts %}
