@@ -4,7 +4,7 @@ title:  "What is the Opinions blog about?"
 subtitle:   "In this post I will give context about the Opinion pieces I write and the intentions behind it"
 date:   2019-10-19 23:01:30 +0200
 author:     "Marius Hobbhahn"
-category: opinion
+category: opinion_about
 ---
 
 In the Opinions part of the blog I want to lay out some of the political, social and ethical opinions that I hold in a understandable but detailed manner. The journalistic standards that I hold myself to are not scientific standards, i.e. I will not claim to have investigate all of the evidence for multiple years. Rather I claim to report my best understanding of a topic and back it up by the evidence that lead me to hold that believe or give reasons for it. If somebody points out that I have missunderstood some evidence, the scientific perspective has changed or I have left out an important piece of evidence, I will edit the article to show my missunderstanding and the correct evidence in a transparent way. If you wonder why somebody would post their opinions on a blog even though nobody asked for it here are my reasons: 
