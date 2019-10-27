@@ -4,8 +4,9 @@ title: "Opinions"
 weight: 4
 ---
 
-{% assign post_about = site.posts | where: 'category', 'opinion_about' %}
+{% assign posts_about = site.posts | where: 'category', 'opinion_about' %}
 
+{% for post_about in posts_about %}
 <div class="post-preview">
         <a href="{{ post_about.url | prepend: site.baseurl }}">
             <div class="row">
@@ -19,11 +20,15 @@ weight: 4
                     {% if post_about.subtitle %}
                         {{ post_about.subtitle }}
                     {% endif %}
-                    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+                    <p class="post-meta">Posted by {% if post_about.author %}{{ post_about.author }}{% else %}{{ site.title }}{% endif %} on {{ post_about.date | date: "%B %-d, %Y" }}</p>
                 </div>
             </div>
         </a>
     </div>
+   {% unless forloop.last %}
+        <hr>
+    {% endunless %}
+{% endfor %}
 
 {% assign posts = site.posts | where: 'category', 'opinion' %}
 
