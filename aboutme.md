@@ -38,8 +38,10 @@ subtitle: summary of my life (so far)
         <div class="col-md-9">
             <div>Uncertainty quantification in deep learning</div>
             <div>Bayesian inference</div>
+            <div>Bayesian Deep Learning</div>
             <div>Fairness in Machine Learning</div>
             <div>AI Safety and Alignment</div>
+            <div>Adverserial Attacks</div>
         </div>
     </div>
 
