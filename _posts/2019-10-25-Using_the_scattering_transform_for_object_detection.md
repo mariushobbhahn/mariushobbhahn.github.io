@@ -37,7 +37,17 @@ The main idea of the Scattering transform is to apply this filter multiple times
   <figcaption>Representation of a scattering network. Each filter is described by its path. Every blue arrow describes an output at the particular filter. The m describe the number of iterative applications of the scattering transform. L is the branching factor in the network also known as the number of angles for the filter.</figcaption>
 </figure>
 
+To give a better understanding of how the Scattering transform looks at different stages of the network I
 
+<figure>
+  <img src="/img/Scattering_Bachelor/cat_example.jpg" width=100 alt="Cat image"/>
+  <img src="/img/Scattering_Bachelor/example_cat_0ord.png" width=100 alt="Cat image 0ord"/>
+  <img src="/img/Scattering_Bachelor/example_cat_2ord.png" width=100 alt="Cat image 1ord"/>
+  <img src="/img/Scattering_Bachelor/example_cat_2ord.png" width=100 alt="Cat image 2ord"/>
+  <figcaption>An image of a cat at different stages of a 2 layer Scattering Network.</figcaption>
+</figure>
+
+A scattering network alone is probably pretty useless for detection purposes. We therefore want to combine the theoretical guarantees of the scattering transform with the flexibility of neural network to get the best of both worlds.
 
 ## **3. Experiments:**
 
