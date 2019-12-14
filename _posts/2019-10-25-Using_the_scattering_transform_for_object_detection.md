@@ -40,10 +40,10 @@ The main idea of the Scattering transform is to apply this filter multiple times
 To give a better understanding of how the Scattering transform looks at different stages of the network I
 
 <figure>
-  <img src="/img/Scattering_Bachelor/cat_example.jpg" width="100"/>
-  <img src="/img/Scattering_Bachelor/example_cat_0ord.png" width="100"/>
-  <img src="/img/Scattering_Bachelor/example_cat_2ord.png" width="100"/>
-  <img src="/img/Scattering_Bachelor/example_cat_2ord.png" width="100"/>
+  <img src="/img/Scattering_Bachelor/cat_example.jpg" width="300"/>
+  <img src="/img/Scattering_Bachelor/example_cat_0ord.png" width="300"/>
+  <img src="/img/Scattering_Bachelor/example_cat_1ord.png" width="300"/>
+  <img src="/img/Scattering_Bachelor/example_cat_2ord.png" width="300"/>
   <figcaption>An image of a cat at different stages of a 2 layer Scattering Network.</figcaption>
 </figure>
 
