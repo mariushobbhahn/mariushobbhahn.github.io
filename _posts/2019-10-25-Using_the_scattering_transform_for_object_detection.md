@@ -40,10 +40,10 @@ The main idea of the Scattering transform is to apply this filter multiple times
 To give a better understanding of how the Scattering transform looks at different stages of the network I show the outputs of different layers of a 2-layer Scattering Network applied on the image of a cat. Layer 0 is just the application of a low-pass filter that kills all high frequency waves from the image. It just makes the image a bit more blurry. Layer 1 shows 16 different outputs after the application of a filter once. The reason why there are 16 outputs is because in this setting I have 8 different angles and 2 different sizes of outputs. Layer 2 shows 64 different outputs after the second application of all filters. If we look carefully at layer 1 and 2 we see that the difference is only marginal and not worth the computational cost or the memory space. Therefore we used 1 layer Scattering Networks in most of our experiments.
 
 <figure>
-  <img src="/img/Scattering_Bachelor/cat_example.jpg" width="400"/>
-  <img src="/img/Scattering_Bachelor/example_cat_0ord.png" width="400"/>
-  <img src="/img/Scattering_Bachelor/example_cat_1ord.png" width="400"/>
-  <img src="/img/Scattering_Bachelor/example_cat_2ord.png" width="400"/>
+  <img src="/img/Scattering_Bachelor/cat_example.jpg" width="350"/>
+  <img src="/img/Scattering_Bachelor/example_cat_0ord.png" width="350"/>
+  <img src="/img/Scattering_Bachelor/example_cat_1ord.png" width="350"/>
+  <img src="/img/Scattering_Bachelor/example_cat_2ord.png" width="350"/>
   <figcaption>An image of a cat at different stages of a 2 layer Scattering Network.</figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ In our first experiment we test the combination of scattering and conventional n
 The second idea was to combine the networks in parallel, i.e. just merge the filters of the two networks at different stages of the pipeline as shown in the 'Parallel Scattering SSD' figure. This was intended to make sure that robust features exist at every step of the training.
 
 <figure>
-  <img src="/img/Scattering_Bachelor/parallel_scattering_ssd.png" alt="parallel_scattering_ssd"/>
+  <img src="/img/Scattering_Bachelor/parallel_scattering_vgg.png" alt="parallel_scattering_ssd"/>
   <figcaption>Parallel Scattering SSD</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ We could show that the forward pass of the sequential scattering hybrid is faste
 ## **5. Conclusions:**
 
 Scattering hybrid networks use static filters for the first couple of layers of CNNs. While in they are faster because they need less training and have some nice theoretical guarantees such as behaviour w.r.t. equivariances the results turn out to be disappointing. The parallel architecture is significantly slower than a vanilla SSD w.r.t. training and has no benefit whatsoever. The sequential architecture is slightly faster per forward pass but also shows no tangible benefit other than that. Especially when natural images are concerned, such as in the Kitti dataset the vanilla SSD outperformes both scattering hybrids. This is likely the case because the features in natural scenes require more than 'fancy edge detection'. Additionally, SSD is a very simple detection network. More advanced networks such as Faster-RCNN or Masked-RCNN probably use more complicated internal representations and their performance will drop even more drastically be combining them with static filters.
-Overall I think this is a method that should only be used in very niche situations. The only situations that I could imagine this being useful are low noise environments where high tempo is an advantage. An example could be sorting good and bad apples on a production line. 
+Overall I think this is a method that should only be used in very niche situations. The only situations that I could imagine this being useful are low noise environments where high tempo is an advantage. An example could be sorting good and bad apples on a production line.
 
 #### ***One last note:***
 
