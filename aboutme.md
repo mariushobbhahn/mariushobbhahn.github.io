@@ -36,11 +36,11 @@ subtitle: summary of my life (so far)
     <div class="row">
         <div class="col-md-3"><h3>Research Interests</h3></div>
         <div class="col-md-9">
-            <div>Uncertainty quantification in deep learning</div>
-            <div>Bayesian inference</div>
+            <div>Uncertainty Quantification in Deep Learning</div>
+            <div>Bayesian Inference</div>
             <div>Bayesian Deep Learning</div>
-            <div>Fairness in Machine Learning</div>
             <div>AI Safety and Alignment</div>
+            <div>Fairness in Machine Learning</div>
             <div>Adverserial Attacks</div>
         </div>
     </div>
