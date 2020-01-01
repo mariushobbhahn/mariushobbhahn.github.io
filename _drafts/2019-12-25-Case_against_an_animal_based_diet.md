@@ -17,11 +17,30 @@ I think most people have heard that animals are held in bad conditions, that mea
 
 ### 1.1 Animal Suffering
 
+I think the most obvious but also most impactful problem with an animal diet is the animal suffering it creates. To give a broad overview over the current state of meat consumption consider the following figures.
+
+<figure>
+  <img src="/img/Case_against_meat/Number_of_animals_killed_over_time.png" width="350"/>
+  <img src="/img/Case_against_meat/Mammals_killed_per_year.png" width="350"/>
+  <figcaption>Left: Animals \[<a href='https://ourworldindata.org/meat-production'>source</a>\]; Right: Mammals killed for consumption over time \[<a href='https://www.weforum.org/agenda/2019/02/chart-of-the-day-this-is-how-many-animals-we-eat-each-year/'>source</a>\]</figcaption>
+</figure>
+
+From this follow two observations: a) The number of animals killed per year increases pretty drastically, the growth of chickens killed for consumption looks exponential and that for pigs linear. We obviously do not know if that will continue but we do know that consumption has not always been this high. Given that meat is a status symbol in many countries and poverty goes down this is a likely indicator for a still growing trend. b) The global meat consumption is actually extremely high. Assuming that the world has around 7 Billion inhabitants this would imply that on average a person eats roughly eight chickens and a fifth of a pig. This gets even bigger when considering that many countries do not consume a lot of meat either due to poverty or to religous reasons. The conditions in which animals are held are horrible for the vast majority of cases. TODO: orgs and sustainable doesnt matter.
+However my main focus is less on exposing these conditions but rather on arguing what they mean in more comprehensive terms. In the Holocaust <a href='https://en.wikipedia.org/wiki/Nazi_concentration_camps#Total_number_of_camps_and_casualties'>approximately 17 Million</a> people were murdered. 
+If we think that a chicken has a 16/58000 = 0.00028th of the moral worth of a human this means humanity commits one Holocaust every year on Chickens alone. Similarly, in the Rwandan genocide an estimated <a href='https://en.wikipedia.org/wiki/Rwandan_genocide#Death_toll_and_timeline'>1.074 Million</a> atrocities were counted. If we think that a pig has the moral worth of 1.074/14700 = 0.073th of a human, we commit a Rwandan genocide every year on pigs alone. Obviously these are very rough approximations; these events might be singular in nature, a year in concentration camp might be very different from one year in a factory farm, etc. However just comparing these numbers opened my eyes. The number of animals humans kill and eat every year is just incredibly huge. Additionally, if someone had asked me before comparing the numbers about my intuitive estimate of the moral worth of an animal compared to a human, I would have given way higher answers for both, chickens and pigs. Overall, even if your estimate of the moral worth of an animal is lower or you think the comparison is lower, we can probably agree that the huge amount of animal suffering created every year is too large.
 
 ### 1.2 Energy Efficiency of Food
 
 
+
+<figure>
+  <img src="/img/Case_against_meat/Land_use_per_energy.png" width="350"/>
+  <img src="/img/Case_against_meat/CO2e_per_energy.png" width="350"/>
+  <figcaption>Left: Land use (ha) per million calories consumed. Example for land-use change: the CO2e of deforesting the rainforest in Brazil to let cows graze; Right: CO2e (t) per million calories consumed. \[<a href='https://wrr-food.wri.org/sites/default/files/2019-07/WRR_Food_Full_Report_0.pdf'>source: World resources report</a>\]</figcaption>
+</figure>
+
 ### 1.3 Climate Change
+
 
 
 ### 1.4 Multi-Resistant Germs
