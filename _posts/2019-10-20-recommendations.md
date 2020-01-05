@@ -40,6 +40,7 @@ In this post I want to lay out a couple of different books, podcasts and other f
 4. **FiveThirtyEight:** Most useful for a more strategic overview over any form of political incidents in the US. If you are a stats or modeling person I can very much recommend the model talk episodes.
 5. **ZEIT Verbrechen:** German podcast series dealing with historical moments in German crime and law history. Pretty interesting content, but unfortunately not very information dense. I mostly listen to it at double speed or while trying to relax. 
 6. **DeepMind Podcast:** Great overview over the current state of the DeepMind research areas. For people with ML background maybe a bit superficial but still useful, great for everyone else. 
+7. **AI Alignment Podcast:** 
 
 
 ## **Books:**
@@ -52,9 +53,11 @@ In this post I want to lay out a couple of different books, podcasts and other f
 7. **Poor economics:** Gave me some really good insights about the decision making processes and rationality of poor people. The authors won the nobel price for economics in 2019 and the quality of the book definitely reflects that.
 8. **Harry Potter and the methods or rationality:** Harry Potter fanfiction written by Eliezer Yudkowsky. Deals with many questions of science and rationality in the world of Harry Potter. Even though it is a 1500 page pdf I read it in under a week. Can only recommend it.
 9. **A Song of Ice and Fire:** The only fantasy book I am still able to read without getting bored. In most of the fantasy literature you follow one hero on their journey to fight a great evil. After 300 pages of training montage, a romance and old wise people giving advice they finally face and defeat the enemy by some random trick that was entirely unforeseeable by the audience. In ASOIF that is not the case. Bad decisions get you killed and the characters are more than one-dimensional heros.
+10. **Super Intelligence:** 
+
 
 ***One last note:***
 
-If you have any feedback regarding anything (i.e. layout, code or opinions) I would be happy if you told me. But please do it in a constructive manner.
+If you have any feedback regarding anything (i.e. layout, code or opinions) please tell me in a constructive manner via your prefered means of communication.
 
 

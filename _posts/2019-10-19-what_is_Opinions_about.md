@@ -22,5 +22,5 @@ In the Opinions part of the blog I want to lay out some of the political, social
 
 ***One last note:***
 
-If you have any feedback regarding anything (i.e. layout, code or opinions) I would be happy if you told me. But please do it in a constructive manner.
+If you have any feedback regarding anything (i.e. layout, code or opinions) please tell me in a constructive manner via your prefered means of communication.
 
