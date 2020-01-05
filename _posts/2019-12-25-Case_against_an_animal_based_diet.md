@@ -22,7 +22,7 @@ I think the most obvious but also most impactful problem with an animal diet is 
 <figure>
   <img src="/img/Case_against_meat/Number_of_animals_killed_over_time.png"/>
   <img src="/img/Case_against_meat/Mammals_killed_per_year.png"/>
-  <figcaption>Left: Animals killed for consumption over time [<a href='https://ourworldindata.org/meat-production'>source</a>]; Right: Mammals killed for consumption over time [<a href='https://www.weforum.org/agenda/2019/02/chart-of-the-day-this-is-how-many-animals-we-eat-each-year/'>source</a>]</figcaption>
+  <figcaption>Top: Animals killed for consumption over time [<a href='https://ourworldindata.org/meat-production'>source</a>]; Bottom: Mammals killed for consumption over time [<a href='https://www.weforum.org/agenda/2019/02/chart-of-the-day-this-is-how-many-animals-we-eat-each-year/'>source</a>]</figcaption>
 </figure>
 
 These figures lead to two observations: a) The number of animals killed per year increases pretty drastically, the growth of chickens killed for consumption looks exponential and that for pigs linear. We obviously do not know if that will continue but we do know that consumption has not always been this high. Given that meat is a status symbol in many countries and poverty goes down this is a likely indicator for a still growing trend. b) The global meat consumption is actually extremely high in objective terms. Assuming that the world has around 7 billion inhabitants this would imply that on average a person eats roughly eight chickens and a fifth of a pig. This average gets even bigger when considering that many countries do not consume a lot of meat either due to poverty or to religous reasons, e.g. india or many african countries. The conditions in which animals are held are horrible for the vast majority of cases (check out <a href='https://mercyforanimals.org/'>mercy for animals</a> for images and further facts). One could consume meat from a more sustainable and fair production but it still comes with all the effects of climate change and inefficient allocation of resources. Additionally, it is not scalable to the same extent as factory farming and therefore many people would have to reduce the amount of meat consumption anyways.
@@ -34,17 +34,17 @@ If we think that a chicken has a 16/58000 = 0.00028th of the moral worth of a hu
 To get the same amount of energy, different foods use vastly different amounts of resources. This is also quite plausible - a cow eats a lot of grass or soy during its life. Using the soy directly or using the land to grow wheat and make bread or grow vegetables and eat them directly is significantly more efficient than eating the cow after some years of growing. I knew for a long time that there was a difference, I just didn't know how big it was. Consider the following graphic for illustration. 
 
 <figure>
-  <img src="/img/Case_against_meat/Land_use_per_energy.png" width="350"/>
-  <img src="/img/Case_against_meat/CO2e_per_energy.png" width="350"/>
-  <figcaption>Left: Land use (ha) per million calories consumed. Example for land-use change: the CO2e of deforesting the rainforest in Brazil to let cows graze; Right: CO2e (t) per million calories consumed. \[<a href='https://wrr-food.wri.org/sites/default/files/2019-07/WRR_Food_Full_Report_0.pdf'>source: World resources report</a>\]</figcaption>
+  <img src="/img/Case_against_meat/Land_use_per_energy.png"/>
+  <img src="/img/Case_against_meat/CO2e_per_energy.png"/>
+  <figcaption>Top: Land use (ha) per million calories consumed. Example for land-use change: the CO2e of deforesting the rainforest in Brazil to let cows graze; Bottom: CO2e (t) per million calories consumed. [<a href='https://wrr-food.wri.org/sites/default/files/2019-07/WRR_Food_Full_Report_0.pdf'>source: World resources report</a>]</figcaption>
 </figure>
 
 Calories do not show the entire picture. Palm oil and sugar are super effective but one cannot live by only consuming either of the two. Additionally, proteins are important for a balanced meal and for growth during developmental phases. However, proteins show a similar picture. 
 
 <figure>
-  <img src="/img/Case_against_meat/land_use_protein.png" width="350"/>
-  <img src="/img/Case_against_meat/CO2_protein.png" width="350"/>
-  <figcaption>Left: Land use (ha) per ton of protein consumed. Example for land-use change: the CO2e of deforesting the rainforest in Brazil to let cows graze; Right: CO2e (t) per ton of protein consumed. \[<a href='https://wrr-food.wri.org/sites/default/files/2019-07/WRR_Food_Full_Report_0.pdf'>source: World resources report</a>\]</figcaption>
+  <img src="/img/Case_against_meat/land_use_protein.png"/>
+  <img src="/img/Case_against_meat/CO2_protein.png"/>
+  <figcaption>Top: Land use (ha) per ton of protein consumed. Example for land-use change: the CO2e of deforesting the rainforest in Brazil to let cows graze; Bottom: CO2e (t) per ton of protein consumed. [<a href='https://wrr-food.wri.org/sites/default/files/2019-07/WRR_Food_Full_Report_0.pdf'>source: World resources report</a>]</figcaption>
 </figure>
 
 I find the 'land-use change' statistic especially worrying in both of the figures. In the World resources report land-use change is described as: "The GlobAgri-WRR model estimates the GHG emissions from the additional area of agricultural land conversion required to produce each person’s diet. Because land use is increasing, every change in diet that reduces (or increases) land-use demands avoids (or adds) that amount of land conversion." If I understand correctly, this describes a) conversion of land to farmland such as deforestation of rainforest to farmland and b) repurposing of already existing farmland away from directly usable  products like wheat, vegetables and fruits to animal feed like corn and soy. 
@@ -57,9 +57,9 @@ Overall, this will not be able to end world hunger but the Institute on the Envi
 Food has a large impact on our climate. According to the Intergovernmental Panel on Climate Change's <a href='https://www.ipcc.ch/site/assets/uploads/2019/08/2f.-Chapter-5_FINAL.pdf'>report</a> "Ca. 25-30% of total GHG emissions are attributable to the food system. These  are from agriculture and land use, storage, transport, packaging, processing, retail, and consumption". The methane which is emitted as a result of the animals digestion is accounted for in this estimate. This is a huge amount and cutting it by some percentage would be a large benefit. Considering the following two figures the influence of meat in the average food consumption gets more clear.
 
 <figure>
-  <img src="/img/Case_against_meat/GHG_from_food_consumption.png" width="350"/>
-  <img src="/img/Case_against_meat/foodprints_by_diet_type.png" width="350"/>
-  <figcaption>Left: Greenhouse Gases (GHG) from food consumption \[<a href='http://css.umich.edu/factsheets/carbon-footprint-factsheet'>source</a>\]; Right: tons of CO2e per yearand person \[<a href='http://www.greeneatz.com/foods-carbon-footprint.html'>source</a>\]</figcaption>
+  <img src="/img/Case_against_meat/GHG_from_food_consumption.png"/>
+  <img src="/img/Case_against_meat/foodprints_by_diet_type.png"/>
+  <figcaption>Top: Greenhouse Gases (GHG) from food consumption [<a href='http://css.umich.edu/factsheets/carbon-footprint-factsheet'>source</a>]; Bottom: tons of CO2e per yearand person [<a href='http://www.greeneatz.com/foods-carbon-footprint.html'>source</a>]</figcaption>
 </figure>
 
 For an average US-citizen 56% of the GHG emissions related to food consumption come from meat. Another 18% come from dairy products. However, since the input in energy of meat has to be replaced by other foods we can't directly translate this to a 56% or 18% reduction in GHG. Considering the average emissions by diet type we can see that less animal products lead to lower emissions. Note that someone who would change their diet from eating a lot of meat to vegan would cut their GHG emissions related to food by more than half. A more realistic possibility for most individuals is to either stop eating beef or become vegetarian. As the chart shows this also is a meaningful reduction of around 0.6 to 0.8 tons of CO2e per person and year or in relative terms: a reduction of 24-32 percent. Checking for the location of origin or seasonality of the food also reduces GHG emissions from the transport. However, it is important to state that the biggest part of emissions reduction through a change of diet can simply be done by reducing the proportion of meat in it.
@@ -80,7 +80,7 @@ Producing meat costs a lot of water. Animals drink a lot - a cow, for example dr
 
 <figure>
   <img src="/img/Case_against_meat/Water_footprint_food_diagram.png"/>
-  <figcaption>Water foot print of meat vs. other foods \[<a href='https://waterfootprint.org/en/resources/interactive-tools/product-gallery/'>source</a>\]</figcaption>
+  <figcaption>Water foot print of meat vs. other foods [<a href='https://waterfootprint.org/en/resources/interactive-tools/product-gallery/'>source</a>]</figcaption>
 </figure>
 
 Consider the 15500 liters of water that are used to produce one kilo of meat vs. for example the 900 liters that are used to produce one kilo of potatoes. We might argue that high usage of water is not a problem since most of the water will stay in the region, i.e. all water used for cleaning ends up in the local water supply and can be reused. However, I think there is still a harm to this. Water is a finite resource and using it for meat implies not using it for something else. A large chicken farm close to a town might, for example, use up most of the local water reservoir and therefore produce problems during droughts in the summer. This might either mean that ordinary citizens have an insufficient amount of water for their daily life or that other products such as wheat, potatoes or apples are not able to grow properly. Overall, even if I think that this is a problem it is probably less important than the ones mentioned before simply because meat is often produced in regions with sufficient amounts of water. 
