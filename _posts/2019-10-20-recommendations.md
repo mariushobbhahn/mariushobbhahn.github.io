@@ -3,6 +3,7 @@ layout: post
 title:  "Recommended Books, Podcasts and Media"
 date:   2019-10-20 23:01:30 +0200
 author:     "Marius Hobbhahn"
+header-img: "img/header-imgs/recommendations.png"
 category: opinion
 ---
 

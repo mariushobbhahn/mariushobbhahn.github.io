@@ -4,6 +4,7 @@ title:  "What is the Opinions blog about?"
 subtitle:   "Context about the motivations and strategic choices for the Opinions part of the blog"
 date:   2019-10-19 23:01:30 +0200
 author:     "Marius Hobbhahn"
+header-img: "img/header-imgs/question_mark.jpeg"
 category: opinion_about
 ---
 
