@@ -19,5 +19,5 @@ In this part of the blog I post about Machine Learning projects that I have fini
 
 ***One last note:***
 
-If you have any feedback regarding anything (i.e. layout, code or opinions) I would be happy if you told me. But please do it in a constructive manner.
+If you have any feedback regarding anything (i.e. layout, code or opinions) please tell me in a constructive manner via your prefered means of communication.
 

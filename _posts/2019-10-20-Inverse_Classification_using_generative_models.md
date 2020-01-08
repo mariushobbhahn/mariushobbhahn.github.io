@@ -54,5 +54,5 @@ However, even if a better generative model might make the technique feasible the
 
 #### ***One last note***
 
-If you have any feedback regarding anything (i.e. layout, code or opinions) I would be happy if you told me. But please do it in a constructive manner.
+If you have any feedback regarding anything (i.e. layout, code or opinions) please tell me in a constructive manner via your prefered means of communication.
 
