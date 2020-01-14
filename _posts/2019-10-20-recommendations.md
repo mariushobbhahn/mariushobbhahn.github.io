@@ -58,6 +58,6 @@ In this post I want to lay out a couple of different books, podcasts and other f
 
 ***One last note:***
 
-If you have any feedback regarding anything (i.e. layout, code or opinions) please tell me in a constructive manner via your prefered means of communication.
+If you have any feedback regarding anything (i.e. layout, code or opinions) please tell me in a constructive manner via your preferred means of communication.
 
 

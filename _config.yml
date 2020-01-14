@@ -66,10 +66,10 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
 # rss: true
-  email: "marius.hobbhahn@gmx.de"
-#  facebook: 
-  github: "https://github.com/mariushobbhahn"
-  twitter: "https://twitter.com/MariusHobbhahn"
+  email: "marius.hobbhahn@gmail.de"
+#  facebook:
+  github: "mariushobbhahn"
+  twitter: "MariusHobbhahn"
 #  reddit: yourname
 #  linkedin: TODO
 #  xing: yourname
