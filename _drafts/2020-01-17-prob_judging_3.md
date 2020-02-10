@@ -90,13 +90,13 @@ All the knowledge that the AIV has should be seen as prior knowledge in this mod
 
 However, I must point out that debating is a game that implies rules for how the prior distributions are distributed. First, prior knowledge must align with the reality of the AIV, i.e. they know basic facts about the world but are not specialists in any particular field. They know the presidents of most major countries of the world, some basic economics and politics, etc. They do not know the finance minister of the Kongo, the exact melting point of all metals or the exact wording of the law of every country in the world. Even if a particular adjudicator knows these facts, for the purpose of the debate, they must assume not to know any of them. Second, prior knowledge distributions must be easily shiftable, i.e. the adjudicator is easily persuaded by arguments when good reasons are presented. This level of persuadability is probably a lot higher than for the average person that you meet on the street but is part of the game we are playing. 
 
-## prior shift vs. absolute value
+## prior shift vs. absolute value:
 
 TODO
 
 Why talk so much about priors when you don't care about them anyways?
 
-## Limitations of the model
+## Limitations of the model:
 
 human communication is weird, we don't talk in logic.
 
@@ -107,10 +107,6 @@ overlap between truth and effect.
 - Bayes rule not bayes theorem:
 - Distributions are beta, gamma and normal.
 - combination: not sampling, multiplied with expected value.
-
-## Acknowledgements
-
-Julian, Samuel, Braeden, Bea, Maria, Marion.
 
 
 ***One last note:***
