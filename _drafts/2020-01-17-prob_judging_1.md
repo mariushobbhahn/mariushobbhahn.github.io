@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Probabilistic Adjudication: Part I (Still under construction)"
+title:  "Probabilistic Adjudication: Part I - one argument (Still under construction)"
 date:   2020-01-17 23:01:30 +0200
 author:     "Marius Hobbhahn"
-category: opinion
+category: opinion, debating 
 ---
 
 This post is not yet finished. I am still gathering feedback. You can read it anyway if you like but it will likely change a bit in the near future. 
@@ -20,7 +20,10 @@ In this part I want to focus on evaluating one argument in a vacuum. That means 
 
 A probability distribution denotes the probability $p(h)$ of a variable $h$ taking a certain value, for example the probability of a human to have a certain height. It is more likely that a person is 1.8m than that they are 1m or 3m tall. It is also possible to condition that variable on another variable, i.e. we could look at the probability distribution of height conditioned on the gender $g$ of a person $p(h | g)$. Even though this is not true in reality, assume for simplicity that there are only two genders. The distribution of the height of all people can suddenly be explained by the two conditional distributions $p(h | g=female)$ and $p(h|g=male)$. Distributions can be defined on different domains. A distribution over probabilities, for example, can only range from 0 to 1 since probabilities below 0 or above 1 are just not defined. The distribution over the height of humans could technically be infinitely large but never below 0. The distribution over the measurement error of a clock could in theory be everywhere between minus and plus infinity, i.e. this clock can show a time that is arbitrarily wrong either in the future or past. To understand what probability distributions, conditionals and domains mean, consider the following figure.
 
-TODO illustrate
+<figure>
+  <img src="/img/Probabilistic_Judging_1/dist_examples.png" alt="test"/>
+  <figcaption>Illustration of a probability distribution, conditional probabilities and different domains</figcaption>
+</figure>
 
 Distributions can be used to illustrate a fact about the world as shown in the example of height. However, they can also be used to update our believes given new data. Let's say, for example, your current believe is that you currently think that human height is distributed around the two peaks of 1.6 and 1.7 meters as shown in the above figure. Now you receive new information: The data that we have based that believe on are 10 years old and the decrease in human malnourishment has led to an average growth of humans of 5cm. Therefore you update your believe to a new distribution that is centered around the peaks at 1.65m and 1.75m respectively. There could also be other updates that you make about this believe, i.e. it might be found out that the women whose height was measured during the initial measurements were selected from a particular group in society and therefore bias your result. For example only german women were measured because the study was conducted in germany. Since german women on average are slightly taller than the global average your updated distribution would include this fact and change the peak for women from 1.6m to 1.55m. This notion of updating our believes can be expressed via the fundamental rule of probabilistic inference: Bayes rule.
 
@@ -30,7 +33,7 @@ $$
 
 We have a certain prior believe about a thing in the world, we get new data (here referred to as likelihood) and update this believe to yield a posterior. The posterior asks: "what is our believe about variable X after having seen data Y", i.e. what is our updated belief? 
 
-I think persuasion can easily be integrated into this model. An adjudicator has the prior believe of the average intelligent globally informed citizen and updates these believes according to the claims made in the debate. As already motivated in the introduction there are two necessary conditions for an argument to be persuasive: it must be true and relevant. I posit that for both, truth and relevance, we have a prior distribution that can be updated through the speakers contributions. The updates should be proportional to the strength of the presented arguments, i.e. a very strong argument must lead to larger updates than a weak one. To illustrate this further consider the following example. 
+I think persuasion can easily be integrated into this model. An adjudicator has the prior believe of the average intelligent globally informed citizen and updates these believes according to the claims made in the debate. As already motivated in the introduction there are two necessary conditions for an argument to be persuasive: it must be true and relevant. I posit that for both, truth and relevance, we have a prior distribution that can be updated through the speakers contributions. The updates should be proportional to the strength of the presented arguments, i.e. a very strong argument must lead to larger updates than a weak one. The final weighing of an argument can either be done by considering the entire distribution or by its expected value (the vertical line in the figures). To illustrate this further consider the following example. 
 
 ## Example Motion: UBI
 
@@ -92,21 +95,32 @@ However, I must point out that debating is a game that implies rules for how the
 
 ## prior shift vs. absolute value
 
-TODO
+There are two different philosophies that could follow from the proposed framework. Either you could say the degree to which the person changed my belief from the prior to the posterior is the correct way to judge their contribution or the absolute value of the posterior, i.e. the difference between zero and the posterior. While you might say that debating is about changing opinions and therefore the difference between prior and posterior should be the right metric I would argue it has to be the difference between zero and the posterior. If someone for example sets the motion: DHB the USA should randomly nuke europe and OO points out that this is a very bad idea because it kills many people and probably leads to chaos and destruction then OO's statement is not controversial. The AIVs prior is already that this is a bad idea. It is therefore hard for an Opposition team to further shift that prior to make it sound even more stupid. However, since I think that debating should resemble reality in some way, OO should win this argument even if OG gives more reasons or mechanisms because it is just nearly impossible to make plausible from gov. The fault in this setup is clearly with the CAs who have set such a terrible motion. However, most of the time CAs actually try to set balanced motions, thereby reducing this problem. 
 
-Why talk so much about priors when you don't care about them anyways?
+You might ask: Why do you talk so much about priors when you don't care about them anyways? To which the answer is two-fold: a) The prior is anchors the argument and links it with reality. If there was no prior the rational strategy would just be to spam as many reasons and mechanisms as possible. b) The posteriors of one team are the priors for the following teams. If a closing team, for example, wants to run an analysis extension on an opening team, the openings posterior is the closings prior. Part II will deal extensively with this idea.
 
 ## Limitations of the model
 
-human communication is weird, we don't talk in logic.
+This framework/illustration is obviously not perfect and I want to point out some of its limitations. If somebody finds a way to integrate them reasonably into this model I would be very grateful.
 
-overlap between truth and effect. 
+1. **Human communication is weird, we don't talk in logic:** Most of the time, teams do not talk strictly in logical terms. Instead of showing why a claim is true and relevant we often just concatenate sentences and convey some sort of argument without actually following the logic. However, similarly to temporary debating, it is the judges task to distill the logic from the speeches and compare it with each other. If the logic is too hard to extract because the speech was hard to follow (in a logic not language sence) then it is impossible for the judge with or without the Bayesian framework to make an informed decision.
+
+2. **Overlap between truth and effect:** As you can already see in the first example for UBI, there is sometimes overlap between the truth and relevance part of an argument. Explaining why it is true that someone is negatively influenced already to some extend shows to what degree that influence is negative. Even though this might make the model "less distinctive" or "less clean" I do not think it is a big problem. In the end truth and relevance are combined anyways and it therefore does not matter whether the influence on the combined believe comes from the truth or relevance part as long as you do not count it twice. 
+
+3. **Hierarchical models:** Theoretically we could add infinite layers of priors to all of our believes. The prior of the AIV could have a meta prior about what the AIV is able to understand and think. This prior could have another prior, etc. The same can be done for every argument, since you can without problem model all assumptions about reality in a hierarchy of priors. However, the model would become so complicated and confusing that I have decided to exclude all of these parts and focus on the basic understanding first. 
 
 ## Nerd section: some statistical explanations 
 
-- Bayes rule not bayes theorem:
-- Distributions are beta, gamma and normal.
-- combination: not sampling, multiplied with expected value.
+- Bayes Rule not bayes theorem: Some of you might have seen Bayes formula already and therefore know it with the evidence term $\int p(y|x)p(x) dx$. This is the difference between Bayes rule and Bayes theorem, where the theorem uses the evidence term (i.e. the integral) to normalize the distribution to 1 such that it truely is a probability distribution. 
+$$
+\underbrace{p(X|Y)}_{\text{posterior}} = \frac{\underbrace{p(Y|X)}_{\text{likelihood}} \underbrace{p(X)}_{\text{prior}}}{\int \underbrace{p(y|x)p(x) dx}_{\text{evidence}}}
+\propto \underbrace{p(Y|X)}_{\text{likelihood}} \underbrace{p(X)}_{\text{prior}}
+$$
+However, since we do not model Debating in a computational sense but rather to clarify and understand some of its peculiarities I have chosen Bayes rule to keep it simpler.
+
+- The distributions I have chosen for the models of truth and relevance are the Beta and Gamma distribution. All other distributions that are on the correct domains would also be fine. For the illustration of probabilities in the beginning I chose the Normal distribution since is the most known distribution and also fits best to model height. 
+
+- To combined two random values by multiplying them you usually have to sample from both and multiply the samples. This would also have been possible but introduce another level of complexity. Therefore I have decided to just multiply the value for the Gamma (relevance) distribution with the expected value of the Beta (truth). Even though this means that the variance of the truth distribution is not modeled perfectly I chose to trade this off for understandability. 
 
 ## Acknowledgements
 
