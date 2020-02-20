@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "The case for more direct communication"
-date:   2020-02-20 18:00:00 +0200
-author:     "Marius Hobbhahn"
+date:   2020-02-20 18:01:30 +0200
 header-img: "img/header-imgs/communication.jpeg"
+author:     "Marius Hobbhahn"
 category: opinion
 ---
 
