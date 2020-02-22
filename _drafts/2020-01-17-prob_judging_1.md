@@ -3,7 +3,7 @@ layout: post
 title:  "Probabilistic Adjudication: Part I - one argument (Still under construction)"
 date:   2019-01-17 23:01:30 +0200
 author:     "Marius Hobbhahn"
-category: opinion
+category: opinion 
 ---
 
 This post is not yet finished. I am still gathering feedback. You can read it anyway if you like but it will likely change a bit in the near future. 
