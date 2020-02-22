@@ -19,7 +19,7 @@ In this part I want to focus on evaluating one argument in a vacuum. That means 
 
 ### The fundamentals of Probabilistic Inference
 
-A probability distribution denotes the probability $p(h)$ of a variable $h$ taking a certain value, for example the probability of a human to have a certain height. It is more likely that a person is 1.8m than that they are 1m or 3m tall. It is also possible to condition that variable on another variable, i.e. we could look at the probability distribution of height conditioned on the gender $g$ of a person $p(h | g)$. Even though this is not true in reality, assume for simplicity that there are only two genders. The distribution of the height of all people can suddenly be explained by the two conditional distributions $p(h | g=female)$ and $p(h|g=male)$. Distributions can be defined on different domains. A distribution over probabilities, for example, can only range from 0 to 1 since probabilities below 0 or above 1 are just not defined. The distribution over the height of humans could technically be infinitely large but never below 0. The distribution over the measurement error of a clock could in theory be everywhere between minus and plus infinity, i.e. this clock can show a time that is arbitrarily wrong either in the future or past. To understand what probability distributions, conditionals and domains mean, consider the following figure.
+A probability distribution denotes the probability \(p(h)\) of a variable $h$ taking a certain value, for example the probability of a human to have a certain height. It is more likely that a person is 1.8m than that they are 1m or 3m tall. It is also possible to condition that variable on another variable, i.e. we could look at the probability distribution of height conditioned on the gender $g$ of a person $p(h | g)$. Even though this is not true in reality, assume for simplicity that there are only two genders. The distribution of the height of all people can suddenly be explained by the two conditional distributions $p(h | g=female)$ and $p(h|g=male)$. Distributions can be defined on different domains. A distribution over probabilities, for example, can only range from 0 to 1 since probabilities below 0 or above 1 are just not defined. The distribution over the height of humans could technically be infinitely large but never below 0. The distribution over the measurement error of a clock could in theory be everywhere between minus and plus infinity, i.e. this clock can show a time that is arbitrarily wrong either in the future or past. To understand what probability distributions, conditionals and domains mean, consider the following figure.
 
 <figure>
   <img src="/img/Probabilistic_Judging_1/dist_examples.png" alt="test"/>
@@ -28,9 +28,9 @@ A probability distribution denotes the probability $p(h)$ of a variable $h$ taki
 
 Distributions can be used to illustrate a fact about the world as shown in the example of height. However, they can also be used to update our believes given new data. Let's say, for example, your current believe is that human height is distributed around the two peaks of 1.6 and 1.7 meters as shown in the above figure. Now you receive new information: The data that we have based that believe on are 10 years old and the decrease in human malnourishment has led to an average growth of humans of 5cm. Therefore you update your believe to a new distribution that is centered around the peaks at 1.65m and 1.75m respectively. There could also be other updates that you make about this believe, i.e. it might be found that the women whose height was measured during the initial measurements were selected from a particular group in society and therefore bias your result. For example only german women were measured because the study was conducted in germany. Since german women on average are slightly taller than the global average your updated distribution would include this fact and change the peak for women from 1.6m to 1.55m. This notion of updating our believes can be expressed via the fundamental rule of probabilistic inference: Bayes rule.
 
-$$
+\begin{align}
 \underbrace{p(X|Y)}_{\text{posterior}} \propto \underbrace{p(Y|X)}_{\text{likelihood}} \underbrace{p(X)}_{\text{prior}}
-$$
+\end{align}
 
 We have a certain prior believe about a thing in the world, we get new data (here referred to as likelihood) and update this believe to yield a posterior. The posterior asks: "what is our believe about variable X after having seen data Y", i.e. what is our updated belief? 
 
@@ -56,8 +56,6 @@ Note, that I do not say mechanism 4 is necessarily stronger than mechanism 3. Le
   <img src="/img/Probabilistic_Judging_1/UBI_truth.png" alt="test"/>
   <figcaption>Different scenarios of the "Truth condition" of an argument</figcaption>
 </figure>
-
-![test](/img/Probabilistic_Judging_1/UBI_truth.pdf){width=100%}
 
 Now, let's assume any number of reasons for why the UBI improves peoples lives has been presented and we are now left with the question: "Why should we care about this?". This is the second part of the argument, namely: relevance. In the following we look at the relevance created by different lines of argumentation **under the assumption the mechanism leading to this effect has been shown to be $100\%$ true**. Again in increasing order we have:
 
