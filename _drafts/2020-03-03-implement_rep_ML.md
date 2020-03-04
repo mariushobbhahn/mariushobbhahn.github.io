@@ -15,13 +15,6 @@ As in TODO:link I have shown that not having reproducible ML has some major harm
 TODO: discuss different approaches
 TODO: segway to reproducibility journal
 
-https://determined.ai/blog/reproducibility-in-ml/
-
-https://openreview.net/pdf?id=By4l2PbQ-
-
-https://www.wired.com/story/artificial-intelligence-confronts-reproducibility-crisis/
-
-https://guides.library.cmu.edu/machine-learning/reproducibility %<= overview look at this first
 
 ## What is reproducible ML?
 

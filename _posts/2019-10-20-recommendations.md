@@ -21,7 +21,7 @@ In this post I want to lay out a couple of different books, podcasts and other f
 
 1. **Youtube:** There are like a Million high quality YouTube channels out there but I just want to recommend some that I found particularly interesting or had a big influence on my thinking: 
   * General Knowledge: <a href='https://www.youtube.com/user/CGPGrey'>CPG Grey</a>, <a href='https://www.youtube.com/user/Wendoverproductions'>Wendover Productions</a>, <a href='https://www.youtube.com/user/voxdotcom'>Vox</a>
-  * Political Commedy: <a href='https://www.youtube.com/user/LastWeekTonight'>Last Week Tonight</a>, <a href='https://www.youtube.com/channel/UCarEovlrD9QY-fy-Z6apIDQ'>Patriot Act</a>,  <a href='https://www.youtube.com/channel/UC18vz5hUUqxbGvym9ghtX_w'>Full frontal with samantha bee</a>
+  * Political Comedy: <a href='https://www.youtube.com/user/LastWeekTonight'>Last Week Tonight</a>, <a href='https://www.youtube.com/channel/UCarEovlrD9QY-fy-Z6apIDQ'>Patriot Act</a>,  <a href='https://www.youtube.com/channel/UC18vz5hUUqxbGvym9ghtX_w'>Full frontal with samantha bee</a>
   * Machine Learning and AI safety: <a href='https://www.youtube.com/channel/UCLB7AzTwc6VFZrBsO2ucBMg'>Rob Miles</a>, <a href='https://www.youtube.com/user/keeroyz'>Two Minute Papers</a>, <a href='https://www.youtube.com/channel/UCNIkB2IeJ-6AmZv7bQ1oBYg'>Arxiv Insights</a>
   * UK Politics: <a href='https://www.youtube.com/channel/UCSMqateX8OA2s1wsOR2EgJA'>TLDR news</a>
   * Cultural Analysis: <a href='https://www.youtube.com/user/ContraPoints'>ContraPoints</a>, <a href='https://www.youtube.com/user/rebelliouspixels'>Popculture detective</a>, <a href='https://www.youtube.com/channel/UC5fdssPqmmGhkhsJi4VcckA'>Innuendo Studios</a>
@@ -41,6 +41,7 @@ In this post I want to lay out a couple of different books, podcasts and other f
 5. **ZEIT Verbrechen:** German podcast series dealing with historical moments in German crime and law history. Pretty interesting content, but unfortunately not very information dense. I mostly listen to it at double speed or while trying to relax. 
 6. **DeepMind Podcast:** Great overview over the current state of the DeepMind research areas. For people with ML background maybe a bit superficial but still useful, great for everyone else. 
 7. **AI Alignment Podcast:** Detailed episodes about the current state of AI alignment ranging from lots of technical talks over AI governance and policy to high level questions about conciousness. 
+8. **Masters of Scale:** Reid Hoffman, the founder of LinkedIn, talks with guests about start-ups and what it takes to grow a business. Generally interesting if you are the type for founding or joining a start-up. 
 
 
 ## **Books:**

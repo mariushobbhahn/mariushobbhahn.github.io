@@ -17,6 +17,18 @@ I do not mean replicability, i.e. running the same code twice and getting differ
 
 ## Why do we have a reproducability crisis?
 
+https://science.sciencemag.org/content/359/6377/725
+
+https://determined.ai/blog/reproducibility-in-ml/
+
+https://openreview.net/pdf?id=By4l2PbQ-
+
+https://www.wired.com/story/artificial-intelligence-confronts-reproducibility-crisis/
+
+https://guides.library.cmu.edu/machine-learning/reproducibility %<= overview look at this first
+
+https://www.hpcwire.com/2019/02/19/machine-learning-reproducability-crisis-science/
+
 misaligned rewards
 p-hacking
 wrong assumptions
