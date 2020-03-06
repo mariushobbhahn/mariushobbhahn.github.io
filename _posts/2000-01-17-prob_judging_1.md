@@ -23,16 +23,26 @@ A probability distribution denotes the probability <img src="https://render.gith
 
 <figure>
   <img src="/img/Probabilistic_Judging_1/dist_examples.png" alt="test"/>
-  <figcaption>Illustration of a probability distribution, conditional probabilities and different domains</figcaption>
+  <figcaption><span style="font-family:Papyrus; font-size:4em;">Illustration of a probability distribution, conditional probabilities and different domains</span></figcaption>
 </figure>
 
 Distributions can be used to illustrate a fact about the world as shown in the example of height. However, they can also be used to update our believes given new data. Let's say, for example, your current believe is that human height is distributed around the two peaks of 1.6 and 1.7 meters as shown in the above figure. Now you receive new information: The data that we have based that believe on are 10 years old and the decrease in human malnourishment has led to an average growth of humans of 5cm. Therefore you update your believe to a new distribution that is centered around the peaks at 1.65m and 1.75m respectively. There could also be other updates that you make about this believe, i.e. it might be found that the women whose height was measured during the initial measurements were selected from a particular group in society and therefore bias your result. For example only german women were measured because the study was conducted in germany. Since german women on average are slightly taller than the global average your updated distribution would include this fact and change the peak for women from 1.6m to 1.55m. This notion of updating our believes can be expressed via the fundamental rule of probabilistic inference: **Bayes rule**.
 
-<img src="https://render.githubusercontent.com/render/math?math=\underbrace{p(X\vert Y)}_{\text{posterior}} \propto \underbrace{p(Y\vert X)}_{\text{likelihood}} \underbrace{p(X)}_{\text{prior}}">
+[//]: <img src="https://render.githubusercontent.com/render/math?math=\underbrace{p(X\vert Y)}_{\text{posterior}} \propto \underbrace{p(Y\vert X)}_{\text{likelihood}} \underbrace{p(X)}_{\text{prior}}">
+<figure>
+  <img src="/img/Probabilistic_Judging_1/Bayes_rule.png"/>
+</figure>
 
 We have a certain prior believe about a thing in the world, we get new data (here referred to as likelihood) and update this believe to yield a posterior. The posterior asks: "what is our believe about variable X after having seen data Y", i.e. what is our updated belief? 
 
-I think persuasion can easily be integrated into this model. An adjudicator has the prior believe of the average intelligent globally informed citizen and updates these believes according to the claims made in the debate. As already motivated in the introduction there are two necessary conditions for an argument to be persuasive: it must be true and relevant. I posit that for both, truth and relevance, we have a prior distribution that can be updated through the speakers contributions. The updates should be proportional to the strength of the presented arguments, i.e. a very strong argument must lead to larger updates than a weak one. The final weighing of an argument can either be done by considering the entire distribution or by its expected value (the vertical line in the figures). To summarize: I posit that for every argument there is a distribution over the truth of the argument <img src="https://render.githubusercontent.com/render/math?math=p_{\text{truth}}"> and a distribution over its relevance <img src="https://render.githubusercontent.com/render/math?math=p_\text{relevance}">. Both of these distributions follow Bayes rule, i.e. the adjudicator has a prior believe about them and updates them according to the arguments made in the debate. To illustrate this further consider the following example. 
+I think persuasion can easily be integrated into this model. An adjudicator has the prior believe of the average intelligent globally informed citizen and updates these believes according to the claims made in the debate. As already motivated in the introduction there are two necessary conditions for an argument to be persuasive: it must be true and relevant. I posit that for both, truth and relevance, we have a prior distribution that can be updated through the speakers contributions. The updates should be proportional to the strength of the presented arguments, i.e. a very strong argument must lead to larger updates than a weak one. The final weighing of an argument can either be done by considering the entire distribution or by its expected value (the vertical line in the figures). To summarize: I posit that for every argument there is a distribution over the truth of the argument <img src="https://render.githubusercontent.com/render/math?math=p_{\text{truth}}"> and a distribution over its relevance <img src="https://render.githubusercontent.com/render/math?math=p_\text{relevance}">. Both of these distributions follow Bayes rule, i.e. the adjudicator has a prior believe about them and updates them according to the arguments made in the debate. The two distributions are combined to yield a distribution over the entire argument. To illustrate this principle abstractly consider the following figure.
+
+<figure>
+  <img src="/img/Probabilistic_Judging_1/general_notion.png" alt="test"/>
+  <figcaption><span style="font-family:Papyrus; font-size:4em;">Illustration of the general idea</span></figcaption>
+</figure>
+
+To make this abstract notion more clear we use a motion with two different arguments. 
 
 ## Example Motion: UBI
 
@@ -78,7 +88,35 @@ Now we have to combine the two posterior distributions over an arguments truth a
 
 ### Argument II: a principle right
 
-TODO: Im actually confused about principles right now.
+The probabilistic framework is independent of the moral system that an argument is based on. To illustrate this fact, I want give the following statement as an example: a UBI is a principle right that every person deserves. Different reasons for why this argument is true are shown in increasing persuasiveness:
+
+1. Rights encode things which are nice. Having more money is nice. Therefore UBI should be a principle right.
+2. UBI is directly linked to your right to make free decisions. Without the certainty of receiving money unconditionally you always have to either work (often in bad conditions for a minimum wage) or you have to fulfill all conditions to get unemployment benefits. Even though they are supposed to be a safety net they often require lots of bureaucracy or are linked to your will to seek work. This means you are not able to make the decision not to work to educate yourself or any other reason. Therefore, not having an unconditional source of income is equivalent to taking away your ability to make completely free decisions.
+
+We can again illustrate the degree to which these arguments change our belief in the following:
+
+<figure>
+  <img src="/img/Probabilistic_Judging_1/UBI_truth_right.png"/>
+  <figcaption><span style="font-family:Papyrus; font-size:4em;">Truth distribution of the rights case for UBI</span></figcaption>
+</figure>
+
+The probability distribution over relevance can equivalently be applied to a rights based argument. We essentially ask the question: "how much more of a moral value would be granted to individuals if UBI existed" or, given that in rights argumentations we often frame rights as something that you have just by existing, we could ask: "how much of a moral value is infringed upon if individuals do not have that right by law". Again, two examples for illustration:
+
+1. By not having a UBI individuals access to happiness is reduced to some extend. Not having free money implies not being able to buy certain goods that would make you more happy, i.e. video games, a new bike, more expensive clothing or food, etc. 
+2. By not having a UBI individuals access to free choices is reduced to a large extend. The choices that people are unable to make due to money constraints have long-term consequences that restrict their freedom even further. If, for example, someone has less wealthy parents and is therefore unable to pay for their education (even if education is formally free in many western countries, you still need to pay rent and food) this person can't take the opportunity to study. This is an obvious short-term restriction on their freedom. If they didn't study they might not be able to get a lot of jobs they could have otherwise gotten and on average also earn less money. This further restricts their freedom and to some extend probably the freedom of their children to make similar decisions. 
+
+<figure>
+  <img src="/img/Probabilistic_Judging_1/UBI_rights_violation.png"/>
+  <figcaption><span style="font-family:Papyrus; font-size:4em;">Relevance distribution of the rights case for UBI</span></figcaption>
+</figure>
+
+Now we combine the distributions over truth and relevance to get a full distribution over the argument. 
+
+<figure>
+  <img src="/img/Probabilistic_Judging_1/UBI_combined_right.png"/>
+  <figcaption><span style="font-family:Papyrus; font-size:4em;">Combined distribution of the rights case for UBI</span></figcaption>
+</figure>
+
 
 ## But what about the priors?
 
@@ -107,17 +145,18 @@ This framework/illustration is obviously not perfect and I want to point out som
 
 2. **Overlap between truth and effect:** As you can already see in the first example for UBI, there sometimes is an  overlap between the truth and relevance part of an argument. Explaining why it is true that someone is negatively influenced already to some extend shows to what degree that influence is negative. Even though this might make the model "less distinctive" or "less clean" I do not think it is a big problem. In the end truth and relevance are combined anyways and it therefore does not matter whether the influence on the combined believe comes from the truth or relevance part as long as you do not count it twice. 
 
-3. **Relevance sometimes lower priority:** In some debates the goal of the argument is undisputed, i.e. all teams agree that a certain things is either desirable or undesirable. Therefore the relevance part of an argument becomes less important. This might include claims such as "climate change is bad", "more jobs are good", "democracy is desirable" or "undeserved suffering is bad". The more important question in these debates becomes whether the claim the teams are making is actually leading to the desired outcome, i.e. to which degree it is true. Therefore the truth and relevance framework cannot be forced on all situations.
+3. **Distributions not point estimates:** 
 
-4. **Hierarchical models:** Theoretically, we could add infinite layers of priors to all of our believes. The prior of the AIV could have a meta prior about what the AIV is able to understand and think. This prior could have another prior, etc. The same can be done for every argument, since you can model all assumptions about reality in a hierarchy of priors. However, the model would become so complicated and confusing that I have decided to exclude all of these parts and focus on the basic understanding first. Since the purpose of this post is illustration and not building a computational model that seems reasonable.
+4. **Relevance sometimes lower priority:** In some debates the goal of the argument is undisputed, i.e. all teams agree that a certain things is either desirable or undesirable. Therefore the relevance part of an argument becomes less important. This might include claims such as "climate change is bad", "more jobs are good", "democracy is desirable" or "undeserved suffering is bad". The more important question in these debates becomes whether the claim the teams are making is actually leading to the desired outcome, i.e. to which degree it is true. Therefore the truth and relevance framework cannot be forced on all situations.
+
+5. **Hierarchical models:** Theoretically, we could add infinite layers of priors to all of our believes. The prior of the AIV could have a meta prior about what the AIV is able to understand and think. This prior could have another prior, etc. The same can be done for every argument, since you can model all assumptions about reality in a hierarchy of priors. However, the model would become so complicated and confusing that I have decided to exclude all of these parts and focus on the basic understanding first. Since the purpose of this post is illustration and not building a computational model that seems reasonable.
 
 ## Nerd section: some statistical explanations 
 
-- Bayes Rule not bayes theorem: Some of you might have seen Bayes formula already and therefore know it with the evidence term $\int p(y|x)p(x) dx$. This is the difference between Bayes rule and Bayes theorem, where the theorem uses the evidence term (i.e. the integral) to normalize the distribution to 1 such that it truely is a probability distribution. 
-$$
-\underbrace{p(X|Y)}_{\text{posterior}} = \frac{\underbrace{p(Y|X)}_{\text{likelihood}} \underbrace{p(X)}_{\text{prior}}}{\int \underbrace{p(y|x)p(x) dx}_{\text{evidence}}}
-\propto \underbrace{p(Y|X)}_{\text{likelihood}} \underbrace{p(X)}_{\text{prior}}
-$$
+- Bayes Rule not bayes theorem: Some of you might have seen Bayes formula already and therefore know it with the evidence term <img src="https://render.githubusercontent.com/render/math?math=\int p(y|x)p(x) dx">. This is the difference between Bayes rule and Bayes theorem, where the theorem uses the evidence term (i.e. the integral) to normalize the distribution to 1 such that it truely is a probability distribution. 
+<img src="https://render.githubusercontent.com/render/math?math=\underbrace{p(X|Y)}_{\text{posterior}} = \frac{\underbrace{p(Y|X)}_{\text{likelihood}} \underbrace{p(X)}_{\text{prior}}}{\int \underbrace{p(y|x)p(x) dx}_{\text{evidence}}}
+\propto \underbrace{p(Y|X)}_{\text{likelihood}} \underbrace{p(X)}_{\text{prior}}">
+
 However, since we do not model Debating in a computational sense but rather to clarify and understand some of its peculiarities I have chosen Bayes rule to keep it simpler.
 
 - The distributions I have chosen for the models of truth and relevance are the Beta and Gamma distribution. All other distributions that are on the correct domains would also be fine. For the illustration of probabilities in the beginning I chose the Normal distribution since is the most known distribution and also fits best to model height. 
@@ -126,7 +165,7 @@ However, since we do not model Debating in a computational sense but rather to c
 
 ## Acknowledgements
 
-Julian, Samuel, Bea, Maria, Marion.
+Julian, Samuel, Bea, Maria, Marion, Anton
 
 
 ***One last note:***
