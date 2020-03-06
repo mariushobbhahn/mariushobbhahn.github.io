@@ -31,7 +31,6 @@ Distributions can be used to illustrate a fact about the world as shown in the e
 [//]: <img src="https://render.githubusercontent.com/render/math?math=\underbrace{p(X\vert Y)}_{\text{posterior}} \propto \underbrace{p(Y\vert X)}_{\text{likelihood}} \underbrace{p(X)}_{\text{prior}}">
 <figure>
   <img src="/img/Probabilistic_Judging_1/Bayes_rule.png"/>
-  <figcaption><span style="font-family:Papyrus; font-size:1em;">Bayes rule</span></figcaption>
 </figure>
 
 We have a certain prior believe about a thing in the world, we get new data (here referred to as likelihood) and update this believe to yield a posterior. The posterior asks: "what is our believe about variable X after having seen data Y", i.e. what is our updated belief? 
@@ -63,7 +62,7 @@ Note, that I do not say mechanism 4 is necessarily stronger than mechanism 3. Le
 
 <figure>
   <img src="/img/Probabilistic_Judging_1/UBI_truth.png" alt="test"/>
-  <figcaption>Different scenarios of the "Truth condition" of an argument</figcaption>
+  <figcaption><span style="font-family:Papyrus; font-size:1em;">Truth distribution for the utilitarian case for UBI</span></figcaption>
 </figure>
 
 Now, let's assume any number of reasons for why the UBI improves peoples lives has been presented and we are now left with the question: "Why should we care about this?". This is the second part of the argument, namely: relevance. In the following we look at the relevance created by different lines of argumentation **under the assumption the mechanism leading to this effect has been shown to be 100 percent true**. Again in increasing order we have:
@@ -76,14 +75,14 @@ Now, let's assume any number of reasons for why the UBI improves peoples lives h
 
 <figure>
   <img src="/img/Probabilistic_Judging_1/UBI_impact.png"/>
-  <figcaption>Different scenarios of the "Relevance condition" of an argument</figcaption>
+  <figcaption><span style="font-family:Papyrus; font-size:1em;">Relevance distributions for the utilitarian case for UBI</span></figcaption>
 </figure>
 
 Now we have to combine the two posterior distributions over an arguments truth and relevance. If we only considered one of the two it would be rational to either only argue claims that are uncontroversial, such as "this motion helps at least one individual a little bit" or claims that have gigantic effects, such as "This motion will lead to a nuclear world war". To illustrate how different distributions over truth and relevance interact I have chosen three distributions over the truth part and three over the relevance part and show all possible combinations of them. 
 
 <figure>
   <img src="/img/Probabilistic_Judging_1/UBI_combined.png"/>
-  <figcaption>Different combinations of 3 truth and 3 relevance distributions</figcaption>
+  <figcaption><span style="font-family:Papyrus; font-size:1em;">Different combinations of 3 truth and 3 relevance distributions</span></figcaption>
 </figure>
 
 
@@ -125,7 +124,7 @@ The most used criticism of Bayesian inference is: "Your posterior depends on the
 
 <figure>
   <img src="/img/Probabilistic_Judging_1/priors.png" alt="test"/>
-  <figcaption>Three priors over the truth and relevance distributions</figcaption>
+  <figcaption><span style="font-family:Papyrus; font-size:1em;">Three priors over the truth and relevance distributions</span></figcaption>
 </figure>
 
 All the knowledge that the AIV has should be seen as prior knowledge in this model of debating. There is obviously not a list of things that the AIV knows and therefore this question can not be answered for good but at least we have a clear way of solving disagreements during adjudication. 
