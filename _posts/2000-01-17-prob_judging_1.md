@@ -23,7 +23,7 @@ A probability distribution denotes the probability <img src="https://render.gith
 
 <figure>
   <img src="/img/Probabilistic_Judging_1/dist_examples.png" alt="test"/>
-  <figcaption><span style="font-family:Papyrus; font-size:4em;">Illustration of a probability distribution, conditional probabilities and different domains</span></figcaption>
+  <figcaption><span style="font-family:Papyrus; font-size:1em;">Illustration of a probability distribution, conditional probabilities and different domains</span></figcaption>
 </figure>
 
 Distributions can be used to illustrate a fact about the world as shown in the example of height. However, they can also be used to update our believes given new data. Let's say, for example, your current believe is that human height is distributed around the two peaks of 1.6 and 1.7 meters as shown in the above figure. Now you receive new information: The data that we have based that believe on are 10 years old and the decrease in human malnourishment has led to an average growth of humans of 5cm. Therefore you update your believe to a new distribution that is centered around the peaks at 1.65m and 1.75m respectively. There could also be other updates that you make about this believe, i.e. it might be found that the women whose height was measured during the initial measurements were selected from a particular group in society and therefore bias your result. For example only german women were measured because the study was conducted in germany. Since german women on average are slightly taller than the global average your updated distribution would include this fact and change the peak for women from 1.6m to 1.55m. This notion of updating our believes can be expressed via the fundamental rule of probabilistic inference: **Bayes rule**.
@@ -31,6 +31,7 @@ Distributions can be used to illustrate a fact about the world as shown in the e
 [//]: <img src="https://render.githubusercontent.com/render/math?math=\underbrace{p(X\vert Y)}_{\text{posterior}} \propto \underbrace{p(Y\vert X)}_{\text{likelihood}} \underbrace{p(X)}_{\text{prior}}">
 <figure>
   <img src="/img/Probabilistic_Judging_1/Bayes_rule.png"/>
+  <figcaption><span style="font-family:Papyrus; font-size:1em;">Bayes rule</span></figcaption>
 </figure>
 
 We have a certain prior believe about a thing in the world, we get new data (here referred to as likelihood) and update this believe to yield a posterior. The posterior asks: "what is our believe about variable X after having seen data Y", i.e. what is our updated belief? 
@@ -38,8 +39,8 @@ We have a certain prior believe about a thing in the world, we get new data (her
 I think persuasion can easily be integrated into this model. An adjudicator has the prior believe of the average intelligent globally informed citizen and updates these believes according to the claims made in the debate. As already motivated in the introduction there are two necessary conditions for an argument to be persuasive: it must be true and relevant. I posit that for both, truth and relevance, we have a prior distribution that can be updated through the speakers contributions. The updates should be proportional to the strength of the presented arguments, i.e. a very strong argument must lead to larger updates than a weak one. The final weighing of an argument can either be done by considering the entire distribution or by its expected value (the vertical line in the figures). To summarize: I posit that for every argument there is a distribution over the truth of the argument <img src="https://render.githubusercontent.com/render/math?math=p_{\text{truth}}"> and a distribution over its relevance <img src="https://render.githubusercontent.com/render/math?math=p_\text{relevance}">. Both of these distributions follow Bayes rule, i.e. the adjudicator has a prior believe about them and updates them according to the arguments made in the debate. The two distributions are combined to yield a distribution over the entire argument. To illustrate this principle abstractly consider the following figure.
 
 <figure>
-  <img src="/img/Probabilistic_Judging_1/general_notion.png" alt="test"/>
-  <figcaption><span style="font-family:Papyrus; font-size:4em;">Illustration of the general idea</span></figcaption>
+  <img src="/img/Probabilistic_Judging_1/general_notion.png"/>
+  <figcaption><span style="font-family:Papyrus; font-size:1em;">Illustration of the general idea</span></figcaption>
 </figure>
 
 To make this abstract notion more clear we use a motion with two different arguments. 
@@ -65,7 +66,7 @@ Note, that I do not say mechanism 4 is necessarily stronger than mechanism 3. Le
   <figcaption>Different scenarios of the "Truth condition" of an argument</figcaption>
 </figure>
 
-Now, let's assume any number of reasons for why the UBI improves peoples lives has been presented and we are now left with the question: "Why should we care about this?". This is the second part of the argument, namely: relevance. In the following we look at the relevance created by different lines of argumentation **under the assumption the mechanism leading to this effect has been shown to be $100\%$ true**. Again in increasing order we have:
+Now, let's assume any number of reasons for why the UBI improves peoples lives has been presented and we are now left with the question: "Why should we care about this?". This is the second part of the argument, namely: relevance. In the following we look at the relevance created by different lines of argumentation **under the assumption the mechanism leading to this effect has been shown to be 100 percent true**. Again in increasing order we have:
 
 1. A small amount of people is helped. For example, with UBI middle class families can afford an additional holiday per year. This is nice for them and increases their happiness marginally. 
 2. The individual effect of a UBI is very large. The fear and uncertainty accompanying a low and unsteady income is huge. Not knowing whether you are able to pay the rent for the next month of the tuition for your children is a heavy emotional burden. There is good psychological evidence showing that this "nagging in the back of your head" has an equivalent effect on your psyche as not having slept the last night. Alleviating people of that effect has large individual effects. 
@@ -74,14 +75,14 @@ Now, let's assume any number of reasons for why the UBI improves peoples lives h
 5. Any combination of the above. For example, a large group and a strong individual effect. 
 
 <figure>
-  <img src="/img/Probabilistic_Judging_1/UBI_impact.png" alt="test"/>
+  <img src="/img/Probabilistic_Judging_1/UBI_impact.png"/>
   <figcaption>Different scenarios of the "Relevance condition" of an argument</figcaption>
 </figure>
 
 Now we have to combine the two posterior distributions over an arguments truth and relevance. If we only considered one of the two it would be rational to either only argue claims that are uncontroversial, such as "this motion helps at least one individual a little bit" or claims that have gigantic effects, such as "This motion will lead to a nuclear world war". To illustrate how different distributions over truth and relevance interact I have chosen three distributions over the truth part and three over the relevance part and show all possible combinations of them. 
 
 <figure>
-  <img src="/img/Probabilistic_Judging_1/UBI_combined.png" alt="test"/>
+  <img src="/img/Probabilistic_Judging_1/UBI_combined.png"/>
   <figcaption>Different combinations of 3 truth and 3 relevance distributions</figcaption>
 </figure>
 
@@ -97,7 +98,7 @@ We can again illustrate the degree to which these arguments change our belief in
 
 <figure>
   <img src="/img/Probabilistic_Judging_1/UBI_truth_right.png"/>
-  <figcaption><span style="font-family:Papyrus; font-size:4em;">Truth distribution of the rights case for UBI</span></figcaption>
+  <figcaption><span style="font-family:Papyrus; font-size:1em;">Truth distribution of the rights case for UBI</span></figcaption>
 </figure>
 
 The probability distribution over relevance can equivalently be applied to a rights based argument. We essentially ask the question: "how much more of a moral value would be granted to individuals if UBI existed" or, given that in rights argumentations we often frame rights as something that you have just by existing, we could ask: "how much of a moral value is infringed upon if individuals do not have that right by law". Again, two examples for illustration:
@@ -107,14 +108,14 @@ The probability distribution over relevance can equivalently be applied to a rig
 
 <figure>
   <img src="/img/Probabilistic_Judging_1/UBI_rights_violation.png"/>
-  <figcaption><span style="font-family:Papyrus; font-size:4em;">Relevance distribution of the rights case for UBI</span></figcaption>
+  <figcaption><span style="font-family:Papyrus; font-size:1em;">Relevance distribution of the rights case for UBI</span></figcaption>
 </figure>
 
 Now we combine the distributions over truth and relevance to get a full distribution over the argument. 
 
 <figure>
   <img src="/img/Probabilistic_Judging_1/UBI_combined_right.png"/>
-  <figcaption><span style="font-family:Papyrus; font-size:4em;">Combined distribution of the rights case for UBI</span></figcaption>
+  <figcaption><span style="font-family:Papyrus; font-size:1em;">Combined distribution of the rights case for UBI</span></figcaption>
 </figure>
 
 
@@ -153,11 +154,12 @@ This framework/illustration is obviously not perfect and I want to point out som
 
 ## Nerd section: some statistical explanations 
 
-- Bayes Rule not bayes theorem: Some of you might have seen Bayes formula already and therefore know it with the evidence term <img src="https://render.githubusercontent.com/render/math?math=\int p(y|x)p(x) dx">. This is the difference between Bayes rule and Bayes theorem, where the theorem uses the evidence term (i.e. the integral) to normalize the distribution to 1 such that it truely is a probability distribution. 
-<img src="https://render.githubusercontent.com/render/math?math=\underbrace{p(X|Y)}_{\text{posterior}} = \frac{\underbrace{p(Y|X)}_{\text{likelihood}} \underbrace{p(X)}_{\text{prior}}}{\int \underbrace{p(y|x)p(x) dx}_{\text{evidence}}}
-\propto \underbrace{p(Y|X)}_{\text{likelihood}} \underbrace{p(X)}_{\text{prior}}">
+- Bayes Rule not bayes theorem: Some of you might have seen Bayes formula already and therefore know it with the evidence term <img src="https://render.githubusercontent.com/render/math?math=\int p(y|x)p(x) dx">. This is the difference between Bayes rule and Bayes theorem, where the theorem uses the evidence term (i.e. the integral) to normalize the distribution to 1 such that it truely is a probability distribution. However, since we do not model Debating in a computational sense but rather to clarify and understand some of its peculiarities I have chosen Bayes rule to keep it simpler.
 
-However, since we do not model Debating in a computational sense but rather to clarify and understand some of its peculiarities I have chosen Bayes rule to keep it simpler.
+<figure>
+  <img src="/img/Probabilistic_Judging_1/Bayes_theorem.png"/>
+  <figcaption><span style="font-family:Papyrus; font-size:1em;">Bayes theorem</span></figcaption>
+</figure>
 
 - The distributions I have chosen for the models of truth and relevance are the Beta and Gamma distribution. All other distributions that are on the correct domains would also be fine. For the illustration of probabilities in the beginning I chose the Normal distribution since is the most known distribution and also fits best to model height. 
 
