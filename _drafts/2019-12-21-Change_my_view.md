@@ -13,10 +13,6 @@ tags:       [discourse, rationality]
 
 Rationality -> best case opposition. Things that smart people believe and I don't understand why. Not climate change opposition. Post the most convincing answers that I get.
 
-### Continental Philosophy:
-
-what is this even?
-
 ### Not pulling the lever:
 
 pull the lever 5>1. Consequentialism and rawls.
@@ -26,6 +22,11 @@ pull the lever 5>1. Consequentialism and rawls.
 ### EA
 
 ### Gender is not entirely socially constructed
+
+
+### Continental Philosophy:
+
+what is this even?
 
 #### ***One last note***
 

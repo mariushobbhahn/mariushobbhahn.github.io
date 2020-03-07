@@ -3,7 +3,8 @@ layout: post
 title:  "Probabilistic Adjudication: Part III - clashes and metrics (Still under construction)"
 date:   2020-01-17 23:01:30 +0200
 author:     "Marius Hobbhahn"
-category: opinion, debating
+header-img: "img/debate.png"
+category: opinion
 ---
 
 This post is not yet finished. I am still gathering feedback. You can read it anyway if you like but it will likely change a bit in the near future. 
@@ -31,9 +32,7 @@ debating is very inconsistent
 
 ## Nerd section: some statistical explanations 
 
-- Bayes rule not bayes theorem:
-- Distributions are beta, gamma and normal.
-- combination: not sampling, multiplied with expected value.
+- N-dimensional probability simplex
 
 ## Acknowledgements
 
