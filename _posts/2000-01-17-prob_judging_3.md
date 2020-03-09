@@ -55,7 +55,8 @@ For this example we consider three debates where the teams agree on two differen
 The following scenarios can be seen as the same debate taking place in three different rooms. For simplicity we assume the teams make the exact same argument in every debate only differing in their argumentation w.r.t the metric, i.e. shifting the meta distribution. To simplify even further we also assume that the government team always runs a utilitarian case and the opposition a fairness and a rights case. 
 
 - Scenario 1: The teams provide equal justifications for all respective metrics and our meta distribution is therefore agnostic. After combining meta distribution and posteriors we end up with a situation in which the combined arguments from opposition beat the contribution from government and therefore opposition wins. 
-- Scenario 2: 
+- Scenario 2: The government team provides strong reasons for why we should care more about the utilitarian calculus than the rights or fairness metric. The opposition does not justify their respective metrics in a very strong manner. Our meta distrubiton is therefore shifted very strongly in favour of the utilitarian calculus and after combining the posteriors of the arguments and the meta distribution the government team wins. 
+- Scenario 3: The government teams argues that utility is important compared to the other to metrics. The opposition responst by arguing that fairness is important as well but forgets to argue why we should care about their rights case. Therefore their rights argument does not have a lot of weights in the overall consideration. After combining posteriors of the arguments and meta distribution we find that the fairness case of the opposition is able to beat the utility case of the government on its own, the underdeveloped rights case is merely a small addition for the opposition team. 
 
 <figure>
   <img src="/img/Probabilistic_Judging_3/3D_meta_priors.png"/>
@@ -69,25 +70,32 @@ The following scenarios can be seen as the same debate taking place in three dif
 
 ## What about the priors?
 
-http://trolleyproblem.blogspot.com/2012/11/what-does-good-judge-believe.html
+Similar to part I, we inevitably get to the question of priors again. I think meta priors are a more controversial topic than the priors for the truth and effect distribution since they are impossible to verify empirically, i.e. we cannot truely know whether Utilitarianism, a fairness approach or any other philosophical stance is correct while we can to some extend approximate the truth or relevance of a given statement. It is also harder evaluate to what extend the "average informed voter" (AIV) believes in any philosophical stances. I think a good starting points for this is the <a href='http://trolleyproblem.blogspot.com/2012/11/what-does-good-judge-believe.html'>2012 article</a> by Shengwu Li which was summarized by Stefan Torges in their <a href='https://www.achteminute.de/20170111/ist-der-ideale-juror-eine-tabula-rasa/'>2017 article (in German)</a> as follows: 
+- Freedom, Happiness and Life are valuable.
+- Democracy, Freedom of speech and Equality are importante societal principles. However, they are not axiomatic and therefore alterable. 
+- Laws that restrict the actions of individuals that only effect that individual and nobody else need a strong justification.
+- Important moral questions should be solved through societal discourse and not through reference to (divine) authority. 
+
+All of these are obviously not axiomatic - a debate about technocracy has to argue against democracy and there has to be a reasonable chance for the teams defending technocratic governments to win. However, they are good as general normative priors for the judges to have. It is also important to point out that the normative/meta priors are different between motions. I assume that the motion "THW set the voting age to 16" would invoke questions of democratic principles and overall happiness of a population in most AIVs more than questions regarding religious rights. On the other hand, the motion "THW forbid circumcision" very much invokes a question of religious rights and individual happiness but less of democrating principles. That, by no means, implies that people could not argue for these clashes to be important in the debate - it just means that on average the AIVs prior assigns them less probability mass. 
 
 ## Limitations of the model:
 
-burdens? 
-meeting the right comparative?
-doing a weighing better than other teams
+I think there are many concepts that we use in debating that have a large effect on a teams chances to win but are hard to incorporate explicitly rather than implicitly into the model. Within debating we often ask questions like "Does a team meet the correct burden?" or "Did a team meet the right comparative?". These things are implicitly included in the framework through the relevance or the meta distribution. However, they are not encoded explicitly through additional distributions or assumptions. I am pretty sure that burdens and comparatives could be modelled using more sophisticated statistical models but I don't know how. If somebody knows I would be very interested. I assume that <a href='https://mitpress.mit.edu/books/elements-causal-inference'>this book</a> would be a good start. 
 
-## Conclusion
+## Conclusions
 
-debating is very inconsistent
+1. The model is able to integrate most of the relevant parts of debating. At least for a basic illustration it seems sufficient. 
+2. It forces you to think about some of the assumptions that we make in more detail. I, for example, always assumed to know exactly what is ment by "rebuttal is to be judged as constructive" but when trying to explain it within the framework I struggled. I think it is also helpful in showing the influence of the priors of the AIV and how it is changed through the debate. 
+3. Even though some aspects of the real world are explained well, some others have to be bent a bit to fit the debating framework. The fact that priors for the relevance and truth distribution are very sceptical for example, is rather untrue for most people. The AIV would be sufficiently swayed by a couple of lose sentences that carry some conclusion. They would probably not need three separate arguments with 4 mechanisms for each. This would imply that if an opening team does a little bit of intuition pumping for a given argument and thereby already increases their truth distribution to have an expected value over 50 percent no backbench team could run an analysis extension successfully even when they present ten good reasons. Therefore we have to artificially increase the judges skepticism to make the probabilistic framework work. 
 
 ## Nerd section: some statistical explanations 
 
-- N-dimensional probability simplex
-- similar to other prob, expected value
+- The meta distribution is distributed according to an N-dimensional probability simplex. In 2D that can be a done by a Beta distribution similar to the truth distribution in part I and II. For 3D I chose to use the Dirichlet distribution which is the higher dimensional equivalent of the Beta distribution (In fact, the Beta is the low-dimensional special case of the Dirichlet). However all distributions that are on the probability simplex are valid. We could, for example, also chose the logitNormal or even a multimodal distribution. 
+- To combine the meta distribution with the posterior of the other distributions I used the expected value of the meta distribution and multiplied it with the value determining the posteriors. This is  similar to the combination of the truth and relevance distribution in part I and part II.
 
 ## Acknowledgements
 
+Julian, Samuel, Bea, Maria, Marion, Anton
 
 ***One last note:***
 
