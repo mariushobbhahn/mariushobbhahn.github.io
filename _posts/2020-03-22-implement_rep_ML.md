@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "A reproducibility ML journal"
-date:   2020-03-22 18:28:00 +0200
+date:   2020-03-22 00:58:00 +0200
 author:     "Marius Hobbhahn"
-header-img: "img/header-imgs/reproducible6.png"
-category:  opinion
+header-img: "img/header-imgs/reproducible.png"
+category: opinion
 ---
+
 
 ## What is the purpose of this post
 
