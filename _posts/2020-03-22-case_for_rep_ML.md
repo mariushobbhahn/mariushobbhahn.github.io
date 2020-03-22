@@ -6,7 +6,7 @@ date:       2020-03-22 19:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/reproducible.png"
 category:   opinion
-tags:       [machine learning, reproducibility]
+#tags:       [machine learning, reproducibility]
 ---
 
 ## What is the purpose of this post?
