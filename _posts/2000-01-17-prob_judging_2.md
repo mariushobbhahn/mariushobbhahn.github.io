@@ -3,7 +3,7 @@ layout: post
 title:  "Probabilistic Adjudication: Part II - Interaction (Still under construction)"
 date:   2000-01-17 23:01:30 +0200
 author:     "Marius Hobbhahn"
-header-img: "img/debate.png"
+header-img: "img/header-imgs/debate.png"
 category: opinion
 ---
 

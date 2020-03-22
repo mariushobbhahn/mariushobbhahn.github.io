@@ -1,7 +1,7 @@
 ---
-layout:     post
-title:      "A reproducibility ML journal"
-date:       2020-03-22 18:28:00
+layout: post
+title:  "A reproducibility ML journal"
+date:   2020-03-22 18:28:00 +0200
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/reproducible4.png"
 category:   opinion

@@ -3,7 +3,7 @@ layout: post
 title:  "The Case against an animal based diet"
 date:   2019-12-25 00:58:00 +0200
 author:     "Marius Hobbhahn"
-header-img: "img/header-imgs/reproducible3.png"
+header-img: "img/header-imgs/Vegetarian.png"
 category: opinion
 ---
 
