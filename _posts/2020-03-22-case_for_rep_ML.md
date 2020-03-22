@@ -5,7 +5,7 @@ subtitle:   "Some guesstimations on how harmful non-reproducible code is to the 
 date:       2020-03-22 19:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/reproducible.png"
-category:   ML_project
+category:   ML_project, opinion
 tags:       [machine learning, reproducibility]
 ---
 
