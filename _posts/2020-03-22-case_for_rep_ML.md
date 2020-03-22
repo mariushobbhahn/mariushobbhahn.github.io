@@ -1,12 +1,11 @@
 ---
 layout:     post
 title:      "The reproducibility crisis in Machine Learning"
-subtitle:   "Some guesstimations on how harmful non-reproducible code is to the ML community"
+#subtitle:   "Some guesstimations on how harmful non-reproducible code is to the ML community"
 date:       2020-03-22 19:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/reproducible5.png"
 category:   opinion
-#tags:       [machine learning, reproducibility]
 ---
 
 ## What is the purpose of this post?
