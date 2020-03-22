@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The reproducibility crisis in Machine Learning"
-subtitle: "Some guesstimates on the damage to the ML community done by non-reproducible projects"
+#subtitle: "Some guesstimates on the damage to the ML community done by non-reproducible projects"
 date:   2020-03-22 19:28:00 +0200
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/reproducible.png"
