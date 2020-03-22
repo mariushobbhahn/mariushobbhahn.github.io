@@ -4,9 +4,8 @@ title:      "A reproducibility ML journal"
 subtitle:   "An online ML journal that focuses solely on reproducibility results"
 date:       2020-03-22 18:28:00
 author:     "Marius Hobbhahn"
-header-img: "img/header-imgs/reproducible2.png"
+header-img: "img/header-imgs/reproducible4.png"
 category:   opinion
-#tags:       [machine learning, reproducibility]
 ---
 
 ## What is the purpose of this post
