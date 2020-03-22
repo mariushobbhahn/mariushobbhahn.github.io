@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A reproducibility ML journal"
+subtitle:   "An online ML journal that focusses solely on reproducibility results"
 date:   2020-03-22 00:58:00 +0200
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/reproducible.png"
