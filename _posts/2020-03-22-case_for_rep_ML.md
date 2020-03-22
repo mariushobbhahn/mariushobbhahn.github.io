@@ -3,7 +3,7 @@ layout: post
 title:  "The reproducibility crisis in Machine Learning"
 date:   2020-03-22 19:28:00 +0200
 author:     "Marius Hobbhahn"
-header-img: "img/header-imgs/reproducible5.png"
+header-img: "img/header-imgs/reproducible7.png"
 category:   opinion
 ---
 
