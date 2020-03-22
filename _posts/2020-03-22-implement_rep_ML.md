@@ -5,7 +5,7 @@ subtitle:   "An online ML journal that focuses solely on reproducibility results
 date:       2020-03-22 18:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/reproducible.png"
-category:   ML_project, opinion
+category:   opinion
 tags:       [machine learning, reproducibility]
 ---
 
@@ -15,7 +15,7 @@ In this post TODO:link I have argued that there are structural reasons why some 
 
 ## What is a reproducible ML journal?
 
-The idea is pretty simple: an online journal where people can submit work that is a reproduction of already published papers. The journal would likely be somewhat of a merger between <a href='https://osf.io/ezcuj/wiki/home/'>The reproducibility project</a> in Psychology and <a href='https://distill.pub/>distill.pub</a>. To give you an idea of what this could look like consider the following
+The idea is pretty simple: an online journal where people can submit work that is a reproduction of already published papers. The journal would likely be somewhat of a merger between <a href='https://osf.io/ezcuj/wiki/home/'>The reproducibility project</a> in Psychology and <a href='https://distill.pub/'>distill.pub</a>. To give you an idea of what this could look like consider the following
 1. A submission to this journal can be one of the following: a) A first clean provision of the code for the paper. This is only legitimate when the original paper was released without code. b) Code for the paper using a different framework or programming language, i.e. Pytorch, Tensorflow, Keras or C++. c) A meaningful extension of the original paper, e.g. results for new datasets, additional experiments (e.g. using different accents in speech recognition), etc. The bar for publication would likely be lower than on a top tier conference but so is the effort. 
 2. If a paper is not reproducible on the original dataset or fails to generalise to other datasets an author can publish their code and a description of their setup and thereby "flag" the paper as not reproducible. This option should only be used when you are very sure that you have exhausted a reasonable range of failure options. Since this is a critique of their work, the original authors will likely spent some time looking at the challenging code. If there are too many cases of people uploading buggy code and hoping someone will help them fix it this would ruin the journal. Whether this reasonable range of failure options was sufficiently exhausted has to be determined through peer review. 
 3. For every ML paper that exists and was attempted to be reproduced there exists an entry on the website. This entry contains a link to the original paper and original code (if it exists), a link to all other implementations of this code and all extensions. If an architecture or method becomes so important that it is implemented in the ML libraries such as Pytorch, Tensorflow or scikit-learn the method will just be branded as "working" and links to the libraries will be provided. 
