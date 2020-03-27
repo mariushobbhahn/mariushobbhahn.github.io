@@ -57,16 +57,39 @@ Unfortunately, the cultural wisdom of "rationality == no emotions" is very stick
 
 ## Ethics
 
+#### My perspective on Effective Altruism (EA)
+
+When I heard of EA for the first time I was immediately drawn into the movement. It just seemed so obvious to me: There are millions of people suffering right now and there are effective tools to help them. I immediately wanted to start and do something. The urge to act was enormous. Since I had just started my undergrad the only things that I could do were organizing meetings, go to conferences, focus on my studies, become vegan/vegetarian and donate parts of the little money I had. I was aware of the fact that these contributions didn't matter that much, I could not donate a lot, the local meet-up grew slower than I had hoped and one person being vegetarian or vegan only alleviates a very small amount of suffering. So my best shot was to focus on my studies, get into a good position to either have a lot of positive effects through my work or donate a lot to effective charities. The fact that this seemed like the only reasonable shot at having a high impact really put a lot of pressure on me and every bad grade felt like I was stabbing a future child by not being able to donate as much. This is obviously neither healthy nor helpful. I thought about this pressure and as already described in my EA article TODO:link I changed my perspective to preserve my mental health. The second way in which my view on EA changed is on the immediacy of help. I think this urge to help immediately when you see suffering is very strong and I therefore wanted to donate NOW or to rush through your studies to get a job ASAP. However, this strategy is not long-term optimal. EA is still in its infancy, historically speaking, and a lot of assessments might be updated quickly. Just take the shift in stance that 80K (TODO:LINK) has made on earning to give. After my Bachelor's I could have rushed to become a trader and donate most of my earnings only to find out that this was ineffective compared to working on some projects directly or be an AI safety researcher. I guess my view on career choice can now be summarized by the following ideas:
+1. Choose something that you are comfortable doing now but also will likely be comfortable doing in the future 
+2. If you don't know what you want to do try around a lot. Go to EA conferences, speak to a lot of people, read 80K, etc.
+3. If you realize your current choice does not suit you don't hesitate to switch even if it feels like "having wasted all that time"
+4. Do not optimize for immediate impact at the cost of larger long-term impacts. A high government position might be very impactful even if you "had no impact" until reaching that position
+
 #### Short-term vs. long-term Effective Altruism
 
+One of the EA internal debates is on a dimension of short-term vs. long-term effects. I would say I did not have a strong opinion on it in the beginning but was leaning slightly towards short-termism because of the urge to act now as described in the paragraph above, the high uncertainty attached to some of the long-term scenarios and a certain fear of failure (e.g. what if I became a AI safety expert but fail to contribute anything meaningful). By now my view is leaning much stronger towards the long-term end of the spectrum. This is partly because the community as a whole shifted their stance a bit, partly because I am less risk averse now (and can therefore more easily accept to maximize expected value) but most importantly due to a talk given my Stefan Torges (see his blog TODO:link) and a conversation following it. In the end it is still a simple back-of-the-envelope calculation but was still able to convince me sufficiently to update my view. Let's assume that the trajectory of human civilization is not yet near its end and will go on for 100k years at least. Further assume that the sigmoidal shape of describing population growth is broadly correct and we settle at 10 billion humans on the planet. Let's say there is a 1 percent chance of a global pandemic (like CoviD-19), a 0.1 percent chance of a world war and a 1 percent chance of a very bad AGI scenario per year. This implies that in 100k years of civilization there will be 1k pandemics, 100 world wars and 1k very bad AGI scenarios. Let's further say that around half of the global population would be affected by the pandemic in a significant way and everyone by the world wars and the AGI scenario. If we assume that the suffering that is created through these scenarios is equivalent to the suffering of having malaria, then reducing the number of pandemics from 100 to 99 means that 5 billion people in the future do not have to suffer. That would on average be 50k people per year. Using GiveWells estimate of 6000 Dollars to save a live from Malaria we would be at 300 million dollars per year. That is an amount that I am very unlikely to earn or even come close to over the entirety of my life. The same estimates can be made for the world war scenarios, the bad AGI trajectory and other long-term problems such as climate change and yield similarly astronomical amounts of suffering. The chosen numbers are obviously guesstimates and might be very wrong, but even if they are wrong by a couple of magnitudes the argument is still pretty strong. 
+Before Stefans talk I already knew that "the future is long, there are many people, large impact, blablabla". I still needed to crunch the numbers to get an intuitive understanding for the incredible magntitude of these effects and thereby convince myself to such a degree that the felt uncertainty attached to the long-term perspective becomes pretty irrelevant. 
 
 #### Happiness/Suffering is not the only valid metric
+
+I think there are two different Happiness related opinions I updated. 
+- Happiness includes much more than the short emotional ups and downs plus diseases. Some harder to measure mental states such as contempt/satisfaction/tranquility/depression must be factored in very strongly. I never denied the existence of the influence of these other factors I merely updated the degree to which they influence the overall happiness of an individual. While my original estimate was around 80:20 for short-term emotions it is not something like 70:30 in favor of other mental states. The reason for this update was mostly due to personal experiences. When I explicitely compare a good day in a rather depressive phase of my life to a bad day in a contempt phase of my life I prefer the latter. This is hard to explain with the original numbers. To illustrate consider the following figure.
+
+TODO image: two sine-curves with differen amplitudes.
+
+- Non-happiness/suffering focused metrics have more validity for me now. 
+
+TODO: find good example
 
 
 ## Science
 
 #### Science is less accurate than I thought
 
+My pre-undergrad understanding of science was terribly naive. I assumed that scientists tested hypotheses by running experiments that then yield easily interpretable results that can then be seen as "truth". What I completely underestimated was the complexity of the scientific apparatus, i.e. fact that science is conducted by people which have to follow certain rules that are made by people who are not necessarily scientists themselves, etc. There are some reasons that lead me to believe that science produced a lot of results that are either overblown or just wrong.
+1. Incentives: p-hacking, status > scientific truth
+2. Social dynamics
+3. Statistics
 
 #### Machine Learning and AI is powerful in different ways than I thought
 

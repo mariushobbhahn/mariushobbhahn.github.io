@@ -1,0 +1,90 @@
+\documentclass{article}
+
+% if you need to pass options to natbib, use, e.g.:
+%     \PassOptionsToPackage{numbers, compress}{natbib}
+% before loading neurips_2018
+
+% ready for submission
+% \usepackage{neurips_2018}
+
+% to compile a preprint version, e.g., for submission to arXiv, add add the
+% [preprint] option:
+%     \usepackage[preprint]{neurips_2018}
+
+% to compile a camera-ready version, add the [final] option, e.g.:
+\usepackage[final]{nips_2018}
+
+% to avoid loading the natbib package, add option nonatbib:
+%     \usepackage[nonatbib]{neurips_2018}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{mathtools,amsthm,amssymb,amsfonts}
+
+\usepackage{arydshln} %for dashed lines
+
+\begin{document}
+	
+	
+\section{Experiment 1: size of noise input}	
+	
+\begin{table*}[h!]
+	\scriptsize
+	\centering
+	\begin{tabular}{l  c c  c  c  c}
+		\toprule
+		Size & 10 & 25 & 50 & 100 & 200 \\
+		\midrule
+		Accuracy & $0.663 \pm 0.002$ & $0.711 \pm 0.003$ & $0.681 \pm 0.004$ & $0.675 \pm 0.002$ & $0.658 \pm 0.005$ \\
+		\bottomrule
+	\end{tabular}
+\end{table*}
+	
+	
+\section{Experiment 2: Different gradient update rates}		
+	
+\begin{table*}[h!]
+	\scriptsize
+	\centering
+	\begin{tabular}{l  c c  c  c }
+		\toprule
+		Rate & 1 & 0.5 & 0.1 & 2 \\
+		\midrule
+		Accuracy & $0.711 \pm 0.003$ & $0.724\pm 0.002$ & $ 0.647 \pm 0.003$ & $0.680 \pm 0.005$ \\
+		\bottomrule
+	\end{tabular}
+\end{table*}
+	
+	
+\section{Experiment 3: Late noise gradient update}		
+	
+\begin{table*}[h!]
+	\scriptsize
+	\centering
+	\begin{tabular}{l  c c  c  c c}
+		\toprule
+		Update after & 2 & 5 & 10 & 25 & 50 \\
+		\midrule
+		Accuracy & $0.725 \pm 0.004$ & $0.726 \pm 0.004$ & $0.728 \pm 0.004$ & $0.723 \pm 0.005$ & $0.715 \pm 0.002$ \\
+		\bottomrule
+	\end{tabular}
+\end{table*}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}

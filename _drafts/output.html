@@ -1,0 +1,45 @@
+<hr />
+<p>layout:     post
+title:      "Inverse Classification using GANs"
+subtitle:   "A summary of exploratory work on the usage of GANs for Inverse Classification"
+date:       2020-03-28 20:28:00
+author:     "Marius Hobbhahn"</p>
+<h1>header-img: "img/Marius2.jpg"</h1>
+<p>category:   ML_project
+tags:       [Machine Learning, Inverse Classification]</p>
+<hr />
+<p><strong>Abstract:</strong> </p>
+<p>In my first bachelor thesis I tested whether "inverting" the classification process by using the gradient information of generative models is effective. In the thesis we used LSTMs as generative models. One of the open questions was whether using other generative networks might yield better results. This question is explored in this post.</p>
+<p>TODO:link code</p>
+<h2><strong>1. Introduction</strong></h2>
+<p>An elaborate motivation of Inverse Classification (IC) can be found in <a href='TODO:LINK'>the original post'</a> on my Bachelor's thesis. The short summary is: It has been found that the human brain is to a large extend predictive, i.e. instead of using the stimuli from our environment to form a mental image of the environment the brain predicts a plausible image and merely adapts it using the stimuli. This kind of mechanism/framework could also be used for Machine Learning. Instead of using all the features of an image to classify it, we predict the most likely version of it and iteratively adapt that. The reason we used Long Short-Term Memory cells (LSTMs) in the original thesis was that most of the data consisted of sequences and LSTMs are the natural choice for sequential data. However, we are usually not only interested in sequence data but also other data types such as images. A common choice to generate images are Generative Adversarial Networks (GANs) which work, as the name suggests, via an adversarial principle. This means that there is are two models "competing" with each other. The generator tries to "fake" the most realistic version of an image and the discriminator has to decide whether it's "real" or "fake". The generator uses the information given by the discriminator to improve its "forgery". The interplay between these two models yields more or less realistic images (see <a href='https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/'>this intro</a>). I want to point out that this is merely exploratory work - I just wanted to get a broad intuition whether GANs can be used for IC. It does not fulfill the requirements of rigorous research that a submission to a scientific journal or conference would entail. </p>
+<h2><strong>2. Setup</strong></h2>
+<p>In the original GAN setup the only input to the generator is noise. It would therefore be impossible to derive any class information from the gradients produced by the generator. Fortunately for us, there are conditional-GANs (see <a href='https://medium.com/datadriveninvestor/an-introduction-to-conditional-gans-cgans-727d1f5bb011'>this intro</a>) which close that gap. In conditional-GANs the generator and the discriminator receive the actual class vectors. The generator additionally receives some input noise such that we can draw images from the input distribution after training. </p>
+<p>TODO: sketch C-GANs</p>
+<p>Since TODO:reasons the training of the generator does not need to get better the longer you train. Therefore the model was saved every three iterations and the best model was chosen by visual inspection, i.e. I just checked whether the images generated when inputting all classes and some noise look good as displayed in the following figure. </p>
+<figure>
+  <img src="/img/IC_GANs/G_epoch24_nz50_n02.png"/>
+  <figcaption><span style="font-family:Papyrus; font-size:1em;">Images produced by the generator network.</span></figcaption>
+</figure>
+
+<p>This is obviously not an optimal way of choosing the best model but it is sufficient to produce decent images. </p>
+<h2><strong>3. Experiments and Results</strong></h2>
+<p>All experiments were conducted on MNIST. Even though MNIST is not terribly exiting as a dataset it can be seen as a test for feasibility, i.e. if this method does not even work on MNIST it is unlikely to work on any more complex datasets. Since the conditional-GANs generator has two inputs - classes and noise - I had to decide which of them I would update using the gradient information. At first I thought it would be reasonable to keep the noise input fixed and only update the class vector. However, it turned out very quickly that this produced pretty bad results since the noise information plays a large role in determining the shape, type, etc. of the final digit in the image. Therefore, I additionally optimized the noise input. The optimization was done using the Adam optimizer. I also tested other optimizers such as SGD but Adam turned out to yield the best results. Unfortunately, if we optimize the noise as well it has more influence on the resulting image and thereby the class vector has less influence. The bottleneck for this technique to work is therefore to keep the influence of the noise on the image low while still producing good ones to increase the influence of the class vector. The following experiments therefore try different solutions for the just presented problem. All experiments have been repeated five times to reduce the randomness at least a bit. Before detailing the experiments I have to point out that the models were able to reconstruct the target images perfectly as shown in the following figure.</p>
+<figure>
+  <img src="/img/IC_GANs/Reconstruction_sample.png"/>
+  <figcaption><span style="font-family:Papyrus; font-size:1em;">Reconstructions of the images after the Inverse Classification is finished.</span></figcaption>
+</figure>
+
+<h3>1. Different sizes for the noise input</h3>
+<p>As a first solution I tried different sizes for the noise input. The smaller the noise input vector the smaller its influence on the final image compared to the class input which always has size 10 (As there are 10 classes in MNIST). On the other hand the noise input cannot be too small because it would reduce the expressiveness of the generator. To test where the optimum lies I therefore tested sizes that are presented in table 1 with their respective results:</p>
+<p>|Size:     |10   |25   |50   |100  |200  |
+|----------|-----|-----|-----|-----|-----|
+|Accuracy: |0.663|0.711|0.681|0.675|0.658|</p>
+<p>We find that the size of the noise input is not </p>
+<h3>2. Update the gradients of noise and classes at different speeds</h3>
+<h3>3. First only update class gradients then also noise</h3>
+<h2><strong>4. Conclusions</strong></h2>
+<p>Honestly, I am not yet decided on the applicability of the Inverse Classification technique. I would argue that this basic research shows that it has some potential, especially in the low data regime. I think the two directions one would have to check to make a more informed decision are either a) to improve the generative model or to b) reduce the problem complexity in some way. For the first I could imagine using GANs to train the generative model instead of LSTMs. LSTMs are just not the state of the art of generative models and the GAN community has produced some astonishing results over the last few years. For the second option I could think of using a modular approach to Inverse Classification, i.e. using multiple smaller generative models and have them compete against each other to produce classifications. 
+However, even if a better generative model might make the technique feasible there is one downside that might kill its practical application entirely. Since every classification process is an optimization in itself, there is a high computational overload attached to each classification step. This might not be much of a problem given that computing is faster and cheaper than ever but is only worth the extra effort if the results clearly outperform other methods. My most reasonable estimation of the technique is that it will probably be relevant for some niche applications but will not revolutionize the way we classify in general. </p>
+<h4><strong><em>One last note</em></strong></h4>
+<p>If you have any feedback regarding anything (i.e. layout, code or opinions) please tell me in a constructive manner via your prefered means of communication.</p>
