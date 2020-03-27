@@ -5,7 +5,7 @@ title:  "The reproducibility crisis in Machine Learning"
 date:   2020-03-22 19:28:00 +0200
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/reproducible.png"
-category:   opinion
+category:   [ML_project, opinion]
 ---
 
 ## What is the purpose of this post?
