@@ -3,7 +3,7 @@ layout: post
 title:  "Probabilistic Adjudication: Part I - one argument (Still under construction)"
 date:   2019-01-17 23:01:30 +0200
 author:     "Marius Hobbhahn"
-header-img: "img/header-imgs/debate.png"
+header-img: "img/header-imgs/Debate1.png"
 category: opinion
 ---
 
@@ -23,9 +23,7 @@ In this part I want to focus on evaluating one argument in a vacuum. That means 
 
 ### The fundamentals of Probabilistic Inference
 
-<img src="https://render.githubusercontent.com/render/math?math=p(h)">
-
-A probability distribution denotes the probability $$p(h)$$  of a variable $$h$$ taking a certain value, for example the probability of a human to have a certain height. It is more likely that a person is 1.8 m tall than that they are 1.0 m or 3.0 m tall. It is also possible to condition that variable on another variable, i.e. we could look at the probability distribution of height conditioned on the gender $$g$$ of a person $$p(h | g)$$. Even though this is not true in reality, assume for simplicity that there are only two genders. The distribution of the height of all people can suddenly be explained by the two conditional distributions $$p(h \vert g=female)$$ and $$p(h \vert g=male)$$. Distributions can be defined on different domains. A distribution over probabilities, for example, can only range from 0 to 1 since probabilities below 0 or above 1 are just not defined. The distribution over the height of humans could technically be infinitely large but never below 0. The distribution over the amount of money on your bank account could in theory be everywhere between minus and plus infinity, i.e. you can have anything between infinite debt and infinite amounts of money (disregarding some real world constraints). To understand what probability distributions, conditionals and domains mean, consider the following figure.
+A probability distribution denotes the probability $$p(h)$$  of a variable $$h$$ taking a certain value, for example the probability of a human to have a certain height. It is more likely that a person is 1.8 m tall than that they are 1.0 m or 3.0 m tall. It is also possible to condition that variable on another variable, i.e. we could look at the probability distribution of height conditioned on the gender $$g$$ of a person $$p(h \vert g)$$. Even though this is not true in reality, assume for simplicity that there are only two genders. The distribution of the height of all people can suddenly be explained by the two conditional distributions $$p(h \vert g=female)$$ and $$p(h \vert g=male)$$. Distributions can be defined on different domains. A distribution over probabilities, for example, can only range from 0 to 1 since probabilities below 0 or above 1 are just not defined. The distribution over the height of humans could technically be infinitely large but never below 0. The distribution over the amount of money on your bank account could in theory be everywhere between minus and plus infinity, i.e. you can have anything between infinite debt and infinite amounts of money (disregarding some real world constraints). To understand what probability distributions, conditionals and domains mean, consider the following figure.
 
 <figure>
   <img src="/img/Probabilistic_Judging_1/dist_examples.png" alt="test"/>
@@ -33,10 +31,6 @@ A probability distribution denotes the probability $$p(h)$$  of a variable $$h$$
 </figure>
 
 Distributions can be used to illustrate a fact about the world as shown in the example of height. However, they can also be used to update our beliefs given new data. Let's say, for example, your current belief is that human height is distributed around the two peaks of 1.60 and 1.70 meters as shown in the above figure. Now you receive new information: The data that we have based that believe on are 10 years old and the decrease in human malnourishment has led to an average growth of humans of 5cm. Therefore you update your believe to a new distribution that is centered around the peaks at 1.65 m and 1.75 m respectively. There could also be other updates for this believe, i.e. it might be found that the women whose height was measured during the initial measurements were selected from a particular group in society and therefore bias your result. For example, only German women were measured because the study was conducted in Germany. Since German women on average are slightly taller than the global average your updated distribution would include this fact and change the peak for women from 1.60 m to 1.55 m. This notion of updating our beliefs can be expressed via the fundamental rule of probabilistic inference: **Bayes rule**.
-
-<figure>
-  <img src="/img/Probabilistic_Judging_1/Bayes_rule.png"/>
-</figure>
 
 $$\underbrace{p(X\vert Y)}_{\text{posterior}} \propto \underbrace{p(Y\vert X)}_{\text{likelihood}} \underbrace{p(X)}_{\text{prior}}$$
 
@@ -140,20 +134,20 @@ All the knowledge that the AIV has should be seen as prior knowledge in this mod
 
 However, I must point out that debating is a game that implies rules for how the priors are distributed. First, prior knowledge must align with the reality of the AIV, i.e. they know basic facts about the world but are not specialists in any particular field. They know the presidents of most major countries of the world, some basic economics and politics, etc. They do not know the finance minister of the Kongo, the exact melting point of all metals or the exact wording of the law of every country in the world. Even if a particular adjudicator knows these facts, for the purpose of the debate, they must assume not to know any of them. Second, priors should be sceptical rather than naive, i.e. the burden is on the teams to show that something is true and the adjudicator should not place too much confidence on statements that are not well explained. Third, prior knowledge distributions must be easily shiftable, i.e. the adjudicator is easily persuaded by arguments when good reasons are presented. This level of persuadability is probably a lot higher than for the average person that you meet on the street but is part of the game we are playing. Obviously this does not solve the issue of priors entirely but merely shifts it. It is for example unclear whether the AIV intuitively agrees with the statement: "Quantitative Easing hurts the economy in the long-term" or if they are even supposed to know what Quantitative Easing is. This is a problem that we cannot solve independent of the probabilistic framework but I think forcing the adjudicators to explicitely think about the priors of the AIV decreases the difference in perception of arguments at least a bit and gives a framework to solve disagreements. Now we can more easily ask: What are the AIVs priors and how does this change our perception of the argument?
 
-## Prior shift vs. Absolute value
+## Prior shift vs. Distance to zero
 
 There are two different philosophies that could follow from the proposed framework. Either you could say the degree to which the person changed my belief from the prior to the posterior is the correct way to judge their contribution or the absolute value of the posterior, i.e. the difference between zero and the posterior. 
 
 <figure>
-  <img src="/img/Probabilistic_Judging_1/shift_vs_absolute.png"/>
+  <img src="/img/Probabilistic_Judging_1/shift_vs_distance0.png"/>
 </figure>
 
-Honestly, I am a bit uncertain myself about the correct way to assess the argument. In a real life situation we care about the absolute value. If we have a large prior that something is a good idea and it gets shifted a bit to the negative we would still tend towards acting upon that idea. In debating, however, we want to reward the teams for being able to change opinions and therefore might want to reward the change more than the objective effect. I am currently undecided between both metrics. The shift in belief carries the problem that "surprising" arguments, i.e. ones that are not expected by the AIV, are more convincing even if they the posterior is lower overall. The absolute difference carries the problem that it might make it nearly impossible for a team to win an unbalanced motion from the harder side. 
+Honestly, I am a bit uncertain myself about the correct way to assess the argument. In a real life situation we care about the distance to zero. If we have a large prior that something is a good idea and it gets shifted a bit to the negative we would still tend towards acting upon that idea. In debating, however, we want to reward the teams for being able to change opinions and therefore might want to reward the change more than the objective effect. I am currently undecided between both metrics. The shift in belief carries the problem that "surprising" arguments, i.e. ones that are not expected by the AIV, are more convincing even if they the posterior is lower overall. The absolute difference carries the problem that it might make it nearly impossible for a team to win an unbalanced motion from the harder side. 
 However, I think there are two aspects which make the difference between these views rather small.
 1. We assume that chief adjudicators give their best to produce balanced motions. This means that there is no large difference between the shift and absolute distance metrics. 
 2. As argued above our priors are skeptical anyways, i.e. the teams need to give reasons to shift them. This implies that most of our priors are close to zero and the two metrics yield nearly similar results. 
 
-## Why does this matter in practice?
+## Why does this framework matter in practice?
 
 1. **Outside** of debates: Having a more of less formal framework of persuasion and adjudication is helpful because it brings people on the same page and forces them to think about inconcistencies in debating when an aspect is not easy to integrate. I, for example, had to realize that my understanding of "rebuttal is constructive" was rather vague and inconsistent. Explaining it through the probabilistic framework forced me to come up with a consistent solution. 
 2. **In** a debate, especially when adjudicating: Obviously, I am not asking you to explicitely calculate the distributions over the teams arguments within a debate. This framework is more of a mental assistance for the process of adjudication. When two adjudicators disagree about an argument, we can for example ask whether this disagreement is reasonably explained by the variance of the AIVs view on this argument. We can decide whether something was an extension by trying to identify to which degree the opening's argument convinced us and then compare it to the degree that the closing's argument furthered that belief. The framework is therefore used to unify understanding and language about debating to make adjudication more efficient. 
@@ -174,10 +168,10 @@ This framework/illustration is obviously not perfect and I want to point out som
 
 ## Nerd section: some statistical explanations 
 
-- **Bayes rule not Bayes theorem:** Some of you might have seen Bayes formula already and therefore know it with the evidence term $$\int p(y|x)p(x)$$. This is the difference between Bayes rule and Bayes theorem, where the theorem uses the evidence term (i.e. the integral) to normalize the distribution to 1 such that it truely is a probability distribution. However, since we do not model Debating in a computational sense but rather to clarify and understand some of its peculiarities I have chosen Bayes rule to keep it simpler.
+- **Bayes rule not Bayes theorem:** Some of you might have seen Bayes formula already and therefore know it with the evidence term $$\int p(y \vert x)p(x)$$. This is the difference between Bayes rule and Bayes theorem, where the theorem uses the evidence term (i.e. the integral) to normalize the distribution to 1 such that it truely is a probability distribution. However, since we do not model Debating in a computational sense but rather to clarify and understand some of its peculiarities I have chosen Bayes rule to keep it simpler.
 
-$$\underbrace{p(X|Y)}_{\text{posterior}} = \frac{\overbrace{p(Y|X)}^{\text{likelihood}} \overbrace{p(X)}^{\text{prior}}}{\underbrace{\int p(y|x)p(x) dx}_{\text{evidence}}}
-\propto \underbrace{p(Y|X)}_{\text{likelihood}} \underbrace{p(X)}_{\text{prior}}$$
+$$\underbrace{p(X \vert Y)}_{\text{posterior}} = \frac{\overbrace{p(Y \vert X)}^{\text{likelihood}} \overbrace{p(X)}^{\text{prior}}}{\underbrace{\int p(y \vert x)p(x) dx}_{\text{evidence}}}
+\propto \underbrace{p(Y \vert X)}_{\text{likelihood}} \underbrace{p(X)}_{\text{prior}}$$
 
 - The distributions I have chosen for the models of truth and relevance are the Beta and Gamma distribution. All other distributions that are on the correct domains would also be fine. For the illustration of probabilities in the beginning I chose the Normal distribution since is the most known distribution and also fits best to model height. 
 
