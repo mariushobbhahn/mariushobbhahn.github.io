@@ -19,14 +19,18 @@ We don't think about the world in a binary fashion. Our weather apps usually don
 
 Every belief that we have can be described in terms of a probability distribution. The distribution over the belief that the sun rises tomorrow peaks at probability 1 and has very low uncertainty. The distribution over the believe that the stock market will rise tomorrow is peaked around 0.5 and has very high uncertainty. The distribution about the global effects of CoviD-19 represents some kind of "large but with high uncertainty". These distributions can be assigned to every claim or argument made in a debate and used to evaluate the strength of an argument. The reason why I chose probability distribution over point estimates (e.g. the probability of the sun rising tomorrow is 99.9%) is two-fold: a) Distributions can encode uncertainty which can be relevant in debating. When two judges disagree it might just be because the argument carries large uncertainty and b) A distribution is a nice way to encode that the average informed voter/global citizen (AIV) is not just one person with clearly defined beliefs but rather the combination of many differing opinions to different degrees.
 
-TODO: image
+<figure>
+  <img src="/img/Probabilistic_Judging_1/priors_overview.png"/>
+</figure>
 
 ### Beliefs have a prior and can be shifted
 
 About every belief we have a prior distribution, i.e. we already think an argument might be broadly plausible or it is completely unreasonable before a team makes it. However, this prior distribution can be shifted to a large extend via the arguments made in the debate. After all, we do not want our priors to influence the debate too much. Since debating is a sport in which we want to reward people for making convincing arguments rather than letting our priors determine the outcome of the debate we have to establish certain rules. The priors cannot be our personal priors but must roughly approximate the beliefs that the AIV holds. Additionally, these priors should be sceptical rather than naive, i.e. a team needs to provide reasons for an argument to be bought. Furthermore, a judge is able to be persuaded if an argument is made - the stronger the argument the larger the shift in the respective distribution. 
 Furthermore we can say that an argument is the combination of a truth and a relevance distribution, which are answering the questions "How true is this argument?" and "How relevant is this argument?" respectively. The relevance distribution is by no means restricted to any kind of moral metric. Relevance can mean happiness/suffering, freedom, democracy, individual rights, etc. depending on the context and the arguments the teams decide to make. The strength of an argument can be evaluated as the combination of the truth and the relevance distribution as shown in the following figure. 
 
-TODO: figure of shift.
+<figure>
+  <img src="/img/Probabilistic_Judging_1/general_notion.png"/>
+</figure>
 
 ### Debating is more than evaluating a single argument
 
@@ -39,8 +43,7 @@ Other aspects of debating can easily be integrated into the framework:
 
 Maybe this seemed entirely obvious to you but I was unable to find any resources on this part of debating and hope that at least some people might learn a thing or two. Besides that there are two aspects that I want to highlight.
 1. **Outside** of debates: Having a more of less formal framework of persuasion and adjudication is helpful because it brings people on the same page and forces them to think about inconcistencies in debating when an aspect is not easy to integrate. I, for example, had to realize that my understanding of "rebuttal is constructive" was rather vague and inconsistent. Explaining it through the probabilistic framework forced me to come up with a consistent solution. 
-2. **In** a debate, especially when adjudicating: Obviously, I am not asking you to explicitely calculate the distributions over the teams arguments. This framework is more of a mental assistance for the process of adjudication. When two adjudicators disagree about an argument, we can for example ask whether this disagreement is reasonably explained by the variance of the AIVs view on this argument. We can decide whether something was an extension by trying to identify to which degree the opening's argument convinced us and then compare it to the degree that the closing's argument furthered that belief. 
-
+2. **In** a debate, especially when adjudicating: Obviously, I am not asking you to explicitely calculate the distributions over the teams arguments within a debate. This framework is more of a mental assistance for the process of adjudication. When two adjudicators disagree about an argument, we can for example ask whether this disagreement is reasonably explained by the variance of the AIVs view on this argument. We can decide whether something was an extension by trying to identify to which degree the opening's argument convinced us and then compare it to the degree that the closing's argument furthered that belief. The framework is therefore used to unify understanding and language about debating to make adjudication more efficient. 
 ## Acknowledgements
 
 Julian, Samuel, Bea, Maria, Marion, Anton
