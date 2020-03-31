@@ -1,13 +1,11 @@
 ---
 layout: post
 title:  "Probabilistic Adjudication: Part III - clashes and metrics (Still under construction)"
-date:   2000-01-17 23:01:30 +0200
+date:   2020-04-02 18:00:00 +0200
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/Debate3.png"
 category: opinion
 ---
-
-This post is not yet finished. I am still gathering feedback. You can read it anyway if you like but it will likely change a bit in the near future. 
 
 ## What is this mini-series about?
 
@@ -22,7 +20,7 @@ If there is agreement about the metric both teams argue that the motion would ch
 - Scenario 3: The oppositions argument is as far in the negative as the government is in the positive with their respective arguments. We cannot resolve this clash on its own but need to include other information such as their other arguments, their POIs, their responsiveness to that team, the order of the teams in the debate, etc. 
 
 <figure>
-  <img src="/img/Probabilistic_Judging_3/same_metric_posterior.png"/>
+  <img src="/img/Probabilistic_Judging_3/same_metric_posteriors.png"/>
   <figcaption><span style="font-family:Papyrus; font-size:1em;">Belief about teams arguments</span></figcaption>
 </figure>
 
@@ -78,11 +76,13 @@ Similar to part I, we inevitably get to the question of priors again. I think me
 
 All of these are obviously not axiomatic - a debate about technocracy has to argue against democracy and there has to be a reasonable chance for the teams defending technocratic governments to win. However, they are good as general normative priors for the judges to have. It is also important to point out that the normative/meta priors are different between motions. I assume that the motion "THW set the voting age to 16" would invoke questions of democratic principles and overall happiness of a population in most AIVs more than questions regarding religious rights. On the other hand, the motion "THW forbid circumcision" very much invokes a question of religious rights and individual happiness but less of democrating principles. That, by no means, implies that people could not argue for these clashes to be important in the debate - it just means that on average the AIVs prior assigns them less probability mass. 
 
-## Limitations of the model:
+## Imbalanced motions
+
+Imbalanced motions carry a problem that is, again, reducible to the Shift vs Distance to zero debate. Assume, for example, that a motion is gov-heavy and therefore the AIVs prior is +10 for the government. The OG makes arguments that on net give them +25 persuadability and the OO convince you with +30 points. In the shift metric this would mean that OO wins since 30 > 25. In the absolute distance metric OG would win since 25 + 10 > 30. First, I just want to ask every CA to try hard they don't set imbalanced motions, it can really ruin the experience. Second, I think there is a small improvement for the situation. Judges should always assume that the motion is balanced even if you think they aren't. Maybe you are not yet seeing an argument or you have a personal bias. The imbalance would still show since it might be easier for one team to pursuade the judges but at least this would make sure that the two metrics yield similar results. 
+
+## Limitations of the model
 
 I think there are many concepts that we use in debating that have a large effect on a teams chances to win but are hard to incorporate explicitly rather than implicitly into the model. Within debating we often ask questions like "Does a team meet the correct burden?" or "Did a team meet the right comparative?". These things are implicitly included in the framework through the relevance or the meta distribution. However, they are not encoded explicitly through additional distributions or assumptions. I am pretty sure that burdens and comparatives could be modelled using more sophisticated statistical models but I don't know how. If somebody knows I would be very interested. I assume that <a href='https://mitpress.mit.edu/books/elements-causal-inference'>this book</a> would be a good start. 
-
-NEED HELP: are arguments on different metrics additive? If a teams has one good argument and another has three bad ones that would when added be slightly more than the one argument who should win?
 
 ## Conclusions
 
@@ -98,7 +98,7 @@ NEED HELP: are arguments on different metrics additive? If a teams has one good 
 
 ## Acknowledgements
 
-Julian, Samuel, Bea, Maria, Marion, Anton
+I want to thank Julian, Samuel, Bea, Maria, Marion and Anton for the fruitful discussions, elaborate feedback and grammar-nazi skills (probably still contains some typos though).
 
 ***One last note:***
 

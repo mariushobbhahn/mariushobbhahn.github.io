@@ -1,13 +1,11 @@
 ---
 layout: post
 title:  "Probabilistic Adjudication: Part I - one argument (Still under construction)"
-date:   2019-01-17 23:01:30 +0200
+date:   2020-04-02 20:00:00 +0200
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/Debate1.png"
 category: opinion
 ---
-
-This post is not yet finished. I am still gathering feedback. You can read it anyway if you like but it will likely change a bit in the near future. 
 
 ## What is this mini-series about?
 
@@ -149,8 +147,9 @@ However, I think there are two aspects which make the difference between these v
 
 ## Why does this framework matter in practice?
 
-1. **Outside** of debates: Having a more of less formal framework of persuasion and adjudication is helpful because it brings people on the same page and forces them to think about inconcistencies in debating when an aspect is not easy to integrate. I, for example, had to realize that my understanding of "rebuttal is constructive" was rather vague and inconsistent. Explaining it through the probabilistic framework forced me to come up with a consistent solution. 
-2. **In** a debate, especially when adjudicating: Obviously, I am not asking you to explicitely calculate the distributions over the teams arguments within a debate. This framework is more of a mental assistance for the process of adjudication. When two adjudicators disagree about an argument, we can for example ask whether this disagreement is reasonably explained by the variance of the AIVs view on this argument. We can decide whether something was an extension by trying to identify to which degree the opening's argument convinced us and then compare it to the degree that the closing's argument furthered that belief. The framework is therefore used to unify understanding and language about debating to make adjudication more efficient. 
+1. **Outside** of debates: Having a more or less formal framework of persuasion and adjudication is helpful because it brings people on the same page and forces them to think about inconcistencies in debating when an aspect is not easy to integrate. I, for example, had to realize that my understanding of "rebuttal is constructive" was rather vague and inconsistent. Explaining it through the probabilistic framework forced me to come up with a consistent solution. 
+2. **In** a debate, especially when adjudicating: Obviously, I am not asking you to explicitely calculate the distributions over the teams arguments within a debate. This framework is more of a mental assistance for the process of adjudication. 
+Adjudication is a complicated process. Within 15 minutes we have to coordinate different views on a debate that lasted for an hour and come to a decision. Fast and unified communication is key. When two adjudicators disagree about an argument, we can, for example, ask whether this disagreement is reasonably explained by the variance of the AIVs view on this argument. We can decide whether something was an extension by trying to identify to which degree the opening's argument convinced us and then compare it to the degree that the closing's argument furthered that belief. 
 
 
 
@@ -179,7 +178,7 @@ $$\underbrace{p(X \vert Y)}_{\text{posterior}} = \frac{\overbrace{p(Y \vert X)}^
 
 ## Acknowledgements
 
-Julian, Samuel, Bea, Maria, Marion, Anton
+I want to thank Julian, Samuel, Bea, Maria, Marion and Anton for the fruitful discussions, elaborate feedback and grammar-nazi skills (probably still contains some typos though).
 
 
 ***One last note:***

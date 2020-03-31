@@ -1,13 +1,11 @@
 ---
 layout: post
 title:  "Probabilistic Adjudication: Part II - Interaction (Still under construction)"
-date:   2000-01-17 23:01:30 +0200
+date:   2020-04-02 19:00:00 +0200
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/Debate2.png"
 category: opinion
 ---
-
-This post is not yet finished. I am still gathering feedback. You can read it anyway if you like but it will likely change a bit in the near future. 
 
 ## What is this mini-series about?
 
@@ -113,7 +111,7 @@ The answer to this question depends on your view on the Prior shift vs. Distance
 
 ## Acknowledgements
 
-Julian, Marion, Bea, Maria, Anton, Samuel. 
+I want to thank Julian, Samuel, Bea, Maria, Marion and Anton for the fruitful discussions, elaborate feedback and grammar-nazi skills (probably still contains some typos though).
 
 ***One last note:***
 

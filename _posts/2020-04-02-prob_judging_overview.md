@@ -1,13 +1,11 @@
 ---
 layout: post
 title:  "Probabilistic Adjudication: An overview"
-date:   2019-01-17 23:01:30 +0200
+date:   2020-04-02 21:00:00 +0200
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/debate.png"
 category: opinion
 ---
-
-This post is not yet finished. I am still gathering feedback. You can read it anyway if you like but it will likely change a bit in the near future. 
 
 ## Motivation
 
@@ -50,8 +48,7 @@ Adjudication is a complicated process. Within 15 minutes we have to coordinate d
 
 ## Acknowledgements
 
-Julian, Samuel, Bea, Maria, Marion, Anton
-
+I want to thank Julian, Samuel, Bea, Maria, Marion and Anton for the fruitful discussions, elaborate feedback and grammar-nazi skills (probably still contains some typos though).
 
 ***One last note:***
 
