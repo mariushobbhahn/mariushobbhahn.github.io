@@ -30,7 +30,7 @@ We can say that an argument is the combination of a truth and a relevance distri
 
 <figure>
   <img src="/img/Probabilistic_Judging_1/general_notion.png"/>
-  <figcaption><span style="font-family:Papyrus; font-size:1em;">Distribution over truth (left), relevance (middle) and combined</span></figcaption>
+  <figcaption><span style="font-family:Papyrus; font-size:1em;">Distribution over truth (left), relevance (middle) and combined (right)</span></figcaption>
 </figure>
 
 ### Debating is more than evaluating a single argument
