@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Probabilistic Adjudication: Part II - Interaction (Still under construction)"
+title:  "Probabilistic Adjudication: Part II - Interaction"
 date:   2020-04-02 19:00:00 +0200
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/Debate2.png"
@@ -9,7 +9,7 @@ category: opinion
 
 ## What is this mini-series about?
 
-The overall purpose of these posts is to build a framework to judge debates probabilistically and illustrate how some parts of adjudication work within this framework. Part I (TODO:link) dealt with a single argument made by a team in a vacuum. This part deals with direct interaction, i.e. some kinds of rebuttal and some extensions. Part III (TODO:link) will deal with the overall comparison between different arguments and metrics. As already emphasized in the first part, I want these posts to be as understandable as possible even for people that do not have any background in statistics or math. If you do not understand a certain explanation please let me know. If you have understood the explanation but think it is an incorrect model of debating please let me know as well to improve the model.
+The overall purpose of these posts is to build a framework to judge debates probabilistically and illustrate how some parts of adjudication work within this framework. <a href='https://mariushobbhahn.github.io/2020-04-02-ProbJudging1/'>Part I</a> dealt with a single argument made by a team in a vacuum. This part deals with direct interaction, i.e. some kinds of rebuttal and some extensions. <a href='https://mariushobbhahn.github.io/2020-04-02-ProbJudging3/'>Part III</a> will deal with the overall comparison between different arguments and metrics. As already emphasized in the first part, I want these posts to be as understandable as possible even for people that do not have any background in statistics or math. If you do not understand a certain explanation please let me know. If you have understood the explanation but think it is an incorrect model of debating please let me know as well to improve the model.
 
 ## Part II: Interaction
 
@@ -97,7 +97,7 @@ In the just presented scenarios, assuming that the distributions over the mechan
 ## Rebuttal as Constructive
 
 Assume the following scenario: OG makes a weak constructive point. OO makes a strong constructive point. CG does a lot of very strong mitigatory rebuttal on OO. If we assume rebuttal is constructive, we would say CG beats OG. However, CG has not made any arguments to make us believe MORE in the goodness of the motion. They have just make us believe LESS that it is a bad idea. Should CG beat OG?
-The answer to this question depends on your view on the Prior shift vs. Distance to zero debate discussed in part I (TODO: link). If you think that shift is the correct way to measure contribution CG should beat OG and OO since they have contributed more than OG and beat OO in direct interaction. If you believe that the distance to zero is the correct way to judge then CG loses the debate since they have not been able to give a constructive contribution to the debate. I think that the shift model should be how we judge rebuttal as constructive since it better fits debating as a sport. It is not necessarily focused on truth but rather on rewarding teams for their successful effort in convincing the adjudicators of something. 
+The answer to this question depends on your view on the Prior shift vs. Distance to zero debate discussed in <a href='https://mariushobbhahn.github.io/2020-04-02-ProbJudging1/'>part I</a>. If you think that shift is the correct way to measure contribution CG should beat OG and OO since they have contributed more than OG and beat OO in direct interaction. If you believe that the distance to zero is the correct way to judge then CG loses the debate since they have not been able to give a constructive contribution to the debate. I think that the shift model should be how we judge rebuttal as constructive since it better fits debating as a sport. It is not necessarily focused on truth but rather on rewarding teams for their successful effort in convincing the adjudicators of something. 
 
 ## Limitations of the model
 

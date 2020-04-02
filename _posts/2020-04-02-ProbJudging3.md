@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Probabilistic Adjudication: Part III - clashes and metrics (Still under construction)"
+title:  "Probabilistic Adjudication: Part III - clashes and metrics"
 date:   2020-04-02 18:00:00 +0200
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/Debate3.png"
@@ -9,7 +9,7 @@ category: opinion
 
 ## What is this mini-series about?
 
-The overall purpose of these posts is to build a framework to judge debates probabilistically and illustrate how some parts of adjudication work within this framework. Part I (TODO:link) dealt with a single argument made by a team in a vacuum. Part II (TODO:link) dealt with direct interaction between two teams through rebuttal and extensions. This part deals with the comparison between different teams along different metrics. As already emphasized in the first part, I want these posts to be as understandable as possible even for people that do not have any background in statistics or math. If you do not understand a certain explanation please let me know. If you have understood the explanation but think it is an incorrect model of debating please let me know as well to improve the model.
+The overall purpose of these posts is to build a framework to judge debates probabilistically and illustrate how some parts of adjudication work within this framework. <a href='https://mariushobbhahn.github.io/2020-04-02-ProbJudging1/'>Part I</a> dealt with a single argument made by a team in a vacuum. <a href='https://mariushobbhahn.github.io/2020-04-02-ProbJudging1/'>Part II</a> dealt with direct interaction between two teams through rebuttal and extensions. This part deals with the comparison between different teams along different metrics. As already emphasized in the first part, I want these posts to be as understandable as possible even for people that do not have any background in statistics or math. If you do not understand a certain explanation please let me know. If you have understood the explanation but think it is an incorrect model of debating please let me know as well to improve the model.
 
 ## Agreement about the metric
 
