@@ -1,0 +1,53 @@
+---
+layout:     post
+title:      "Efficient Speaking"
+subtitle:   "Some observations on how to make sure that what you say is being heard"
+date:       2020-05-01 20:28:00
+author:     "Marius Hobbhahn"
+header-img: "img/speaker.png"
+category:   opinions
+#tags:       [debating]
+---
+
+## What is this post about?
+
+Most debaters know the experience of losing a debate and feeling completely misrepresented. The judges seem like they have not even understood half of your case. After personal feedback, you conclude that the judge is clearly incompetent and should have listened more carefully. While this might sometimes be true, most of the time you are at least partly guilty as well. To reduce the number of times these unfortunate scenarios arise we have to look at the reasons for this miscommunication and think about solutions to them.
+
+## Where does all the confusion come from?
+
+Human communication is already hard outside of debating. Adding pressure and removing instant feedback definitely doesn't make it easier. I think we can broadly categorize the communication in a debate in three parts: the speaker, the judge, and the process. The process describes the general setup of the situation, e.g. that the speaker talks while the judges only listen and write, the fact that there is no instant feedback, etc.
+
+<figure>
+  <img src="/img/Efficient_Adjudication/setup.png"/>
+</figure>
+
+1. **The Speaker:** We always think we have said more than we actually did. This is the case because the largest parts of our thinking process are not shared. Our imaginations, our associations with the argument or the words we use, the scenery we picture in our head while explaining something - all of these are things that we see clearly in front of our inner eye but are invisible to everyone else. Even though this is not new information for you, it is still impressive how easy we forget the extent of this effect. Just describe an image as accurately as possible to a friend and have them sketch it from your description. You will be surprised how much of the "obvious things" they missed from your explanation.
+
+2. **The Judge:** Adjudication is a very hard task. You have to listen to a person talking, distill the relevant information and write it down while still listening to new information. At the same time, you have to already integrate this information into the larger picture of the debate and filter out some of the absurd claims thrown at you. It is nearly impossible that no information is lost along this path.
+
+3. **The Process:** There are many ways in which debating is different from a normal conversation (for which most of our communication is optimized). There might be weird background noise - an AC or a heater buzzing in the back, a different team that is unable to whisper, etc. But even in more optimal conditions, the setup plays a large role. On the one hand, there is no instant feedback. If something is unclear in a normal conversation the other person would just ask a question, wherein debating, you have to anticipate the question and answer it preemptively. On the other hand, there is a difference in the distribution and reception of information. While the speaker desperately tries to stuff as much information as possible in a seven-minute speech and therefore talks very fast the judge has to write down a short version of the content. Just the fact that writing is slower than speaking should already inform the way we debate. Lastly, a speech is seven minutes long. Using precise language means more information per time.
+
+## How can we address these problems?
+
+1. **Re-order the logic:** Conversational logic often follows the scheme of "A is true AND B is true THEREFORE C is true", e.g. you would say "I went to the store today (A) but it was a Sunday and the store was closed (B) therefore I didn't get you any chocolate (C)". This conversational structure has the disadvantage that judges are left in the dark until the very end of the argument - there is no clear structure to anticipate. I think it's easier to flip the logic to "I want to show C; Reasons for C are A and B", i.e. you want to take the conclusion of the argument and rub it in the face of the adjudicator. While this would ruin most daily conversations because it kills all the suspense it helps you in debates exactly because you don't want any suspense.
+
+2. **Redundancies:** Because you speak faster than the judge is able to write it is important to include some forms of redundancy to let them catch up. I think a good way to do that is by first stating the mechanism in a general fashion and then backing it up with a more narrow example to illustrate this mechanism. Let's say you make the following argument in your speech: "Private News outlets have profit incentives and therefore need to tailor their shows to the worldview of their customer base even if that means bending the truth. Fox News, for example, has to misrepresent the data on gun ownership to reinforce the beliefs of a conservative follower base." This might end up as "News profit incentive -> tailor worldview to customer (Fox News & Guns)" on the judges notes. While the example is not necessary to understand the mechanism it has two important functions besides catching up. First, the judge can double-check their understanding of the mechanism and second, if the judge did not understand the general mechanism they can extrapolate it from the example to fill the gap. The level of redundancies depends on the importance of the statement. If it is a necessary step for your main argument maybe drop a second example, if it is the fourth reason for some argument, explain the general rule and go on to more important stuff.
+
+3. **Clarity > proficiency:** For a long time when I stood in the front I was in "speech mode", i.e. every sentence has to be correct, clean and proficient. Some people go even further than I did and pretend to hold a state of the union address to the nation whenever they give a speech. Not always, but often, this level of rhetorics comes at the expense of clarity, e.g. we use a fancy word not because it makes the most sense but rather because we want to signal that we know the fancy word. I recommend completely losing the "statesman" mentality and using basic language. There is no need to perform a poem on "the magnitude of suffering during a famine" when saying "having no food is really bad" is completely sufficient. There is also no need to use grammatically correct sentences. As long as the message is clear nobody cares whether you butcher the grammar. As I will discuss in the next point there are obvious advantages of being very proficient in a language but what I really want to stress here is that a) there is no shame in using simple language or incomplete grammar and b) don't waste time searching for a fancy word when you can use a basic one.
+
+4. **Efficient speech:** In some situations you can save a lot of time and gain clarity by referencing already existing public knowledge. This includes metaphors, analogies, simple examples or correct technical terminology. An example for an analogy would be when a team defends legalizing drugs and props it "similar to alcohol and tobacco". This little sentence just saved them two minutes of modeling and rendered much model criticism from OO completely useless. Describing a situation as an "A blessing in disguise" already provides a certain framing for the judges that is hard to achieve otherwise with similar efficiency. It is also helpful to know some basic technical terminology for most fields of research. Describing something as a "prisoners dilemma" saves you the hassle of repeating "a situation in which the incentives of the individuals are not aligned with the common good" over and over. This should only be done if you expect other teams or the judges to know these technical terms. If they get too specific you are just talking gibberish to them.
+
+## Some concerns
+
+### Doesn't this hack debating?
+
+You might feel like this is some kind of reverse engineering of the adjudicator and therefore a wrong thing to do. However, the judges and other teams profit from a style that is more clear and understandable. Everyone wins.
+
+### Doesn't this remove the purpose of style-based formats?
+
+Some circuits have style-based formats that not only focus on content. In Germany this format is OPD and its purpose is to train you in the persuasion of average people (i.e. slower and less technical speeches). Most of these techniques can be transferred one-to-one: redundancies are even more useful, clarity is still a plus and metaphors and analogies really get the general public going. Re-ordering the logic seems to be plus as well, at least I did it for the last couple of years without anyone complaining. Maybe use less technical terms and slightly simpler language. But otherwise I think that whatever strategy increases understanding should be used.
+
+#### ***One last note***
+
+If you have any feedback regarding anything (i.e. layout or opinions) please tell me in a constructive manner via your preferred means of communication.
+
