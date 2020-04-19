@@ -5,8 +5,7 @@ subtitle:   "Some observations on how to make sure that what you say is being he
 date:       2020-05-01 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/speaker.png"
-category:   opinions
-#tags:       [debating]
+category:   opinion
 ---
 
 ## What is this post about?

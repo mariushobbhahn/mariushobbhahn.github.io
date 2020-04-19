@@ -5,8 +5,7 @@ subtitle:   "This is summary/illustration for a workshop given by Sella Nevo"
 date:       2020-05-01 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/adjudication.jpeg"
-category:   opinions
-#tags:       [machine learning]
+category:   opinion
 ---
 
 ## What is this post about?
