@@ -4,7 +4,7 @@ title:      "Efficient Adjudication"
 subtitle:   "This is summary/illustration for a workshop given by Sella Nevo"
 date:       2020-05-01 20:28:00
 author:     "Marius Hobbhahn"
-header-img: "img/adjudication.jpeg"
+header-img: "img/header-imgs/adjudication.jpeg"
 category:   opinion
 ---
 
@@ -37,8 +37,8 @@ It is, once more, important to stress that 15 minutes is not a lot of time to ad
 1. **Focus on the controversial stuff:** You can represent a debate as a tree structure. The entire debate is the root, the branches are either clashes or rankings between teams and the leaves are the arguments the teams made. At the beginning of your discussion, you need to find out what parts of the tree are controversial and which are not. The rest of the discussion is then spent on deciding the controversial parts of the tree. Uncontroversial parts of the tree should be mostly ignored since they don't yield any new insight for the ranking of the teams.
 
 <figure>
-  <img src="/img/Efficient_Adjudication/tree_clash.png"/>
-  <img src="/img/Efficient_Adjudication/tree_rank.png"/>
+  <img src="/img/Efficient_Adjudication/tree_clash_focused.png"/>
+  <img src="/img/Efficient_Adjudication/tree_rank_focused.png"/>
 </figure>
 
 2. **Be explicit:** Everyone in your panel needs to understand what you are currently trying to achieve. Spending ten seconds on clarifying which clash you want to solve can save one minute of rambling. An example would be "Let's discuss the opening half first, OG said X, OO said Y, Wing Z you are the only one to think OG beats OO. Why is this the case? Try to keep it short and comparative." (or some more normal version of that).

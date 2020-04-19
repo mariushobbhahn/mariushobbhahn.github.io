@@ -4,7 +4,7 @@ title:      "Efficient Speaking"
 subtitle:   "Some observations on how to make sure that what you say is being heard"
 date:       2020-05-01 20:28:00
 author:     "Marius Hobbhahn"
-header-img: "img/speaker.png"
+header-img: "img/header-imgs/speaker.png"
 category:   opinion
 ---
 
@@ -17,7 +17,7 @@ Most debaters know the experience of losing a debate and feeling completely misr
 Human communication is already hard outside of debating. Adding pressure and removing instant feedback definitely doesn't make it easier. I think we can broadly categorize the communication in a debate in three parts: the speaker, the judge, and the process. The process describes the general setup of the situation, e.g. that the speaker talks while the judges only listen and write, the fact that there is no instant feedback, etc.
 
 <figure>
-  <img src="/img/Efficient_Adjudication/setup.png"/>
+  <img src="/img/Efficient_Speeches/setup.png"/>
 </figure>
 
 1. **The Speaker:** We always think we have said more than we actually did. This is the case because the largest parts of our thinking process are not shared. Our imaginations, our associations with the argument or the words we use, the scenery we picture in our head while explaining something - all of these are things that we see clearly in front of our inner eye but are invisible to everyone else. Even though this is not new information for you, it is still impressive how easy we forget the extent of this effect. Just describe an image as accurately as possible to a friend and have them sketch it from your description. You will be surprised how much of the "obvious things" they missed from your explanation.
