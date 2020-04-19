@@ -39,8 +39,9 @@ It is, once more, important to stress that 15 minutes is not a lot of time to ad
 <figure>
   <img src="/img/Efficient_Adjudication/tree_clash_focused.png"/>
 </figure>
-
-
+  
+  
+  
 <figure>
   <img src="/img/Efficient_Adjudication/tree_rank_focused.png"/>
 </figure>
