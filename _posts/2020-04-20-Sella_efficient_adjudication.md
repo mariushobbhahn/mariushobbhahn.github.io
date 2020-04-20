@@ -2,7 +2,7 @@
 layout:     post
 title:      "Efficient Adjudication Techniques"
 subtitle:   "This is summary/illustration for a workshop given by Sella Nevo"
-date:       2020-05-01 20:28:00
+date:       2020-04-20 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/adjudication.jpeg"
 category:   opinion

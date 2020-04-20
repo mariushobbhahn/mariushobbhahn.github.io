@@ -2,7 +2,7 @@
 layout:     post
 title:      "Efficient Speaking"
 subtitle:   "Some observations on how to make sure that what you say is being heard"
-date:       2020-05-01 20:28:00
+date:       2020-04-21 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/speaker.png"
 category:   opinion
