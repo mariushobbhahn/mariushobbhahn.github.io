@@ -19,5 +19,36 @@
 		leads to & $\rightarrow$ & for all & $\forall$ & impact & \textbf{I}
 	\end{tabular}
 \end{table*}		
-	
+
+%accuracies: 95.4% cifar10, 100% SVHN, 76.6% cifar100
+\begin{table*}[h!]
+	\scriptsize
+	\centering
+	\begin{tabular}{l  l || c c c c  c  c  c  c c c c}
+		\toprule
+		& & \multicolumn{2}{c}{\textbf{MAP}} & \multicolumn{3}{c}{\textbf{Diag Sampling}} & \multicolumn{3}{c}{\textbf{KFAC Sampling}} &  \multicolumn{3}{c}{\textbf{Dirichlet mode}}\\
+		\textbf{Train} & \textbf{Test} & \textbf{MMC} & \textbf{AUROC} & \textbf{MMC} & \textbf{AUROC} & \textbf{Time} & \textbf{MMC} & \textbf{AUROC} & \textbf{Time} & \textbf{MMC} & \textbf{AUROC} &  \textbf{Time}\\
+		\midrule
+		MNIST & MNIST        & 
+		MNIST & FMNIST       & 
+		MNIST & notMNIST     & 
+		MNIST & KMNIST       & 
+		\midrule
+		CIFAR-10 & CIFAR-10  & 0.977 & -     & 0.948 & -     & $13.633 \pm 0.612$ & $0.857 \pm 0.003$ & -                 & 0.966 & -     & $0.031 \pm 0.004$ \\
+		CIFAR-10 & CIFAR-100 & 0.811 & 0.879 & 0.708 & 0.889 & $13.632 \pm 0.572$ & $0.562 \pm 0.003$ & $0.880 \pm 0.012$ & 0.742 & 0.866 & $0.027 \pm 0.002$ \\
+		CIFAR-10 & SVHN      & 0.755 & 0.928 & 0.643 & 0.933 & $35.237 \pm 1.529$ & $0.484 \pm 0.004$ & $0.939 \pm 0.001$ & 0.647 & 0.934 & $0.070 \pm 0.004$ \\
+		\midrule
+		SVHN & SVHN          &  
+		SVHN & CIFAR-10      &
+		SVHN & CIFAR-100     & 
+		\midrule
+		CIFAR-100 & CIFAR-100 & 
+		CIFAR-100 & CIFAR-10  & 
+		CIFAR-100 & SVHN      & 
+		\bottomrule
+	\end{tabular}
+	\caption{Out-of-distribution detection results. A network has been trained on the data set in the \textbf{train} column and is tested on the \textbf{test} column. Optimally, the MMC for out of distribution data is low and the AUROC is high. There is no clear winner when it comes to discriminating in and OOD w.r.t. both metrics. However, the Laplace Bridge is around 400 times faster on average. Time is measured in seconds. Five runs with different seeds per experiment were conducted.}
+	\label{tab:experiments_table}
+\end{table*}
+
 \end{document}

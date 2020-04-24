@@ -109,7 +109,7 @@ My pre-undergrad understanding of science was terribly naive. I assumed that sci
 
 
 
-#### Cryptocurrencies
+#### Block-Chain technology
 
 
 #### The solution to housing is not rent-control
