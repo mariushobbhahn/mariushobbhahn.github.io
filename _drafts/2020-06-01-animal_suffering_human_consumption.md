@@ -4,7 +4,7 @@ title:      "How much human suffering is there?"
 subtitle:   "A back-of-the-envelope attempt to quantify human suffering"
 date:       2019-12-21 20:28:00
 author:     "Marius Hobbhahn"
-header-img: "img/TODO"
+header-img: "img/header-imgs/sad_cow.png"
 category:   opinion
 ---
 
@@ -17,14 +17,27 @@ https://www.effectivealtruism.org/articles/cause-profile-animal-welfare/
 
 https://butcantheysuffer.wordpress.com/tag/centre-for-effective-altruism/
 
-## Assumptions
+## Why should animal suffering have moral weight?
+
 
 
 ## Shut up and calculate
 
+### Absolute suffering over time
 
 
-## What could be improved
+### 
+
+
+### Nerd section - Data preparation
+
+
+## Conclusions
+
+
+
+## What could be improved in my modeling
+
 
 
 
