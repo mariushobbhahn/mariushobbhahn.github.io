@@ -19,6 +19,8 @@ https://butcantheysuffer.wordpress.com/tag/centre-for-effective-altruism/
 
 https://animalequality.org/news/why-factory-farming-is-the-largest-cause-of-animal-abuse-in-history/
 
+https://www.who.int/healthinfo/global_burden_disease/GBD2004_DisabilityWeights.pdf?ua=1
+
 ## Why should animal suffering have moral weight?
 
 
