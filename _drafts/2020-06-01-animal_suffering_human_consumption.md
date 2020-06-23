@@ -11,8 +11,11 @@ category:   opinion
 ## **What is this post about?**
 
 
+https://www.openphilanthropy.org/2017-report-consciousness-and-moral-patienthood
 
-Disclaimer: I don't hate Democracy. 
+https://www.effectivealtruism.org/articles/cause-profile-animal-welfare/
+
+https://butcantheysuffer.wordpress.com/tag/centre-for-effective-altruism/
 
 ## Assumptions
 
