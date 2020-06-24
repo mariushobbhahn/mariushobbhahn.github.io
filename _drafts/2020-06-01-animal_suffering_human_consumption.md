@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "How much human suffering is there?"
-subtitle:   "A back-of-the-envelope attempt to quantify human suffering"
+title:      "How much animal suffering is there?"
+subtitle:   "A back-of-the-envelope attempt to quantify animal suffering caused by human consumption"
 date:       2019-12-21 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/sad_cow.png"
@@ -21,18 +21,32 @@ https://animalequality.org/news/why-factory-farming-is-the-largest-cause-of-anim
 
 https://www.who.int/healthinfo/global_burden_disease/GBD2004_DisabilityWeights.pdf?ua=1
 
+https://www.lcanimal.org/index.php/campaigns/other-issues/factory-farming
+
+https://www.tractorsupply.com/tsc/cms/life-out-here/the-barn/livestock/common-cattle-diseases
+
+https://vikaspedia.in/agriculture/livestock/general-management-practices-of-livestock/common-animal-diseases-and-their-prevention-and-treatments
+
+https://petpedia.co/factory-farming-statistics/
+
+This does not include Wild animal suffering
+
+Because there are so many assumptions we need to make the estimate might be wrong by multiple orders of magnitude. 
+
 ## Why should animal suffering have moral weight?
 
+Before we actually start comparing I think it is important to revisit the reasons why we should give animal suffering some moral weight. This is both for people who are rather new to these ideas but also for those who currently do not believe in them. If you have any objections regarding the followig arguments please let me know. 
 
 
 ## Shut up and calculate
+
+Let's have a look at some numbers to have a chance of estimating upper and lower bounds for animal suffering
 
 ### Animals killed for production
 
 with chicken
 
 without chicken
-
 
 fish
 
@@ -46,8 +60,7 @@ take numbers from consciousness and moral patienthood
 
 find large upper and lower bounds
 
-
-### How does it compare to humans
+### How does it compare to humans?
 
 
 ### Nerd section - Data preparation
