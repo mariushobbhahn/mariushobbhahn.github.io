@@ -41,15 +41,22 @@ subtitle: summary of my life (so far)
             <div>Bayesian Deep Learning</div>
             <div>AI Safety and Alignment</div>
             <div>Fairness in Machine Learning</div>
-            <div>Adverserial Attacks</div>
         </div>
     </div>
 
     <div class="row" style="padding-top: 3em;">
         <div class="col-md-3"><h3>Education</h3></div>
         <div class="col-md-9">
+            <h4>International Max-Planck Research School Tübingen, Germany</h4>
+            <div>PhD with Philipp Hennig, 2020-now</div>
+            <div>Topic: <i>Development of a new approximate inference scheme</i></div>
+            <div></div>
+
+            <div class="row" style="padding-bottom: 2em"></div>		
+
             <h4>University of Tübingen, Germany</h4>
-            <div>M.Sc., Computer Science/Machine Learning, 2018-now</div>
+            <div>M.Sc., Machine Learning/Computer Science, 2018-2020</div>
+            <div>Thesis: <i><a href="/files/Master_Thesis_Marius_Hobbhahn.pdf">Fast Predictive Uncertainty for Classification with Bayesian Deep Networks</a></i></div>
             <div></div>
             <div>Grade (currently 1.5)</div>
 
