@@ -118,55 +118,27 @@ subtitle: summary of my life (so far)
         </div>
     </div>
 
-<!--
+
     <div class="row" style="padding-top: 3em;">
-        <div class="col-md-3"><h3>Publication</h3></div>
+        <div class="col-md-3"><h3>Publications</h3></div>
         <div class="col-md-9">
-            <h4>Predictive Uncertainty Quantification with Compound Density Networks</h4>
+            <h4>Fast Predictive Uncertainty for Classification with Bayesian Deep Networks</h4>
             <div>
-                <i>Kristiadi, Agustinus</i> and Asja Fischer. arXiv preprint arXiv:1902.01080 (2019).
+                <i>Hobbhahn, Marius</i>; Kristiadi, Agustinus and Hennig, Philipp. arXiv preprint arXiv:2003.01227 (2020).
             </div>
-                [<a href="https://arxiv.org/abs/1902.01080">arxiv</a>]
-                [<a href="https://github.com/wiseodd/compound-density-networks">code</a>]
+                [<a href="https://arxiv.org/abs/2003.01227">arxiv</a>]
+                [<a>code (soon)</a>]
 
             <div class="row" style="padding-bottom: 2em"></div>
 
-            <h4>Incorporating Literals into Knowledge Graph Embeddings</h4>
+            <h4>Sequence Classification using Ensembles of Recurrent Generative Expert Modules</h4>
             <div>
-              <i>Kristiadi, Agustinus</i>*, Mohammad Asif Khan*, Denis Lukovnikov, Jens Lehmann, and Asja Fischer. ISWC (2019).
+              <i>Hobbhahn, Marius</i>; Butz, Martin; Fabi, Sarah and Otte Sebastian. ESANN (2020).
             </div>
-                [<a href="https://arxiv.org/abs/1802.00934">arxiv</a>]
-                [<a href="https://github.com/SmartDataAnalytics/LiteralE">code</a>]
-
-            <div class="row" style="padding-bottom: 2em"></div>
-
-            <h4>Improving Response Selection in Multi-turn Dialogue Systems by Incorporating Domain Knowledge</h4>
-            <div>
-              Chauduri, Debanjan, <i>Agustinus Kristiadi</i>, Jens Lehmann, Asja Fischer. CoNLL (2018).
-            </div>
-                [<a href="https://arxiv.org/abs/1809.03194">arxiv</a>]
-                [<a href="https://github.com/SmartDataAnalytics/AK-DE-biGRU">code</a>]
-
-            <div class="row" style="padding-bottom: 2em"></div>
-
-            <h4>Deep Convolutional Level Set Method for Image Segmentation</h4>
-            <div>
-              <i>Kristiadi, Agustinus</i>, and Pranowo Pranowo. Journal of ICT Research and Applications 11.3 (2017): 284-298.
-            </div>
-            [<a href="http://journals.itb.ac.id/index.php/jictra/article/download/3887/3046">pdf</a>]
-            [<a href="https://github.com/wiseodd/cnn-levelset">code</a>]
-
-            <div class="row" style="padding-bottom: 2em"></div>
-
-            <h4>Parallel Particle Swarm Optimization for Image Segmentation</h4>
-            <div>
-              <i>Kristiadi, Agustinus</i>, Pranowo Pranowo, and Paulus Mudjihartono. DEIS (2013).
-            </div>
-            [<a href="http://sdiwc.net/digital-library/web-admin/upload-pdf/00000491.pdf">pdf</a>]
-            [<a href="https://github.com/wiseodd/swarm-image-segmenter">code</a>]
+                [<a>(ESANN is postponed to 10/2020)</a>]
+                [<a href="https://github.com/mariushobbhahn/Modular-Inverse-Classification">code</a>]
         </div>
     </div>
--->
 
 <!--
     <div class="row" style="padding-top: 3em;">
