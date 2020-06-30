@@ -83,6 +83,27 @@ subtitle: summary of my life (so far)
     </div>
 
     <div class="row" style="padding-top: 3em;">
+    <div class="col-md-3"><h3>Publications</h3></div>
+        <div class="col-md-9">
+            <h4>Fast Predictive Uncertainty for Classification with Bayesian Deep Networks</h4>
+            <div>
+                <i>Hobbhahn, Marius</i>; Kristiadi, Agustinus and Hennig, Philipp. arXiv preprint arXiv:2003.01227 (2020).
+            </div>
+                [<a href="https://arxiv.org/abs/2003.01227">arxiv</a>]
+                [<a>code (soon)</a>]
+
+            <div class="row" style="padding-bottom: 2em"></div>
+
+            <h4>Sequence Classification using Ensembles of Recurrent Generative Expert Modules</h4>
+            <div>
+              <i>Hobbhahn, Marius</i>; Butz, Martin; Fabi, Sarah and Otte Sebastian. ESANN (2020).
+            </div>
+                [<a>(ESANN is postponed to 10/2020)</a>]
+                [<a href="https://github.com/mariushobbhahn/Modular-Inverse-Classification">code</a>]
+        </div>
+    </div>
+
+    <div class="row" style="padding-top: 3em;">
         <div class="col-md-3"><h3>ML Experience</h3></div>
         <div class="col-md-9">
             <h4>Object Detection using the Scattering Transform (Grade: 1.7)</h4>
@@ -118,27 +139,6 @@ subtitle: summary of my life (so far)
         </div>
     </div>
 
-
-    <div class="row" style="padding-top: 3em;">
-        <div class="col-md-3"><h3>Publications</h3></div>
-        <div class="col-md-9">
-            <h4>Fast Predictive Uncertainty for Classification with Bayesian Deep Networks</h4>
-            <div>
-                <i>Hobbhahn, Marius</i>; Kristiadi, Agustinus and Hennig, Philipp. arXiv preprint arXiv:2003.01227 (2020).
-            </div>
-                [<a href="https://arxiv.org/abs/2003.01227">arxiv</a>]
-                [<a>code (soon)</a>]
-
-            <div class="row" style="padding-bottom: 2em"></div>
-
-            <h4>Sequence Classification using Ensembles of Recurrent Generative Expert Modules</h4>
-            <div>
-              <i>Hobbhahn, Marius</i>; Butz, Martin; Fabi, Sarah and Otte Sebastian. ESANN (2020).
-            </div>
-                [<a>(ESANN is postponed to 10/2020)</a>]
-                [<a href="https://github.com/mariushobbhahn/Modular-Inverse-Classification">code</a>]
-        </div>
-    </div>
 
 <!--
     <div class="row" style="padding-top: 3em;">
