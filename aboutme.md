@@ -96,7 +96,7 @@ subtitle: summary of my life (so far)
 
             <h4>Sequence Classification using Ensembles of Recurrent Generative Expert Modules</h4>
             <div>
-              <i>Hobbhahn, Marius</i>; Butz, Martin; Fabi, Sarah and Otte Sebastian. ESANN (2020).
+              <i>Hobbhahn, Marius</i>; Butz, Martin; Fabi, Sarah and Otte, Sebastian. ESANN (2020).
             </div>
                 [<a>(ESANN is postponed to 10/2020)</a>]
                 [<a href="https://github.com/mariushobbhahn/Modular-Inverse-Classification">code</a>]
@@ -118,13 +118,13 @@ subtitle: summary of my life (so far)
 
             <div class="row" style="padding-bottom: 2em"></div>
 
-            <h4>Reconstruction of the Paper "reading scene text in deep convolutional sequences" (Grade: 1.3)</h4>
+            <h4>Reconstruction of the Paper "Reading Scene Text in Deep Convolutional Sequences" (Grade: 1.3)</h4>
                 [<a href="https://github.com/mariushobbhahn/Reading-scene-text-in-deep-convolutional-sequences/blob/master/report/report_deep_sequences.pdf">arxiv</a>]
                 [<a href="https://github.com/mariushobbhahn/Reading-scene-text-in-deep-convolutional-sequences">code</a>]
 
             <div class="row" style="padding-bottom: 2em"></div>
 
-            <h4>Bayesian Prediction of winprobability in League of Legends (Grade: 1.0)</h4>
+            <h4>Bayesian Prediction of Winprobability in League of Legends (Grade: 1.0)</h4>
             [<a href="https://github.com/mariushobbhahn/BayesLoLPredictions/blob/master/Project/BDA%2BCM_Project_Hobbhahn.html">html</a>]
             [<a href="https://github.com/mariushobbhahn/BayesLoLPredictions/tree/master/Project">code</a>]
 
@@ -134,7 +134,7 @@ subtitle: summary of my life (so far)
             <div>Successfully completed over 20 lectures related to ML, AI, NNs, RL, Stats, etc. at the University of Tübingen</div>
 
             <h4>Programming Experience</h4>
-            <div><b>Programming Languages:</b> Python > R > Java, JavaScript, C++, SQL</div>
+            <div><b>Programming Languages:</b> Python > R > Java, JavaScript, C++, SQL, Julia, Flutter</div>
 	    <div><b>ML related:</b> Pytorch, Tensorflow, Keras, Cuda</div>
         </div>
     </div>
