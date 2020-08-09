@@ -38,31 +38,31 @@ Before we get into the actual computations it is important to get a more accurat
 The number of animals we kill for human consumption has drastically increased over the last 70 years.
 
 <figure>
-  <img src="/img/Animal_suffering/animals_killed_over_time.png"/>
+  <img src="/img/Animal_Suffering/animals_killed_over_time.png"/>
 </figure>
 
 The first observation is that we see mostly chickens. While humanity slaughtered around 6.5 billion Chicken a year in 1961 it has grown to a collective 68.8 billion in 2018. To see what has happened to other animals we remove chickens from the graph.
 
 <figure>
-  <img src="/img/Animal_suffering/animals_killed_over_time_wo_chicken.png"/>
+  <img src="/img/Animal_Suffering/animals_killed_over_time_wo_chicken.png"/>
 </figure>
 
 We find that the number of other animals has increased as well but none of them at the same rate as chickens. While chickens had a 10-fold increase from 1961 to 2018 pigs increased 4-fold, turkeys 3.5-fold, sheep 1.5-fold, Goats 3.5-fold, and cattle 1.3-fold. While the relative increases are interesting I think the absolute numbers give a more interesting perspective. The current world population (summer 2020) is around 7.6 billion people. Humanity kills 68.8 billion chicken every year which means 9 chickens on average per person and year. If you account for the fact that some people don't eat meat for religious or ethical reasons this means over 10 per person and year. Doing the same calculation you get 4 percent of a cow, 9 percent of a Turkey, 20 percent of a pig, 6 percent of a goat, and 8 percent of a sheep per person and year. That's a lot of meat! As you can see in the following there is a large correlation between the amount of meat consumed by individuals and the wealth of a given country.
 
 <figure>
-  <img src="/img/Animal_suffering/global_meet_per_person.png"/>
+  <img src="/img/Animal_Suffering/global_meet_per_person.png"/>
 </figure>
 
 Humans not only kill land-animals but also fish on large scale for their consumption.
 
 <figure>
-  <img src="/img/Animal_suffering/seafood_production_over_time.png"/>
+  <img src="/img/Animal_Suffering/seafood_production_over_time.png"/>
 </figure>
 
 As we can see both the number of fish that are captured but also the amount of seafood that is produced in aquacultures increases over time. However, the graph for aquaculture might be a bit misleading since it includes not only fish but also aquatic plants such as seaweed and smaller species such as Molluscs and Crustaceans. According to <a href='http://www.fao.org/3/ca5224en/ca5224en.pdf'>this UN report</a> the top ten species groups (measured in tons) in global aquaculture are as follows.
 
 <figure>
-  <img src="/img/Animal_suffering/top_ten_aquaculture_composition.png"/>
+  <img src="/img/Animal_Suffering/top_ten_aquaculture_composition.png"/>
 </figure>
 
 Only four of these ten species are actually fishes and the rest is either aquatic plants or smaller animals where I am really uncertain whether they can suffer. For simplicity, I will not account for them in my computations but I would be interested in expert opinions on the matter.
@@ -70,11 +70,11 @@ Only four of these ten species are actually fishes and the rest is either aquati
 To summarize what we know about the current situation of factory farming and aquaculture consider the following two tables. The first shows the number of animals killed for human consumption in 2018 and the second shows the number of fishes killed in aquaculture (computed by their weight in relation to the tons of production from above).
 
 <figure>
-  <img src="/img/Animal_suffering/animals_killed_2018.png"/>
+  <img src="/img/Animal_Suffering/animals_killed_2018.png"/>
 </figure>
 
 <figure>
-  <img src="/img/Animal_suffering/fishes_killed_2017.png"/>
+  <img src="/img/Animal_Suffering/fishes_killed_2017.png"/>
 </figure>
 
 ### How do we approximate animal suffering?
@@ -95,7 +95,7 @@ This question seems to be by far the hardest but is probably the holy grail of a
 To get the expected suffering exchange rate I multiply the probability that I find morally relevant with the relative difference in brain weight to get a first metric and the relative difference in neurons to get a second one. These metrics are imperfect for suffering for multiple reasons: a) brain weight would have unintuitive implications such as "women are, on average, less capable of suffering than men" and b) it is very unclear how the relationship between the metrics and capability to suffer is. Maybe it is linear, maybe it is exponential, maybe the ability to suffer requires a certain threshold or maybe it is a combination of the previous ideas. I could easily come up with reasons for and against all of these hypotheses and this merely shows that we have little to no idea, especially because it is hard or impossible to find evidence for or against them other than our intuitions. However, one of the intuitions that seem very strong is that the ability to suffer somehow scales with the complexity of your brain. We don't know exactly how it is linked but we would probably agree that a cow's ability to suffer is lower than that of a human but larger than a chicken. Since the brain weight and the number of neurons are the only available data points I used them as proxies. In the following table, you can find a summary of the just described facts and rates.
 
 <figure>
-  <img src="/img/Animal_suffering/moral_relevance_table.png"/>
+  <img src="/img/Animal_Suffering/moral_relevance_table.png"/>
 </figure>
 
 ### What are the results?
@@ -103,7 +103,7 @@ To get the expected suffering exchange rate I multiply the probability that I fi
 In the following we will have a look at the results coming from the different metrics. First, we will have a short overview of the suffering over time.
 
 <figure>
-  <img src="/img/Animal_suffering/animal_DALYs_over_time.png"/>
+  <img src="/img/Animal_Suffering/animal_DALYs_over_time.png"/>
 </figure>
 
 This is basically just a reweighted version of the plots about the number of killed animals over time since I don't have any actual data on how conditions in factory farms changed over time. The more interesting interpretations come from the snapshots we have from the most recent data (2017/2018) which we will dive in now.
@@ -111,7 +111,7 @@ This is basically just a reweighted version of the plots about the number of kil
 Let's first check out the disease burden on animals that are weighed by the weight of each species' brain.
 
 <figure>
-  <img src="/img/Animal_suffering/snapshot_2017_2018_DALYs_adjusted.png"/>
+  <img src="/img/Animal_Suffering/snapshot_2017_2018_DALYs_adjusted.png"/>
 </figure>
 
 We can see that: a) Humans still have by far the highest expected value of DALYs per year, b) Pigs have larger expected DALYs than chickens. I find that interesting and would not have expected it just because humanity kills so many chickens every year, and c) The values for Fishes can't even be seen on this metric. Their brain is so small and light that the number of fishes is strongly mitigated.
@@ -119,7 +119,7 @@ We can see that: a) Humans still have by far the highest expected value of DALYs
 If we consider the number of neurons in the brain as a proxy, we get a slightly different picture.
 
 <figure>
-  <img src="/img/Animal_suffering/snapshot_2017_2018_DALYs_adjusted_metric2.png"/>
+  <img src="/img/Animal_Suffering/snapshot_2017_2018_DALYs_adjusted_metric2.png"/>
 </figure>
 
 The main difference to the first metric (brain weight) is that the expected DALYs decreased for every species but chickens in relation to humans. Apparently, for some reason, the neurons per weight ratio are higher for chickens and humans than for other animals. Other than that we still have similar trends: Fishes are still not at all visible on the scale and the expected value for humans is larger than the estimates for all animals combined.
@@ -127,13 +127,13 @@ The main difference to the first metric (brain weight) is that the expected DALY
 While this might look like that we should prioritize humans over animals when it comes to reducing suffering we should keep in mind that we are working with very rough approximations. To emphasize the possible error that we are making I want to show the DALYs of the different species when we do neither adjust for brain weight nor for number of neurons in the brain to give an intuitive upper bound (I would find it very surprising if it turned out that e.g. chickens could suffer more than humans).
 
 <figure>
-  <img src="/img/Animal_suffering/snapshot_2017_2018_DALYs_not_adjusted.png"/>
+  <img src="/img/Animal_Suffering/snapshot_2017_2018_DALYs_not_adjusted.png"/>
 </figure>
 
 As expected, the sheer number of chickens dominates all other species. To make comparisons easier we remove them from the equation.
 
 <figure>
-  <img src="/img/Animal_suffering/snapshot_2017_2018_DALYs_not_adjusted_wo_chickens.png"/>
+  <img src="/img/Animal_Suffering/snapshot_2017_2018_DALYs_not_adjusted_wo_chickens.png"/>
 </figure>
 
 We find that most species have a higher upper bound than the expected value of humans if we don't adjust for brain weight or number of neurons. My expected value is larger for pigs but lower for all other species. However, I think that the probability that the non-human animals in question have the same capacity for suffering is similar to humans is rather low. While I am not sure what exactly the ratio is, I think it exists and the point of this post was to give some rough estimates for it and look at its implications.
