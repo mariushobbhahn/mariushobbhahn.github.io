@@ -70,11 +70,11 @@ Only four of these ten species are actually fishes and the rest is either aquati
 To summarize what we know about the current situation of factory farming and aquaculture consider the following two tables. The first shows the number of animals killed for human consumption in 2018 and the second shows the number of fishes killed in aquaculture (computed by their weight in relation to the tons of production from above).
 
 <figure>
-  <img src="/img/Animal_Suffering/animals_killed_2018.png"/>
+  <img src="/img/Animal_Suffering/Animals_killed_2018.png"/>
 </figure>
 
 <figure>
-  <img src="/img/Animal_Suffering/fishes_killed_2017.png"/>
+  <img src="/img/Animal_Suffering/Fishes_killed_2017.png"/>
 </figure>
 
 ### How do we approximate animal suffering?
@@ -95,7 +95,7 @@ This question seems to be by far the hardest but is probably the holy grail of a
 To get the expected suffering exchange rate I multiply the probability that I find morally relevant with the relative difference in brain weight to get a first metric and the relative difference in neurons to get a second one. These metrics are imperfect for suffering for multiple reasons: a) brain weight would have unintuitive implications such as "women are, on average, less capable of suffering than men" and b) it is very unclear how the relationship between the metrics and capability to suffer is. Maybe it is linear, maybe it is exponential, maybe the ability to suffer requires a certain threshold or maybe it is a combination of the previous ideas. I could easily come up with reasons for and against all of these hypotheses and this merely shows that we have little to no idea, especially because it is hard or impossible to find evidence for or against them other than our intuitions. However, one of the intuitions that seem very strong is that the ability to suffer somehow scales with the complexity of your brain. We don't know exactly how it is linked but we would probably agree that a cow's ability to suffer is lower than that of a human but larger than a chicken. Since the brain weight and the number of neurons are the only available data points I used them as proxies. In the following table, you can find a summary of the just described facts and rates.
 
 <figure>
-  <img src="/img/Animal_Suffering/moral_relevance_table.png"/>
+  <img src="/img/Animal_Suffering/Moral_relevance_table.png"/>
 </figure>
 
 ### What are the results?
