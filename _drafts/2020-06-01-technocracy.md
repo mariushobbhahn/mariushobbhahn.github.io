@@ -48,12 +48,12 @@ I also have to admit that a technocracy might inherit a lot of these problems. C
 
 ### The voters: a negative framing: people are actually dumb and cultists. systemic misunderstanding. biases: confirmation bias, dunning kruger. a positive framing: people have more important stuff to do. specialization is beneficial for everyone. 
 #TODO factcheck everything. This has to be sound.
-I think there are two different angles from which you can look at the voter. There is the cynic in me who has read Kahneman, Dawkins and Hanson (TODO) and has a rather grim view of people and there is the Effective Altruist in me who wants to make systems more beneficial and efficient. 
+I think there are two different angles from which you can look at the voter. There is the cynic in me who has read Kahneman, Dawkins and Hanson (TODO) and has a rather grim view of peoples' decision making and psychology and there is the Effective Altruist in me who wants to make systems more beneficial and efficient for everyone. 
 1. **A negative framing:** 
 TODO
-list of things that turned out different than expected: drugs, criminal punishment and justice, housing, police reform (debias training), imigration, healthcare (system underrated), terrorism (overestimated, prevention underrated), war (bodybag -> power vacuums), redistribution, minority rights (trans/gay), 
+list of things that turned out different than expected: drugs, criminal punishment and justice, housing, police reform (debias training), imigration, healthcare (system underrated), terrorism (overestimated, prevention underrated), war (bodybag -> power vacuums), redistribution, minority rights (trans/gay), economy (game theory), economy (debt level), minority rights (who does it hurt), 
 
-2. **A positive framing:** From a systemic perspective it is bad design when everyone has to be informed about lots of issues because it carries large opportunity cost. Instead of everyone informing themselves about different stances on immigration, health care, foreign affairs, drug policy, policing reform, religious rights, abortion, economic policy, redistrubition, tax policy, etc. you could have some individuals who specialize in their respective field and make the decisions and the rest of us could have more time to do what we are specialists for. We could refine our skills for our job, just spend more time with family and friends or play videogames. Specialization is a net benefit for all because of the comparative advantages that you can see everywhere in society. We don't need two companies that both make mediocre cars and mediocre computers but we need one company that makes good computers and one that makes good cars. Similarly, we don't need lots of mediocre informed voters to make decisions as an aggregate but rather specialized individuals that make good decisions in their domain (and some people who coordinate the specialists, obviously). 
+2. **A positive framing:** From a systemic perspective it is bad design when everyone has to be informed about lots of issues because it carries large opportunity cost. Instead of everyone informing themselves about different stances on immigration, health care, foreign affairs, drug policy, policing reform, religious rights, abortion, economic policy, redistrubition, tax policy, etc. you could have some individuals who specialize in their respective field and make the decisions and the rest of us could have more time to do what we are specialists in. We could refine our skills for our job, just spend more time with family and friends or play videogames. Specialization is a net benefit for all because of the comparative advantages that you can see everywhere else in society. We don't need two companies that both make mediocre cars and mediocre computers but we need one company that makes good computers and one that makes good cars. Similarly, we don't need lots of mediocre informed voters to make decisions as an aggregate but rather specialized individuals that make good decisions in their domain (and some people who coordinate the specialists, obviously). 
 
 ### Politicians have short-term incentives: re-election 
 
@@ -63,7 +63,7 @@ list of things that turned out different than expected: drugs, criminal punishme
 
 ### Superficial measurement of results: most politicians don't check the results of their policies
 
-### Elections are not very fine-grained: 4-5y 
+### Elections are not very fine-grained: 4-5y & choices among very different subjects
 
 ### Some election systems have serious flaws: 50%, gerrymandering, etc. money in politics, corruption, 
 
@@ -80,13 +80,12 @@ list of things that turned out different than expected: drugs, criminal punishme
 ### Other solutions within the democratic framework
 
 
-
 ### Politicians have advisors
 
 
+### You need accountability 
 
-### You need accountability
-
+Stop slowly drifting into bad regions. 
 
 
 ### I actually don't know whether politics or academia is less biased against minorities

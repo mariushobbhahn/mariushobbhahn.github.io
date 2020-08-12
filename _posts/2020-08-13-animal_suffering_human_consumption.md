@@ -2,7 +2,7 @@
 layout:     post
 title:      "How much animal suffering is there?"
 subtitle:   "A back-of-the-envelope attempt to quantify animal suffering caused by human consumption"
-date:       2020-08-13 20:28:00
+date:       2020-08-12 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/sad_cow.png"
 category:   opinion
@@ -33,7 +33,7 @@ Before we actually start comparing I think it is important to revisit the reason
 
 Before we get into the actual computations it is important to get a more accurate picture of factory farming. Afterward I attempt to answer the two hardest questions of this article: a) "How bad is the situation for animals in factory farms?" and b) "what is the suffering exchange rate between humans and animals?". After giving estimates for the answers to these questions we will compare animal suffering to human suffering.
 
-### Animals killed for production
+### Animals killed for consumption
 
 The number of animals we kill for human consumption has drastically increased over the last 70 years.
 
