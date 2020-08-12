@@ -11,7 +11,7 @@ category:   opinion
 ## **What is this post about?**
 
 Before we can answer important moral questions such as "which cause is most cost-efficient w.r.t. the reduction of suffering?" we first have to have an approximate view of the status quo. While there are lots of reports of the horrendous conditions that animals face in factory farming, I want to attempt to give a quantitative estimate of how much suffering animals face in factory and
-fish farms. This post is the second in a series on approximating the amount of suffering in the world. I would recommend to check out the <a href='http://www.mariushobbhahn.com/2020-06-29-human_suffering/'>first post</a> to get a better understanding of the ideas but especially recommend it if you are unfamiliar with the concepts of <a href='https://en.wikipedia.org/wiki/Disease_burden'>disease burden</a> and <a href='https://en.wikipedia.org/wiki/Disability-adjusted_life_year'>disability-adjusted life years (DALYs)</a>. I also want to emphasize that this post does not include estimates for <a href='https://en.wikipedia.org/wiki/Wild_animal_suffering'>wild animal suffering</a> but is restricted to animals held and killed for human consumption but I will try to make a similar estimate for wild animals in a future post.
+fish farms. This post is the second in a series on approximating the amount of suffering in the world. I would recommend to check out the <a href='http://www.mariushobbhahn.com/2020-06-29-human_suffering/'>first post</a> to get a better understanding of the ideas but especially recommend it if you are unfamiliar with the concepts of <a href='https://en.wikipedia.org/wiki/Disease_burden'>disease burden</a> and <a href='https://en.wikipedia.org/wiki/Disability-adjusted_life_year'>disability-adjusted life years (DALYs)</a>. I also want to emphasize that this post does not include estimates for <a href='https://en.wikipedia.org/wiki/Wild_animal_suffering'>wild animal suffering</a> but is restricted to animals held and killed for human consumption but I will try to make a similar estimate for wild animals in a future post. Pets and laboratory animals are also not included in this estimate since pets probably don't suffer as much as animals in factory farms and their quantity is rather insignificant when compared to factory farms. 
 
 Lastly, I want to emphasize that we have to be cautious with these kinds of estimates. A lot of the assumptions that I make are very broad and carry high uncertainty. The conclusions can, therefore, be wrong by multiple magnitudes. The general framing for this post is more a first guestimate than a definitive answer to the question "how much animal suffering is there due to human consumption?".
 
@@ -47,7 +47,7 @@ The first observation is that we see mostly chickens. While humanity slaughtered
   <img src="/img/Animal_Suffering/animals_killed_over_time_wo_chicken.png"/>
 </figure>
 
-We find that the number of other animals has increased as well but none of them at the same rate as chickens. While chickens had a 10-fold increase from 1961 to 2018 pigs increased 4-fold, turkeys 3.5-fold, sheep 1.5-fold, Goats 3.5-fold, and cattle 1.3-fold. While the relative increases are interesting I think the absolute numbers give a more interesting perspective. The current world population (summer 2020) is around 7.6 billion people. Humanity kills 68.8 billion chicken every year which means 9 chickens on average per person and year. If you account for the fact that some people don't eat meat for religious or ethical reasons this means over 10 per person and year. Doing the same calculation you get 4 percent of a cow, 9 percent of a Turkey, 20 percent of a pig, 6 percent of a goat, and 8 percent of a sheep per person and year. That's a lot of meat! As you can see in the following there is a large correlation between the amount of meat consumed by individuals and the wealth of a given country.
+We find that the number of other animals has increased as well but none of them at the same rate as chickens. While chickens had a 10-fold increase from 1961 to 2018 pigs increased 4-fold, turkeys 3.5-fold, sheep 1.5-fold, Goats 3.5-fold, and cattle 1.3-fold. While the relative increases are interesting I think the absolute numbers give a more interesting perspective. The current world population (summer 2020) is around 7.6 billion people. Humanity kills 68.8 billion chicken every year which means 9 chickens on average per person and year. If you account for the fact that some people don't eat meat for religious or ethical reasons this means over 10 per person and year. Doing the same calculation you get 4 percent of a cow, 9 percent of a Turkey, 20 percent of a pig, 6 percent of a goat, and 8 percent of a sheep per person and year. That's a lot of meat! As you can see in the following there is a large correlation between the amount of meat consumed by individuals and the wealth of a given country. Since the wealth of most nations has increased quite steadily over the last couple of decades, I expect the meat consumption to rise in most states around the world. This makes animal suffering an even more salient problem than it already is. 
 
 <figure>
   <img src="/img/Animal_Suffering/global_meet_per_person.png"/>
@@ -65,16 +65,16 @@ As we can see both the number of fish that are captured but also the amount of s
   <img src="/img/Animal_Suffering/top_ten_aquaculture_composition.png"/>
 </figure>
 
-Only four of these ten species are actually fishes and the rest is either aquatic plants or smaller animals where I am really uncertain whether they can suffer. For simplicity, I will not account for them in my computations but I would be interested in expert opinions on the matter.
+Only four of these ten species are actually fish and the rest is either aquatic plants or smaller animals where I am really uncertain whether they can suffer. For simplicity, I will not account for them in my computations but I would be interested in expert opinions on the matter.
 
-To summarize what we know about the current situation of factory farming and aquaculture consider the following two tables. The first shows the number of animals killed for human consumption in 2018 and the second shows the number of fishes killed in aquaculture (computed by their weight in relation to the tons of production from above).
+To summarize what we know about the current situation of factory farming and aquaculture consider the following two tables. The first shows the number of animals killed for human consumption in 2018 and the second shows the number of fish killed in aquaculture (computed by their weight in relation to the tons of production from above).
 
 <figure>
   <img src="/img/Animal_Suffering/Animals_killed_2018.png"/>
 </figure>
 
 <figure>
-  <img src="/img/Animal_Suffering/Fishes_killed_2017.png"/>
+  <img src="/img/Animal_Suffering/Fish_killed_2017.png"/>
 </figure>
 
 ### How do we approximate animal suffering?
@@ -114,7 +114,7 @@ Let's first check out the disease burden on animals that are weighed by the weig
   <img src="/img/Animal_Suffering/snapshot_2017_2018_DALYs_adjusted.png"/>
 </figure>
 
-We can see that: a) Humans still have by far the highest expected value of DALYs per year, b) Pigs have larger expected DALYs than chickens. I find that interesting and would not have expected it just because humanity kills so many chickens every year, and c) The values for Fishes can't even be seen on this metric. Their brain is so small and light that the number of fishes is strongly mitigated.
+We can see that: a) Humans still have by far the highest expected value of DALYs per year, b) Pigs have larger expected DALYs than chickens. I find that interesting and would not have expected it just because humanity kills so many chickens every year, and c) The values for fish can't even be seen on this metric. Their brain is so small and light that the number of fish is strongly mitigated.
 
 If we consider the number of neurons in the brain as a proxy, we get a slightly different picture.
 
@@ -122,7 +122,7 @@ If we consider the number of neurons in the brain as a proxy, we get a slightly 
   <img src="/img/Animal_Suffering/snapshot_2017_2018_DALYs_adjusted_metric2.png"/>
 </figure>
 
-The main difference to the first metric (brain weight) is that the expected DALYs decreased for every species but chickens in relation to humans. Apparently, for some reason, the neurons per weight ratio are higher for chickens and humans than for other animals. Other than that we still have similar trends: Fishes are still not at all visible on the scale and the expected value for humans is larger than the estimates for all animals combined.
+The main difference to the first metric (brain weight) is that the expected DALYs decreased for every species but chickens in relation to humans. Apparently, for some reason, the neurons per weight ratio are higher for chickens and humans than for other animals. Other than that we still have similar trends: Fish are still not at all visible on the scale and the expected value for humans is larger than the estimates for all animals combined.
 
 While this might look like that we should prioritize humans over animals when it comes to reducing suffering we should keep in mind that we are working with very rough approximations. To emphasize the possible error that we are making I want to show the DALYs of the different species when we do neither adjust for brain weight nor for number of neurons in the brain to give an intuitive upper bound (I would find it very surprising if it turned out that e.g. chickens could suffer more than humans).
 
@@ -146,7 +146,7 @@ The datasets used both come from <a href='https://ourworldindata.org/meat-produc
 
 ## Conclusions
 
-1. **The difference in brain weight or number of neurons is larger than I expected.** I was especially surprised by how small the brain of chickens and especially fish is. While this is no conclusive evidence it still lead me to update my priorities. I would now prioritize chickens and pigs significantly more than fishes. I was leaning in this direction before looking at the numbers but not as heavily.
+1. **The difference in brain weight or number of neurons is larger than I expected.** I was especially surprised by how small the brain of chickens and especially fish is. While this is no conclusive evidence it still lead me to update my priorities. I would now prioritize chickens and pigs significantly more than fish. I was leaning in this direction before looking at the numbers but not as heavily.
 2. **Animal suffering is definitely important.** While both metrics seem to imply that the expected human suffering is larger than that of any other species expected values and lower bounds of non-human animals still imply a lot of suffering that could be reduced. While I don't know the latest research on the comparative effectiveness of different interventions, the numbers seem to suggest focusing mostly on chickens and pigs. However, this impression might be wrong when the effectiveness of interventions regarding specific species is considered, e.g. there might be more political capital for closing a factory farm with cows than with chickens.
 3. **There are no major ethical updates for me.** There are some small updates and priority shifts as explained in the previous points but my broader belief of 'animal suffering is non-negligible and should be one of the EA cause areas' still stays the same. That is because the numbers neither provide any strong evidence to drop all other causes nor to drop animal suffering as a cause and because the uncertainties within my modeling are just too high. There are just too many hard questions that I approximate with very rough intuitions or lose upper and lower bounds. Some sources of error are discussed deeper in the following section.
 4. **Some interesting considerations:** I had an interesting discussion with a colleague about using the number of neurons as a metric where they asked me how I would decide when I had the chance to save either a human or an elephant (since elephants have more neurons in their brain). While their conclusion was that number of neurons is not a valuable proxy I think it is similarly likely that we massively underestimate the capacity to suffer from elephants. I think the human history of racism and speciesism has mostly shown that we have been insufficiently inclusive in the past and we should be a bit more cautious in the case of elephants. Currently, I, therefore, think that saving the elephant is the right thing with a probability of around 50 percent. Luckily, humans have not yet started to factory farm elephants and this question doesn't have major real-life consequences.
