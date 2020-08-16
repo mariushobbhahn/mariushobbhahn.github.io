@@ -40,7 +40,7 @@ no hard pressures, rather liberal, good nudges, eigenverantwortung, work for you
 
 ## Early Adulthood
 
-post 18. After school until now. 
+post 18. After school until now. Credit assignment gets harder because counterfactual unclear
 
 EA & Debating -> lucky
 
@@ -54,15 +54,17 @@ PhD -> luckiest person ever: group and project -> willing to work the weekends
 
 ## Conclusions and Implications
 
-Hard to disentangle: previous luck and path dependencies, previous choices, If rationality gives you guidelines are you even making the choices?
+Hard to disentangle: previous luck and path dependencies, previous choices, If rationality gives you guidelines are you even making the choices? If you read SSC aren't you just imitating Scott Alexander? ;)
 
-70 luck: 30 choices. Potentially more luck. 
+Assuming similar upbringing and lottery of birth 70 luck: 30 choices. Potentially more luck. 
 
 Am I priviledged -> YES!!!!
 
 Is this fair -> NO!!!!
 
-Change the system, EA, not guilt-driven -> systems perspective. 
+1. systems perspective, attribute more to luck and randomness. Thank the lottery of birth, RNG and the seed of our simulation.
+
+2. Change the system, EA, not guilt-driven 
 
 #### ***One last note***
 
