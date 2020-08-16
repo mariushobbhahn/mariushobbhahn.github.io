@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "How much free speech is optimal?"
-subtitle:   "How does good discourse look like? What can you do to improve your conversations? Who should be cancelled and when?"
+subtitle:   "What does good discourse look like? What can you do to improve your conversations? Who should be cancelled and when?"
 date:       2020-08-16 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/free_speech.jpg"
