@@ -2,7 +2,7 @@
 layout:     post
 title:      "How much free speech is optimal?"
 subtitle:   "What are some heuristics for good discourse?"
-date:       2020-08-15 20:28:00
+date:       2020-08-16 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/free_speech.jpg"
 category:   opinion

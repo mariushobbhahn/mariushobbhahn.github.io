@@ -4,7 +4,7 @@ title:      "How much luck did I have?"
 subtitle:   "A quantitative guesstimate of the luck & privilege I had during my life"
 date:       2020-08-15 20:28:00
 author:     "Marius Hobbhahn"
-header-img: "img/header-imgs/free_speech.jpg"
+header-img: "img/header-imgs/luck.jpg"
 category:   opinion
 ---
 
