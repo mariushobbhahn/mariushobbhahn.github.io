@@ -20,10 +20,13 @@ Intro: Recently had old clothes to give away.
 
 
 
-### Destroying the Local Economy
+### Economy
 
 
-### Helping People in Need
+### Culture
+
+
+### Environment
 
 
 ### The Weighing
@@ -53,5 +56,21 @@ https://shenglufashion.com/2015/09/30/global-trade-of-used-clothing/
 %%% long report by some consulting group
 https://www.tralac.org/images/docs/12012/the-impact-of-second-hand-clothes-and-shoes-in-east-africa-cuts-international-research-study-february-2017.pdf
 
+%%% some numbers and ideas about the east african clothing ban
+https://afric.online/7730-second-hand-clothes-a-threat-to-african-textile/
 
+%%% insights into Rwandas plans
+https://www.aljazeera.com/indepth/features/politics-hand-clothes-debate-dignity-181005075525265.html
+
+%%% claims about britains numbers (need to be verified though)
+https://allafrica.com/stories/201902050856.html
+
+%%% good NYT article on the econ side of the ban
+https://www.nytimes.com/2017/10/12/world/africa/east-africa-rwanda-used-clothing.html
+
+%%% oxfam 2005 report
+https://oxfamilibrary.openrepository.com/bitstream/handle/10546/112464/rr-impact-second-hand-clothing-trade-developing-countries-010905-en.pdf?sequence=1&isAllowed=y
+
+%%% climate impact clothes
+https://www.google.com/search?q=The+CO2+distribution+of+cloth+production+and+transport&client=ubuntu&hs=74j&channel=fs&sxsrf=ALeKk016eGOjrtjZhYwzcOMnA4Vp6W7ZFw:1597597029020&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiVp6LbmKDrAhVEzaQKHUykDJEQ_AUoAXoECA0QAw&biw=1700&bih=900#imgrc=GAxBJg9e7L27yM
 
