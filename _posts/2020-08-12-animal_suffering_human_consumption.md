@@ -163,6 +163,8 @@ As emphasized multiple times already, the questions I try to find answers for ar
 
 3. DALYs are still not a perfect representation of suffering. A longer discussion can be found in <a href='http://www.mariushobbhahn.com/2020-06-29-human_suffering/'>part I</a>. If you have a better metric that is also applicable to animals I would be very interested.
 
+I would like to thank Hans Kersting and Emil Iftekhar for providing feedback and suggesting valuable content.
+
 #### ***One last note***
 
 If you have any feedback regarding anything (i.e. layout or opinions) please tell me in a constructive manner via your preferred means of communication.
