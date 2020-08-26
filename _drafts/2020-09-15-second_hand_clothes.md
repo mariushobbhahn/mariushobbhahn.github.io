@@ -10,13 +10,21 @@ category:   opinion
 
 ## **What is this post about?**
 
-Intro: Recently had old clothes to give away.
+In preparation to move in a new flat in Tübingen I recently separated clothes that I would still use from those that I won't. I originally intended to give those that are still usable away to charity but my girlfriend suggested that this was net negative. She argued that the clothes would destroy local economies in Africa, where they are predominantly sent to, and that the additional emissions through transport would harm the environment. I thought that the second hand clothes would be distributed by NGOs and helped poor people in Africa when they are in need of clothes so that they could spend their income elsewhere. We couldn't find an agreement since neither of us actually had an overview of the empirical evidence or the relevant data to answer economic question of "does it destroy the local economy or help people in need?". To answer this question I did some research. While I hoped to find a rather quick and easy answer that would settle this dispute I was utterly disappointed. Instead of being just an economic question it also involves a lot of historic, cultural and environmental conciderations - most of which don't yield clear and satisfying answers. 
 
-## The Data
+In this post I want to show what I learned and which conclusions I, personally, drew. I want to emphasize that I'm not an expert in the field and even though I have read a lot of articles and dug into some data, I still don't feel like I have a very good grasp of the issue of second hand clothing. You should therefore take my opinions with a degree of uncertainty and expect some of them to be insufficiently nuanced or wrong. 
 
+## History and Data
 
+80s large workforce in clothing. 
+Large decline in industry
+increase in second hand clothing
+causality unclear. Could have been other reasons
+Rwanda second hand clothing ban
 
-## The Moral Considerations
+Problem: selective data, large gaps, large illegal markets, studies are all 10 years old.
+
+## Moral Considerations
 
 
 
@@ -29,7 +37,7 @@ Intro: Recently had old clothes to give away.
 ### Environment
 
 
-### The Weighing
+### A final Weighing
 
 
 
