@@ -22,9 +22,13 @@ increase in second hand clothing
 causality unclear. Could have been other reasons
 Rwanda second hand clothing ban
 
-Problem: selective data, large gaps, large illegal markets, studies are all 10 years old.
+Problems: 
 
-## Moral Considerations
+a) selective data, large gaps, large illegal markets, studies are all 10 years old, large decline around 2015. 
+
+b) framed around subsaharan Africa, but other countries are the major importers in 2019
+
+## Major Considerations
 
 
 
@@ -37,9 +41,9 @@ Problem: selective data, large gaps, large illegal markets, studies are all 10 y
 ### Environment
 
 
-### A final Weighing
+### Where do we go from here?
 
-
+There are alternatives and countries +NGOs have reacted
 
 ## Conclusions
 
@@ -81,4 +85,18 @@ https://oxfamilibrary.openrepository.com/bitstream/handle/10546/112464/rr-impact
 
 %%% climate impact clothes
 https://www.google.com/search?q=The+CO2+distribution+of+cloth+production+and+transport&client=ubuntu&hs=74j&channel=fs&sxsrf=ALeKk016eGOjrtjZhYwzcOMnA4Vp6W7ZFw:1597597029020&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiVp6LbmKDrAhVEzaQKHUykDJEQ_AUoAXoECA0QAw&biw=1700&bih=900#imgrc=GAxBJg9e7L27yM
+
+%%% Explanation of how the system works
+https://www.africanews.com/2018/04/26/global-business-of-secondhand-clothes-thrive-in-africa-business-africa//
+
+%%% Rwanda second hand clothing ban might not be that bad
+https://www.dw.com/en/east-africa-pushes-second-hand-clothing-ban/a-42747222
+
+%%% 2006 article claiming massive job losses in africa
+https://www.un.org/africarenewal/magazine/april-2006/loss-textile-market-costs-african-jobs
+
+%%% BBC article: finally some graphics
+https://www.bbc.com/news/world-africa-44951670
+
+
 

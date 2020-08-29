@@ -70,6 +70,10 @@ Is this fair -> NO!!!!
 
 If you have any feedback regarding anything (i.e. layout or opinions) please tell me in a constructive manner via your preferred means of communication.
 
+%%% Veritasium video
+https://www.youtube.com/watch?v=3LopI4YeC4I
 
+%%% world ranking prosperity index
+https://www.prosperity.com/rankings
 
 
