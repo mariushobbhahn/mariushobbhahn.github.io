@@ -111,7 +111,7 @@ A thing that I will look out for is the development of the textile industry in R
 
 ### Culture
 
-The question of second-hand clothing is not only economic but also once of culture and tradition. While SHC destroy local clothing traditions they also provide the opportunity to access Western culture cheaply. I want to present and weigh both views in the following.
+The question of second-hand clothing is not only economic but also one of culture and tradition. While SHC destroy local clothing traditions they also provide the opportunity to access Western culture cheaply. I want to present and weigh both views in the following.
 
 1. **Protecting existing cultures:** A decline in domestic industries means that local producers, designers, and artists have less influence over what is worn locally. While local production is usually guided by local traditions and thereby preserves cultures that have survived for thousands of years imported clothing and SHC do not. These clothes are usually produced for Western consumers and therefore influenced by Western culture and designed by Western designers. Some countries frame the question of SHC not around economics but rather one of protecting local heritage. Especially Rwanda frames their tariffs (de-facto bans) of SHC around a <a href='https://www.aljazeera.com/indepth/features/politics-hand-clothes-debate-dignity-181005075525265.html'>narrative of dignity</a>. They don't want to be the dumping ground of Western powers but rather lose their colonial chains and produce clothing that reflects their cultural heritage.
 
