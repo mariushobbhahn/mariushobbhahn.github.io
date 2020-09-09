@@ -34,15 +34,17 @@ In this post I want to lay out a couple of different books, podcasts and other f
 
 ## **Podcasts:**
 
-- **Freakonomics Radio:** 45-60 minute episodes about social and econ topics. IMO very well researched and tries to give a fair and accurate overview over the scientific status quo of a topic.
-- **Rationally Speaking:** 45-60 minute episodes about topics concerning rationality and effective altruism. Julias (she is the host) ability to ask exactly the question that I have in mind in every episode is astonishing every single time. Sometimes a bit hit and miss.
-- **80k Hours Podcast:** Episodes of varying lengths (up to 2,5h) about the worlds most pressing problems. Rob Wiblin is always very well prepared and asks interesting questions. I can recommend this podcast to everyone but specifically to people who are interested in EA topics. 
-- **The Inquiry:** 25-minute episodes about a controversial topic from the news. Four experts are asked for their opinion on both sides of a topic. IMO mostly a good overview of the different perspectives of a topic. I am often able to take away a new argument or framing w.r.t. any subject, specifically if the theme is a bit niche.
-- **FiveThirtyEight:** Most useful for a more strategic overview over any form of political incidents in the US. If you are a stats or modeling person I can very much recommend the model talk episodes.
-- **ZEIT Verbrechen:** German podcast series dealing with historical moments in German crime and law history. Pretty interesting content, but unfortunately not very information-dense. I mostly listen to it at double speed or while trying to relax.
-- **DeepMind Podcast:** Great overview over the current state of the DeepMind research areas. For people with ML background maybe a bit superficial but still useful, great for everyone else.
-- **AI Alignment Podcast:** Detailed episodes about the current state of AI alignment ranging from lots of technical talks over AI governance and policy to high-level questions about consciousness.
-- **Masters of Scale:** Reid Hoffman, the founder of LinkedIn, talks with guests about start-ups and what it takes to grow a business. Generally interesting if you are the type for founding or joining a start-up.
+I have linked the original podcasts but you can also find them in your prefered podcast app. 
+
+- <a href='https://freakonomics.com/archive/'>**Freakonomics Radio:**</a> 45-60 minute episodes about social and econ topics. IMO very well researched and tries to give a fair and accurate overview over the scientific status quo of a topic.
+- <a href='http://rationallyspeakingpodcast.org/archive/'>**Rationally Speaking:**</a> 45-60 minute episodes about topics concerning rationality and effective altruism. Julias (she is the host) ability to ask exactly the question that I have in mind in every episode is astonishing every single time. Sometimes a bit hit and miss.
+- <a href='https://80000hours.org/podcast/'>**80k Hours Podcast:**</a> Episodes of varying lengths (up to 2,5h) about the worlds most pressing problems. Rob Wiblin is always very well prepared and asks interesting questions. I can recommend this podcast to everyone but specifically to people who are interested in EA topics. 
+- <a href='https://www.bbc.co.uk/programmes/p029399x/episodes/downloads'>**The Inquiry:**</a> 25-minute episodes about a controversial topic from the news. Four experts are asked for their opinion on both sides of a topic. IMO mostly a good overview of the different perspectives of a topic. I am often able to take away a new argument or framing w.r.t. any subject, specifically if the theme is a bit niche.
+- <a href='https://fivethirtyeight.com/podcasts/'>**FiveThirtyEight:**</a> Most useful for a more strategic overview over any form of political incidents in the US. If you are a stats or modeling person I can very much recommend the model talk episodes.
+- <a href='https://www.zeit.de/serie/verbrechen'>**ZEIT Verbrechen:**</a> German podcast series dealing with historical moments in German crime and law history. Pretty interesting content, but unfortunately not very information-dense. I mostly listen to it at double speed or while trying to relax.
+- <a href='https://deepmind.com/learning-resources/deepmind-the-podcast'>**DeepMind Podcast:**</a> Great overview over the current state of the DeepMind research areas. For people with ML background maybe a bit superficial but still useful, great for everyone else.
+- <a href='https://futureoflife.org/ai-alignment-podcast/'>**AI Alignment Podcast:**</a> Detailed episodes about the current state of AI alignment ranging from lots of technical talks over AI governance and policy to high-level questions about consciousness.
+- <a href='https://mastersofscale.com/'>**Masters of Scale:**</a> Reid Hoffman, the founder of LinkedIn, talks with guests about start-ups and what it takes to grow a business. Generally interesting if you are the type for founding or joining a start-up.
 
 
 ## **Books:**
