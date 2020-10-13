@@ -150,7 +150,7 @@ subtitle: summary of my life (so far)
     </div>
 </div>
 
- <div class="row" style="padding-top: 3em;">
+    <div class="row" style="padding-top: 3em;">
         <div class="col-md-3"><h3>Miscellaneous</h3></div>
         <div class="col-md-9">
 
