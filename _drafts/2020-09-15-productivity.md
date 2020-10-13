@@ -16,6 +16,8 @@ productivity
 
 ## Framing
 
+Think of productivity as sport: trainable, physical constraints, etc.
+
 a) There are physical limitations and constraints
 
 b) Different levels of optimization: 40 - 80h workweek

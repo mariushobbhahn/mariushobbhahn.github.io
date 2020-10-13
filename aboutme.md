@@ -140,47 +140,6 @@ subtitle: summary of my life (so far)
     </div>
 
 
-<!--
-    <div class="row" style="padding-top: 3em;">
-        <div class="col-md-3"><h3>Academic Experience</h3></div>
-        <div class="col-md-9">
-            <h4>Methods of Machine Learning group, University of Tübingen</h4>
-            <div>Research Assistant, 2019-</div>
-
-            <div class="row" style="padding-bottom: 1em"></div>
-
-            <h4>Smart Data Analytics (SDA) group, University of Bonn</h4>
-            <div>Student Research Assistant, 2017-2019</div>
-
-            <div class="row" style="padding-bottom: 1em"></div>
-
-            <h4>Universitas Atma Jaya Yogyakarta</h4>
-            <div>Research Assistant, 2016-2017</div>
-
-            <div class="row" style="padding-bottom: 1em"></div>
-
-            <h4>Universitas Atma Jaya Yogyakarta</h4>
-            <div>Tutor, Advanced Data Structure, 2012</div>
-            <div>Tutor, Database, 2011</div>
-        </div>
-    </div>
--->
-
-<!--
-    <div class="row" style="padding-top: 3em;">
-        <div class="col-md-3"><h3>Industry Experience</h3></div>
-        <div class="col-md-9">
-            <h4>GDP Labs</h4>
-            <div>Software Engineer, 2013-2015</div>
-
-            <div class="row" style="padding-bottom: 1em"></div>
-
-            <h4>Astra International</h4>
-            <div>Software Engineering Intern, 2012</div>
-        </div>
-    </div>
--->
-
     <div class="row" style="padding-top: 3em;">
         <div class="col-md-3"><h3>Language</h3></div>
         <div class="col-md-9">
@@ -190,5 +149,30 @@ subtitle: summary of my life (so far)
         </div>
     </div>
 </div>
+
+ <div class="row" style="padding-top: 3em;">
+        <div class="col-md-3"><h3>Miscellaneous</h3></div>
+        <div class="col-md-9">
+
+            <h4>Academia</h4>
+                <div>Participated at multiple ML Summer Schools and conferences including: PAISS2019, ICML2020, GPSS2020, ESANN2020</div>
+                <div>Organized an ML master overview for 8 European Universities (tba)</div> 
+            <div class="row" style="padding-bottom: 2em"></div>
+	
+            <h4>Debating</h4>
+                <div>Broke at 35+ tournaments, were in the top 10 speakers 20+ times and won 10 of them.</div>
+                <div>My most prestigious speaker achievements include: 3x breaking ESL at EUDC, Winning Tilbury 2019 and Doxbridge 2020 (Oxford final), Winning 2 Campus Debatten and the Southern German Championship, breaking as 3rd (2018), 2nd (2019) and 1st (2020) team at the German National Championships (DDM) and being best speaker at DDM 2020</div>
+                <div>Broke at 15+ tournaments as adjudicator and chaired 5+ finals. I chief-adjudicated 10+ tournaments.</div>
+            <div class="row" style="padding-bottom: 2em"></div>
+
+            <h4>Effective Altruism</h4>
+                <div>Co-found the <a href='https://www.facebook.com/EATuebingen'>Tübingen EA chapter</a> in 2016</div>
+                <div>Co-found the <a href='https://aisafetytuebingen.wordpress.com/'>Tübingen AI safety reading group</a> in 2020 (currently inactive)</div>
+                <div>Organized an ML master overview for 8 European Universities (tba)</div> 
+                <div>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019)</div>
+            <div class="row" style="padding-bottom: 2em"></div>
+
+        </div>
+    </div>
 
 </div>
