@@ -157,20 +157,22 @@ subtitle: summary of my life (so far)
             <h4>Academia</h4>
                 <div>Participated at multiple ML Summer Schools and conferences including: PAISS2019, ICML2020, GPSS2020, ESANN2020</div>
                 <div>Organized an ML master overview for 8 European Universities (tba)</div> 
-            <div class="row" style="padding-bottom: 2em"></div>
+            <div class="row" style="padding-bottom: 1em"></div>
 	
             <h4>Debating</h4>
-                <div>Broke at 35+ tournaments, were in the top 10 speakers 20+ times and won 10 of them.</div>
-                <div>My most prestigious speaker achievements include: 3x breaking ESL at EUDC, Winning Tilbury 2019 and Doxbridge 2020 (Oxford final), Winning 2 Campus Debatten and the Southern German Championship, breaking as 3rd (2018), 2nd (2019) and 1st (2020) team at the German National Championships (DDM) and being best speaker at DDM 2020</div>
-                <div>Broke at 15+ tournaments as adjudicator and chaired 5+ finals. I chief-adjudicated 10+ tournaments.</div>
-            <div class="row" style="padding-bottom: 2em"></div>
+            <ul>
+                <li>Broke at 35+ tournaments, were in the top 10 speakers 20+ times and won 10 of them.</li>
+                <li>My most prestigious speaker achievements include: 3x breaking ESL at EUDC, Winning Tilbury 2019 and Doxbridge 2020 (Oxford final), Winning 2 Campus Debatten and the Southern German Championship, breaking as 3rd (2018), 2nd (2019) and 1st (2020) team at the German National Championships (DDM) and being best speaker at DDM 2020</li>
+                <li>Broke at 15+ tournaments as adjudicator and chaired 5+ finals. I chief-adjudicated 10+ tournaments.</li>
+            </ul>
+            <div class="row" style="padding-bottom: 1em"></div>
 
             <h4>Effective Altruism</h4>
                 <div>Co-found the <a href='https://www.facebook.com/EATuebingen'>Tübingen EA chapter</a> in 2016</div>
                 <div>Co-found the <a href='https://aisafetytuebingen.wordpress.com/'>Tübingen AI safety reading group</a> in 2020 (currently inactive)</div>
                 <div>Organized an ML master overview for 8 European Universities (tba)</div> 
                 <div>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019)</div>
-            <div class="row" style="padding-bottom: 2em"></div>
+            <div class="row" style="padding-bottom: 1em"></div>
 
         </div>
     </div>
