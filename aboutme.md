@@ -145,10 +145,9 @@ subtitle: summary of my life (so far)
         <div class="col-md-9">
             <div>English (C2 = IELTS 8.0)</div>
             <div>French (B2)</div>
-            <div>German (native) </div>
+            <div>German (native)</div>
         </div>
     </div>
-</div>
 
     <div class="row" style="padding-top: 3em;">
         <div class="col-md-3"><h3>Miscellaneous</h3></div>
