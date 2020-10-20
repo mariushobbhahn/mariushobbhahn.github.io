@@ -163,7 +163,7 @@ subtitle: summary of my life (so far)
             <h4>Debating</h4>
             <ul>
                 <li>Broke at 35+ tournaments, were in the top 10 speakers 20+ times and won 10 of them.</li>
-                <li>My most prestigious speaker achievements include: 3x breaking ESL at EUDC, Winning Tilbury 2019 and Doxbridge 2020 (Oxford final), Winning 2 Campus Debatten and the Southern German Championship, breaking as 3rd (2018), 2nd (2019) and 1st (2020) team at the German National Championships (DDM) and being best speaker at DDM 2020</li>
+                <li>My most prestigious speaker achievements include: 3x breaking ESL at EUDC, Winning Tilbury 2019 and Doxbridge 2020 (Oxford final), Winning 2 Campus Debatten and the Southern German Championship, breaking as 3rd (2018), 2nd (2019) and 1st (2020) team at the German National Championships (DDM) and being best speaker and grand finalist at the DDM 2020</li>
                 <li>Broke at 15+ tournaments as adjudicator and chaired 5+ finals. I chief-adjudicated 10+ tournaments.</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
