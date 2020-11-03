@@ -144,14 +144,14 @@ We are not the first to apply approximations of the integral of a softmax-Gaussi
 The two algorithms we compare to the LB are the Extended MacKay approach (see equation 5.33 in <a href='http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.147.1130&rep=rep1&type=pdf'>here</a>) which uses
 
 $$
-    \int \frac{\exp(a^{(j)})}{\sum_i \exp(a^{(i)})} \frac{1}{Z} \exp \left[-\frac{1}{2} \sum_i\frac{(a^{(i)} - \Bar{a}^{(i)})^2}{v^{(i)}}\right] \approx \frac{\exp(\tau(v^{(j)}) \Bar{a}^{(j)})}{\sum_i \exp(\tau(v^{(i)}) \Bar{a}^{(i)})}
+    \int \frac{\exp(a^{(j)})}{\sum_i \exp(a^{(i)})} \frac{1}{Z} \exp \left[-\frac{1}{2} \sum_i\frac{(a^{(i)} - \mathrm{a}^{(i)})^2}{v^{(i)}}\right] \approx \frac{\exp(\tau(v^{(j)}) \mathrm{a}^{(j)})}{\sum_i \exp(\tau(v^{(i)}) \mathrm{a}^{(i)})}
 $$
 
-as an approximation. The logit output of class $$i$$ is denoted by $$a^{(i)}$$, its average by $$\Bar{a}^{(i)}$$, its variance by $$v^{(i)}$$ and $$\tau(v) = 1/\sqrt{1 + \pi \cdot v/8}$$.
+as an approximation. The logit output of class $$i$$ is denoted by $$a^{(i)}$$, its average by $$\mathrm{a}^{(i)}$$, its variance by $$v^{(i)}$$ and $$\tau(v) = 1/\sqrt{1 + \pi \cdot v/8}$$.
 The second approximation is from (equation 23 in the appendix of <a href='https://arxiv.org/abs/1810.03958'>Wu et al. (2018)</a>) and we will refer to it as the ``second-order delta posterior predictive (SODPP)''. It is given by
 
 $$
-    p(y) \approx p \odot \left[1 + p^\top \Sigma p - \Sigma p +\frac{1}{2} \text{diag}(\Sigma)  - \frac{1}{2} \text{diag}(\Sigma) \right]
+    p(y) \approx p \odot \left[1 + p^\top \Sigma p - \Sigma p +\frac{1}{2} $$diag$$(\Sigma)  - \frac{1}{2} $$diag$$(\Sigma) \right]
 $$
 
 where $$p$$ is the vector of logit outputs, $$\Sigma$$ is its covariance matrix, and $$\odot$$ represents the entry-wise product.
