@@ -203,9 +203,9 @@ Over 40k of the 50k images fall into the top-$$1$$ bin as the network is pretty 
 
 ## Conclusions
 
-The Laplace Bridge for BNNs is not going to revolutionize Bayesian inference in Neural Networks but it is useful in many cases. Replacing an expensive part of the prediction pipeline with something much faster at basically no cost in approximation quality seems like a pretty useful thing. Additionally, it is really simple to apply to any network that has a Gaussian distribution over its logits and you can check out the GitHub repo if you want to try it out yourself. 
+The Laplace Bridge for BNNs is not going to revolutionize Bayesian inference in Neural Networks but it is useful in many cases. Replacing an expensive part of the prediction pipeline with something much faster at basically no cost in approximation quality and getting a full distribution for free sounds good to me. Additionally, it is really simple to apply to any network that has a Gaussian distribution over its logits and you can check out the GitHub repo if you want to try it out yourself. 
 
-The idea of building a `Bridge' between a distribution of choice and a Gaussian can be generalized to all exponential families and is the basis of my current research. The paper is nearly finished and will yield the content of my next blog post.
+The idea of building a "Bridge" between a distribution of choice and a Gaussian can be generalized to all exponential families and is the basis of my current research. The paper is nearly finished and will yield the content of my next blog post.
 
 #### ***One last note***
 
