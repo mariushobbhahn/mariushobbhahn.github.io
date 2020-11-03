@@ -43,7 +43,7 @@ $$p_y(y) = p_x(g^{-1}(x)) \det\left(\frac{\partial g^{-1}(x)}{\partial y}\right)
 
 For a simplified intuition you can think of the change of variable as stretching or shrinking the distribution in a potentially non-linear way.
 
-**Laplace Approximation:** A common way to approximate a function with a normal distribution is by using a Laplace approximation. This is done by using the mode of the function as the mean of the Normal $$\mu = \argmax_x p(x)$$ and the covariance matrix as the invere Hessian $$\Sigma = \frac{\partial^2 f(x)}{\partial^2 x}$$. If $$\hat{\theta}$$ denotes the mode of a pdf $$h(\theta)$$, then it is also the mode of the log-pdf $$q(\theta) = \log h(\theta)$$ since the logarithm is a monotone transformation. The 2-term Taylor expansion of $$q(\theta)$$ is:
+**Laplace Approximation:** A common way to approximate a function with a normal distribution is by using a Laplace approximation. This is done by using the mode of the function as the mean of the Normal $$\mu = $$argmax$$_x p(x)$$ and the covariance matrix as the invere Hessian $$\Sigma = \frac{\partial^2 f(x)}{\partial^2 x}$$. If $$\hat{\theta}$$ denotes the mode of a pdf $$h(\theta)$$, then it is also the mode of the log-pdf $$q(\theta) = \log h(\theta)$$ since the logarithm is a monotone transformation. The 2-term Taylor expansion of $$q(\theta)$$ is:
 
 $$\begin{align}
     q(\theta) &\approx q(\hat{\theta}) + \nabla q(\hat{\theta})(\theta - \hat{\theta}) + \frac{1}{2}(\theta- \hat{\theta})\nabla\nabla q(\hat{\theta}) (\theta - \hat{\theta})\\
@@ -96,6 +96,7 @@ In summary, we have a fast, closed-form transformation between the parameters of
 </figure>
 
 Lastly, I want to present a sanity check for the LB and its application to BNNs. In the following figure you can see five different scenarios of 3-dimensional Gaussians mapped through the Laplace Bridge. In the upper row are samples drawn from the Gaussian to which the softmax was applied. In the bottom row the values of the original Gaussian are mapped by the LB.
+
 <figure>
   <img src="/img/Second_hand/sMAP_Gaussian_coolwarm_0.png" width="130"/>
   <img src="/img/Second_hand/sMAP_Gaussian_coolwarm_1.png" width="130"/>
@@ -150,7 +151,7 @@ as an approximation. The logit output of class $$i$$ is denoted by $$a^{(i)}$$, 
 The second approximation is from (equation 23 in the appendix of <a href='https://arxiv.org/abs/1810.03958'>Wu et al. (2018)</a>) and we will refer to it as the ``second-order delta posterior predictive (SODPP)''. It is given by
 
 $$
-    p(y) \approx p \odot \left[1 + p^\top \Sigma p - \Sigma p +\frac{1}{2} \diag\Sigma  - \frac{1}{2} \diag\Sigma \right]
+    p(y) \approx p \odot \left[1 + p^\top \Sigma p - \Sigma p +\frac{1}{2} \text{diag}(\Sigma)  - \frac{1}{2} \text{diag}(\Sigma) \right]
 $$
 
 where $$p$$ is the vector of logit outputs, $$\Sigma$$ is its covariance matrix, and $$\odot$$ represents the entry-wise product.
