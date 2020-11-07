@@ -91,6 +91,7 @@ subtitle: summary of my life (so far)
             </div>
                 [<a href="https://arxiv.org/abs/2003.01227">arxiv</a>]
                 [<a>code (soon)</a>]
+                [<a> href='http://www.mariushobbhahn.com/2020-11-03-LB_for_BNNs/'>Blog post</a>]
 
             <div class="row" style="padding-bottom: 2em"></div>
 
