@@ -58,7 +58,7 @@ subtitle: summary of my life (so far)
             <div>M.Sc., Machine Learning/Computer Science, 2018-2020</div>
             <div>Thesis: <i><a href="/files/Master_Thesis_Marius_Hobbhahn.pdf">Fast Predictive Uncertainty for Classification with Bayesian Deep Networks</a></i></div>
             <div></div>
-            <div>Grade (currently 1.5)</div>
+            <div>Grade (1.5)</div>
 
             <div class="row" style="padding-bottom: 2em"></div>
 
@@ -157,7 +157,7 @@ subtitle: summary of my life (so far)
             <h4>Academia</h4>
             <ul>
                 <li>Participated at multiple ML Summer Schools and conferences including: PAISS2019, ICML2020, GPSS2020, ESANN2020</li>
-                <li>Organized an ML master overview for 8 European Universities (tba)</li> 
+                <li>Organized an ML master overview for 9 European Universities [<a href='https://www.lesswrong.com/posts/3aHESQA4xdP6ydefN/european-master-s-programs-in-machine-learning-artificial'>link</a>]</li> 
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
 	
@@ -173,7 +173,7 @@ subtitle: summary of my life (so far)
             <ul>
                 <li>Co-found the <a href='https://www.facebook.com/EATuebingen'>Tübingen EA chapter</a> in 2016</li>
                 <li>Co-found the <a href='https://aisafetytuebingen.wordpress.com/'>Tübingen AI safety reading group</a> in 2020 (currently inactive)</li>
-                <li>Organized an ML master overview for 8 European Universities (tba)</li> 
+                <li>Organized an ML master overview for 9 European Universities [<a href='https://www.lesswrong.com/posts/3aHESQA4xdP6ydefN/european-master-s-programs-in-machine-learning-artificial'>link</a>] </li> 
                 <li>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019)</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
