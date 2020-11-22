@@ -2,7 +2,7 @@
 layout:     post
 title:      "Culture matters because of Game Theory"
 subtitle:   "Culture in the group mentality sense, not the Mozart and Pyramids sense!!!"
-date:       2020-09-15 20:28:00
+date:       2020-11-22 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/game_theory.jpg"
 category:   opinion
