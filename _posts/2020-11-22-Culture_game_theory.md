@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Culture matters because of Game Theory"
-subtitle:   "Culture in the group mentality sense, not the Mozart and Pyramids sense!!!"
+subtitle:   "Culture in the group mentality sense, not the Mozart and Pyramids sense!"
 date:       2020-11-22 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/game_theory.jpg"
@@ -16,7 +16,7 @@ Just to be clear, when I say culture I do not mean the artistic, musical, or his
 
 In the rest of the post, I want to analyze different aspects of different cultures specifically under the lens of game theory. I choose the focus of game theory because I think it has great explanatory power for the resulting behavior of the people within that culture and is greatly undervalued in public debates or personal conversations. In the end, I want to pick out some aspects of culture that I think are positive most of the time and describe how one can apply them in their own life.
 
-To contextualize this blog post a bit better: These are my thoughts and while I have talked with friends about them, I have not really read any scientific literature (if it exists) or consulted any domain experts. Therefore, I am a bit uncertain whether it makes sense to you or whether I see connections that just don't exist. As always, I am interested in your feedback, additions and inputs. 
+To contextualize this blog post a bit better: These are my thoughts and while I have talked with friends about them, I have not really read any scientific literature (if it exists) or consulted any domain experts. Therefore, I am a bit uncertain whether it should make sense to you or whether I see connections that just don’t exist. So I would recommend to read this post expecting an intellectual stimulus rather than a well-researched paper. As always, I am interested in your feedback, additions and inputs. 
 
 ## Analysing different cultures
 
@@ -102,4 +102,6 @@ Culture matters because it largely determines group behavior and is very sticky.
 
 #### ***One last note***
 
-If you have any feedback regarding anything (i.e. layout or opinions) please tell me in a constructive manner via your preferred means of communication.
+If you have any feedback regarding anything (i.e. layout or opinions) please tell me in a constructive manner via your preferred means of communication. 
+
+I want to thank Maria and Emil for their feedback and input.

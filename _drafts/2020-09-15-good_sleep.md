@@ -22,17 +22,33 @@ There are a lot of guides out there telling you how to choose the right mattress
 
 Unfortunately though, I have to start this section with bad news. There is only very little solid and reliable research on the topic of mattresses. <a href='https://www.vice.com/en/article/aekgk4/science-wont-help-you-pick-a-better-mattress'>This Vice article</a> gives a pretty concise summary over the state of research and the problems attached to it. Basically it says that a) research about sleep is always very expensive since you have to distribute a lot of matresses to a lot of people, b) it is therefore often funded by big matress companies who have their own interests and the results should be approached with caution and c) private research or privately sponsored research often yields rather imprecise results such as "on average people prefered the medium-firm matress to the firm one". But then most matress companies have their own rating system and there is no unified measurement so results from one company don't necessarily translate another. The one trustworthy study that the authors found concluded that no matress is clearly superior to any other in general but for every individual person there are better or worse matresses. TODO:transition
 
-Keeping in mind that they are not research backed but should rather be interpreted as experience-based heuristics at best, we can look at the recommendations made by people who sell mattresses for a living. <a href='https://sleepopolis.com/guides/how-to-choose-a-mattress/'>This guide</a> gave me a good overview of the parameters that you can choose and should be aware of when buying a new one. The articles main points are a) the parameters that matter most are your sleeping position, your weight, and your prefered firmness. Depending on them you should get a soft or firmer matress. b) Mattresses are made of different materials. There is memory foam, latex, innerspring, and hybrid models. Each of which has its advantages and disadvantages with respect to sleep feeling and living age of the mattress. c) You shouldn't buy mattresses online. Go to a local store and test out different models. Really lie down for five minutes or longer per mattress that could suite you because otherwise you might miss something. If you don't know exactly what the parameters of your mattress are (which most people don't) you have to try it out which is harder to do online. d) Quality comes with price. It might not be a perfect predictor and you will find some outliers but usually a more expensive mattress will give you a better sleeping experience. As with most products the price for quality curve flattens down the higher the price gets but given that it will have a non-negligible impact on the average quality of sleep over your next 8-10 years you should aim too low. 
+Keeping in mind that they are not research backed but should rather be interpreted as experience-based heuristics at best, we can look at the recommendations made by people who sell mattresses for a living. <a href='https://sleepopolis.com/guides/how-to-choose-a-mattress/'>This guide</a> gave me a good overview of the parameters that you can choose and should be aware of when buying a new one. The articles main points are a) the parameters that matter most are your sleeping position, your weight, and your prefered firmness. Depending on them you should get a soft or firmer matress. b) Mattresses are made of different materials. There is memory foam, latex, innerspring, and hybrid models. Each of which has its advantages and disadvantages with respect to sleep feeling and living age of the mattress. c) You shouldn't buy mattresses online. Go to a local store and test out different models. Really lie down for five minutes or longer per mattress that could suite you because otherwise you might miss something. If you don't know exactly what the parameters of your mattress are (which most people don't) you have to try it out which is harder to do online. d) Quality comes with price. It might not be a perfect predictor and you will find some outliers but usually a more expensive mattress will give you a better sleeping experience. As with most products the price for quality curve flattens down the higher the price gets but given that it will have a non-negligible impact on the average quality of sleep over your next 8-10 years you should not aim too low. 
 
 There are also different fancy <a href='http://ergonomictrends.com/best-ergonomic-pillows/'>ergonomic pillows</a> and <a href='https://www.thespruce.com/guide-to-buying-blankets-350480'>blankets</a>. In both cases you will find wild claims about how the right choice of either can drastically improve your sleep and decrease negative conditions such as neck pain. However, once again, the research seems to be based to a large extend on privately sponsored or privately conducted research which we should treat with caution. 
 
 TODO:my experience with a new matress & buy fancy pillow.
 
-From my perspective the most sensible view of 
+From my perspective the most sensible view of choosing the right mattress, pillow, etc. will yield small improvements for most people but prevent large harms for some. So if your sleep is OK already you can expect a small but tangible improvement. If you have neck pain after waking up or troubled sleep in general, a change of equipment might have a very noticable positive effect on your sleep and life in general. 
 
 ## Sleep Hygene
 
+In this part of the post I will talk about everything that can broadly be attributed to a change of surroundings and behaviour on our quality of sleep. 
 
+### Science behind Sleeping
+
+TODO
+
+### Sleep-friendly Environment
+
+TODO
+light
+noise
+temperature
+Oxigen
+
+### Behavioural Change
+
+TODO
 
 ## Fancy Gadgets
 
@@ -44,6 +60,7 @@ Sleep is very very individual but you can improve your own sleep after finding o
 
 Money isn't the solution
 
+TODO: categories don't make too much sense so far. 
 
 #### ***One last note***
 
@@ -72,7 +89,7 @@ https://www.vice.com/en_us/article/aekgk4/science-wont-help-you-pick-a-better-ma
 https://www.jenreviews.com/mattress/
 
 %%% Guide to good sleep
-https://www.helpguide.org/articles/sleep/getting-better-sleep.htm
+https://www.helpguide.org/articles/sleep/getting-better-sleep.html
 
 %%% Sleep foundation: healthy sleep tips
 https://www.sleepfoundation.org/articles/healthy-sleep-tips
