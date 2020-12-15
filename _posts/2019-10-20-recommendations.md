@@ -61,6 +61,8 @@ I have linked the original podcasts but you can also find them in your prefered 
 - **Super Intelligence:** Nick Bostrom presents a case for why Artificial General Intelligence is perhaps one of the biggest challenges humanity will face. What, for example, happens if the AI is not aligned with human moral values and decides to enslave us? Or what do we do if its capacity to process information and understand complex information is so large that it suffers tremendous amounts of pain?
 - **Bear Neuroscience:** More of a niche recommendation. It was the lecture book for my neuroscience classes but I was surprised by how easy it is to read and how well made the graphics and explanations are. Only for people interested in neuroscience.
 
+If you liked the recommendations above, you should check out the <a href='https://www.givingwhatwecan.org/get-involved/videos-books-and-essays/>giving what we can recommendations</a>. 
+
 ***One last note:***
 
 If you have any feedback regarding anything (i.e. layout, code or opinions) please tell me in a constructive manner via your preferred means of communication.
