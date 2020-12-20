@@ -91,7 +91,7 @@ subtitle: summary of my life (so far)
             </div>
                 [<a href="https://arxiv.org/abs/2003.01227">arxiv</a>]
                 [<a>code (soon)</a>]
-                [<a> href='http://www.mariushobbhahn.com/2020-11-03-LB_for_BNNs/'>Blog post</a>]
+                [<a href='http://www.mariushobbhahn.com/2020-11-03-LB_for_BNNs/'>Blog post</a>]
 
             <div class="row" style="padding-bottom: 2em"></div>
 
@@ -99,7 +99,7 @@ subtitle: summary of my life (so far)
             <div>
               <i>Hobbhahn, Marius</i>; Butz, Martin; Fabi, Sarah and Otte, Sebastian. ESANN (2020).
             </div>
-                [<a>(ESANN is postponed to 10/2020)</a>]
+                [<a href='https://www.esann.org/proceedings/2020'>ESANN2020 proceedings</a>]
                 [<a href="https://github.com/mariushobbhahn/Modular-Inverse-Classification">code</a>]
         </div>
     </div>

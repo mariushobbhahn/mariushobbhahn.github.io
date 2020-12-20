@@ -54,7 +54,7 @@ I have written an entire separate blog post (TODO:link) on productivity but I wa
 
 3. Get the right lighting. A couple of years ago I bought a daylight lamp. This was mostly out of curiousity and I didn't expect much. But I was very wrong and the difference was very noticable for me from day one. Standard lighting made it hard to focus, gave me slight headaches which prevented me from being productive but also prevented me from sleeping because the color temperature resembled daylight which confused my brain. The daylight lamp improved both directions. I was able to be productive for longer and didn't have any trouble sleeping in. I could literally feel my body getting tired the second I turned the lamp off. I have very sensitive eyes so the effects might not be similar in magnitude if you try a daylight lamp for the first time but some people I know use them or sad-lamps especially during the winter and have reported similar effects. Additionally it makes sense to turn on the night-mode on your laptop and smart phone. They will also shift the color temperature according to the time of day and thereby make it easier to fall asleep. Out of all the tips getting the right lighting is definitely the most cost-effective one. 
 
-4. Small stuff: car sharing. TODO
+4. Small stuff: car sharing. TODO, cooking, cleaning, living near work.
 
 5. Do back-of-the-envelope calculations for everything. Looking back, I was waaaay to cautious with my spending and have kept a "I can do without these fancy gadgets"-mentality for far too long. By now I try to do back-of-the-envelope calculations for all larger spending and realized that I should have been more risk-taking all along. Even if the 50€ invested in a daylight lamp turn out not to have any effect on your productivity, they are still worth in expectation. 
 
@@ -85,6 +85,8 @@ How much you donate is up to different circumstances, beliefs and preferences bu
 ## Savings
 
 Whether one should save or donate the remaining money (if it even exists) depends on different factors. 
+
+TODO FIRE: https://www.reddit.com/r/financialindependence/comments/emdqbe/effective_altruism_and_fire/
 
 It depends on the current stage in ones career. If you are a student with uncertain future you should probably save most of the remaining money. If you are working already but you are not sure whether the job is a long-term fit you should save the majority of the remainder. If you are already working in your dream job with stable salary, I would probably donate most of my remaining income. 
 
