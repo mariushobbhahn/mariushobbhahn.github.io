@@ -14,6 +14,8 @@ I have recently tried to increase my productivity. And while there are tons of g
 
 In this blogpost I want to do two things: a) Justify a definition of productivity from which I derive high-level actions to improve it and b) review the exististing literature and condense the more localized tips and tricks that can improve our everyday workflow. 
 
+Recommendations: Not ... Yes ...
+
 ## Definition
 
 The image that I had in my head when I intuitively thought about productivity was very much based on a short-term satisfaction of emotions. It was one where I got up in the morning, immediatly started working, my hands flying over the keyboard solving task after task and ticking all boxes on my todo-list. After the an entire day of work I go to bed filled with contempt since I have completed so many tasks and looking forward to repeat the same process in the following days. While this is slightly exaggerated, people I have spoken to have a similar intuition. However, I think that this framing has three major problems: a) It is clearly not realistic. Your body has limits and most tasks are actually complicated. If you are just ticking boxes all day, you should look for harder problems to solve. b) It focuses on the wrong target. The just described intuition implicitely focuses on the emotional satisfaction from ticking boxes but does not measure the actual outcome of your work. You can tick boxes all day and feel good about it without actually getting anything done and, inversely, you can get a lot done by asking one simple question to the right person even though this might not feel emotionally appealing at all. c) It is too short-termist. While it definitely feels nice to ride on the emotional high for a while this definition doesn't ask simple yet important questions like "How long can you endure this kind of behaviour?" or "Is it actually the optimal way to reach a long-term target?".
@@ -25,37 +27,84 @@ The third component is that of time. I think this directly follows from the outc
 
 ## Framing
 
-While thinking about productivity I found that sports are a fitting analogy and help to make some aspects clearer. Both sports and productivity is limited by physical constaints. There is a certain amount you can do per week and it is probably less than the amount of time you are awake. Both are trainable and require active effort for improvements. Getting rid of our bad habits, improving our work routines, changing our frame of mind and reducing our procrastination are all skills that don't come over night. Rather, similar to sports, you have to get better step by step but will likely see tangible improvements over time once you put in some effort. While this might sound rather uncomforting, I think it is important to accept this fact. 
+While thinking about productivity I found that sports are a fitting analogy and help to make some aspects clearer. Both sports and productivity is limited by physical constaints. There is a certain amount you can do per week and it is probably less than the amount of time you are awake. Both are trainable and require active effort for improvements. Getting rid of our bad habits, improving our work routines, changing our frame of mind and reducing our procrastination are all skills that don't come over night. Rather, similar to sports, you have to get better step by step but will likely see tangible improvements over time once you put in some effort. Especially endurance sports require the correct pacing and so does productivity. If your goal was to run a marathon you wouldn't start sprinting from the start line and similarly if you wanted to reach a long-term goal and start by workin 80 hours a week you will very likely not keep up that effort. Lastly, different strategies for training show different effectiveness. In sports you can overtrain or you can train for the wrong task, e.g. only doing sprints while training for a marathon. 
 
-Think of productivity as sport: trainable, physical constraints, etc. + there are differences: not too much peaking, etc.
+Before we get into the details of implementation, I think it is very important to further frame what productivity is and how we should think about it to actually achieve more in less time while feeling good. 
 
-a) There are physical limitations and constraints
+TODO: productivity doesn't necessetate suffering; quite the opposite - frees up time, feels good, more choices;
 
-b) Different levels of optimization: 40 - 80h workweek
+TODO: don't be guilt driven; working yourself ragged is not a virtue.
 
-## High-level View
+TODO: productivity doesn't only include work. Could be exercise, books, healthier lifestyle, etc.  Different levels of optimization: 40 - 80h workweek
 
-Many decisions are not local but still increase productivity
+TODO: atomic changes, forming habits, marginal gains
 
-a) Make sure you are on the right path: double check you are working towards the goal you want to achieve. Prioritize at all stages.
+TODO: identity not outcome based change
 
-b) Don't optimize for the short-term, consistency, plot of "academia workload setting"
+TODO: Don't optimize for the short-term, consistency, plot of "academia workload setting", play the long game
 
-c) Physical conditions: sleep and fitness
+
+## Implementation
+
+Note: Tricks and rules to break bad habits and designed for the not-so-smart part of our brain. 
+
+### 1. Conditions 
+
+Physical conditions: sleep and fitness; mental conditions: short-term gratification, limited band-width
+
+### 2. Environments
 
 d) Surroundings: optimize for productivity, e.g. right lighting (f.lux, daylight lamp), fresh air, right seating position and ergonomic chairs, split work and rest place, find yourself in groups that are productive
 
-e) Improve your basic skills: analytics, math backgrounds, coding, etc. 
+### 3. Clearly Identify your Goal
 
-## Low-level View
+1. Find your goal; key result areas (what are you hired for?); Mountain analogy; Don't overoptimize for your goal: focus on system once you defined your goal. commit to process
 
-The more day to day decision making process
+### 4. Prioritize, a lot!!
 
-a) Prioritize, deligate, communicate
+2. prioritize hard, 80:20 rule, all levels, re-evaluate from time to time, most important first, drop low-value tasks that keep you busy but don't get results; ABCDE
 
-b) Divide and conquer
+3. Planing. Plan long-term, Planning fallacy; preparation; slice and dice; start now; action intention; start habit by small first steps; 
 
-c) Lists for everything
+4. Outsource and delegate; say no to everything that is not vital to achieving your current goal; say no nicely but firmly; outsource through alarms, calenders, notetaking, etc.; don't spread over too many tools; 2-minute rule of action.
+
+5. Procrastinate wisely; active not passive; 
+
+6. Evaluation; yourself and feedbacok from others; weekly reviews, etc.; project-based reviews; 
+
+7. Clear communication; communicate priorities to others
+
+8. Upgrade key skills; never stop learning; 
+
+9. Identify key constraints; identify what's stopping you from your goal; identify bad habits by writing down whatever you currently do; invert the good habit rules (see atomic habits)
+
+10. Pressure; deadlines; positive mental attitude
+
+11. Technology; Remove distraction; prioritize hard; good helper if used correctly.
+
+12. Sessions; 90 min work, 15 min break
+
+13. No multitasking
+
+14. Always ask "what is the next action?"
+
+15. Improve your basic skills: analytics, math backgrounds, coding, etc. 
+
+16. connect things that you want to do with things that you should do. 
+
+17. reframe your beliefs and baselines, e.g. wheelchair
+
+18. Put in your reps
+
+19. short-term gratification for long-term rewards
+
+20. accountability partners & contracts
+
+21. new homunculus
+
+22. Set realistic expectations
+
+23. Account for your flaws: Pretend actions are not stoppable: https://mindingourway.com/where-coulds-go/
 
 ## Conclusions
 
