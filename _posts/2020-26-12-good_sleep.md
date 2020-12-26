@@ -4,7 +4,7 @@ title:      "How to sleep better"
 subtitle:   "A summary of research mixed with my own considerations and experiences"
 date:       2020-26-12 20:28:00
 author:     "Marius Hobbhahn"
-header-img: "img/header-imgs/sleep.png"
+header-img: "img/header-imgs/sleep.jpeg"
 category:   opinion
 ---
 
