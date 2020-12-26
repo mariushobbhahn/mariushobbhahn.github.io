@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "How to sleep well"
+title:      "How to sleep better"
 subtitle:   "A summary of research mixed with my own considerations and experiences"
-date:       2020-09-15 20:28:00
+date:       2020-26-12 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/sleep.png"
 category:   opinion
