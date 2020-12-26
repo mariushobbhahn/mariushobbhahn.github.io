@@ -30,6 +30,8 @@ As stated above I have bought a new mattress following all the guidelines. I thi
 
 From my perspective, the most sensible view of choosing the right mattress, pillow, etc. is that they will yield small improvements for most people but prevent large harms for some. So if your sleep is already pretty OK you can expect a small but tangible improvement. If you have neck pain after waking up or troubled sleep in general, a change of equipment might have a very noticeable positive effect on your sleep and life in general.
 
+A note on your **Sleeping position:** Appearantly some people believe that one sleeping position is clearly superior to all others and therefore you should actively switch to that. While there are advantages and disadvantages to all positions, e.g. certain sleep-related conditions arise less when you sleep on your back, there is no clear best position. Additionally, it is very hard to train a different position from the one that feels natural to you. So if you don't have a condition that can clearly be linked to your position (e.g. some instances of snoring) the guides recommend adapting your mattress, pillow, etc. to your position rather than changing your position. 
+
 ## Sleep Hygiene
 
 Even though you can get measurable improvements through a change of equipment the largest improvements probably come only with behavioral changes and putting in some effort - buying a good bike certainly improves your speed but you still have to actually train to get large improvements.
