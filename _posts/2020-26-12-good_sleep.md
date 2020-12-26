@@ -1,10 +1,10 @@
 ---
 layout:     post
 title:      "How to sleep better"
-subtitle:   "A summary of research mixed with my own considerations and experiences"
+subtitle:   "A summary of the current research mixed with my own considerations and experiences"
 date:       2020-26-12 20:28:00
 author:     "Marius Hobbhahn"
-header-img: "img/header-imgs/sleep.jpeg"
+header-img: "img/header-imgs/sad_cow.png"
 category:   opinion
 ---
 
