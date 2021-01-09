@@ -6,6 +6,7 @@ date:       2020-11-22 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/game_theory.jpg"
 category:   opinion
+tags:       [Miscellaneous]
 ---
 
 ## **What is this post about?**

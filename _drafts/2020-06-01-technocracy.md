@@ -29,6 +29,8 @@ A strong justification for democracy is accountability - you vote politicians in
 
 Clearly, I can't cover all - even most - details of an actual implementation of such a system. I think a good way to test whether a specific problem you identified with my characterization is valid criticism is to ask whether it could be easily fixed within the system (e.g. a law could be added) or whether it requires changing something inherent to technocracy (e.g. introducing elections). 
 
+TODO: what do I mean by experts and evidence-based policy? -> Should include meta-studies, superforecasting, roll-out at different levels and speeds. Don't have blind faith in science or experts.
+
 ## Flaws of democracy
 
 In the following I present a list of problems that exist with current implementations of democracies. I have sorted them in decreasing order of my personal perceived relevance.
