@@ -5,6 +5,7 @@ date:   2019-10-20 23:01:30 +0200
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/recommendations.png"
 category: opinion
+tags:       [Miscellaneous, Improve]
 ---
 
 In this post I want to lay out a couple of different books, podcasts and other forms of media I consume and give a short pitch of their content. This list will be continuously updated over time when I have new recommendations. If you think there is something missing, feel free to contact me via your preferred means of communication. I need to point out that the media I consume is obviously reflective of the values I hold and the bubble I am part of, meaning you can expect a Rationalist, Bayesian, Effective Altruist, culturally left-leaning, etc. bias.

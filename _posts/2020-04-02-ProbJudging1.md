@@ -5,6 +5,7 @@ date:   2020-04-02 20:00:00 +0200
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/Debate1.png"
 category: opinion
+tags:       [Debating]
 ---
 
 ## What is this mini-series about?

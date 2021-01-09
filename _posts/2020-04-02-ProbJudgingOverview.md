@@ -5,6 +5,7 @@ date:   2020-04-02 21:00:00 +0200
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/debate.png"
 category: opinion
+tags:       [Debating]
 ---
 
 ## Motivation

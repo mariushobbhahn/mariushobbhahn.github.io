@@ -6,6 +6,7 @@ date:       2020-04-21 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/speaker.png"
 category:   opinion
+tags:       [Debating]
 ---
 
 ## What is this post about?

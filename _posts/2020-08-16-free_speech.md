@@ -6,6 +6,7 @@ date:       2020-08-16 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/free_speech.jpg"
 category:   opinion
+tags:       [Miscellaneous]
 ---
 
 ## **What is this post about?**

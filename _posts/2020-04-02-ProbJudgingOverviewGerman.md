@@ -5,6 +5,7 @@ date:   2020-04-02 21:00:00 +0200
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/debate.png"
 category: opinion
+tags:       [Debating]
 ---
 
 This is the German version of <a href='https://mariushobbhahn.github.io/2020-04-02-ProbJudgingOverview/'>this article</a>.

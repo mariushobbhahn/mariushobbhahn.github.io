@@ -6,7 +6,7 @@ date:       2019-10-25 20:28:00
 author:     "Marius Hobbhahn"
 # header-img: "img/Marius2.jpg"
 category:   ML_project
-tags:       [machine learning]
+tags:       [Machine Learning]
 ---
 
 **Abstract:**

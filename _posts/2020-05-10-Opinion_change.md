@@ -6,6 +6,7 @@ date:       2020-05-10 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/brain_lightbulb.jpg"
 category:   opinion
+tags:       [Miscellaneous, Improve]
 ---
 
 ## **What is this post about?**
