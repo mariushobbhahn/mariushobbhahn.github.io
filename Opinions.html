@@ -3,7 +3,7 @@ layout: page
 title: "Opinions"
 weight: 4
 ---
-
+<!--
 {% assign posts_about = site.posts | where: 'category', 'opinion_about' %}
 
 {% for post_about in posts_about %}
@@ -29,6 +29,7 @@ weight: 4
         <hr>
     {% endunless %}
 {% endfor %}
+-->
 
 {% assign posts = site.posts | where: 'category', 'opinion' %}
 
@@ -51,9 +52,6 @@ weight: 4
             </div>
         </a>
     </div>
-    {% unless forloop.last %}
-        <hr>
-    {% endunless %}
     
     {% if post.tags.size > 0 %}
     <div class="blog-tags">
@@ -67,5 +65,9 @@ weight: 4
       {% endif %}
     </div>
     {% endif %}
+    
+    {% unless forloop.last %}
+        <hr>
+    {% endunless %}
     
 {% endfor %}
