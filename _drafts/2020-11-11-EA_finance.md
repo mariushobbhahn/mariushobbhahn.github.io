@@ -1,11 +1,12 @@
 ---
 layout:     post
-title:      "A possible financial strategy for Effective Altruists"
+title:      "A Financial Strategy for Effective Altruists"
 subtitle:   "You will also learn something if you are not an EA"
 date:       2020-09-15 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/TODO.png"
 category:   opinion
+tags:       [Effective Altruism, Improve]
 ---
 
 ## **What is this post about?**
@@ -54,9 +55,11 @@ I have written an entire separate blog post (TODO:link) on productivity but I wa
 
 3. Get the right lighting. A couple of years ago I bought a daylight lamp. This was mostly out of curiousity and I didn't expect much. But I was very wrong and the difference was very noticable for me from day one. Standard lighting made it hard to focus, gave me slight headaches which prevented me from being productive but also prevented me from sleeping because the color temperature resembled daylight which confused my brain. The daylight lamp improved both directions. I was able to be productive for longer and didn't have any trouble sleeping in. I could literally feel my body getting tired the second I turned the lamp off. I have very sensitive eyes so the effects might not be similar in magnitude if you try a daylight lamp for the first time but some people I know use them or sad-lamps especially during the winter and have reported similar effects. Additionally it makes sense to turn on the night-mode on your laptop and smart phone. They will also shift the color temperature according to the time of day and thereby make it easier to fall asleep. Out of all the tips getting the right lighting is definitely the most cost-effective one. 
 
-4. Small stuff: car sharing. TODO, cooking, cleaning, living near work, insurances, 
+4. Insurances. In retrospect it's actually pretty weird. I have a good understanding of probabilities, a good understanding of conditional probabilities and I understand how markets work. So I should have known that at the price of a small premium I could have insured myself against a lot of negative and annoying things in life. Most people have an insurance for their health care, a liability insurance and an insurance for their car. But you can basically insure yourself against everything such as the inability to work or your belongings. So to prevent the hassle of bad events and time wasted of dealing with them, I plan to insure myself for more negative outcomes in the future. 
 
-5. Do back-of-the-envelope calculations for everything. Looking back, I was waaaay to cautious with my spending and have kept a "I can do without these fancy gadgets"-mentality for far too long. By now I try to do back-of-the-envelope calculations for all larger spending and realized that I should have been more risk-taking all along. Even if the 50€ invested in a daylight lamp turn out not to have any effect on your productivity, they are still worth in expectation. 
+5. There is lots of small stuff where money can buy you time. Paying a premium to live near your work can save minutes of your commute. Eating out instead of cooking yourself or paying someone to clean can save some hours over a week. You could join a car sharing app which is a very cheap way of upgrading mobility. The list is very long but it basically comes down to asking yourself where you regularly spend time on something that is not your primary goal and if that task could be outsorced or shortened through money. 
+
+6. Do back-of-the-envelope calculations for everything. Looking back, I was waaaay to cautious with my spending and have kept a "I can do without these fancy gadgets"-mentality for far too long. By now I try to do back-of-the-envelope calculations for all larger spending and realized that I should have been more risk-taking all along. Even if the 50€ invested in a daylight lamp turn out not to have any effect on your productivity, they are still worth in expectation. 
 
 ### Spend money to remove annoyances / improve your well-being
 
@@ -72,7 +75,7 @@ If you follow the above you will probably still spend less money than you have a
 
 ## Donations
 
-How much you donate is up to different circumstances, beliefs and preferences but I think you should donate at least a noticable amount of your income (e.g. 10%) for the following reasons.
+How much you donate is up to different circumstances, beliefs and preferences but I think you should donate at least a noticable amount of your income (e.g. 10%) for the following reasons. Of course, if your circumstances don't allow it, e.g. because you are a single parent, this doesn't apply to you. 
 
 1. **Moral Uncertainty:** Even if you are very convinced of long-termism like e.g. Will MacAskill you would probably still have some moral uncertainty left and therefore want to hedge against the risk that the short term matters more than you expected. The more short-termist you are the more willing you should be to donate larger parts of your income to alleviate suffering right now. Even if you are 100 percent certain that long-termism is true it still makes sense to donate - just to different organisations. The <a href='https://longtermrisk.org/'>center on long-term risk</a> probably has a better overview of when and where it makes sense to use money and if that money is supposed to be placed in the most effective way possible to improve the long-term you are with high probability not the best actor to decide where it should go. 
 
@@ -84,9 +87,7 @@ How much you donate is up to different circumstances, beliefs and preferences bu
 
 ## Savings
 
-Whether one should save or donate the remaining money (if it even exists) depends on different factors. 
-
-TODO FIRE: https://www.reddit.com/r/financialindependence/comments/emdqbe/effective_altruism_and_fire/
+Whether one should save or donate the remaining money (if it even exists) depends on different factors.
 
 It depends on the current stage in ones career. If you are a student with uncertain future you should probably save most of the remaining money. If you are working already but you are not sure whether the job is a long-term fit you should save the majority of the remainder. If you are already working in your dream job with stable salary, I would probably donate most of my remaining income. 
 
@@ -96,8 +97,13 @@ I would recommend to save your money using <a href='https://en.wikipedia.org/wik
 
 Lastly, I think one should _err on the side of caution_ and rather have a slightly larger cushion than donating the maximal amount. The future always carries some uncertainty and your life could be disrupted by a sudden illness, an accident or unemployment. 
 
+Within the EA community, I have met multiple people who were thinking about doing "Financial Independence and Retiring Early" <a href='https://www.reddit.com/r/financialindependence/comments/emdqbe/effective_altruism_and_fire/'>(FIRE)</a>. While I am personally sympathetic to the idea, I would argue that it is inefficient if you want to dedicate your life to EA causes. Some people argue that they would dedicate the time after their early retirement for EA causes but since the vast majority of EA positions is financially sustainable you could do so even earlier without saving for early retirement with some other job. So FIRE only sounds like a reasonable option for me if your personal preference for financial independence is significantly larger than your desire to improve the world in the best possible way. 
+
 ## Conclusions
 
+TLDR: Spend money to save time, donate money dependent on your career stage, conviction and degree of long-termism but donate a minimal amount to prevent value drift. Then save up the all money you don't spend or donate in a financially responsible manner (e.g. ETFs).
+
+I have argued for three core ideas for financial strategies if people are convinced of EA. a) EAs should spend money to save time as human capital currently seems more important than financial capital. b) EAs should still donate some tangible amount of your earnings to prevent value drift. c) All remaining money should be saved in a financially responsible way such as ETFs. The split between donations and personal savings is likely dependent on multiple factors such as the strength of your conviction to longtermism, the stage of your career and many more. 
 
 #### ***One last note***
 
