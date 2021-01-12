@@ -108,6 +108,8 @@ Most people spend around 8 hours per working day sitting in front of their compu
 
 Further useful equipment is lighting. I can recommend turning on night mode on your computer which adapts the color temperature according to the time of day. I also found that I feel more productive and have fewer headaches when I use daylight lamps in general.
 
+Also, make sure that you have good air in your room and move from time to time. Either by just walking around in your office or by taking a quick walk outside. Usually this helps me to collect and sort my thoughts.
+
 The last recommendation is to surround yourself with other productive people. Working in a group of people where everyone seems to be naturally productive is one of the easiest ways for me to stay focused for a long period of time. However, this cuts both ways. If the group of choice is procrastinating you are more likely to do so too. As long as you make clear that the explicit goal of the group is to work without distraction this is a good collective nudging mechanism.
 
 #### 3. Clearly Identify your Goal
