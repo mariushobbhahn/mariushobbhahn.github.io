@@ -36,7 +36,22 @@ If you like the post and know other people who you expect to like it, please sha
 	6. [Play the Long Game](#Long-Game)
 	7. [Context matters](#Context')
 3. [Implementation](#Implementation)
-
+	1. [Conditions](#Conditions)
+	2. [Environments](#Environments)
+	3. [Clearly Identify your Goal](#Identify-Goal)
+	4. [Prioritize, a lot!!](#Prioritize)
+	5. [Planing](#Planing)
+	6. [Evaluation](#Evaluation)
+	7. [Outsource, Delegate, Communicate](#Outsource-Delegate-Communicate)
+	8. [Mental Tricks](#Mental-Tricks)
+	9. [Expectation Management](#Expectation-Management)
+	10. [Dealing with Guilt](#Dealing-with-Guilt)
+	11. [Continuous Learning](#Continuous-Learning)
+	12. [Procrastination & Attention](#Procrastination-Attention)
+	13. [Technology](#Technology)
+	14. [Do the obvious](#Obvious)
+4. [Conclusions](#Conclusions)
+	
 ## Definition <a name='Defintion'></a>
 
 The image that I had in my head when I intuitively thought about productivity was very much based on a short-term satisfaction of emotions. It was one where I got up in the morning, immediately started working, my hands flying over the keyboard solving task after task and ticking all boxes on my todo-list. After an entire day of work, I go to bed filled with satisfaction since I have completed so many tasks and look forward to repeating the same process in the following days. While this is slightly exaggerated, people I have spoken to have a similar intuition. However, I think that this framing has three major problems: a) It is clearly not realistic. Your body has limits and most tasks are actually complicated. If you are just ticking boxes all day, you should look for harder problems to solve. b) It focuses on the wrong target. The just described intuition implicitly focuses on the emotional satisfaction from ticking boxes but does not measure the actual outcome of your work. You can tick boxes all day and feel good about it without actually getting anything done and, inversely, you can get a lot done by asking one simple question to the right person even though this might not feel emotionally appealing at all. Ticking boxes can be a good way to measure progress, you just have to make sure you aren't reward hacking by making boxes just to tick boxes. c) It is too short-termist. While it definitely feels nice to ride on the emotional high for a while this definition doesn't ask simple yet important questions like "How long can you endure this kind of behavior?" or "Is it actually the optimal way to reach a long-term target?".
@@ -107,7 +122,7 @@ After the framing section, I hope it has become easier to think clearly about pr
 
 I have broadly ordered the following items according to my perceived importance and will try to justify that ranking along the way.
 
-#### 1. Conditions
+#### 1. Conditions <a name='Conditions'></a>
 
 If you are physically or mentally unhealthy, you are significantly less likely to fulfill your productivity potential and achieve your goals. If you consistently don't sleep enough you won't function well and thus be less productive (I have written another post on <a href='http://www.mariushobbhahn.com/2020-12-26-good_sleep/'>sleep</a>). If you are constantly too busy to go to the doctor for routine checks and then develop a condition that removes you from being productive for a month you are in sum less productive. The same is true for mental conditions. If you get burned out after being drowned with work for a longer period of time you will have to take a break that usually means you could have been more productive and less stressed when working a consistent amount over the entire period. A healthy body and mind are not trade-offs to your productivity, they are necessary conditions for it.
 
@@ -115,7 +130,7 @@ To which extent you want to optimize your personal health is up to personal pref
 
 If you really want to min-max your exercise vs. productivity trade-off then <a href='https://en.wikipedia.org/wiki/Burpee_(exercise)'>burpees</a> might be for you. I was told that doing two minutes of burpees twice a day will reduce your risk of cardio-vascular diseases significantly and it trains relevant core muscles to prevent conditions such as back pain. I haven't really applied this consistently yet so I can't speak from experience.
 
-#### 2. Environments
+#### 2. Environments <a name='Environments'></a>
 
 Most people spend around 8 hours per working day sitting in front of their computer. Making this experience as productive as possible and reducing the possibility of long-term injuries is key to a sustainable solution. If you are susceptible to back pain or see a risk of a back injury in the future get a good chair. If you are susceptible to wrist pain invest in an ergonomic mouse and keyboard. If you are unable to sit for a long time invest in a desk that is adjustable for height. Under any circumstance get noise-canceling headphones - they are great. Even if buying high quality seems excessively expensive in the beginning a small back-of-the-envelope calculation shows otherwise. Let's say you spend 3000€ on a chair, desk, mouse, and keyboard (which is likely much more than necessary) and it reduces the risk of either wrist or back injury by 50 percent. Not being able to work for one month has the opportunity cost of your salary and greater additional cost to the public health care system. If we assume that you earn twice the minimum wage in your office job you have 20€ * 160 = 3200€ available per month before taxes. A serious back or wrist injury can make you unable to work for much longer than two months which already makes this a worthy investment (I calculate with pre-tax numbers because you can deduct office supplies from your taxes). In any case, your state should send you a medal as you have saved them much more than just 3000€ in costs for your treatment. Additionally, you will get high-quality office equipment at a lower price already and therefore make this trade-off worth even earlier. Furthermore, you should talk to someone who has chronic back pain from bad equipment to make the abstract harm of "chronic pain" salient to your monkey brain. Once you hear an account of what chronic pain actually entails you will probably rush to the next furniture store.
 
@@ -125,7 +140,7 @@ Also, make sure that you have good air in your room and move from time to time. 
 
 The last recommendation is to surround yourself with other productive people. Working in a group of people where everyone seems to be naturally productive is one of the easiest ways for me to stay focused for a long period of time. However, this cuts both ways. If the group of choice is procrastinating you are more likely to do so too. As long as you make clear that the explicit goal of the group is to work without distraction this is a good collective nudging mechanism.
 
-#### 3. Clearly Identify your Goal
+#### 3. Clearly Identify your Goal <a name='Identify-Goal'></a>
 
 We often work hard without really knowing which goal we want to achieve. Even though we have a rough idea, e.g. a desire to be a fitter person, we rarely sit down and explicitly say what that actually means. It could mean running every day or just twice a week. If our goal is to just stay in shape and reduce the risk of health issues the latter is probably sufficient. If it is to find a new purpose in life the former might work better. So when you start a new project the first step should always be to clearly identify the goal. This should be done very explicitly, e.g. by sitting down and writing the goal on a piece of paper to make sure you aren't taking any shortcuts.
 
@@ -134,7 +149,7 @@ The clarity of the goal is important for multiple reasons. Firstly, you can only
 While all of this sounds intuitive, at least I (but probably others too), have wasted a lot of time due to unclear goal setting. There were multiple times when I picked up something or tried to pick up some skill for - in retrospect - pretty weird reasons. I wanted to learn how to hack even though I had absolutely no use case or a desire to be a hacker. I wanted to learn how to do a front lever even though it is far beyond any fitness level I reasonably want to invest time in to hold. But through these examples, I think it becomes particularly clear why identifying a goal is so important. Once I started training for the front lever or watching youtube videos about hacking I slowly started to realize that these are goals that I ultimately don't want to pursue if it means investing time that I could have spent in other things that are more important to me. I then often realize that the reasons for why I started that activity is not my own but rather a vague desire to be cool or to belong to a certain group. When I think about this notion more intensely I then realize that I don't even want to be a person who is cool because they can do a front lever and stop my pursuit.
 Identifying the goal in the very beginning saves you the hours put into this activity and forces you to ask yourself if that goal is worth it.
 
-#### 4. Prioritize, a lot!!
+#### 4. Prioritize, a lot!! <a name='Prioritize'></a>
 
 Most people have more things they have and want to do than time to do them. There are our personal goals like exercising, reading, and traveling. There are our professional goals such as getting a certain job or rising to a certain position within our profession. And there are seemingly endless small tasks that just have to be done, e.g. reading something, answering e-mails, solving a tech issue, prepare a call or meeting, and so on.
 
@@ -148,7 +163,7 @@ At this point, you might ask yourself "If everyone cuts tasks, doesn't this just
 
 Obviously, your priorities are not carved in stone and should be re-evaluated in proportion to their time frame. Monthly goals should be reviewed more often than life goals and so on.
 
-#### 5. Planing
+#### 5. Planing <a name='Planing'></a>
 
 Once you have identified your goals and ordered them according to your priorities you should plan how to achieve them. This should, once again, happen in a top-down process. You start by defining the subgoals of your highest goal, e.g. if you want to write a blog post your subgoals might be to write down your current thoughts and to get a good overview of the existing literature. Then repeat recursively, e.g. define the subgoals of your literature review maybe by splitting them into books, papers, and other people's blog posts. Once again, we prioritize at all levels by focusing on the most important sub-goal first.
 
@@ -156,7 +171,7 @@ Planing in general, and divide-and-conquer specifically has many advantages. Fir
 
 If you are like me some time ago, you will read this and think "This is solid advice for all the dumb people out there, I don't need this because I can easily keep track of all the relevant tasks, subtasks, and their prioritization in my head because I'm so smart". To which the only correct answer is "No, you're not!!!". If I look at previous projects then I have encountered tons of events that would probably be predictable with more planning and on average projects that involved very careful planning have run significantly smoother than those where I just did everything from the top of my head. There is a reason why we pay architects to plan every single centimeter of a building very carefully and don't just tell the builders to go with the flow. There is a reason why people in large and successful software companies meet and plan their projects in detail before they start coding. And the reason is not that these people are dumb but rather that they are humans and they have a monkey brain and so do you and me.
 
-#### 6. Evaluation
+#### 6. Evaluation <a name='Evaluation'></a>
 
 Once a project is finished people often jump right into the next one without ever asking simple questions such as "What went well?", "What went wrong?" and "What things can I improve next time?". And then they keep on repeating the same mistakes in the next project which costs valuable time and increases their levels of annoyance. So as a consequence one should implement evaluation mechanisms on all levels. After every project, you should ask the simple questions above and write the answers down. You can evaluate the completion of every subtask and thus remove hurdles for the next. Clearly, the more important the task the more time you should spend evaluating it. A subtask doesn't need a full review, a couple of notes will do the job.
 
@@ -164,7 +179,7 @@ Your own perception is often prone to cognitive biases and therefore, especially
 
 My personal experience is that it is easy to accept that evaluation is important and that feedback helps but very hard to actually do it. Every time again you have to open up your shell and accept that you might have made a mistake or somebody didn't like something you did. And while this feeling decreases over time it will never quite vanish. But once we rationally accept that feedback and evaluation are important there are ways to act on that belief. The most important one is to make evaluation a habit. If you plan your project, the last stage is not product shipment or publication of the blogpost but rather evaluation. If it is "just part of the process" it is harder to ignore and easier to just do it. The second piece of advice is to emphasize your actions, not your person. Say that "the planning in this project was insufficient" instead of "My planning sucked" to detach your action from your identity (see Mental Tricks section). While this sounds like a contradiction to the "Identity not Outcome" Section, it isn't. Attaching your identity to a desired goal can be valuable. Attaching it to your past actions isn't because it prevents you from progress. And lastly, start simple. Train yourself for receiving feedback by asking a person that you trust and know to give constructive feedback in a nice way. Then you will realize that once the initial rush of adrenaline is over you will have new information that is usually useful to have.
 
-#### 7. Outsource, Delegate, Communicate
+#### 7. Outsource, Delegate, Communicate <a name='Outsource-Delegate-Communicate'></a>
 
 This category is related to the Prioritization category from above but still contains new and important advice. Usually, lots of tasks end up on our plate that are not really in our area of expertise. We get e-mails asking us to do something, invites to meetings and groups, and so on. The more important you are the more of these requests you will get. A professor has to deal with hundreds a week while a student might get them just from time to time. In any case, it is important to keep your priorities in mind. Often enough, another person is better equipped to do the task than you are and you should delegate it. Specialization is beneficial for everyone in the system after all if applied correctly.
 
@@ -174,7 +189,7 @@ An additional way to outsource parts of your work is through the use of technolo
 
 Lastly, I think clear and direct communication improves productivity. This means communicating your priorities to others and asking for clarification when you don't understand something. I have recently started collaborating with someone from a different research group and she directly told me that our project was one of four projects she was working on, currently placed second in her priorities and hence I could expect her to work around 10 hours per week on the project. This was fantastic. I knew exactly what I could expect and could build my own planning around that. I will try to employ this in the future for myself. Clear communication also means asking clarifying questions even if you feel silly for asking them. In a meeting when the supervisor asks "any questions?" everyone looks around and then doesn't ask one because often they feel like everyone else has understood it and they would be the odd one out. After the meeting, they then realize that they still have a lot of questions and everything will take forever just because nobody dared to speak up. If you didn't understand it, you will either have to invest a lot of time explaining it to yourself or ask your supervisor at some point. Both could be easily solved by asking simple questions even if they make you feel silly.
 
-#### 8. Mental Tricks
+#### 8. Mental Tricks <a name='Mental-Tricks'></a>
 
 I think most of us have heard some of the above advice before. We have been told to plan and we have been told to evaluate our progress and so forth. And then we were like "yeah yeah", ignored the advice, and repeated the previous mistakes. Sticking to good habits is hard and adopting new ones is even harder. And one of the reasons why they are hard to follow is because we have to admit that we are imperfect. After all - a perfect version of ourselves wouldn't need to evaluate their mistakes because they wouldn't make them to begin with. Our gut response to mistakes is often rationalization instead of investigation. To account for these and further flaws there are a lot of small mental tricks that I want to explain in the following.
 
@@ -190,7 +205,7 @@ I think most of us have heard some of the above advice before. We have been told
 
 6. Choose an accountability partner or create contracts. Tell your partner which goal you are currently trying, e.g. running twice a week, and which punishment you will get if you don't succeed, e.g. donating 50€ to an effective charity of your choice. Suddenly you have more skin in the game and thus more likely to achieve the goal.
 
-#### 9. Expectation Management
+#### 9. Expectation Management <a name='Expectation-Management'></a>
 
 I have too often set myself unrealistic expectations, low-key knowing that they are unrealistic, and then still felt bad when they didn't come true. I knew that publishing a paper on a major conference before your Ph.D. is very rare and still somewhat expected myself to achieve it, even though there was no good reason to believe that I'm significantly different than other people who have attempted and failed at the same task. It's like I was running against a wall head first and acted surprised that it hurt.
 
@@ -202,7 +217,7 @@ A common tool in expectation management is to reframe your baseline. To steal a 
 
 Setting yourself expectations that you are very unlikely to achieve is a recipe for disaster and so is tying your own self-worth to the achievement of a nearly impossible outcome. It's terrible for your mental health and it's not even effective in achieving your goal. If you have trouble setting realistic expectations first talk about it with a trusted friend and work on solutions or seek professional help. You are not a failure if you don't achieve everything you ever set your mind to and people in your surroundings won't think of you as such. Please get help and save yourself the long periods of self-doubt and depression if you have set yourself too high expectations in the past.
 
-#### 10. Dealing with Guilt
+#### 10. Dealing with Guilt <a name='Dealing-with-Guilt'></a>
 
 Many of us experience guilt when we are not productive. We might experience guilt when we procrastinate, when we take breaks, when we don't work over the weekends, and so forth. In the Framing section of this post, I have already argued why guilt is a bad motivator and follow this up here with some ways to deal with guilt.
 
@@ -210,7 +225,7 @@ The first technique is what is called <a href='https://mindingourway.com/come-to
 
 The second technique is called <a href='https://mindingourway.com/have-no-excuses/'>Having no excuses</a> and is a tool to prevent you from rationalizing guilt. Whenever you feel guilty there is a spark of truth to it since you traded something off. When you have chosen to take a break there is a possibility that you could have worked on and thus been more productive. Once you have committed to a specific choice you often start generating excuses and to rationalize your choice - "You must take the break because everyone has to take breaks from time to time or because during breaks you always experience a burst of creativity and thus can be more productive in the future". Note that while this might be true it is just a post-hoc justification for your action and likely didn't follow a set of rules that were specified before the decision was taken, e.g. "take a 10 min break whenever you feel tired". So rather than allowing yourself to generate post-hoc justifications for your actions, Nate Soarez[Soares], the author of mindingourway.com, argues that you should treat guilt as an indicator. Whenever you feel guilty observe that you do - like a scientist observes their experimental results. Then treat the action as a bet - either you took the bet at the right odds and would take it again even if it didn't work out this time or you took the bet at the wrong odds and you would act differently in the future.
 
-#### 11. Continuous Learning
+#### 11. Continuous Learning <a name='Continuous-Learning'></a>
 
 An important part of productivity that I have already touched upon in the Playing the Long Game framing section is that it is often important to build up productivity capital that feels unproductive at the moment but will unlock higher productivity later.
 
@@ -218,13 +233,13 @@ The first piece of advice in this category is one of mental framing. It basicall
 
 The second piece of advice is about which skills to improve. There are far more things we could learn than we have time to and so we have to choose wisely. On the first level, one should improve the skills that will likely be necessary for one’s entire career. In my case, as a researcher in ML, I will probably always need math and coding. So it makes sense to practice linear algebra, probability calculus and solve coding puzzles. On the second level, you should sharpen your analytic toolbox. This might be through listening to podcasts like <a href='http://rationallyspeakingpodcast.org/'>Rationally Speaking</a> which gives you knowledge about very different fields while also teaching you intellectual curiosity and epistemic modesty. There is a long list of things you can do to improve your analytic skills ranging from watching documentaries over reading books to talking to smart people and I think you will start to pick them up along the way once you assume the mental framing from above and walk through life eager to learn more.
 
-#### 12. Procrastination & Attention
+#### 12. Procrastination & Attention <a name='Procrastination-Attention'></a>
 
 Most people struggle with procrastination. Instead of working towards a goal you watch a YouTube video or do something else that isn't productive. And I only found one piece of advice that really made sense to me. Accept that you have a limited attention span. Accept that you will at some point procrastinate. Make it part of your routine. You could have 75 min productive sessions followed by 15 minutes of a break or 30-minute sessions with 5-minute breaks just to give some examples. Furthermore, procrastinate actively not passively. Use procrastination periods to follow a secondary or tertiary goal of yours. Watch a video that teaches you something about that goal, listen to a podcast, or write on your next blog post. I found that procrastination mostly feels bad because you feel like you are completely wasting your time with something utterly useless. Procrastinating actively mitigates this feeling because you are doing something that furthers a goal of yours.
 
 Related to that point is the topic of multitasking. I know we all like to pretend we can multitask but we also know that we just can't do it. Our brain isn't made to do multiple tasks well at once and you will achieve less if you try. Be honest with yourself and accept it won't work even if you try hard. Then design your workflow to always focus on one task at a time and don't switch around all the time.
 
-#### 13. Technology
+#### 13. Technology <a name='Technology'></a>
 
 Technology isn't inherently good or bad. If used correctly it can increase your productivity by a lot and help you with achieving a task. If applied incorrectly it will distract you and reduce your output. The best practices I have found included a) remove distractions as much as possible. Mute your phone and mute incoming emails. Whenever you want to focus close all programs that make you reachable. Messages basically never have to be responded to immediately. b) Use technology to do the things your brain is bad at. Outsource your thoughts, organize your planning, and track your behavior. This will make you less prone to bias and reduce the cognitive load of things you have to remember in parallel. Lastly, c) don't spread over too many devices and programs. If you have multiple different note-taking apps, calendars, etc. they lose their purpose.
 
@@ -232,11 +247,11 @@ I have tried a lot of different ways to organize my notes in the last five years
 
 Even though I think that technology has great potential to improve productivity I put it very far down the list. This is simply because technology is just a tool to help you develop a good habit or make it easier to act upon it but won't solve your problem by itself. If you don't take the active mental steps, technology won't help either.
 
-#### 14. Do the obvious
+#### 14. Do the obvious <a name='Obvious'></a>
 
 One piece of advice that stuck with me was given by Mindingourway and is called <a href='https://mindingourway.com/obvious-advice/'>reflect what is obvious</a>. Before you start a new project think about the "obvious things" or what "common sense would dictate" and write them down. Often this includes rather simple ideas like checking out what other people already did or creating a list of necessary ingredients. Then ask others what they think is obvious when they wanted to solve your problem. And they will often come up with some items that you already thought about but then add a range of new ideas that seem like common sense to them but you just haven't thought about. Most of the time they are very reasonable and you should include them. This trick won't revolutionize your thinking but it's one of these nice mental frames that are very helpful in real life and will solve you lots of time by not overcomplicating everything.
 
-## Conclusions
+## Conclusions <a name='Conclusions'></a>
 
 All of this is a lot and reading so many resources on productivity has made me feel like a rather unproductive person. However, I think that there are four main takeaways that lead me to be high-spirited for my future self.
 
