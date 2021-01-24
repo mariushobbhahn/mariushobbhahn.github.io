@@ -6,7 +6,7 @@ date:       2019-10-19 20:28:00
 author:     "Marius Hobbhahn"
 # header-img: "img/Marius2.jpg"
 category:   ML_about
-tags:       [machine learning]
+tags:       [Machine Learning]
 ---
 
 In this part of the blog I post about Machine Learning projects that I have finished and think are worth sharing. While a blog is used to explain your projects in an easier manner a part of the reason to host a blog is often to have a platform and present your work for potential employers or academic supervisors. This is definitely part of the reason why I have a blog but there are specific reasons for having a blog compared to just handing out CVs and papers that I want to describe in the following.
