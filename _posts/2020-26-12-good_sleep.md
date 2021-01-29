@@ -112,6 +112,8 @@ From my research and my own experiences over the last month I find three main co
 
 #### ***One last note***
 
+If you want to get informed about new posts you can <a href='http://www.mariushobbhahn.com/subscribe/'>subscribe to my mailing list</a> or <a href='https://twitter.com/MariusHobbhahn'>follow me on Twitter</a>.
+
 If you have any feedback regarding anything (i.e. layout or opinions) please tell me in a constructive manner via your preferred means of communication.
 
 
