@@ -4,6 +4,8 @@ title: Subscribe
 subtitle: You can unsubscribe whenever you want!
 ---
 
+Instead of an e-mail subscription you can also just <a href='https://twitter.com/MariusHobbhahn'>follow me on Twitter</a>. 
+
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
