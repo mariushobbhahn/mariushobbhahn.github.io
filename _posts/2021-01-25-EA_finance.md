@@ -45,7 +45,7 @@ From this main premise - that time is more important than money - I want to argu
 
 While I find that most people agree with this statement in the abstract their behavior is not aligned with their beliefs. Simple back-of-the-envelope calculations already show that one should be willing to spend more money to save time than one would intuitively find reasonable. Assume, for example, that you value your time at 10€ per hour which is approximately the minimum wage in Germany and a new mattress promises to shorten your sleep to 99% of its previous length at an additional price of 1000€. Then, intuitively this sounds ridiculous. Why would I pay 1000€ for a 1% reduction? But when you do the math you realize that with an average sleep of 8 hours per night, you would save 4.8 minutes per night which is 1752 minutes or 29.2 hours per year. Most mattresses last 8 - 12 years so this seemingly crazy price would have already paid off after three and a half years.
 
-So far I have mostly argued _that_ we should spend money to save time but not _how_. This will be done in the next three sections.
+So far I have mostly argued _that_ we should spend money to save time but not _how_. This will be done in the next sections.
 
 ### Spend money to unlock productivity
 
@@ -102,8 +102,6 @@ Lastly, I think one should _err on the side of caution_ and rather have a slight
 Within the EA community, I have met multiple people who were thinking about doing "Financial Independence and Retiring Early" <a href='https://www.reddit.com/r/financialindependence/comments/emdqbe/effective_altruism_and_fire/'>(FIRE)</a>. While I am personally sympathetic to the idea, I would argue that it is inefficient if you want to dedicate your life to EA causes. Some people argue that they would dedicate the time after their early retirement for EA causes but since the vast majority of EA positions are financially sustainable you could do so even earlier without saving for early retirement with some other job. So FIRE only sounds like a reasonable option for me if your personal preference for financial independence is significantly larger than your desire to improve the world in the best possible way.
 
 ## Conclusions
-
-TLDR: Spend money to save time, donate money dependent on your career stage, conviction, and degree of long-termism but donate a minimal amount to prevent value drift. Then save up the all money you don't spend or donate in a financially responsible manner (e.g. ETFs).
 
 I have argued for three core ideas for financial strategies if people are convinced of EA.
 a) EAs should spend money to save time as human capital currently seems more important than financial capital.
