@@ -54,7 +54,11 @@ Maybe this seemed entirely obvious to you but I was unable to find any resources
 
 I want to thank Julian, Samuel, Bea, Maria, Marion and Anton for the fruitful discussions, elaborate feedback and grammar-nazi skills (probably still contains some typos though).
 
-***One last note:***
+#### ***One last note:***
+
+If you want to get informed about new posts you can <a href='http://www.mariushobbhahn.com/subscribe/'>subscribe to my mailing list</a> or <a href='https://twitter.com/MariusHobbhahn'>follow me on Twitter</a>.
+
+If you want to support me financially, you can send me a donation via my <a href='paypal.me/mariushobbhahn'>PayPal</a>. 
 
 If you have any feedback regarding anything (i.e. layout or opinions) please tell me in a constructive manner via your preferred means of communication.
 

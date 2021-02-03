@@ -61,7 +61,11 @@ Alles in allem geht es mir zunächst darum, einen Denkanstoß zu liefern. Probab
 
 Ich würde mich gerne bei Julian, Samuel, Bea, Maria, Marion and Anton für ihre Hilfe bedanken.
 
-***One last note:***
+#### ***One last note:***
+
+If you want to get informed about new posts you can <a href='http://www.mariushobbhahn.com/subscribe/'>subscribe to my mailing list</a> or <a href='https://twitter.com/MariusHobbhahn'>follow me on Twitter</a>.
+
+If you want to support me financially, you can send me a donation via my <a href='paypal.me/mariushobbhahn'>PayPal</a>. 
 
 Feedback zum Inhalt oder zur Form ist immer willkommen.
 
