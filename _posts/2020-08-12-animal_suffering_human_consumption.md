@@ -6,7 +6,7 @@ date:       2020-08-12 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/sad_cow.png"
 category:   opinion
-tags:       [Effective Altruism]
+tags:       [Effective Altruism, Data Analysis]
 ---
 
 ## **What is this post about?**

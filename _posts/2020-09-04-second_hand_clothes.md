@@ -6,7 +6,7 @@ date:       2020-09-04 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/second_hand.png"
 category:   opinion
-tags:       [Miscellaneous]
+tags:       [Miscellaneous, Data Analysis]
 ---
 
 ## **What is this post about?**

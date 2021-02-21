@@ -6,7 +6,7 @@ date:       2020-06-29 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/sisyphus.jpeg"
 category:   opinion
-tags:       [Effective Altruism]
+tags:       [Effective Altruism, Data Analysis]
 ---
 
 ## **What is this post about?**
