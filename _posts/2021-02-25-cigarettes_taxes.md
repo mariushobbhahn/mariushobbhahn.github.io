@@ -90,7 +90,7 @@ A <a href='https://www.hhs.gov/sites/default/files/consequences-smoking-exec-sum
 
 <figure>
   <img src="/img/Smoking/smoking_health_consequences.png"/>
-  <figcaption>Red means causal relationship is well understood; Others are strong correlations. Since the report is from 2006 many relationships might be better understood by now.</figcaption>
+  <figcaption><span style="font-size:2em;">Red means causal relationship is well understood; Others are strong correlations. Since the report is from 2006 many relationships might be better understood by now.</span></figcaption>
 </figure>
 
 While all of this sounds pretty bad it needs to be pointed out that the overall number of tobacco deaths is decreasing over time.
