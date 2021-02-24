@@ -145,7 +145,7 @@ Estimating the pensions per country is not straightforward as most of them are c
 
 <figure>
   <img src="/img/Smoking/cigarettes_tax_pensions_simple.png"/>
-  <figcaption><span style="font-size:10pt;">The estimates for pensions saved are likely __overestimates__ while the indirect costs are likely __underestimates__. Error bars are my best guesses as justified in the text.</span></figcaption>
+  <figcaption><span style="font-size:10pt;">The estimates for pensions saved are likely overestimates while the indirect costs are likely underestimates. Error bars are my best guesses as justified in the text.</span></figcaption>
 </figure>
 
 Estimating the average health care cost per person and country is also complicated because most health care schemes are pretty complex. The paper <a href='https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2769102'>Comparison of Health Care Spending by Age in 8 High-Income Countries</a> estimates the average spending for health care by age bracket. After converting the cost for 65+-year-olds, converting from US dollars to the respective currency, and adjusting for inflation we find that the USA on average spends $26133, Germany €10871, and the UK 7333 pounds per 65+-year-old person. For India, I couldn't find health care spending by age bracket but public spending for health care per person in general (see <a href='https://www.statista.com/statistics/953150/india-per-capita-public-expenditure-on-health/'>statista</a>). For most countries the health care cost for 65+-year-olds was 2.5 times the average spending so I created a similar estimate for India.
@@ -160,7 +160,7 @@ Before we discuss the results, I think it is important to point out that there a
 
 <figure>
   <img src="/img/Smoking/cigarettes_tax_pensions_hc_simple.png"/>
-  <figcaption><span style="font-size:10pt;">The estimates for pensions and health care saved are likely **overestimates** while the indirect costs are likely **underestimates**. Error bars are my best guesses as justified in the text.</span></figcaption>
+  <figcaption><span style="font-size:10pt;">The estimates for pensions and health care saved are likely overestimates while the indirect costs are likely underestimates. Error bars are my best guesses as justified in the text.</span></figcaption>
 </figure>
 
 #### Limitations
