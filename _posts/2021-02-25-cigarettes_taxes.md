@@ -17,7 +17,7 @@ Therefore, I want to do four simple things in this post. First, give a basic ove
 
 As always, if you disagree with my approach, with my analysis, or with my conclusions, don't hesitate to contact me. If you like it and know other people who you expect to like it too, share it with them.
 
-**DISCLAIMER:** this is not a research paper. While I read a lot of other people's research it doesn't have the rigor an actual scientific paper would require. It should be understood as the summary of ~100 hours of research done by someone who is interested in a realistic unbiased answer to the question and likes number crunching.
+**DISCLAIMER:** this is not a research paper. While I read a lot of other people's research it doesn't have the rigor an actual scientific paper would require. It should be understood as the summary of 50-100 hours of research done by someone who is interested in a realistic unbiased answer to the question and likes number crunching.
 
 If you want to play around with the code yourself or have access to the figures you can find them on <a href='https://github.com/mariushobbhahn/Cost_of_smoking'>GitHub</a>.
 
