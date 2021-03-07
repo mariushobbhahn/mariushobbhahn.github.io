@@ -132,7 +132,7 @@ subtitle: summary of my life (so far)
             <div class="row" style="padding-bottom: 2em"></div>
 	-->
 	
-            <h4>Additional Information</h4>
+            <h4>ML related</h4>
             <div>Successfully completed over 20 lectures related to ML, AI, NNs, RL, Stats, etc. at the University of Tübingen</div>
 
             <h4>Programming Experience</h4>
