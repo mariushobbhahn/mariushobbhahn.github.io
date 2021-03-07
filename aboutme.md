@@ -36,11 +36,9 @@ subtitle: summary of my life (so far)
     <div class="row">
         <div class="col-md-3"><h3>Research Interests</h3></div>
         <div class="col-md-9">
-            <div>Uncertainty Quantification in Deep Learning</div>
             <div>Bayesian Inference & Probabilistic Modeling</div>
-            <div>Bayesian Deep Learning</div>
-            <div>AI Safety and Alignment</div>
-            <div>Fairness in Machine Learning</div>
+            <div>Uncertainty Quantification in Deep Learning</div>
+            <div>Personal interest: AI Safety and Alignment</div>
         </div>
     </div>
 
@@ -105,8 +103,10 @@ subtitle: summary of my life (so far)
     </div>
 
     <div class="row" style="padding-top: 3em;">
-        <div class="col-md-3"><h3>ML Experience</h3></div>
+        <div class="col-md-3"><h3>CS Experience</h3></div>
         <div class="col-md-9">
+        
+        <!---
             <h4>Object Detection using the Scattering Transform (Grade: 1.7)</h4>
                 [<a href="/files/Scattering_transform_Marius_Hobbhahn.pdf">pdf</a>]
                 [<a href="https://github.com/mariushobbhahn/CompSci_Bachelor_201819">code</a>]
@@ -130,7 +130,8 @@ subtitle: summary of my life (so far)
             [<a href="https://github.com/mariushobbhahn/BayesLoLPredictions/tree/master/Project">code</a>]
 
             <div class="row" style="padding-bottom: 2em"></div>
-
+	-->
+	
             <h4>Additional Information</h4>
             <div>Successfully completed over 20 lectures related to ML, AI, NNs, RL, Stats, etc. at the University of Tübingen</div>
 
@@ -153,7 +154,6 @@ subtitle: summary of my life (so far)
     <div class="row" style="padding-top: 3em;">
         <div class="col-md-3"><h3>Miscellaneous</h3></div>
         <div class="col-md-9">
-
             <h4>Academia</h4>
             <ul>
                 <li>Participated at multiple ML Summer Schools and conferences including: PAISS2019, ICML2020, GPSS2020, ESANN2020</li>
