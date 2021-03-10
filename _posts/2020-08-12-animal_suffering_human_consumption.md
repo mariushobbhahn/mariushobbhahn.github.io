@@ -170,7 +170,5 @@ I would like to thank Hans Kersting and Emil Iftekhar for providing feedback and
 
 If you want to get informed about new posts you can <a href='http://www.mariushobbhahn.com/subscribe/'>subscribe to my mailing list</a> or <a href='https://twitter.com/MariusHobbhahn'>follow me on Twitter</a>.
 
-If you want to support me financially, you can send me a donation via my <a href='https://www.paypal.me/mariushobbhahn'>PayPal</a>. 
-
 If you have any feedback regarding anything (i.e. layout or opinions) please tell me in a constructive manner via your preferred means of communication.
 
