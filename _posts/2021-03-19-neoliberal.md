@@ -4,7 +4,7 @@ title:      "I have accidentally become a Neoliberal"
 subtitle:   "Reflecting on how my economic views changed over time"
 date:       2021-03-19 20:28:00
 author:     "Marius Hobbhahn"
-header-img: "img/img-headers/neoliberal.png"
+header-img: "img/header-imgs/neoliberal.png"
 category:   opinion
 tags:       [Miscellaneous]
 ---
