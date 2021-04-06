@@ -20,7 +20,7 @@ A probability density function (pdf) that can be written in the form
 p(x) &= h(x)\cdot \exp\left(w^\top \phi(x) - \log Z(w) \right) \\
 \qquad\text{where}\qquad Z(w)&:= \int_{\mathbf{X}} \exp\left(w^\top \phi(x)\right) \,dh(x)
 \end{align}
-is called an exponential family where $\phi(x): \mathbb{X} \rightarrow \mathbb{R}^d$ is called sufficient statistics, $w \in \mathcal{D} \subseteq \mathbb{R}^d$: natural parameters where $\mathcal{D}$ is the domain of valid parameters, $\log Z(w): \mathbb{R}^d \rightarrow \mathbb{R}$: (log) partition function (normalization constant), and $h(x): \mathbb{X} \rightarrow \mathbb{R}_{+}$: base measure.
+is called an exponential family where $$\phi(x): \mathbb{X} \rightarrow \mathbb{R}^d$$ is called sufficient statistics, $$w \in \mathcal{D} \subseteq \mathbb{R}^d$$: natural parameters where $$\mathcal{D}$$ is the domain of valid parameters, $$\log Z(w): \mathbb{R}^d \rightarrow \mathbb{R}$$: (log) partition function (normalization constant), and $$h(x): \mathbb{X} \rightarrow \mathbb{R}_{+}$$: base measure.
 
 Many distributions can be written as exponential families (see e.g. <a href='https://en.wikipedia.org/wiki/Exponential_family'>Wikipedia</a>). Some of them most prominent ones are the Normal, Beta and Gamma distribution which are displayed for three sets of parameters respectively in the following figure.
 
