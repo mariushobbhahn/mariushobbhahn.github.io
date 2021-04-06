@@ -33,10 +33,13 @@ Many distributions can be written as exponential families (see e.g. <a href='htt
 The **sufficient statistics** are the statistics of the data that tell you everything interesting about them, i.e. if you know the sufficient statistics another person with the same data is unable to tell more about the probability distribution than you are. For the normal distribution the sufficient statistics are $$Y_1 = \sum_i X_i$$ and $$Y_2 = \sum_i X_i^2$$ for samples $$X_i, i=1,...,N$$. 
 With $$Y_1$$ and $$Y_2$$ we can compute 
 
-\begin{align}
+$$
+\begin{aligned}
    M &= 1/n Y_1 \\
-   S^2 &= \frac{Y_2 - (Y_1^2/n)}{n-1} = \frac{1}{n-1} \left[\sum_i X_i^2 - n\overline{X}^2\right] 
-\end{align}
+   S^2 &= \frac{Y_2 - (Y_1^2/n)}{n-1}  \\
+   &= \frac{1}{n-1} \left[\sum_i X_i^2 - n\overline{X}^2\right] 
+\end{aligned}
+$$
 
 to rediscover the mean and standard deviation which are also sufficient estimators of the normal distribution. 
 
