@@ -94,9 +94,9 @@ which is again in the form of the same exponential family. A similar result can 
   <img src="/img/ExpFam_Vis/beta_normal_mult_div.png"/>
 </figure>
 
-The true distributions have been computed by multiplying/dividing distribution 1 and 2 and re-normalizing the results. The update rule for the Beta distribution is simply $$a' = a1 + a2 -1$$ and for the Gaussian distribution $$\mu' = \frac{\mu_1 \sigma_2^2 - \mu_2 \sigma_1^2}{\sigma_1^2 + \sigma_2^2}$$ and $$\sigma' = \sqrt{\frac{1}{\frac{1}{\sigma_1^2} - \frac{1}{\sigma_2^2}}}$$. 
+The true distributions have been computed by multiplying/dividing distribution 1 and 2 and re-normalizing the results. The update rule for the Beta distribution is simply $$\alpha' = \alpha_1 + \alpha_2 -1, \beta' = \beta_1 + \beta_2 - 1$$ and for the Gaussian distribution $$\mu' = \frac{\mu_1 \sigma_2^2 - \mu_2 \sigma_1^2}{\sigma_1^2 + \sigma_2^2}$$ and $$\sigma' = \sqrt{\frac{1}{\frac{1}{\sigma_1^2} - \frac{1}{\sigma_2^2}}}$$. 
 
-While this looks like a small and irrelevant property it is actually very important. It implies that we can update the parameters of distributions in very little time instead of computing costly approximations. This properties is also the foundation of a the famous Machine Learning technique called <a href='https://tminka.github.io/papers/ep/roadmap.html'>Expectation Propagation</a>. 
+While this looks like an insignificant property it is actually very important. It implies that we can update the parameters of distributions by simple addition instead of computing costly approximations. This properties is a key component of the Machine Learning technique <a href='https://tminka.github.io/papers/ep/roadmap.html'>Expectation Propagation</a>. 
 
 ### Conjugacy
 
@@ -162,7 +162,7 @@ The inverse Wishart is a distribution over symmetric positive semi-definite matr
 First of all, the inverse Wishart (and the Wishart) distribution is defined on the symmetric positive semi-definite (psd) cone. The psd cone is a subspace of $$\mathbb{R}^d$$ on which all psd matrices lie. A real symmetric matrix $$\begin{pmatrix} a & b \\ b & c \end{pmatrix}$$ is psd iff $$a, c \geq 0$$ and $$ac - b^2 \geq 0$$. following <a href='https://math.stackexchange.com/questions/1875462/how-to-plot-the-psd-cone-in-matlab'>this stackoverflow post</a>, we will represent this by $$(a, b, c) \in \mathbb{R}^3$$. If we set $$a=1$$ then $$c \geq b^2$$ and if we set $$c=1$$ then $$a \geq b^2$$. So if we plot $$(a,b,c) = (1, b, b^2)$$ and $$(a,b,c) = (b^2, b, 1)$$ for $$-1 \leq y \leq 1$$ resptively and join these points with $$(0,0,0)$$ we start to see the cone. 
 
 <figure>
-  <img src="/img/ExpFam_Vis/PSD_cone_vis.png"/>
+  <img src="/img/ExpFam_Vis/PSD_cone_vis.png"/>	
 </figure>
 
 If you want to view the cone from different angles you can do so in the respective jupyter notebook. 
@@ -179,7 +179,7 @@ TODO: understand why!
 
 The second and third tool are simpler. The (inverse-) Wishart distribution has a scale matrix parameter $$\Psi$$ which we can plot as a 2x2 heatmap to show the size of the individual entries. The last method is just plotting histograms over $$a,b$$ and $$c$$ for samples drawn from the (inverse-) Wishart. 
 
-To visualize the likelihood we draw samples from a 2-dimensional Gaussian (top right) and compute their outer products. The update rules for the inverse Wishart are $$\Psi' = Psi + \sum_i x_i x_i^\top$$ and $\nu' = \nu + n$$. 
+To visualize the likelihood we draw samples from a 2-dimensional Gaussian (top right) and compute their outer products. The update rules for the inverse Wishart are $$\Psi' = \Psi + \sum_i x_i x_i^\top$$ and $$\nu' = \nu + n$$. 
 
 Combining all this we can inspect how the Wishart distribution behaves when updated with Gaussian outer product likelihoods. 
 
@@ -226,7 +226,7 @@ $$
 and its natural parameters are $$w_1 = \alpha-1$$ and $$w_2 = -\beta$$. Their reverse substitutions are $$\alpha = w_1 + 1$$ and $$\beta = -w_2$$. The sufficient statistics are $$(\log x, x)$$ and the log-partition function as a function of the natural parameters is
 
 $$
-Z(w_1, w_2) = \log \Gamma(w_1 + 1) - (\w_1 + 1) \log(-\w_2)
+Z(w_1, w_2) = \log \Gamma(w_1 + 1) - (w_1 + 1) \log(-w_2)
 $$
 
 To compute the mean we need to differentiate the log-partition function w.r.t. $$w_2$$ since the second sufficient statistic is $$x$$. Thus
@@ -234,7 +234,7 @@ To compute the mean we need to differentiate the log-partition function w.r.t. $
 $$
 \begin{aligned}
 \mathbb{E}[x] &= \frac{\partial Z(w_1, w_2)}{\partial w_2} \\
-	&= -(w_1 + 1)\frac{1}{-\w_2}(-1) = \frac{w_1 + 1}{-w_2} \\
+	&= -(w_1 + 1)\frac{1}{-w_2}(-1) = \frac{w_1 + 1}{-w_2} \\
 	&= \frac{\alpha}{\beta}
 \end{aligned}
 $$
@@ -243,7 +243,7 @@ To compute the variance we differentiate twice and get
 
 $$
 \begin{aligned}
-\Var(x) &= \frac{\partial^2 Z(w_1, w_2)}{\partial w_2} \\
+\mathrm{Var}(x) &= \frac{\partial^2 Z(w_1, w_2)}{\partial w_2} \\
 	&= \frac{\partial}{\partial w_2} \frac{w_1 + 1}{-w_2} \\
 	&= \frac{\alpha}{\beta^2}
 \end{aligned}
@@ -255,13 +255,13 @@ We can visually confirm, that these approximations are correct by comparing samp
   <img src="/img/ExpFam_Vis/gamma_expectations.png"/>
 </figure>
 
-Similar to above we can also compute the moments for the other sufficient statistics, e.g. $$\mathbb{E}[\log x]$$ and $$\Var(\log x)$$. 
+Similar to above we can also compute the moments for the other sufficient statistics, e.g. $$\mathbb{E}[\log x]$$ and $$\mathrm{Var}(\log x)$$. 
 
 All of the moments above could have also be computed using integration but it is significantly more complicated than simple differentiation. 
 
 ### Moment Matching
 
-Let's say we have two distributions $$p(x)$$ and $$q(x)$$ where $$p$$ is any fixed distribution and $$q$$ is a member of an exponential family. Then we can show that the <a href='https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence'>KL-divergence</a> $$KL(p||q)$$ between the two distributions is minimized by matching their moments, e.g. setting the mean and variance of $$p(x)$$ to that of $$q(x)$$. We write
+Let's say we have two distributions $$p(x)$$ and $$q(x)$$ where $$p$$ is any fixed distribution and $$q$$ is a member of an exponential family. Then we can show that the <a href='https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence'>KL-divergence</a> $$KL(p\vert\vert q)$$ between the two distributions is minimized by matching their moments, e.g. setting the mean and variance of $$p(x)$$ to that of $$q(x)$$. We write
 
 $$\begin{aligned}
 KL(p||q) &= \int p(x) \log\frac{p(x)}{q(x)} dx \\
@@ -286,7 +286,7 @@ $$\begin{aligned}
 \end{aligned}
 $$
 
-where we use the knowledge that the derivatives of the log-partition function yield the moments of the distribution which we derived in the previous section. The visual intuition behind this fact can be found in the following figure. Our static distribution $$p(x)$$ is a normal with $$\mu=4$$ and $$\sigma=1$$ and we want to fit a Gamma distribution $$q(x)$$ such that $$KL(p||q)$$ is minimized. To match the moments we compute
+where we use the knowledge that the derivatives of the log-partition function yield the moments of the distribution which we derived in the previous section. The visual intuition behind this fact can be found in the following figure. Our static distribution $$p(x)$$ is a normal with $$\mu=4$$ and $$\sigma=1$$ and we want to fit a Gamma distribution $$q(x)$$ such that $$KL(p\vert\vert q)$$ is minimized. To match the moments we compute
 
 $$\begin{aligned}
 	\mu &= \frac{\alpha}{\beta} \\
@@ -300,8 +300,6 @@ We can then compare the empirical KL divergences for different pairs of paramete
 <figure>
   <img src="/img/ExpFam_Vis/moment_matching_gamma.png"/>
 </figure>
-
-TODO change color scheme for left picture
 
 This property of matching the moments (or expectations) gives name to Expectation Propagation since one of its central steps is to fit an exponential family by moment matching. 
 
