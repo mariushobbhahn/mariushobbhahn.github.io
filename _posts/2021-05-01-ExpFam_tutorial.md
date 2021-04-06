@@ -16,10 +16,12 @@ Exponential family distributions are important for many classical machine learni
 ## The Basics
 
 A probability density function (pdf) that can be written in the form 
+
 \begin{align}\label{EF}
 p(x) &= h(x)\cdot \exp\left(w^\top \phi(x) - \log Z(w) \right) \\
 \qquad\text{where}\qquad Z(w)&:= \int_{\mathbf{X}} \exp\left(w^\top \phi(x)\right) \,dh(x)
 \end{align}
+
 is called an exponential family where $$\phi(x): \mathbb{X} \rightarrow \mathbb{R}^d$$ is called sufficient statistics, $$w \in \mathcal{D} \subseteq \mathbb{R}^d$$: natural parameters where $$\mathcal{D}$$ is the domain of valid parameters, $$\log Z(w): \mathbb{R}^d \rightarrow \mathbb{R}$$: (log) partition function (normalization constant), and $$h(x): \mathbb{X} \rightarrow \mathbb{R}_{+}$$: base measure.
 
 Many distributions can be written as exponential families (see e.g. <a href='https://en.wikipedia.org/wiki/Exponential_family'>Wikipedia</a>). Some of them most prominent ones are the Normal, Beta and Gamma distribution which are displayed for three sets of parameters respectively in the following figure.
@@ -28,14 +30,14 @@ Many distributions can be written as exponential families (see e.g. <a href='htt
   <img src="/img/ExpFam_Vis/normal_beta_gamma.png"/>
 </figure>
 
-The **sufficient statistics** are the statistics of the data that tell you everything interesting about them, i.e. if you know the sufficient statistics another person with the same data is unable to tell more about the probability distribution than you are. For the normal distribution the sufficient statistics are $$Y_1 = \sum_i X_i$$ and $$Y_2 == \sum_i X_i^2$$ for samples $$X_i, i=1,...,N$. 
+The **sufficient statistics** are the statistics of the data that tell you everything interesting about them, i.e. if you know the sufficient statistics another person with the same data is unable to tell more about the probability distribution than you are. For the normal distribution the sufficient statistics are $$Y_1 = \sum_i X_i$$ and $$Y_2 = \sum_i X_i^2$$ for samples $$X_i, i=1,...,N$$. 
 With $$Y_1$$ and $$Y_2$$ we can compute 
-$$
+
 \begin{align}
    M &= 1/n Y_1 \\
-   S^2 &= \frac{Y_2 - (Y_1^2/n)}{n-1} = \frac{1}{n-1} \left[\sum_i X_i^2 - n\Bar{X}^2\right] 
+   S^2 &= \frac{Y_2 - (Y_1^2/n)}{n-1} = \frac{1}{n-1} \left[\sum_i X_i^2 - n\overline{X}^2\right] 
 \end{align}
-$$
+
 to rediscover the mean and standard deviation which are also sufficient estimators of the normal distribution. 
 
 <figure>
@@ -100,11 +102,11 @@ The Beta distribution describes beliefs about a probability, thus it is plausibl
 
 For the Bernoulli likelihood this means we compute $$\alpha' = \alpha + \sum_i x_i$$ and $$\beta' = \beta + n - \sum_i x_i$$, i.e. we add 1 to $$\alpha$$ for every success and 1 to $$\beta$$ for every failure. 
 
-![](/img/ExpFam_Vis/GIFs/Beta_Bernoulli.gif)
+![](/img/ExpFam_Vis/Beta_Bernoulli.gif)
 
 For the Binomial likelihood we compute $$\alpha' = \alpha + \sum_i x_i$$ and $$\beta' = \beta + \sum_i N_i - \sum_i x_i$$. 
 
-![](/img/ExpFam_Vis/GIFs/Beta_Binomial.gif)
+![](/img/ExpFam_Vis/Beta_Binomial.gif)
 
 The posterior updates have a very intuitive interpretation. If we have more data the Beta mean gets closer to the true probability and its uncertainty decreases. The more coinflips we see the better we know its bias and the more certain we become. 
 
