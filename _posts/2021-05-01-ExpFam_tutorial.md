@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "(Visual) Tutorial on Exponential Families"
-subtitle:   "With special focus on Conjugacy and Moments"
+title:      "A (visual) Tutorial on Exponential Families"
+subtitle:   "With special focus on Machine Learning related properties"
 date:       2021-03-01 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/img-headers/TODO"
@@ -20,11 +20,13 @@ A probability density function (pdf) that can be written in the form
 $$
 \begin{aligned}\label{EF}
 p(x) &= h(x)\cdot \exp\left(w^\top \phi(x) - \log Z(w) \right) \\
-\qquad\text{where}\qquad Z(w)&:= \int_{\mathbf{X}} h(x)\exp\left(w^\top \phi(x)\right) \,dx
+\qquad\text{where}\qquad Z(w)&:= \int h(x)\exp\left(w^\top \phi(x)\right) \,dx
 \end{aligned}
 $$
 
 is called an exponential family where $$\phi(x): \mathbb{X} \rightarrow \mathbb{R}^d$$ is called sufficient statistics, $$w \in \mathcal{D} \subseteq \mathbb{R}^d$$: natural parameters where $$\mathcal{D}$$ is the domain of valid parameters, $$\log Z(w): \mathbb{R}^d \rightarrow \mathbb{R}$$: (log) partition function (normalization constant), and $$h(x): \mathbb{X} \rightarrow \mathbb{R}_{+}$$: base measure.
+
+TODO: rephrase, too much where
 
 Many distributions can be written as exponential families (see e.g. <a href='https://en.wikipedia.org/wiki/Exponential_family'>Wikipedia</a>). Some of them most prominent ones are the Normal, Beta and Gamma distribution which are displayed for three sets of parameters respectively in the following figure.
 
@@ -32,7 +34,7 @@ Many distributions can be written as exponential families (see e.g. <a href='htt
   <img src="/img/ExpFam_Vis/normal_beta_gamma.png"/>
 </figure>
 
-The **sufficient statistics** are the statistics of the data that tell you everything interesting about them, i.e. if you know the sufficient statistics another person with the same data is unable to tell more about the probability distribution than you are. For the normal distribution the sufficient statistics are $$Y_1 = \sum_i X_i$$ and $$Y_2 = \sum_i X_i^2$$ for samples $$X_i, i=1,...,N$$. 
+The **sufficient statistics** are the statistics of the data that tell you everything interesting about them, i.e. if you know the sufficient statistics another person with the same data is unable to tell more about the probability distribution than you are. For the normal distribution, for example, the sufficient statistics are $$Y_1 = \sum_i X_i$$ and $$Y_2 = \sum_i X_i^2$$ for samples $$X_i, i=1,...,N$$. 
 With $$Y_1$$ and $$Y_2$$ we can compute 
 
 $$
@@ -49,9 +51,9 @@ to rediscover the mean and standard deviation which are also sufficient estimato
   <img src="/img/ExpFam_Vis/suff_stats_normal.png"/>
 </figure>
 
-The **natural parameters** are the set of parameters $$w$$ for which $$p(x)$$ is defined. They are related to but usually not the same as the parameters of the probability distribution. The parameters of the normal distribution, for example, are its mean $$\mu$$ and standard deviation $$\sigma$$. Its natural parameters, however, are $$w_1 = \frac{\mu}{\sigma^2}$$ and $$w_2 = -\frac{1}{2\sigma^2}$$. 
+The **natural parameters** are the set of parameters $$w$$ for which $$p(x)$$ is defined. They are related to (but usually not the same as) the parameters of the probability distribution. The parameters of the normal distribution, for example, are its mean $$\mu$$ and standard deviation $$\sigma$$. Its natural parameters, however, are $$w_1 = \frac{\mu}{\sigma^2}$$ and $$w_2 = -\frac{1}{2\sigma^2}$$. 
 
-The **base measure** is the most fuzzy part of exponential families in my experience. This is because I can arbitrarily shift values between the natural parameters and the base measure. For example, the following three equations are all possible legitimate definitions of the Beta distribution in exponential family form but they have different base measures and natural parameters.
+The **base measure** is the most fuzzy part of exponential families in my experience. This is because we can arbitrarily shift values between the natural parameters and the base measure. The following three equations, for example, are all possible legitimate definitions of the Beta distribution in exponential family form but they have different base measures and natural parameters.
 
 $$
 \begin{aligned}
@@ -61,9 +63,9 @@ $$
 \end{aligned}
 $$
 
-However, the most reasonable definition is one where we push all "left-over" parts from the natural parameters into the base measure, e.g. the $$-1$$ terms in the Beta distribution. The reason why it is called "base-measure" is that if you set your natural parameters $$w$$ to 0, everything that's left is your base. Similarly, you could say that changing your natural parameters $$w$$ can be seen as updating your base measure $$h(x)$$. 
+However, the most reasonable definition is one where we push all "left-over" parts from the natural parameters into the base measure, e.g. the $$-1$$ terms in the Beta distribution (see second equation above). The reason why it is called "base-measure" is that if you set your natural parameters $$w$$ to 0, only your base is left. Similarly, you could say that changing your natural parameters $$w$$ can be seen as updating your base measure $$h(x)$$. 
 
-The **log-partition function:** is the most underrated part of exponential families in my opinion. In the beginning I perceived it as "just a normalizing constant" such that your distribution integrates to 1. However, the fact that it is available in closed form combined with the structure of exponential families yields very powerful properties. I will discuss them further down in more detail but, in short, the log partition function allows for efficient computation of the moments through derivation instead of integration. This is a game changer because derivation is usually much easier than integration. To understand the normalizing effect of the log partition function consider the following figure where the Gamma distribution has been plotted with and without the normalizing constant. 
+The **log partition function:** is the most underrated part of exponential families in my opinion. In the beginning I perceived it as "just a normalizing constant" to ensure that your distribution integrates to 1. However, the fact that it is available in closed form combined with the structure of exponential families yields very powerful properties. I will discuss them further down in more detail but, in short, the log partition function allows for efficient computation of the moments through derivation instead of integration. This is powerful because derivation is usually much easier than integration. To understand the normalizing effect of the log partition function consider the following figure where the Gamma distribution has been plotted with and without the normalizing constant. 
 
 TODO: naming scheme
 
@@ -75,7 +77,7 @@ If you want to find the natural parameters $$w$$, sufficient statistics $$\phi(x
 
 ## Important Properties
 
-Exponential Families have a lot of interesting properties. I chose a small selection of those that I find most important. Since I come from a Machine Learning background, you will find a biased selection.
+Exponential Families have a lot of interesting properties. I chose a small selection of those that I find most important. Since I come from a Machine Learning background, my selection is biased towards ML. 
 
 ### Multiplication and Division
 
@@ -103,6 +105,10 @@ While this looks like an insignificant property it is actually very important. I
 If you have data of a certain type, e.g. Bernoulli, then there often is an exponential family conjugate prior distribution, e.g. the Beta. This means, that you can compute the posterior distribution by updating the parameters of the prior distribution through simple addition $$w' = w_0 + f(x)$$ for data $$x$$ where $$f(x)$$ is a cheap and simple function. This is very powerful, since it enables very fast Bayesian inference with exponential families without the need for costly approximations such as sampling. 
 
 TODO bayes theorem and explanation better.
+
+$$
+p(\theta \vert X) = \frac{p(X \vert \theta) \p(\theta)}{p(X)} = \frac{\overbrace{p(X \vert \theta)}_{\text{likelihood}} \overbrace{\p(\theta)}_{\text{prior}}}{\underbrace{\int p(X \vert \theta) \p(\theta)}_{\text{evidence}} 
+$$
 
 I think conjugacy can be easiest understood in visual terms. Thus, in the following, you can see how different data types update their respective conjugate priors. The figures on the left contain the conjugate distribution and the figure on the right is used to generate the data. 
 
@@ -280,7 +286,7 @@ $$
 where the expectation around $$\log Z(w)$$ vanishes as it is independent of $$x$$. To get the optimal values for $$w$$ we compute the first derivative w.r.t. $$w$$ and set it to zero. 
 
 $$\begin{aligned}
-\nabla KL_w(p||q) &= - \mathbb{E}_{p(x)}[\phi(x)] + \nabla_w \log Z(w) \overset{=}{!} 0 \\
+\nabla_w KL_w(p||q) &= - \mathbb{E}_{p(x)}[\phi(x)] + \nabla_w \log Z(w) \overset{!}{=} 0 \\
 	\Leftrightarrow \nabla_w \log Z(w) &= \mathbb{E}_{p(x)}[\phi(x)] \\
 	\Leftrightarrow \mathbb{E}_{q(x)}[\phi(x)]  &= \mathbb{E}_{p(x)}[\phi(x)] 
 \end{aligned}
@@ -291,8 +297,8 @@ where we use the knowledge that the derivatives of the log-partition function yi
 $$\begin{aligned}
 	\mu &= \frac{\alpha}{\beta} \\
 	\sigma^2 &= \frac{\alpha}{\beta^2} \\
-	\Rightarrow \alpha = \frac{\mu^2}{\sigma^2} = 16\\
-	\Rightarrow \beta = \frac{\mu}{\sigma^2} = 4
+	\Rightarrow \alpha &= \frac{\mu^2}{\sigma^2} = 16\\
+	\Rightarrow \beta &= \frac{\mu}{\sigma^2} = 4
 \end{aligned}$$
 
 We can then compare the empirical KL divergences for different pairs of parameters around the theoretically optimal solution to convince ourselves that we have the best fit. 
