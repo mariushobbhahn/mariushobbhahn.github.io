@@ -5,7 +5,7 @@ subtitle:   "With special focus on Machine Learning related properties"
 date:       2021-03-01 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/img-headers/TODO"
-category:   opinion
+category:   
 tags:       [Machine Learning]
 ---
 
