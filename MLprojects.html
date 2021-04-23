@@ -4,60 +4,50 @@ title: "ML Projects"
 weight: 5
 ---
 
-<!--
-{% assign posts_about = site.posts | where: 'category', 'ML_about' %}
 
-{% for post_about in posts_about %}
-  <article class="post-preview">
-    <a href="{{ post_about.url | relative_url }}">
-	  <h2 class="post-title">{{ post_about.title }}</h2>
+{% assign posts = site.posts | where: 'category', 'ML_project' %}
 
-	  {% if post_about.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post_about.subtitle }}
-	  </h3>
-	  {% endif %}
-    </a>
-
-    <p class="post-meta">
-      Posted on {{ post_about.date | date: site.date_format }}
-    </p>
-
-    <div class="post-entry-container">
-      {% if post_about.image %}
-      <div class="post-image">
-        <a href="{{ post_about.url | relative_url }}">
-          <img src="{{ post_about.image | relative_url }}">
+{% for post in posts %}
+    <div class="post-preview">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}">
+                </div>
+                <div class="col-sm-8">
+                    <h2 class="post-title">
+                        {{ post.title }}
+                    </h2>
+                    {% if post.subtitle %}
+                        {{ post.subtitle }}
+                    {% endif %}
+                    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+                </div>
+            </div>
         </a>
-      </div>
-      {% endif %}
-      <div class="post-entry">
-        {{ post_about.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-        {% assign excerpt_word_count = post_about.excerpt | number_of_words %}
-        {% if post_about.content != post_about.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post_about.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
-        {% endif %}
-      </div>
     </div>
-
-    {% if post_about.tags.size > 0 %}
+    
+    {% if post.tags.size > 0 %}
     <div class="blog-tags">
       Tags:
       {% if site.link-tags %}
-      {% for tag in post_about.tags %}
+      {% for tag in post.tags %}
       <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
       {% endfor %}
       {% else %}
-        {{ post_about.tags | join: ", " }}
+        {{ post.tags | join: ", " }}
       {% endif %}
     </div>
     {% endif %}
+    
+    {% unless forloop.last %}
+        <hr>
+    {% endunless %}
+    
+{% endfor %}
 
-   </article>
-  {% endfor %}
--->
 
-
+<!--
 {% assign posts = site.posts | where: 'category', 'ML_project' %}
 
 {% for post in posts %}
@@ -108,3 +98,4 @@ weight: 5
 
    </article>
   {% endfor %}
+-->
