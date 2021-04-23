@@ -4,7 +4,7 @@ title:      "Using the Scattering Transform for Object Detection"
 subtitle:   "This post is a summary of my second bachelor thesis (Computer Science)"
 date:       2019-10-25 20:28:00
 author:     "Marius Hobbhahn"
-header-img: "img/img-headers/example_cat_1ord.png"
+header-img: "img/header-imgs/example_cat_1ord.png"
 category:   ML_project
 tags:       [Machine Learning]
 ---

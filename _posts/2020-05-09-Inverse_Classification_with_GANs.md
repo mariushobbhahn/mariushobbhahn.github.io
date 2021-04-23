@@ -4,7 +4,7 @@ title:      "Inverse Classification using GANs"
 subtitle:   "A summary of exploratory work on the usage of GANs for Inverse Classification"
 date:       2020-05-09 20:28:00
 author:     "Marius Hobbhahn"
-header-img: "img/img-headers/G_epoch24_nz50_n02.png"
+header-img: "img/header-imgs/G_epoch24_nz50_n02.png"
 category:   ML_project
 tags:       [Machine Learning, Inverse Classification]
 ---
