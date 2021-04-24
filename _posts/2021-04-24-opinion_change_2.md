@@ -4,7 +4,7 @@ title:      "Things I changed my mind about: Part II"
 subtitle:   "Another list of beliefs that I changed over the last couple of years"
 date:       2021-04-24 20:28:00
 author:     "Marius Hobbhahn"
-header-img: "img/img-headers/Opinion_change2.png"
+header-img: "img/header-imgs/Opinion_change2.png"
 category:   opinion
 tags:       [Miscellaneous, Improve]
 ---
