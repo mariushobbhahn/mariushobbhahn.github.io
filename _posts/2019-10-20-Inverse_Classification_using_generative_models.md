@@ -4,7 +4,7 @@ title:      "Inverse Classification using Generative Models"
 subtitle:   "This post is a summary of my first bachelor thesis (Cognitive Science)"
 date:       2019-10-20 20:28:00
 author:     "Marius Hobbhahn"
-header-img: "img/header-imgs/2D_noise_overview.jpg"
+header-img: "img/header-imgs/2D_noise_overview.png"
 category:   ML_project
 tags:       [Machine Learning, Inverse Classification]
 ---
