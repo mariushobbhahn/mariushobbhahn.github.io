@@ -50,6 +50,8 @@ I have linked the original podcasts but you can also find them in your prefered 
 
 
 ## **Books:**
+
+- **Atomic Habits:** The only book on productivity that is not bad - and it's not only not bad but really good. James clear explains the problems with productivity in a relatable fashion and gives advice everyone can apply. In contrast to other books on productivity it doesn't overpromise the results but emphasizes slow and boring change that work. 
 - **The Precipice:** By far the best book on existential risk. Toby Ords writing style is very impressive: The information density is high but you understand everything very clearly. My favorite thing about the book is how well Toby Ord quantifies the scientific uncertainty of a given topic so that the reader can better understand the risk attached to specific existential scenarios. 
 - **Nudge:** Good introduction into the science of nudging, i.e. a way to make people behave in a way that is good for them and society and increases the chance of them achieving their own long term goals.
 - **Elephant in the brain:** This book is the go-to source to learn about why humans use virtue signaling. Why do we brag to our friends? why do we act differently depending on the social context?

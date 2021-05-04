@@ -19,6 +19,8 @@ When I was in high school I was a big fan of regulation. For my 17-year-old-self
 
 By now I have so many specific views on markets, regulation, housing, game theory, climate change, etc. that I didn't feel at all like I belonged to either of the classic left vs. right camps in economics. For example, I believe that markets are a good idea when the incentives align with those of society but I also want more redistribution. I think drugs should be legal but I think they should be regulated, e.g. advertising should be banned. I think companies are polluting too much but my approach to solving it would mainly involve <a href='https://en.wikipedia.org/wiki/Emissions_trading'>Emissions trading</a>. Given that I didn't belong to either of the classic camps I thought my economic positions were just a pretty long list of specific policies that I like or dislike without an overarching concept. However, when I started using Twitter more regularly, I saw that people often used the term "Neoliberal" to describe my economic positions. When I started listening to the <a href='https://neoliberalproject.org/neoliberal-podcast'>Neoliberal Podcast</a> I found myself agreeing most of the time. So, maybe I'm a Neoliberal?!
 
+This is a selection of my economic opinions and it does not include my views on e.g. unions, worker rights and many others. If you want to chat about those, just drop me a message. 
+
 If you like the post and know other people who you expect to like it, please share it with them. If you didn't like it or disagree please contact me and tell me why.
 
 ### Clarification - What do I mean by Neoliberalism?
