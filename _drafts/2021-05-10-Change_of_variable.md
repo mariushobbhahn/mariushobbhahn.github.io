@@ -11,9 +11,13 @@ tags:       [Machine Learning]
 
 ## **What is this post about?**
 
+The change of variable for probability density functions (pdfs) is a simple yet powerful fact about probability distributions. It is the foundation for some of my research, which is why I feel comfortable writing this tutorial, but it is also the main component of other ML techniques such as normalizing flows. 
 
+In this post I introduce the change of variable with increasingply complex examples while primarily focusing on visual interpretations.
 
-## Change of variable for probability density functions
+If you have constructive feedback don't hesitate to write me. If you like it, think about sharing it with others.
+
+## Change of variable for pdfs
 
 Equation
 

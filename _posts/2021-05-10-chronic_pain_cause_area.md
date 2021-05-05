@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Should Chronic Pain be a cause area for Effective altruists?"
-subtitle:   "TODO"
-date:       2021-06-01 20:28:00
+title:      "Should Chronic Pain be a cause area for Effective Altruists?"
+subtitle:   "TL;DR: too broad to judge in general but specific interventions and research look promising"
+date:       2021-05-10 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/Chronic_pain.png"
 category:   opinion
@@ -70,7 +70,7 @@ The exact reasons for this are uncertain and different hypotheses have been form
 
 We originally expected CP to be especially prevalent in the developed world since the population there is on average older, more obese, and more likely to work a desk job. However, the evidence is inconclusive and there seems to be very high variability in the prevalence of CP between developing nations. 
 The meta-study by Andrews et al. [5](#References) found that there is a significant difference between developed and developing nations with regards to the prevalence of chronic pain. More specifically, they find a CI of 6.9–10.3% for developed and 3.9–25.1% for developing nations. It must be noted though that their data was very sparse for developing nations and should be treated with caution. 
-Another meta-study [6](#References) focused exclusively on developing countries in South America, Africa and Asia. They found that there was a high variance between different developing nations ranging from a prevalence between 13% and 51% (One estimate for Nepal, see cite [TODO]). After accounting for publication bias they estimated that the overall prevalence of chronic pain in developing countries is around 18% which they compare to a mean estimate of 18.4% for Germany (TODO cite from [6]), 21% in Hong Kong (TODO cite from [6]), and 19-21.4% in the USA (TODO cite from [6]). 
+Another meta-study [6](#References) focused exclusively on developing countries in South America, Africa and Asia. They found that there was a high variance between different developing nations ranging from a prevalence between 13% and 51% (One estimate for Nepal, see [24](#References)). After accounting for publication bias they estimated that the overall prevalence of chronic pain in developing countries is around 18% which they compare to a mean estimate of 18.4% for Germany [27](#References), 21.5% in Hong Kong [28](#References), and 19-21.4% in the USA [29](#References). 
 While the mean estimates show only small differences, it hides the underlying distribution of cases and countries. 
 
 |Country           |Participants|CP prevalence (95% CI)|Reference                 |
@@ -93,7 +93,7 @@ While the two large studies in India and the Philippines seem to have found a lo
 
 #### Misc. Factors
 
-Besides the previously discussed conditions, the following were named as statistically significant covariates of CP in individual studies: Obesity, Smoking, Alcohol consumption, educational level, income, and type of employment (TODO: Zarai et al. 2012, TODO: Brazil studies). However, none of these were included in meta-studies and the results, even though they seem intuitive, should be treated with caution. 
+Besides the previously discussed conditions, the following were named as statistically significant covariates of CP in individual studies: Obesity, Smoking, Alcohol consumption, educational level, income, and type of employment ([20](#References), [24](#References)). However, none of these were included in meta-studies and the results, even though they seem intuitive, should be treated with caution. 
 
 #### Uncertainty
 
@@ -106,7 +106,7 @@ From a high-level perspective, there are two strategies one could pursue to redu
 
 #### Scale
 
-We estimate the scale to be medium or large. The prevalence of CP is somewhere between 5 and 50 percent of the population depending on the region and subgroup. This is more than most other health conditions but is partly explained by CP being a superset for different kinds of pain. The effects on one individual range from constantly annoying to very devastating pain (e.g. a nearly constant 10/10 on the pain scale). Especially in developing or emerging countries the prevalence and intensity of chronic pain is high among the poor and uneducated (TODO: cite township, Iran, and Brazil studies). The alleviation or mitigation of that pain would, with high probability, be a major life improvement for them. 
+We estimate the scale to be medium or large. The prevalence of CP is somewhere between 5 and 50 percent of the population depending on the region and subgroup. This is more than most other health conditions but is partly explained by CP being a superset for different kinds of pain. The effects on one individual range from constantly annoying to very devastating pain (e.g. a nearly constant 10/10 on the pain scale). Especially in developing or emerging countries the prevalence and intensity of chronic pain is high among the poor and uneducated ([21](#References), [20](#References), [15](#References), [15](#References), [16](#References), [24](#References)). The alleviation or mitigation of that pain would, with high probability, be a major life improvement for them. 
 
 #### Neglectedness
 
@@ -165,6 +165,9 @@ A systematic review</a>; 2017
 24. Souza et al.; <a href='https://pubmed.ncbi.nlm.nih.gov/29081680/'>Prevalence of Chronic Pain, Treatments, Perception, and Interference on Life Activities: Brazilian Population-Based Survey</a>; 2017
 25. Bhattarai et al.; <a href='https://pubmed.ncbi.nlm.nih.gov/17593670/'>Chronic pain and cost: an epidemiological study in the communities of Sunsari district of Nepal</a>; 2008
 26. Lu and Havier; <a href='https://www.semanticscholar.org/paper/Prevalence-and-Treatment-of-Chronic-Pain-in-the-Lu-Javier/035ccebb1a9b9c771d9f3b099359b687c565814d'>Prevalence and Treatment of Chronic Pain in the Philippines</a>; 2012
+27. Stefan Hensler et al.; <a href='https://pubmed.ncbi.nlm.nih.gov/20021600/'>Chronic pain in German general practice</a>, 2009
+28. Wing S. Wong, Richard Fielding; <a href='https://pubmed.ncbi.nlm.nih.gov/20875775/'>Prevalence and characteristics of chronic pain in the general population of Hong Kong</a>; 2010
+29. Catherine B Johannes et al.; <a href='https://pubmed.ncbi.nlm.nih.gov/20797916/'>The prevalence of chronic pain in United States adults: results of an Internet-based survey</a>; 2010
 
 
 #### ***One last note***
