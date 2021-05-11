@@ -59,6 +59,10 @@ subtitle: summary of my life (so far)
             <div>Grade (1.5)</div>
 
             <div class="row" style="padding-bottom: 2em"></div>
+            
+            <li>Member of the <a href='https://www.studienstiftung.de/en/'>German scholarship foundation (Studienstiftung)</a> since 2017</li>
+            
+            <div class="row" style="padding-bottom: 2em"></div>
 
             <h4>University of Tübingen, Germany</h4>
             <div>B.Sc., Computer Science, 2016-2019</div>
@@ -83,6 +87,17 @@ subtitle: summary of my life (so far)
     <div class="row" style="padding-top: 3em;">
     <div class="col-md-3"><h3>Publications</h3></div>
         <div class="col-md-9">
+        
+		<h4>Laplace Matching for fast Approximate Inference in Generalized Linear Models</h4>
+		    <div>
+			<i>Hobbhahn, Marius</i> and Hennig, Philipp. (2021).
+		    </div>
+			[<a href="https://arxiv.org/abs/2105.03109">arxiv</a>]
+			[<a href='https://github.com/mariushobbhahn/Laplace_Matching_for_GLMs'>code</a>]
+			[<a>Blog post (soon)</a>]
+
+	     <div class="row" style="padding-bottom: 2em"></div>
+		    
             <h4>Fast Predictive Uncertainty for Classification with Bayesian Deep Networks</h4>
             <div>
                 <i>Hobbhahn, Marius</i>; Kristiadi, Agustinus and Hennig, Philipp. arXiv preprint arXiv:2003.01227 (2020).
@@ -171,10 +186,9 @@ subtitle: summary of my life (so far)
 
             <h4>Effective Altruism</h4>
             <ul>
-                <li>Co-found the <a href='https://www.facebook.com/EATuebingen'>Tübingen EA chapter</a> in 2016</li>
+                <li>Co-found the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 (still organizing it)</li>
                 <li>Co-found the <a href='https://aisafetytuebingen.wordpress.com/'>Tübingen AI safety reading group</a> in 2020 (currently inactive)</li>
-                <li>Organized an ML master overview for 9 European Universities [<a href='https://www.lesswrong.com/posts/3aHESQA4xdP6ydefN/european-master-s-programs-in-machine-learning-artificial'>link</a>] </li> 
-                <li>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019)</li>
+                <li>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019), EAG reconnect (2021)</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
 
