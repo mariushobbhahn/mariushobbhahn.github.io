@@ -60,7 +60,7 @@ subtitle: summary of my life (so far)
 
             <div class="row" style="padding-bottom: 2em"></div>
             
-            <li>Member of the <a href='https://www.studienstiftung.de/en/'>German scholarship foundation (Studienstiftung)</a> since 2017</li>
+            <div>Member of the <a href='https://www.studienstiftung.de/en/'>German scholarship foundation (Studienstiftung)</a> since 2017</div>
             
             <div class="row" style="padding-bottom: 2em"></div>
 
@@ -103,7 +103,7 @@ subtitle: summary of my life (so far)
                 <i>Hobbhahn, Marius</i>; Kristiadi, Agustinus and Hennig, Philipp. arXiv preprint arXiv:2003.01227 (2020).
             </div>
                 [<a href="https://arxiv.org/abs/2003.01227">arxiv</a>]
-                [<a>code (soon)</a>]
+                [<a href="https://github.com/mariushobbhahn/LB_for_BNNs_official">code</a>]
                 [<a href='http://www.mariushobbhahn.com/2020-11-03-LB_for_BNNs/'>Blog post</a>]
 
             <div class="row" style="padding-bottom: 2em"></div>
@@ -151,7 +151,7 @@ subtitle: summary of my life (so far)
             <div>Successfully completed over 20 lectures related to ML, AI, NNs, RL, Stats, etc. at the University of Tübingen</div>
 
             <h4>Programming Experience</h4>
-            <div><b>Programming Languages:</b> Python > R > Java, JavaScript, C++, SQL, Julia, Flutter</div>
+            <div><b>Programming Languages:</b> Python > R > Java, JavaScript, C++, SQL, Julia</div>
 	    <div><b>ML related:</b> Pytorch, Tensorflow, Keras, Cuda</div>
         </div>
     </div>
