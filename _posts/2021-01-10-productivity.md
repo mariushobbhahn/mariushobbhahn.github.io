@@ -35,7 +35,7 @@ If you like the post and know other people who you expect to like it, please sha
 	4. [Atomic Changes](#Atomic-Changes)
 	5. [Identity not Outcome](#Identity-not-outcome)
 	6. [Play the Long Game](#Long-Game)
-	7. [Context matters](#Context')
+	7. [Context matters](#Context)
 3. [Implementation](#Implementation)
 	1. [Conditions](#Conditions)
 	2. [Environments](#Environments)
