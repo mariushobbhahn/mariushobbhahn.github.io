@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me & CV
-subtitle: summary of my life (so far)
+subtitle: summary of my life (last update: May 2021)
 ---
 
 
@@ -189,6 +189,7 @@ subtitle: summary of my life (so far)
                 <li>Co-found the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 (still organizing it)</li>
                 <li>Co-found the <a href='https://aisafetytuebingen.wordpress.com/'>Tübingen AI safety reading group</a> in 2020 (currently inactive)</li>
                 <li>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019), EAG reconnect (2021)</li>
+                <li>Wrote on the <a href='https://forum.effectivealtruism.org/users/mariushobbhahn'>EA Forum</a> </li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
 
