@@ -13,13 +13,14 @@ tags:       [Machine Learning]
 
 The change of variable for probability density functions (pdfs) is a simple yet powerful fact about probability distributions. It is the foundation for some of my research, which is why I feel comfortable writing this tutorial, but it is also the main component of other ML techniques such as <a href='https://arxiv.org/abs/1912.02762' target='_blank'>normalizing flows</a>.
 
-In this post I introduce the change of variable with increasingly complex examples while primarily focusing on visual interpretations.
+In this post I want to introduce the change of variable and then explain increasingly complex examples.
+Since I think in a very visual fashion, I try to illustrate all major concepts through GIFs or figures.
 
 If you have constructive feedback don't hesitate to write me. If you like it, share it with others. 
 
 ## Change of variable for pdfs
 
-If we apply a transformation $$g(x): \mathbb{R} \rightarrow \mathbb{R}$$ to a random variable $$X$$ then its pdf $$p_X(x)$$ also changes. If $$g(x)$$ is a monotonic function then the pdf $$p_Y(y)$$ of the transformed random variable $$Y$$ is
+If we apply a transformation $$g(x): \mathbb{R} \rightarrow \mathbb{R}$$ to a random variable $$X$$ then its pdf $$p_X(x)$$ changes. If $$g(x)$$ is a monotonic function then the pdf $$p_Y(y)$$ of the transformed random variable $$Y$$ can be computed with
 
 $$\begin{aligned}
 p_Y(y) &= f_X(g^{-1}(y)) p_Y(y) &= f_X(g^{-1}(y)) \left\vert \frac{d}{dy}(g^{-1}(y)) \right\vert
@@ -27,21 +28,21 @@ p_Y(y) &= f_X(g^{-1}(y)) p_Y(y) &= f_X(g^{-1}(y)) \left\vert \frac{d}{dy}(g^{-1}
 
 where $$g^{-1}$$ describes the inverse function of $$g$$. 
 
-The first part of the equation, $$f_X(g^{-1}(y))$$, simply means that all occurences of $$x$$ in your original pdf $$p(x)$$ are replaced with the inverse function of your desired transformation $$g^{-1}(y)$$. I like to think of $$p_X(x)$$ as a wire and the transformation is simply a shift, stretch or compression of the wire and then describes the new pdf $$p_Y(y)$$. 
+The first part of the equation, $$f_X(g^{-1}(y))$$, simply means that all occurences of $$x$$ in the original pdf $$p_X(x)$$ are replaced with the inverse function of your desired transformation $$g^{-1}(y)$$. I like to think of $$p_X(x)$$ as a wire. The transformation is then simply a shift, stretch or compression of this wire. As we will see later, a transformation can stretch the wire at one part and compress it at another. 
 
-The second part, $$\left\vert \frac{d}{dy}(g^{-1}(y)) \right\vert$$, makes sure that the new pdf $$p_Y(y)$$ still integrates to 1. The change of variable might increase or decrease the area under the function which would imply that the resulting function is not a valid pdf. The determinant of the Jacobian of the inverse transformation can be seen as the inverse of the volume of the transformation. Thus this second part can be interpreted as a normalizing factor. 
+The second part, $$\left\vert \frac{d}{dy}(g^{-1}(y)) \right\vert$$, makes sure that the new pdf $$p_Y(y)$$ is a valid pdf, i.e. it still integrates to 1. The change of variable might increase or decrease the area under the function which would imply that the resulting function is not a valid pdf. The determinant of the Jacobian of the inverse transformation can be seen as the inverse of the volume of the transformation. Thus this second part can be interpreted as a normalizing factor. 
 
-In the following, we will look at different transformations of increasing difficulty. Later examples elaborate on more complex properties of the change of variable such as their concatenations or how to deal with non-monotonic transformations. For more properties or high-dimensional transformations I recommend the <a href='https://en.wikipedia.org/wiki/Probability_density_function#Function_of_random_variables_and_change_of_variables_in_the_probability_density_function' target='_blank'>Wikipedia article</a>.
+In the following, we will look at different transformations of increasing difficulty. For more properties or high-dimensional transformations I recommend the <a href='https://en.wikipedia.org/wiki/Probability_density_function#Function_of_random_variables_and_change_of_variables_in_the_probability_density_function' target='_blank'>Wikipedia article</a>.
 
 ### Adding a constant: y = x+c
 
-Adding a constant to a random variable, i.e. $$y = x + c$$, can be interpreted as a shift of the distribution. With the change of variable formula we get 
+Adding a constant to a random variable, i.e. $$y = x + c$$, can be interpreted as a shift of the distribution. With the change of variable equation we get 
 
 $$\begin{aligned}
 g^{-1}(y) &= y-c \\
 p_Y(y) &= f_X(g^{-1}(y)) \cdot 1 
 \end{aligned}$$
-where $$p_Y(y) &= f_X(g^{-1}(y)) \left\vert \frac{d}{dy}(g^{-1}(y)) \right\vert = 1 $$ because the transformation doesn't change the volume of the pdf. 
+where $$p_Y(y) &= f_X(g^{-1}(y)) \left\vert \frac{d}{dy}(g^{-1}(y)) \right\vert = 1$$ because the transformation doesn't change the volume of the pdf. 
 
 In the specific case of the Gaussian distribution with $$c=1$$ we get
 
