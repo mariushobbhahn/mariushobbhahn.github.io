@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me & CV
-subtitle: summary of my life (last update: May 2021)
+subtitle: last update: May 2021
 ---
 
 
