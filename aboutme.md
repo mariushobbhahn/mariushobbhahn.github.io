@@ -30,6 +30,11 @@ subtitle: last update: May 2021
         <div class="col-md-3"><b>Github</b></div>
         <div class="col-md-8"><a href="https://github.com/mariushobbhahn">https://github.com/mariushobbhahn</a></div>
     </div>
+    
+    <div class="row">
+        <div class="col-md-3"><b>Twitter</b></div>
+        <div class="col-md-8"><a href="https://twitter.com/MariusHobbhahn">@MariusHobbhahn</a></div>
+    </div>
 
     <div class="row" style="padding-bottom: 3em;"></div>
 
@@ -189,7 +194,7 @@ subtitle: last update: May 2021
                 <li>Co-found the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 (still organizing it)</li>
                 <li>Co-found the <a href='https://aisafetytuebingen.wordpress.com/'>Tübingen AI safety reading group</a> in 2020 (currently inactive)</li>
                 <li>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019), EAG reconnect (2021)</li>
-                <li>Wrote on the <a href='https://forum.effectivealtruism.org/users/mariushobbhahn'>EA Forum</a> </li>
+                <li>Posts on the <a href='https://forum.effectivealtruism.org/users/mariushobbhahn'>EA Forum</a> </li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
 
