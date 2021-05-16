@@ -45,13 +45,14 @@ $$\begin{aligned}
 g^{-1}(y) &= y-c \\
 p_Y(y) &= f_X(g^{-1}(y)) \cdot 1
 \end{aligned}$$
+
 where $$\left\vert \frac{d}{dy}(g^{-1}(y)) \right\vert = 1$$ because the transformation doesn't change the volume of the pdf.
 
 In the specific case of the Gaussian distribution with $$c=1$$ we get
 
-$$\begin{aligned}
-p_Y(y) &= \frac{1}{\sqrt{2 \pi \sigma^2} \exp \left(-\frac{(x-1-\mu)^2}{2\sigma^2} \right)
-\end{aligned}$$
+$$
+p_Y(y) = \frac{1}{\sqrt{2 \pi \sigma^2} \exp \left(-\frac{(x-1-\mu)^2}{2\sigma^2} \right)
+$$
 
 Visually, this is
 
@@ -67,13 +68,14 @@ $$\begin{aligned}
 g^{-1}(y) &= c * y \\
 p_Y(y) &= f_X(g^{-1}(y)) \cdot 1/c
 \end{aligned}$$
+
 where $$\left\vert \frac{d}{dy}(g^{-1}(y)) \right\vert = 1/c$$.
 
 For a Gaussian random variable with $$c=2$$ we get
 
-$$\begin{aligned}
-p_Y(y) &= \frac{1}{\sqrt{2 \pi \sigma^2} \exp \left(-\frac{(x/2-\mu)^2}{2\sigma^2} \right) \cdot \frac{1}{2}
-\end{aligned}$$
+$$
+p_Y(y) = \frac{1}{\sqrt{2 \pi \sigma^2} \exp \left(-\frac{(x/2-\mu)^2}{2\sigma^2} \right) \cdot \frac{1}{2}
+$$
 
 Visually, this is
 
@@ -108,15 +110,16 @@ The log-transformed Gamma distribution looks astonishingly close to a Gaussian. 
 
 Non-monotonic transformations such as the square root are not invertible in their entirety. Thus, we have to adapt the general change of variable equation by splitting the function into monotonic intervals.
 
-$$\begin{aligned}
-f_Y(y) &= \sum_{k=1}^{n(y)} f_X(g_k^{-1}(y)) \left\vert \frac{d}{dy}(g_k^{-1}(y)) \right\vert
-\end{aligned}$$
+$$
+f_Y(y) = \sum_{k=1}^{n(y)} f_X(g_k^{-1}(y)) \left\vert \frac{d}{dy}(g_k^{-1}(y)) \right\vert
+$$
 
 where $$n(y)$$ is the number of invertible intervals and $$g_k^{-1}(y)$$ is the inverse transformation on interval $$k$$.
 
 To illustrate this fact, consider the example of transforming a Chi-square random variable $$X$$ with one degree of freedom ($$k=1$$) by the square root.
 
-Let $$Y = \sqrt{X}$$. Therefore, $$g(x) = \sqrt{x}$$ and $g_1^{-1}: \mathbb{R} \rightarrow (-\infty, 0)$$ with $$g_1^{-1}(y) = -y^2$$ and $$g_2^{-1}: \mathbb{R} \rightarrow [0, \infty)$ with $g_2^{-1}(y) = y^2$$. Then
+Let $$Y = \sqrt{X}$$. Therefore, $$g(x) = \sqrt{x}$$ and $$g_1^{-1}: \mathbb{R} \rightarrow (-\infty, 0)$$ with $$g_1^{-1}(y) = -y^2$$ and $$g_2^{-1}: \mathbb{R} \rightarrow [0, \infty)$$ with $$g_2^{-1}(y) = y^2$$. Then
+
 $$
 \left\vert\frac{\partial g_i^{-1}(y)}{\partial y} \right\vert = \vert 2y \vert
 $$
@@ -136,7 +139,7 @@ Visually, this is
 
 ![](/img/Change_of_Variable/Chi2_Normal_sqrt.gif)
 
-On the **left**, we interpolate between the function $$x$$ and $$\sqrt(x)$$. On the **right**, we split the real line at 0 and show the transformation for the positive and negative map. Combined together, the two derivations yield $$\mathcal{N}(y; \mu=0, \sigma^2=1)$$ which is defined on the entirety of $$\mathbb{R}$$. If you want to step through the GIF at your own pace you can find an HTML document in the <a href='https://github.com/mariushobbhahn/change_of_variable_pdfs' target='_blank'>GitHub repo</a>.
+On the **left**, we interpolate between the function $$x$$ and $$\sqrt{x}$$. On the **right**, we split the real line at 0 and show the transformation for the positive and negative map. Combined together, the two derivations yield $$\mathcal{N}(y; \mu=0, \sigma^2=1)$$ which is defined on the entirety of $$\mathbb{R}$$. If you want to step through the GIF at your own pace you can find an HTML document in the <a href='https://github.com/mariushobbhahn/change_of_variable_pdfs' target='_blank'>GitHub repo</a>.
 
 With more dimensions, the split becomes more complicated. A positive definite matrix $$A$$ has $$n$$ distinct eigenvalues and $$2^n$$ possible squareroots. $$A$$ has a decomposition $$A=UDU^{-1}$$ where $$U$$s columns are the eigenvectors of $$A$$ and $$D$$ is a diagonal matrix containing the eigenvalues $$\lambda_i$$ of $$A$$. Any square root of $$A$$ is given by $$A^{\frac{1}{2}} = UD^{\frac{1}{2}}U^{-1}$$. Since there are two possible choices for the square root of each eigenvalue $$+\sqrt{\lambda_i}$$ and $$-\sqrt{\lambda_i}$$ there are $$2^n$$ possible choices for the matrix $$D^{\frac{1}{2}}$$.
 
