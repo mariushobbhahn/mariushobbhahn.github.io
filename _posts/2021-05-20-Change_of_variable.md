@@ -6,7 +6,7 @@ date:       2021-05-20 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/change_of_variable_header.png"
 category:   ML_project
-tags:       [Machine Learning]
+tags:       []
 ---
 
 ## **What is this post about?**
