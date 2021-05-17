@@ -1,7 +1,7 @@
 ---
 layout: page
-title: bla
-subtitle: blub
+title: CV
+subtitle: as of May 2021
 ---
 
 <!--
