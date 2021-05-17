@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About me & CV
-subtitle: last update: May 2021
+title: bla
+subtitle: blub
 ---
 
-
-
+<!--
 <div id="aboutme" class="row">
+-->
 <div class="col-md-12">
     <h1 class="section-header" style="padding-bottom: 0.8em;">Marius Hobbhahn</h1>
 
@@ -30,6 +30,11 @@ subtitle: last update: May 2021
     <div class="row">
         <div class="col-md-3"><b>Github</b></div>
         <div class="col-md-8"><a href="https://github.com/mariushobbhahn">https://github.com/mariushobbhahn</a></div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-3"><b>Twitter</b></div>
+        <div class="col-md-8"><a href="https://twitter.com/MariusHobbhahn">MariusHobbhahn</a></div>
     </div>
 
     <div class="row" style="padding-bottom: 3em;"></div>

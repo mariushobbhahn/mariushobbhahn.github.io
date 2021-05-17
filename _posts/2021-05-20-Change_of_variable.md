@@ -6,7 +6,7 @@ date:       2021-05-20 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/change_of_variable_header.png"
 category:   ML_project
-tags:       []
+tags:       [Machine Learning]
 ---
 
 ## **What is this post about?**
@@ -24,7 +24,8 @@ If you have constructive feedback don't hesitate to write me. If you like it, sh
 If we apply a transformation $$g(x): \mathbb{R} \rightarrow \mathbb{R}$$ to a random variable $$X$$ then its pdf $$p_X(x)$$ changes. If $$g(x)$$ is a monotonic function then the pdf $$p_Y(y)$$ of the transformed random variable $$Y$$ can be computed with
 
 $$\begin{aligned}
-p_Y(y) &= f_X(g^{-1}(y)) p_Y(y) &= f_X(g^{-1}(y)) \left\vert \frac{d}{dy}(g^{-1}(y)) \right\vert
+p_Y(y) &= f_X(g^{-1}(y)) p_Y(y) \\
+&= f_X(g^{-1}(y)) \left\vert \frac{d}{dy}(g^{-1}(y)) \right\vert
 \end{aligned}$$
 
 where $$g^{-1}$$ describes the inverse function of $$g$$.
@@ -51,7 +52,7 @@ where $$\left\vert \frac{d}{dy}(g^{-1}(y)) \right\vert = 1$$ because the transfo
 In the specific case of the Gaussian distribution with $$c=1$$ we get
 
 $$
-p_Y(y) = \frac{1}{\sqrt{2 \pi \sigma^2} \exp \left(-\frac{(x-1-\mu)^2}{2\sigma^2} \right)
+p_Y(y) = \frac{1}{\sqrt{2 \pi \sigma^2}} \exp \left(-\frac{(x-1-\mu)^2}{2\sigma^2} \right)
 $$
 
 Visually, this is
@@ -74,7 +75,7 @@ where $$\left\vert \frac{d}{dy}(g^{-1}(y)) \right\vert = 1/c$$.
 For a Gaussian random variable with $$c=2$$ we get
 
 $$
-p_Y(y) = \frac{1}{\sqrt{2 \pi \sigma^2} \exp \left(-\frac{(x/2-\mu)^2}{2\sigma^2} \right) \cdot \frac{1}{2}
+p_Y(y) = \frac{1}{\sqrt{2 \pi \sigma^2}} \exp \left(-\frac{(x/2-\mu)^2}{2\sigma^2} \right) \cdot \frac{1}{2}
 $$
 
 Visually, this is
