@@ -192,8 +192,8 @@ subtitle: as of May 2021
 
             <h4>Effective Altruism</h4>
             <ul>
-                <li>Co-found the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 (still organizing it)</li>
-                <li>Co-found the <a href='https://aisafetytuebingen.wordpress.com/'>Tübingen AI safety reading group</a> in 2020 (currently inactive)</li>
+                <li>Co-founded the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 (still organizing it)</li>
+                <li>Co-founded the <a href='https://aisafetytuebingen.wordpress.com/'>Tübingen AI safety reading group</a> in 2020 (currently inactive)</li>
                 <li>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019), EAG reconnect (2021)</li>
                 <li>Posts on the <a href='https://forum.effectivealtruism.org/users/mariushobbhahn'>EA Forum</a> </li>
             </ul>
