@@ -4,7 +4,7 @@ title:      "The Laplace Bridge for Bayesian Neural Networks"
 subtitle:   "Easy-to-understand summary of our paper: Fast Predictive Uncertainty for Classification with Bayesian Deep Networks"
 date:       2020-11-03 20:28:00
 author:     "Marius Hobbhahn"
-# header-img: "img/Marius2.jpg"
+header-img: "img/LB_for_BNNs_header.png"
 category:   ML_project
 tags:       [Machine Learning, Laplace Bridge]
 ---
@@ -98,6 +98,11 @@ In summary, we have a fast, closed-form transformation between the parameters of
 Lastly, I want to present a sanity check for the LB and its application to BNNs. In the following figure you can see five different scenarios of 3-dimensional Gaussians mapped through the Laplace Bridge. In the upper row are samples drawn from the Gaussian to which the softmax was applied. In the bottom row the values of the original Gaussian are mapped by the LB.
 
 <figure>
+  <img src="/img/LB_for_BNNs/3D_compare.png"/>
+</figure>
+
+<!--
+<figure>
   <img src="/img/LB_for_BNNs/sMAP_Gaussian_coolwarm_0.png" width="140"/>
   <img src="/img/LB_for_BNNs/sMAP_Gaussian_coolwarm_1.png" width="140"/>
   <img src="/img/LB_for_BNNs/Uncertainty_Gaussian_coolwarm_0.png" width="140"/>
@@ -112,6 +117,7 @@ Lastly, I want to present a sanity check for the LB and its application to BNNs.
   <img src="/img/LB_for_BNNs/Uncertainty_Dirichlet_coolwarm_1.png" width="140"/>
   <img src="/img/LB_for_BNNs/Uncertainty_Dirichlet_coolwarm_2.png" width="140"/>
 </figure>
+-->
 
 We firstly find that the LB is an imperfect but sufficiently good map, i.e. we can see small differences but the two rows look mostly similar. Secondly, the parameters of the Gaussian have been chosen to stress important ideas. Case **1** and **2** (from left to right) have the same mean but different covariance matrices. This further emphasizes the need for a Bayesian interpretation of ML as uncertainty matters here. Using the mode or mean as point estimate would treat **1** and **2** similarly even though the respective uncertainties are clearly different. Scenarios **3**, **4**, and **5** show similar means with increasing uncertainty. This case was chosen to show that this change of uncertainty in the original Gaussian is successfully mapped through the Laplace Bridge to further convince us that it is worth considering for practical applications.
 
