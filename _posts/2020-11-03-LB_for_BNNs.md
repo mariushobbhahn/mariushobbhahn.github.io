@@ -4,7 +4,7 @@ title:      "The Laplace Bridge for Bayesian Neural Networks"
 subtitle:   "Easy-to-understand summary of our paper: Fast Predictive Uncertainty for Classification with Bayesian Deep Networks"
 date:       2020-11-03 20:28:00
 author:     "Marius Hobbhahn"
-header-img: "img/LB_for_BNNs_header.png"
+header-img: "img/header-imgs/LB_for_BNNs_header.png"
 category:   ML_project
 tags:       [Machine Learning, Laplace Bridge]
 ---
