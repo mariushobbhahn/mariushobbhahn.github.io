@@ -6,6 +6,7 @@ date:       2021-05-10 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/Chronic_pain.png"
 category:   opinion
+tags:        [Effective Altruism, Data Analysis]
 ---
 
 ## Introduction
