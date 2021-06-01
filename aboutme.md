@@ -7,7 +7,7 @@ subtitle: as of May 2021
 <!--
 <div id="aboutme" class="row">
 -->
-If you want to know more about how I think, my posts on opinions I changed (<a href='http://www.mariushobbhahn.com/2020-05-10-Opinion_change/'>part I</a>, <a href='https://www.mariushobbhahn.com/2021-04-24-opinion_change_2/'>part II</a>), <a href='http://www.mariushobbhahn.com/2019-12-23-EA_and_me/'>Effective Altruism</a> or <a href='https://www.mariushobbhahn.com/2019-10-20-recommendations/'>my recommendations</a> are a good start.
+If you want to get a better picture of my character/how I think, my posts on opinions I changed (<a href='http://www.mariushobbhahn.com/2020-05-10-Opinion_change/'>part I</a>, <a href='https://www.mariushobbhahn.com/2021-04-24-opinion_change_2/'>part II</a>), <a href='http://www.mariushobbhahn.com/2019-12-23-EA_and_me/'>Effective Altruism</a> or <a href='https://www.mariushobbhahn.com/2019-10-20-recommendations/'>my recommendations</a> are a good start.
 
 <div class="col-md-12">
     <h1 class="section-header" style="padding-bottom: 0.8em;">Marius Hobbhahn</h1>
@@ -181,6 +181,7 @@ If you want to know more about how I think, my posts on opinions I changed (<a h
             <ul>
                 <li>Participated at multiple ML Summer Schools and conferences including: PAISS2019, ICML2020, GPSS2020, ESANN2020</li>
                 <li>Organized an ML master overview for 9 European Universities [<a href='https://www.lesswrong.com/posts/3aHESQA4xdP6ydefN/european-master-s-programs-in-machine-learning-artificial'>link</a>]</li> 
+                <li>Lead-organizer of the <a href='https://edseu.wordpress.com/'>ELLIS doctoral symposium</a> </li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
 	
