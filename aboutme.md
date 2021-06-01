@@ -7,6 +7,8 @@ subtitle: as of May 2021
 <!--
 <div id="aboutme" class="row">
 -->
+If you want to know more about how I think, my posts on opinions I changed (<a href='http://www.mariushobbhahn.com/2020-05-10-Opinion_change/'>part I</a>, <a href='https://www.mariushobbhahn.com/2021-04-24-opinion_change_2/'>part II</a>), <a href='http://www.mariushobbhahn.com/2019-12-23-EA_and_me/'>Effective Altruism</a> or <a href='https://www.mariushobbhahn.com/2019-10-20-recommendations/'>my recommendations</a> are a good start.
+
 <div class="col-md-12">
     <h1 class="section-header" style="padding-bottom: 0.8em;">Marius Hobbhahn</h1>
 

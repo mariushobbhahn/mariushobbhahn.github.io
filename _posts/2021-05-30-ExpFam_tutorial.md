@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "A (visual) Tutorial on Exponential Families"
-subtitle:   "With special focus on Machine Learning related properties"
+subtitle:   "With focus on Machine Learning"
 date:       2021-03-01 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/img-headers/TODO"
