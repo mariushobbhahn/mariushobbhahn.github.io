@@ -4,14 +4,14 @@ title:      "A (visual) Tutorial on Exponential Families (Draft)"
 subtitle:   "With focus on Machine Learning"
 date:       2021-06-10 20:28:00
 author:     "Marius Hobbhahn"
-header-img: "img/img-headers/ExpFam_header.png"
+header-img: "img/header-imgs/ExpFam_header.png"
 category:   ML_project
 tags:       [Machine Learning]
 ---
 
 ## **What is this post about?**
 
-Exponential family distributions are important for many classical machine learning applications. Their properties form the basis of Expectation Propagation and they are often used in hierarchical probabilistic models. Because of this, they are well-documented and many tutorials exist. Most resources on exponential families are rather math-heavy and many people learn best with this approach. However, I personally think and learn primarily by thinking **visually** and many others do too. Thus I want to provide a tutorial on exponential families and some of their properties with a focus on visual interpretations whenever possible.
+Exponential family distributions are important for many classical machine learning applications. Their properties form the basis of Expectation Propagation and they are often used in hierarchical probabilistic models. Because of this, they are well-documented and many tutorials exist. Most resources on exponential families are rather math-heavy and some people learn best with this approach. However, I personally think and learn primarily in a **visual** fashion and many others do too. Thus I want to provide a tutorial on exponential families and some of their properties with a focus on visual interpretations whenever possible.
 
 ## The Basics
 
@@ -49,7 +49,7 @@ $$
 \end{aligned}
 $$
 
-with exponential family values $$h(x) = \frac{1}{x(1-x)}, \phi(x)=(\log(x), \log(1-x), w = (\alpha, \beta)$$ and $$Z(\alpha, \beta) = \log(B(\alpha,\beta)))$$ where $$B(\alpha, \beta) = \frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha + \beta)}$$ and $$\Gamma(x)$$ is the Gamma function.
+with exponential family values $$h(x) = \frac{1}{x(1-x)}, \phi(x)=(\log(x), \log(1-x)), w = (\alpha, \beta)$$ and $$Z(\alpha, \beta) = \log(B(\alpha,\beta))$$ where $$B(\alpha, \beta) = \frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha + \beta)}$$ and $$\Gamma(x)$$ is the Gamma function.
 
 The **sufficient statistics** are the statistics of the data that tell you everything interesting about them, i.e. if you know the sufficient statistics another person with the same data is unable to tell more about the probability distribution than you are. For the normal distribution, for example, the sufficient statistics are $$Y_1 = \sum_i X_i$$ and $$Y_2 = \sum_i X_i^2$$ for samples $$X_i, i=1,...,N$$.
 With $$Y_1$$ and $$Y_2$$ we can compute
@@ -82,7 +82,9 @@ $$
 
 However, the most reasonable definition is one where we push all "left-over" parts from the natural parameters into the base measure, e.g. the $$-1$$ terms in the Beta distribution (see second equation above). The reason why it is called "base-measure" is that if you set your natural parameters $$w$$ to 0, only your base is left. Similarly, you could say that changing your natural parameters $$w$$ can be seen as updating your base measure $$h(x)$$.
 
-The **log partition function:** is the most underrated part of exponential families in my opinion. In the beginning, I perceived it as "just a normalizing constant" to ensure that your distribution integrates to one. However, the fact that it is available in closed form combined with the structure of exponential families yields very powerful properties. I will discuss them further down in more detail but, in short, the log partition function allows for efficient computation of the moments through derivation instead of integration. This is powerful because derivation is usually much easier than integration. To understand the normalizing effect of the log partition function consider the following figure where the Gamma distribution has been plotted with and without the normalizing constant.
+The **log partition function:** is the most underrated part of exponential families. In the beginning, I perceived it as "just a normalizing constant" to ensure that the distribution integrates to one. However, the fact that it is available in closed form combined with the structure of exponential families yields very powerful properties. I will discuss them further down in more detail but, in short, the log partition function allows for efficient computation of the moments through derivation instead of integration. This is powerful because derivation is usually much easier than integration. 
+
+To understand the normalizing effect of the log partition function consider the following figure where the Gamma distribution has been plotted with and without the normalizing constant.
 
 <figure>
   <img src="/img/ExpFam_Vis/log_partition_gamma.png"/>
@@ -96,7 +98,7 @@ Exponential Families have a lot of interesting properties. I chose a small selec
 
 ### Multiplication and Division
 
-Due to the properties of the exponential function, the product and division of exponential family PDFs is proportional to another instance of this exponential family. If we have an exponential family with two different parameterizations $$w_1$$ and $$w_2$$. Then we can write
+Due to the properties of the exponential function, the product and division of exponential family PDFs is proportional to another instance of the same exponential family. If we have an exponential family with two different parameterizations $$w_1$$ and $$w_2$$. Then we can write
 
 $$
 \begin{aligned}
@@ -114,9 +116,11 @@ A similar result can be derived for division just that $$w' = w_1 - w_2$$ instea
   <img src="/img/ExpFam_Vis/beta_normal_mult_div.png"/>
 </figure>
 
-The true distributions have been computed by multiplying/dividing distribution 1 and 2 and re-normalizing the results. The update rule for the Beta distribution is simply $$\alpha' = \alpha_1 + \alpha_2 -1, \beta' = \beta_1 + \beta_2 - 1$$ and for the Gaussian distribution $$\mu' = \frac{\mu_1 \sigma_2^2 - \mu_2 \sigma_1^2}{\sigma_1^2 + \sigma_2^2}$$ and $$\sigma' = \sqrt{\frac{1}{\frac{1}{\sigma_1^2} - \frac{1}{\sigma_2^2}}}$$.
+The true distributions have been computed by multiplying/dividing distribution 1 and 2 and re-normalizing the results. The update rule for the Beta distribution is simply $$\alpha' = \alpha_1 + \alpha_2 -1, \beta' = \beta_1 + \beta_2 - 1$$ and for the Gaussian distribution 
 
-While this looks like an insignificant property it is actually very important. It implies that we can update the parameters of distributions by simple addition instead of computing costly approximations. This properties is a key component of the Machine Learning technique <a href='https://tminka.github.io/papers/ep/roadmap.html'>Expectation Propagation</a>.
+$$\mu' = \frac{\mu_1 \sigma_2^2 - \mu_2 \sigma_1^2}{\sigma_1^2 + \sigma_2^2}$$ and $$\sigma' = \sqrt{\frac{1}{\frac{1}{\sigma_1^2} - \frac{1}{\sigma_2^2}}}$$.
+
+While this looks like an insignificant property it is actually very important. It implies that we can update the parameters of distributions by simple addition instead of computing costly approximations. This property is a key component of the Machine Learning technique <a href='https://tminka.github.io/papers/ep/roadmap.html'>Expectation Propagation</a>.
 
 ### Conjugacy
 
@@ -126,7 +130,7 @@ $$
 p(\theta \vert X) = \frac{p(X \vert \theta) \p(\theta)}{p(X)} = \frac{\overbrace{p(X \vert \theta)}_{\text{likelihood}} \overbrace{\p(\theta)}_{\text{prior}}}{\underbrace{\int p(X \vert \theta) \p(\theta)}_{\text{evidence}} \qquad.
 $$
 
-In general, the product of two probability distributions does not yield a new probability distribution in closed-form. Therefore, we have to apply approximations or costly sampling strategies to get the posterior probability density. However, when the prior distribution is conjugate to the likelihood, the posterior is of the same form as the prior and can be updated in closed-form. This comes as a blessing as it removes all of the complexity of Bayesian inference. Most distributions are not conjugate with each other but for most commonly used likelihoods, there exists an exponential family conjugate prior. A Bernoulli likelihood, for example, has a Beta conjugate prior.
+In general, the product of two probability distributions does not yield a new probability distribution in closed-form. Therefore, we have to apply approximations or costly sampling strategies to get the posterior probability density. However, when the prior distribution is conjugate to the likelihood, the posterior is of the same form as the prior and can be updated in closed-form. This comes as a blessing as it removes all of the complexity of Bayesian inference. Most distributions are not conjugate with each other but for commonly used likelihoods, there exists an exponential family conjugate prior. A Bernoulli likelihood, for example, has a Beta conjugate prior.
 
 I think conjugacy can be easiest understood in visual terms. Thus, in the following, you can see how different data types update their respective conjugate priors. The figures on the left contain the conjugate distribution and the figure on the right is used to generate the data.
 
@@ -157,13 +161,15 @@ $$
 \end{aligned}
 $$
 
-![](/img/ExpFam_Vis/Normal_mean.gif)
+![](/img/ExpFam_Vis/Normal_Normal.gif)
 
 Our goal is to estimate the mean of the Gaussian distribution on the right, i.e. the red line. In the beginning, we have no clue about its position and start with a standard normal prior (blue line on the left). The more samples (black) we see from the true distribution, the more our posterior estimate for the mean (red line on the left) gets closer to the true mean and its variance decreases.
 
 #### Gamma
 
-The Gamma is a distribution over positive quantities. It is a conjugate prior to the rate parameter of<a href='https://en.wikipedia.org/wiki/Poisson_distribution'>Poisson</a> likelihoods, which are discrete distributions over rare events, e.g. earthquakes. So if you have count data of earthquakes and you assume them to be generated by a Poisson distribution you can get a posterior distribution over its rate parameter with $$\alpha' = \alpha + \sum_i x_i$$ and $$\beta' = beta + n$$
+The Gamma is a distribution over positive quantities. It is a conjugate prior to the rate parameter of <a href='https://en.wikipedia.org/wiki/Poisson_distribution'>Poisson</a> likelihoods, which are discrete distributions over rare events, e.g. earthquakes. So if you have count data of earthquakes and you assume them to be generated by a Poisson distribution you can get a posterior distribution over its rate parameter with 
+
+$$\alpha' = \alpha + \sum_i x_i$$ and $$\beta' = \beta + n$$
 
 ![](/img/ExpFam_Vis/Gamma_Poisson.gif)
 
@@ -171,33 +177,33 @@ We find that with more data the posterior distribution over the $$\lambda$$ rate
 
 #### Dirichlet
 
-Similar to how the Beta distribution describes believes about one probability, the Dirichlet describes beliefs about a probability vector. It is a conjugate prior to categorical and multinomial likelihoods. Let's say, for example, we have three categories (or types) of texts: politics, finance, and sports and we read a newspaper containing three texts every day. They can contain multiple texts of the same type. Then we might be interested in which kind of focus the publisher has, i.e. what the generating distribution for the texts is. Every individual newspaper can be modeled by a Binomial distribution with $$n=3$$. The generating can be modelled by a Dirichlet and updated with $$\alpha' = \alpha + \sum_i x_i$$.
+Similar to how the Beta distribution describes believes about one probability, the Dirichlet describes beliefs about a probability vector. It is a conjugate prior to categorical and multinomial likelihoods. Let's say, for example, we have three categories (or types) of texts: politics, finance, and sports and we read a newspaper containing three texts every day (they can contain multiple texts of the same type). Then we might be interested in which kind of focus the publisher has, i.e. what the generating distribution for the texts is. Every individual newspaper can be modeled by a Binomial distribution with $$n=3$$. The generating can be modelled by a Dirichlet and updated with $$\alpha' = \alpha + \sum_i x_i$$.
 
 ![](/img/ExpFam_Vis/Dirichlet_Multinomial.gif)
 
-We can see that the mean of the posterior Dirichlet function gets ever closer to the true probabilities generating the Binomial likelihoods and that the uncertainty of our estimate decreases. In our metaphor, this means that after seeing 10 individual newspapers we think that the outlet focuses mostly on politics (60%), a bit on finance (25%), and even less on sports (15%).
+We can see that the mean of the posterior Dirichlet function gets ever closer to the true probabilities generating the Binomial likelihoods and that the uncertainty of our estimate decreases. In our metaphor, this means that after seeing many individual newspapers we think that the outlet focuses mostly on politics (60%), a bit on finance (25%), and even less on sports (15%).
 
 #### Inverse Wishart
 
-The inverse Wishart is a distribution over symmetric positive semi-definite matrices. It is a conjugate prior to empirical covariance matrices, e.g. the outer product of vectors drawn from a Gaussian. I always found it hard to get a good grasp of the inverse Wishart distribution and thus first want to introduce it in slightly more detail than the other distributions.
+The inverse Wishart is a distribution over symmetric positive semi-definite matrices. It is a conjugate prior to empirical covariance matrices, e.g. the outer product of vectors drawn from a zero-mean Gaussian. I always found it hard to get a good grasp of the inverse Wishart distribution and thus first want to introduce it in slightly more detail than the other distributions.
 
 First of all, the inverse Wishart (and the Wishart) distribution is defined on the symmetric positive semi-definite (psd) cone. The psd cone is a subspace of $$\mathbb{R}^d$$ on which all psd matrices lie. A real symmetric matrix $$\begin{pmatrix} a & b \\ b & c \end{pmatrix}$$ is psd iff $$a, c \geq 0$$ and $$ac - b^2 \geq 0$$. following <a href='https://math.stackexchange.com/questions/1875462/how-to-plot-the-psd-cone-in-matlab'>this stackoverflow post</a>, we will represent this by $$(a, b, c) \in \mathbb{R}^3$$. If we set $$a=1$$ then $$c \geq b^2$$ and if we set $$c=1$$ then $$a \geq b^2$$. So if we plot $$(a,b,c) = (1, b, b^2)$$ and $$(a,b,c) = (b^2, b, 1)$$ for $$-1 \leq b \leq 1$$ respectively and join these points with $$(0,0,0)$$ we start to see the cone.
 
 <figure>
-  <img src="/img/ExpFam_Vis/PSD_cone_vis.png"/>    
+  <img src="/img/ExpFam_Vis/PSD_cone.png"/>
 </figure>
 
 If you want to view the cone from different angles you can do so in the respective <a href='https://github.com/mariushobbhahn/Exponential_Families_visual_tutorial'>jupyter notebook</a>.
 
 It is very hard to plot the density of a probability distribution on this cone. Thus we have to revert to other strategies to plot the Wishart distribution. I will use three different tools to plot the Wishart distribution. The first requires a bit of math. For off-diagonal elements of a symmetric psd matrix $$A$$ it holds $$a_{ij}^2 \leq a_{ii} a_{jj}$$ (see e.g. <a href='https://math.stackexchange.com/questions/3018639/off-diagonal-entries-of-a-symmetric-positive-semi-definite-matrix-prove-a-ij'>here</a>). Thus for our 2-dimensional case we know that $$b = \rho \cdot \sqrt{ac}$$ for $$\rho \in (-1, 1)$$. So one way to visualize the Wishart is to plot marginals for different values of $$\rho$$ with increasing $$a$$ and $$c$$. The green, purple and blue line in the above plot show the locations of the marginals for $$\rho$$ equal to $$0.5, 0$$ and $$-0.99$$ respectively.
 
-Computing the pdf of the inverse Wishart for $$\rho$$ at $$-0.9,-0.8,...,0.8,0.9$$ from most blue to most red results in the following figure.
+Computing the pdf of the inverse Wishart for $$\rho = -0.9,-0.8,...,0.8,0.9$$ from most blue to most red results in the following figure.
 
 <figure>
   <img src="/img/ExpFam_Vis/Wishart_rhos.png"/>
 </figure>
 
-The $$\Psi$$ chosen for this figure is $$\begin{pmatrix} 5 & 1 \\ 1 & 2 \end{pmatrix}$$. Since the off-diagonal elements of the scale matrix $$\Psi$$ are positive, the probability mass is larger for positive values of $$\rho$$ (red curves) than for negative values (blue curves).
+The scale-matrix $$\Psi$$ for this figure is $$\begin{pmatrix} 5 & 1 \\ 1 & 2 \end{pmatrix}$$. Since the off-diagonal elements are positive, the probability mass is larger for positive values of $$\rho$$ (red curves) than for negative values (blue curves).
 
 The second tool is simpler. It shows histograms of $$a, b$$ and $$c$$ for samples drawn from the (inverse-) Wishart.
 
@@ -207,7 +213,7 @@ Combining all this we can inspect how the Wishart distribution behaves when upda
 
 ![](/img/ExpFam_Vis/Wishart_MVnorm.gif)
 
-In our first visualization (top left) we find that a) similar to the one-dimensional cases, the probability distribution "wanders" to the true solution. b) The off-diagonal entries of $$\Psi$$ are both 0 in the prior and thus $$-\rho$$ and $$+\rho$$ yield the same marginal distribution. With every update, the off-diagonal values of $$\Psi$$ get more positive and thus $$\rho$$ and $$+\rho$$ yield different marginal distributions. Thus, the larger the off-diagonal entries of $$\Psi$$ become, the more probability mass is with the red curves while the blue curves vanish.
+In our first visualization (top left) we find that a) similar to the one-dimensional cases, the probability distribution "wanders" to the true solution. Remember that the figure displays marginals and the curves thus do not integrate to one. b) The off-diagonal entries of $$\Psi$$ are both 0 in the prior and thus $$-\rho$$ and $$+\rho$$ yield the same marginal distribution. With every update, the off-diagonal values of $$\Psi$$ get more positive and thus $$-\rho$$ and $$+\rho$$ yield different marginal distributions. Thus, the larger the off-diagonal entries of $$\Psi$$ become, the more probability mass is with the red curves while the blue curves vanish.
 
 In the second visualization (bottom) we find that the histograms of $$a, b$$ and $$c$$ for 1000 samples of the Wishart get narrower over time. This shows how the uncertainty decreases and we get more and more certain about the underlying psd matrix.
 
@@ -281,7 +287,7 @@ We can visually confirm, that these approximations are correct by comparing samp
 
 Similar to above we can also compute the moments for the other sufficient statistics, e.g. $$\mathbb{E}[\log x]$$ and $$\mathrm{Var}(\log x)$$.
 
-All of the moments above could have also be computed using integration but it is significantly more complicated than simple differentiation.
+All of the moments above could have also be computed using integration but it is significantly more complicated than differentiation.
 
 ### Moment Matching
 
@@ -310,7 +316,7 @@ $$\begin{aligned}
 \end{aligned}
 $$
 
-where we use the knowledge that the derivatives of the log-partition function yield the moments of the distribution which we derived in the previous section. The visual intuition behind this fact can be found in the following figure. Our static distribution $$p(x)$$ is a normal with $$\mu=4$$ and $$\sigma=1$$ and we want to fit a Gamma distribution $$q(x)$$ such that $$KL(p\vert\vert q)$$ is minimized. To match the moments we compute
+where we use the knowledge that the derivatives of the log-partition function yield the moments of the distribution which we derived in the previous section. The visual intuition behind this fact can be found in the figure below. Our static distribution $$p(x)$$ is a normal with $$\mu=4$$ and $$\sigma=1$$ and we want to fit a Gamma distribution $$q(x)$$ such that $$KL(p\vert\vert q)$$ is minimized. To match the moments we compute
 
 $$\begin{aligned}
     \mu &= \frac{\alpha}{\beta} \\
