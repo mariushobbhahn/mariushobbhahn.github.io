@@ -98,7 +98,7 @@ Exponential Families have a lot of interesting properties. I chose a small selec
 
 ### Multiplication and Division
 
-Due to the properties of the exponential function, the product and division of exponential family PDFs is proportional to another instance of the same exponential family. If we have an exponential family with two different parameterizations $$w_1$$ and $$w_2$$. Then we can write
+Due to the properties of the exponential function, the product and division of exponential family PDFs is proportional to another instance of the same exponential family. Assume we have an exponential family with two different parameterizations $$w_1$$ and $$w_2$$. Then we can write
 
 $$
 \begin{aligned}
@@ -127,18 +127,19 @@ While this looks like an insignificant property it is actually very important. I
 Bayesian Inference is done via Bayes Theorem
 
 $$
-p(\theta \vert X) = \frac{p(X \vert \theta) \p(\theta)}{p(X)} = \frac{\overbrace{p(X \vert \theta)}_{\text{likelihood}} \overbrace{\p(\theta)}_{\text{prior}}}{\underbrace{\int p(X \vert \theta) \p(\theta)}_{\text{evidence}} \qquad.
+p(\theta \vert X) = \frac{p(X \vert \theta) \p(\theta)}{p(X)} = \frac{p(X \vert \theta)} \p(\theta)}{\int p(X \vert \theta) \p(\theta)}
 $$
 
-In general, the product of two probability distributions does not yield a new probability distribution in closed-form. Therefore, we have to apply approximations or costly sampling strategies to get the posterior probability density. However, when the prior distribution is conjugate to the likelihood, the posterior is of the same form as the prior and can be updated in closed-form. This comes as a blessing as it removes all of the complexity of Bayesian inference. Most distributions are not conjugate with each other but for commonly used likelihoods, there exists an exponential family conjugate prior. A Bernoulli likelihood, for example, has a Beta conjugate prior.
+Where $$p(\theta \vert X)$$ is called posterior, $$p(X \vert \theta)$$ likelihood, $$\p(\theta)$$ prior, and $$\int p(X \vert \theta) \p(\theta)$$ evidence. 
+In general, the product of two probability distributions does not yield a new probability distribution in closed-form. Therefore, we have to apply approximations or costly sampling strategies to get the posterior probability density. However, when the prior distribution is conjugate to the likelihood, the posterior is of the same form as the prior and its parameters can be updated in closed-form. This comes as a blessing since it removes all of the complexity of Bayesian inference. Most distributions are not conjugate with each other but for commonly used likelihoods, there exists an exponential family conjugate prior. A Bernoulli likelihood, for example, has a Beta conjugate prior.
 
 I think conjugacy can be easiest understood in visual terms. Thus, in the following, you can see how different data types update their respective conjugate priors. The figures on the left contain the conjugate distribution and the figure on the right is used to generate the data.
 
-If you find the speed of the GIF too high or low or want to pause it at some point you can always just pull the <a href='https://github.com/mariushobbhahn/Exponential_Families_visual_tutorial'>github repo</a> and look at all individual figures.
+If you find the speed of the GIF too high or low or want to pause it at some point you can always just pull the <a href='https://github.com/mariushobbhahn/Exponential_Families_visual_tutorial'>github repo</a> and step through the HTML files at your own pace.
 
 #### Beta
 
-The Beta distribution describes beliefs about a probability, thus it is plausibly the conjugate prior to <a href='https://en.wikipedia.org/wiki/Bernoulli_distribution'>Bernoulli</a> and <a href='https://en.wikipedia.org/wiki/Binomial_distribution'>Binomial</a> likelihoods. In both cases we start with a flat Beta prior, i.e. $$\alpha=\beta=1$$. On the right-hand side, the distributions of the likelihood are shown in blue and the samples that simulate our data are drawn in black. Per step, we draw one sample and update our current Beta distribution accordingly.
+The Beta distribution describes beliefs about a probability, thus it is plausibly the conjugate prior to <a href='https://en.wikipedia.org/wiki/Bernoulli_distribution'>Bernoulli</a> and <a href='https://en.wikipedia.org/wiki/Binomial_distribution'>Binomial</a> likelihoods. In both cases we start with a flat Beta prior, i.e. $$\alpha=\beta=1$$. On the right-hand side, the distributions of the likelihood are shown in blue and the samples that simulate the data are drawn in black. Per step, we draw one sample and update our current Beta distribution accordingly.
 
 For the Bernoulli likelihood this means we compute $$\alpha' = \alpha + \sum_i x_i$$ and $$\beta' = \beta + n - \sum_i x_i$$, i.e. we add 1 to $$\alpha$$ for every success and 1 to $$\beta$$ for every failure.
 
@@ -148,7 +149,7 @@ For the Binomial likelihood we compute $$\alpha' = \alpha + \sum_i x_i$$ and $$\
 
 ![](/img/ExpFam_Vis/Beta_Binomial.gif)
 
-The posterior updates have a very intuitive interpretation. If we have more data the Beta mean gets closer to the true probability and its uncertainty decreases. The more coinflips we see the better we know its bias and the more certain we become.
+The posterior updates have a very intuitive interpretation. If we have more data, the Beta mean gets closer to the true probability and its uncertainty decreases. The more coinflips we see the better we know its bias and the more certain we become.
 
 #### Mean of a Normal (with known variance)
 
@@ -187,7 +188,7 @@ We can see that the mean of the posterior Dirichlet function gets ever closer to
 
 The inverse Wishart is a distribution over symmetric positive semi-definite matrices. It is a conjugate prior to empirical covariance matrices, e.g. the outer product of vectors drawn from a zero-mean Gaussian. I always found it hard to get a good grasp of the inverse Wishart distribution and thus first want to introduce it in slightly more detail than the other distributions.
 
-First of all, the inverse Wishart (and the Wishart) distribution is defined on the symmetric positive semi-definite (psd) cone. The psd cone is a subspace of $$\mathbb{R}^d$$ on which all psd matrices lie. A real symmetric matrix $$\begin{pmatrix} a & b \\ b & c \end{pmatrix}$$ is psd iff $$a, c \geq 0$$ and $$ac - b^2 \geq 0$$. following <a href='https://math.stackexchange.com/questions/1875462/how-to-plot-the-psd-cone-in-matlab'>this stackoverflow post</a>, we will represent this by $$(a, b, c) \in \mathbb{R}^3$$. If we set $$a=1$$ then $$c \geq b^2$$ and if we set $$c=1$$ then $$a \geq b^2$$. So if we plot $$(a,b,c) = (1, b, b^2)$$ and $$(a,b,c) = (b^2, b, 1)$$ for $$-1 \leq b \leq 1$$ respectively and join these points with $$(0,0,0)$$ we start to see the cone.
+First of all, the inverse Wishart (and the Wishart) distribution is defined on the symmetric positive semi-definite (psd) cone. The psd cone is a subspace of $$\mathbb{R}^d$$ on which all psd matrices lie. A real symmetric matrix $$\begin{pmatrix} a & b \\ b & c \end{pmatrix}$$ is psd iff $$a, c \geq 0$$ and $$ac - b^2 \geq 0$$. Following <a href='https://math.stackexchange.com/questions/1875462/how-to-plot-the-psd-cone-in-matlab'>this stackoverflow post</a>, we will represent this by $$(a, b, c) \in \mathbb{R}^3$$. If we set $$a=1$$ then $$c \geq b^2$$ and if we set $$c=1$$ then $$a \geq b^2$$. So if we plot $$(a,b,c) = (1, b, b^2)$$ and $$(a,b,c) = (b^2, b, 1)$$ for $$-1 \leq b \leq 1$$ respectively and join these points with $$(0,0,0)$$ we start to see the cone.
 
 <figure>
   <img src="/img/ExpFam_Vis/PSD_cone.png"/>
@@ -195,7 +196,9 @@ First of all, the inverse Wishart (and the Wishart) distribution is defined on t
 
 If you want to view the cone from different angles you can do so in the respective <a href='https://github.com/mariushobbhahn/Exponential_Families_visual_tutorial'>jupyter notebook</a>.
 
-It is very hard to plot the density of a probability distribution on this cone. Thus we have to revert to other strategies to plot the Wishart distribution. I will use three different tools to plot the Wishart distribution. The first requires a bit of math. For off-diagonal elements of a symmetric psd matrix $$A$$ it holds $$a_{ij}^2 \leq a_{ii} a_{jj}$$ (see e.g. <a href='https://math.stackexchange.com/questions/3018639/off-diagonal-entries-of-a-symmetric-positive-semi-definite-matrix-prove-a-ij'>here</a>). Thus for our 2-dimensional case we know that $$b = \rho \cdot \sqrt{ac}$$ for $$\rho \in (-1, 1)$$. So one way to visualize the Wishart is to plot marginals for different values of $$\rho$$ with increasing $$a$$ and $$c$$. The green, purple and blue line in the above plot show the locations of the marginals for $$\rho$$ equal to $$0.5, 0$$ and $$-0.99$$ respectively.
+It is very hard to plot the density of a probability distribution on this cone. Thus we have to fall back on other strategies to plot the inverse Wishart distribution. I will use two different tools to plot the Wishart distribution. 
+
+The first requires a bit of math. For off-diagonal elements of a symmetric psd matrix $$A$$ it holds $$a_{ij}^2 \leq a_{ii} a_{jj}$$ (see e.g. <a href='https://math.stackexchange.com/questions/3018639/off-diagonal-entries-of-a-symmetric-positive-semi-definite-matrix-prove-a-ij'>here</a>). Thus for our 2-dimensional case we know that $$b = \rho \cdot \sqrt{ac}$$ for $$\rho \in (-1, 1)$$. So one way to visualize the Wishart is to plot marginals for different values of $$\rho$$ with increasing $$a$$ and $$c$$. The green, purple and blue line in the above plot show the locations of the marginals for $$\rho$$ equal to $$0.5, 0$$ and $$-0.99$$ respectively.
 
 Computing the pdf of the inverse Wishart for $$\rho = -0.9,-0.8,...,0.8,0.9$$ from most blue to most red results in the following figure.
 
@@ -287,7 +290,7 @@ We can visually confirm, that these approximations are correct by comparing samp
 
 Similar to above we can also compute the moments for the other sufficient statistics, e.g. $$\mathbb{E}[\log x]$$ and $$\mathrm{Var}(\log x)$$.
 
-All of the moments above could have also be computed using integration but it is significantly more complicated than differentiation.
+All of the moments above can also be computed using integration but it is significantly more complicated than differentiation.
 
 ### Moment Matching
 
