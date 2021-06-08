@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "A (visual) Tutorial on Exponential Families (Draft)"
+title:      "A (visual) Tutorial on Exponential Families"
 subtitle:   "With focus on Machine Learning"
-date:       2021-06-10 20:28:00
+date:       2021-06-08 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/ExpFam_header.png"
 category:   ML_project
@@ -127,10 +127,10 @@ While this looks like an insignificant property it is actually very important. I
 Bayesian Inference is done via Bayes Theorem
 
 $$
-p(\theta \vert X) = \frac{p(X \vert \theta) \p(\theta)}{p(X)} = \frac{p(X \vert \theta)} \p(\theta)}{\int p(X \vert \theta) \p(\theta)}
+p(\theta \vert X) = \frac{p(X \vert \theta) \p(\theta)}{p(X)} = \frac{p(X \vert \theta) p(\theta)}{\int p(X \vert \theta) p(\theta)}
 $$
 
-Where $$p(\theta \vert X)$$ is called posterior, $$p(X \vert \theta)$$ likelihood, $$\p(\theta)$$ prior, and $$\int p(X \vert \theta) \p(\theta)$$ evidence. 
+Where $$p(\theta \vert X)$$ is called posterior, $$p(X \vert \theta)$$ likelihood, $$p(\theta)$$ prior, and $$\int p(X \vert \theta) p(\theta)$$ evidence. 
 In general, the product of two probability distributions does not yield a new probability distribution in closed-form. Therefore, we have to apply approximations or costly sampling strategies to get the posterior probability density. However, when the prior distribution is conjugate to the likelihood, the posterior is of the same form as the prior and its parameters can be updated in closed-form. This comes as a blessing since it removes all of the complexity of Bayesian inference. Most distributions are not conjugate with each other but for commonly used likelihoods, there exists an exponential family conjugate prior. A Bernoulli likelihood, for example, has a Beta conjugate prior.
 
 I think conjugacy can be easiest understood in visual terms. Thus, in the following, you can see how different data types update their respective conjugate priors. The figures on the left contain the conjugate distribution and the figure on the right is used to generate the data.
