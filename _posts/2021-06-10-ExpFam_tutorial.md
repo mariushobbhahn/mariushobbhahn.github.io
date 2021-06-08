@@ -2,7 +2,7 @@
 layout:     post
 title:      "A (visual) Tutorial on Exponential Families"
 subtitle:   "With focus on Machine Learning"
-date:       2021-06-08 20:28:00
+date:       2021-06-10 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/ExpFam_header.png"
 category:   ML_project
