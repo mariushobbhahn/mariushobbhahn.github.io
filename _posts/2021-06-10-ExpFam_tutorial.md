@@ -127,7 +127,7 @@ While this looks like an insignificant property it is actually very important. I
 Bayesian Inference is done via Bayes Theorem
 
 $$
-p(\theta \vert X) = \frac{p(X \vert \theta) \p(\theta)}{p(X)} = \frac{p(X \vert \theta) p(\theta)}{\int p(X \vert \theta) p(\theta)}
+p(\theta \vert X) = \frac{p(X \vert \theta) p(\theta)}{p(X)} = \frac{p(X \vert \theta) p(\theta)}{\int p(X \vert \theta) p(\theta)}
 $$
 
 Where $$p(\theta \vert X)$$ is called posterior, $$p(X \vert \theta)$$ likelihood, $$p(\theta)$$ prior, and $$\int p(X \vert \theta) p(\theta)$$ evidence. 
