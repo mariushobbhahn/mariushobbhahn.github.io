@@ -60,7 +60,7 @@ Globally, CO2 emissions and GDP per capita correlate very strongly. This implies
 The <a href='https://ourworldindata.org/grapher/kaya-identity-co2'>Kaya Identity</a> splits up CO2 emissions into their key elements.
 
 <figure>
-  <img src="/img/Against_degrowth/Kaya_Identity_explanation.png"/>
+  <img src="/img/Against_degrowth/Kaya_identity_explanation.png"/>
 </figure>
 
 Looking closer at the drivers of CO2 we see that carbon intensity and energy intensity have both decreased over time, i.e. growing GDP is less energy/carbon intensive than it used to be. Unfortunately, the slope of these two curves is very flat compared to the world's population growth. Thus the overall CO2 emissions are still rising.
