@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Against degrowth"
+title:      "Against degrowth (Draft)"
 subtitle:   "Climate Change is bad and Economic Growth is good; pretending that they are necessarily linked is harmful"
 date:       2021-07-01 20:28:00
 author:     "Marius Hobbhahn"
