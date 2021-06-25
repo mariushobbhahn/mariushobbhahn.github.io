@@ -11,19 +11,31 @@ tags:       [Miscellanious]
 
 ## **What is this post about?**
 
-Purpose: help others who struggle and expose myself for improvement
+About a year ago I started my PhD in Machine Learning with Philipp Hennig. Over this year, I have changed my mind quite a lot on different issues regarding PhDs. The purpose of this post is to help other people, e.g. if someone is unsure whether to pursue a PhD, and to expose my own approach to feedback from others. So if you think, for example, I could do something better, please reach out and let me know. 
+
+### Mini-overview
 
 Mini-overview of the content of my PhD. 
 
+### Caveats
+
 Big caveat: covid, working alone on a project
 
-I think Philipp is great
+I think Philipp is great and so is the group
+
+### A PhD is harder than I expected
 
 PhD is harder than I thought
 
+### Supervisor-Student Relationship
+
 Supervisor student relationship: more initiative and less doing what you are told
 
+### Meetings
+
 Really prepare meetings with Supervisor and gently take control
+
+### Writing a paper
 
 Paper writing
 -True, understandable, concise
@@ -31,10 +43,16 @@ Paper writing
 -make it shorter
 -get feedback early on (and give a lot of feedback)
 
+### Academia is even more broken than I expected
+
 Academia is slightly broken
+
+### Picking Projects
 
 Pick projects that you really care about -> say no to a lot of projects
 kill your darlings -> look for things that could end the project
+
+### The steady turtle wins the race
 
 Don't take yourself too seriously
 
