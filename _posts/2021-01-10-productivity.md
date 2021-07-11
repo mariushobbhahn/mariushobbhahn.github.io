@@ -25,8 +25,6 @@ This blog has become rather long and I would recommend reading it in blocks or p
 
 If you like the post and know other people who you expect to like it, please share it with them. If you didn't like it please contact me and tell me why. 
 
-**July 2021:** TODO
-
 ## Table of Contents
 
 1. [Definition](#Definition)
@@ -186,7 +184,7 @@ Most people want to do more things than they have time for. There are our person
 
 The only sustainable solution is to prioritize - a lot and at all levels. If you have clearly identified your goal (see point above) you can order your TODO-list according to the most important task to achieve this goal. Then you should drop all low-value tasks that can be found at the bottom of your priorities list. We often have a whole range of tasks that keep us busy but do not actually meaningfully advance our goal. So for every task on your list ask "would it be that bad if I just didn't do it?" and when the answer is yes, drop it. If the answer is "yes, but I don't want to let down another person" ask yourself if that person would be willing to accept your reasons for why you don't want to do that task. Most of the time they will understand if you say that you can't do the task because it doesn't fit your current goals or you will find a better solution for both. You should have a priorities list on all levels. For your life goals, your monthly goals, and your daily goals and prioritize hard at all levels.
 
-Once your list is finished you should always start with the most important item. Too often we do some low-value task because we are afraid of failing the most important one or some other irrational reason. If it's the most important one you will have to do it at some point and therefore you should better start early because you are most focused and concentrated in the mornings. Also the earlier you start the more likely you are to finish in time. There just is no good reason not to start with the most important item.
+Once your list is finished you should always start with the most important item. Too often we do some low-value task because we are afraid of failing the most important one or some other irrational reason. If it's the most important one you will have to do it at some point and therefore you should better start early because you are most focused and concentrated in the mornings. Also the earlier you start the more likely you are to finish in time. There just is no good reason not to start with the most important item. 
 
 Within a corporate setting, you can ask yourself what your key result areas are or, in other words, what you were hired to do. Just write down all the tasks you do or did up to now and double-check which of them are in your area of expertise and which of them are just things that popped up along the way. Then meet with your manager and discuss all the items that are in contention. Most of the time you will be able to cut a large percentage of your current tasks and focus on your key result areas. Your supervisor should also be happy with that result as they hired you for the areas in which you are good at and due to your specialization you are more likely to yield far greater results in these areas than others. The entire point of specialization is that if everyone is really good in one area then the collective results are greater and more efficient. While I personally like this advice, it is important to stress that not everyone in your company will think similarly and you have to make a judgement call about whether your supervisor is open to such ideas. 
 
