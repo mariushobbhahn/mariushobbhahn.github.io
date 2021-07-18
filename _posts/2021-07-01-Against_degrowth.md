@@ -36,7 +36,7 @@ We all agree that climate change and excessive resource use are bad. Additionall
 
 ## How linked is economic growth with climate change?
 
-Before we dive into real-world data, I want to pump the intuition why, at least in theory, economic growth is not necessarily proportional to CO2 emissions, i.e. a 5% increase in GDP doesn't necessarily imply a 5% increase in CO2 emissions. In theory, they could be just 1%, 0% or even negative, depending on the way in which this economic growth is generated. To make this more intuitive, consider the following examples.
+Before we dive into real-world data, I want to pump the intuition why, at least in theory, economic growth is not necessarily proportional to CO2 emissions, i.e. a 5% increase in GDP doesn't necessarily imply a 5% increase in CO2 emissions. In theory, they could be just 1%, 0% or even negative, depending on the way in which this economic growth is generated. To make this more intuitive, consider the following examples. Note that these are not arguments for why economic growth is good but merely that economic growth and emissions are not necessarily linked. 
 
 In the literature on the relationship between economic growth and decarbonization, this idea is known as decoupling. First, there is **relative decoupling** which is when an increase in economic growth is larger than the corresponding increase in emissions. Second, there is **absolute decoupling** which is when an increase in economic growth corresponds to a decrease in emissions.
 
@@ -122,6 +122,8 @@ The production energy mix is much more heterogeneous than I expected. Scandinavi
 
 Most other developed countries' rates of decoupling lie somewhere between the USA and the UK, i.e. an absolute decoupling is already visible even if not as strong as in the UK. However, most other countries in the world have not yet achieved absolute decoupling and in some cases not even relative decoupling. I can't look at all of them, but I selected China since it is a very populous country with one of the most impressive trajectories of GDP growth over the last century.
 
+Changing the energy mix is probably the cheapest solution in terms of CO2 saved per dollar invested. Other - absolutetly necessary - transformations such as changing the way we build, eat and live are likely more expensive or more sticky societal problems. Thus, changing the energy sector towards more green energy is - even if already hard - is the low-hanging fruit of a transition to a sustainable future. 
+
 #### Case study - China
 
 If we compare GDP growth with relative consumption-based and production-based CO2 emissions over the last 30 years we see that China shows relative decoupling, i.e. the economy grows faster than the emissions it produces.
@@ -146,12 +148,18 @@ After looking at the UK and the USA one might argue that climate change will sol
 
 A <a href='https://iopscience.iop.org/article/10.1088/1748-9326/ab842a'>meta study</a> synthesizes 835 individual studies and concludes that "... large rapid absolute reductions of resource use and GHG emissions cannot be achieved through observed decoupling rates, hence decoupling needs to be complemented by sufficiency-oriented strategies and strict enforcement of absolute reduction targets". To clarify, they explicitly state that most sufficiency-oriented strategies do not require negative GDP growth.
 
+This trajectory is captured well by the following figure from the <a href='https://www.ipcc.ch/'>IPCC report</a>.
+
+<figure>
+  <img src="/img/Against_degrowth/SPM1_figure-final.png"/>
+</figure>
+
 ### Intermediate conclusion on greenhouse gas emissions
 
 For me, the data yield three intermediate conclusions.
 1. The examples of the UK, USA, and most other western countries show that **not only relative but even absolute decoupling is possible**. They have exhibited GDP growth while decreasing their CO2 emissions even when taking into account imported products.
 2. **The current trajectory is not even close to sufficient**. To achieve any climate target, nearly all countries have to reduce their emissions much more drastically than they currently do or plan.
-3. **The biggest bottleneck by far is energy production**. In the value vs. emissions graph of the USA and the section on the UK, it becomes quite clear that transitions to cleaner energy are a large driver of the reduction in CO2.
+3. **The biggest current bottleneck by far is energy production**. In the value vs. emissions graph of the USA and the section on the UK, it becomes quite clear that transitions to cleaner energy are a large driver of the reduction in CO2. It is probably also the industry that is the easiest to change in terms of saved CO2 per dollar of investment. 
 
 The policy conclusions of this will be discussed later on.
 
@@ -207,7 +215,7 @@ What I mainly want to emphasize with this clarification is that economic growth 
 
 The key reason why economic growth is great is that it can be and has been a positive-sum game. This means, that everyone can get richer without making someone else poorer. Therefore, your slice of the pie can decrease in relative size while increasing in absolute size - even after controlling for purchasing power. In simpler terms, your income rises faster than the cost of the products you want to buy.
 
-This might be a bit unintuitive in the beginning, so I want to explain it via an analogy. Assume you have an isolated community that survives through subsistence farming. They have a couple of farmers, some builders, some bakers, etc. One day, one of the farmers has the idea to use horses to speed up the plowing and invents a mechanism to increase the speed of seed distribution. Now, fewer farmers are necessary to make the same amount of goods, and thus some of the farmers are freed to work on other things. One of the builders realizes that building with stone, clay, and wood allows for bigger and better isolated houses than just using wood. With the additional knowledge and free workforce, they start to build bigger and better houses for everyone in the community. The baker invents the watermill, the weaver invents the weaving loom, etc. Fast forward a couple of years and everyone in the community has a big house, better clothes, cheaper bread, and cheaper food. They have all become richer without the necessity to exploit someone for it. Their slice has the same relative size but the entire pie is much bigger.
+This might be a bit unintuitive in the beginning, so I want to explain it via an analogy. Assume you have an isolated community that survives through subsistence farming. They have a couple of farmers, some builders, some bakers, etc. One day, one of the farmers has the idea to use horses to speed up the plowing and invents a mechanism to increase the speed of seed distribution. Now, fewer farmers are necessary to make the same amount of goods, and thus some of the farmers are freed to work on other things. One of the builders realizes that building with stone, clay, and wood allows for bigger and better insulated houses than just using wood. With the additional knowledge and free workforce, they start to build bigger and better houses for everyone in the community. The baker invents the watermill, the weaver invents the weaving loom, etc. Fast forward a couple of years and everyone in the community has a big house, better clothes, cheaper bread, and cheaper food. They have all become richer without the necessity to exploit someone for it. Their slice has the same relative size but the entire pie is much bigger.
 
 This is the world economy in a nutshell. Economic growth makes everyone richer in real terms if the profit of that growth is distributed somewhat equally. I know that this is not the case in the status quo, but the problem is not with economic growth but with its distribution.
 
