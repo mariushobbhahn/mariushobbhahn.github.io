@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Against Degrowth, for massive Green Investments (Draft)"
+title:      "Against Degrowth, for massive Green Investments"
 subtitle:   "Climate Change is bad and Economic Growth is good; We should find systems that prevent the first and ensure the latter"
-date:       2021-07-15 20:28:00
+date:       2021-07-25 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/Against_degrowth.png"
 category:   opinion
@@ -36,7 +36,7 @@ We all agree that climate change and excessive resource use are bad. Additionall
 
 ## How linked is economic growth with climate change?
 
-Before we dive into real-world data, I want to pump the intuition why, at least in theory, economic growth is not necessarily proportional to CO2 emissions, i.e. a 5% increase in GDP doesn't necessarily imply a 5% increase in CO2 emissions. In theory, they could be just 1%, 0% or even negative, depending on the way in which this economic growth is generated. To make this more intuitive, consider the following examples. Note that these are not arguments for why economic growth is good but merely that economic growth and emissions are not necessarily linked. 
+Before we dive into real-world data, I want to pump the intuition why, at least in theory, economic growth is not necessarily proportional to CO2 emissions, i.e. a 5% increase in GDP doesn't necessarily imply a 5% increase in CO2 emissions. In theory, they could be just 1%, 0% or even negative, depending on the way in which this economic growth is generated. To make this more intuitive, consider the following examples. Note that these are not arguments for why economic growth is good but merely that economic growth and emissions are not necessarily linked.
 
 In the literature on the relationship between economic growth and decarbonization, this idea is known as decoupling. First, there is **relative decoupling** which is when an increase in economic growth is larger than the corresponding increase in emissions. Second, there is **absolute decoupling** which is when an increase in economic growth corresponds to a decrease in emissions.
 
@@ -122,7 +122,7 @@ The production energy mix is much more heterogeneous than I expected. Scandinavi
 
 Most other developed countries' rates of decoupling lie somewhere between the USA and the UK, i.e. an absolute decoupling is already visible even if not as strong as in the UK. However, most other countries in the world have not yet achieved absolute decoupling and in some cases not even relative decoupling. I can't look at all of them, but I selected China since it is a very populous country with one of the most impressive trajectories of GDP growth over the last century.
 
-Changing the energy mix is probably the cheapest solution in terms of CO2 saved per dollar invested. Other - absolutetly necessary - transformations such as changing the way we build, eat and live are likely more expensive or more sticky societal problems. Thus, changing the energy sector towards more green energy is - even if already hard - is the low-hanging fruit of a transition to a sustainable future. 
+Changing the energy mix is probably the cheapest solution in terms of CO2 saved per dollar invested. Other - absolutely necessary - transformations such as changing the way we build, eat and live are likely more expensive or more sticky societal problems. Thus, changing the energy sector towards more green energy is - even if already hard - is the low-hanging fruit of a transition to a sustainable future.
 
 #### Case study - China
 
@@ -134,7 +134,7 @@ If we compare GDP growth with relative consumption-based and production-based CO
 
 We also see that China is a net exporter of CO2 emissions because the production-based CO2 emissions are larger than the consumption-based ones.
 
-China's energy mix is very fossil fuel based, especially when compared to the UK.
+China's energy mix is very fossil fuel-based, especially when compared to the UK.
 
 <figure>
   <img src="/img/Against_degrowth/Energy_mix_China.png"/>
@@ -159,7 +159,7 @@ This trajectory is captured well by the following figure from the <a href='https
 For me, the data yield three intermediate conclusions.
 1. The examples of the UK, USA, and most other western countries show that **not only relative but even absolute decoupling is possible**. They have exhibited GDP growth while decreasing their CO2 emissions even when taking into account imported products.
 2. **The current trajectory is not even close to sufficient**. To achieve any climate target, nearly all countries have to reduce their emissions much more drastically than they currently do or plan.
-3. **The biggest current bottleneck by far is energy production**. In the value vs. emissions graph of the USA and the section on the UK, it becomes quite clear that transitions to cleaner energy are a large driver of the reduction in CO2. It is probably also the industry that is the easiest to change in terms of saved CO2 per dollar of investment. 
+3. **The biggest current bottleneck by far is energy production**. In the value vs. emissions graph of the USA and the section on the UK, it becomes quite clear that transitions to cleaner energy are a large driver of the reduction in CO2. It is probably also the industry that is the easiest to change in terms of saved CO2 per dollar of investment.
 
 The policy conclusions of this will be discussed later on.
 
@@ -340,7 +340,7 @@ Firstly, they could mean a social democratic system like Norway and mislabel tha
 
 Secondly, communism is sometimes used to describe a certain culture or vibe which can include sharing culture, the use of second-hand goods, or demand for fair-trade products. While I'm happy for these people and share this vibe/desire to some extent, it is just not clear why communism would improve it in any way. Within a capitalist system, your desire is translated into demand and someone will provide fair-trade products, found a sharing cycle, or program an online platform for second-hand goods and thereby also contribute to GDP. In a communist society, you have to hope that the people in power actually consider this a problem and target it in their next 5-year planning cycle. I'm not sure why this is more likely to happen than when you create the demand yourself.
 
-Lastly, people might argue that the actual economic system of communism might be a better fit to solve climate change than capitalism. While I understand the initial intuition of "If we care more about each other, we might actually do something against the climate together", I think much more arguments speak against communism as a solution.
+Lastly, people might argue that the actual economic system of centrally planned economies often found under communist regimes might be a better fit to solve climate change than a mostly free market under capitalism. While I understand the initial intuition of "If we care more about each other, we might actually do something against the climate together", I think much more arguments speak against communism as a solution.
 
 First of all, the biggest communist system that we have had so far, the USSR, was much worse for the climate than its capitalist competitor and replacement.
 
@@ -376,12 +376,10 @@ After looking at the research and data, I come to the following implications for
 
 #### ***One last note***
 
-I would like to thank Eric and Emil for their in-depth feedback
+I would like to thank Mona, Eric and Emil for their in-depth feedback
 
-If you want to get informed about new posts you can <a href='http://www.mariushobbhahn.com/subscribe/'>subscribe to my mailing list</a> or <a href='https://twitter.com/MariusHobbhahn'>follow me on Twitter</a>.
+If you want to get informed about new posts you can <a href='https://twitter.com/MariusHobbhahn'>follow me on Twitter</a> or <a href='http://www.mariushobbhahn.com/subscribe/'>subscribe to my mailing list</a>.
 
 If you have any feedback regarding anything (i.e. layout or opinions) please tell me in a constructive manner via your preferred means of communication.
-
-
 
 
