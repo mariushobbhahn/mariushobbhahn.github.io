@@ -376,7 +376,7 @@ After looking at the research and data, I come to the following implications for
 
 #### ***One last note***
 
-I would like to thank Mona, Eric and Emil for their in-depth feedback
+I would like to thank Mona, Maria, Eric and Emil for their in-depth feedback
 
 If you want to get informed about new posts you can <a href='https://twitter.com/MariusHobbhahn'>follow me on Twitter</a> or <a href='http://www.mariushobbhahn.com/subscribe/'>subscribe to my mailing list</a>.
 
