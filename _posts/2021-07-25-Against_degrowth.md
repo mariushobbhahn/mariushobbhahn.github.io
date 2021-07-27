@@ -285,7 +285,7 @@ Basically, this just means that it's cheaper to live in many other countries tha
 #### The ugly parts of growth
 
 There are a lot of ugly parts to the world economy. They include
-- **Massive wealth inequality**: <a href='https://twitter.com/reubenmuhindi/status/1407617578042855425?s=09'>This thread</a> on the annual Credit Suisse Global Wealth Report 2021 summarizes some of the most important facts of inequality. For example, "the average wealth per adult in the wealthiest continent (N. America) is 66x that of the poorest (Africa)" and "Only 1.1% of world adults have wealth above a million dollars. This one-percenter group accounts for 45.8% of total world wealth. The bottom half (55%) of the world adult population account for only 1.3% of total wealth."
+- **Massive wealth inequality**: <a href='https://twitter.com/reubenmuhindi/status/1407617578042855425?s=09'>This thread</a> on the annual Credit Suisse Global Wealth Report 2021 summarizes some of the most important facts of inequality. For example, "the average wealth per adult in the wealthiest continent (N. America) is 66x that of the poorest (Africa)" and "Only 1.1% of world adults have wealth above a million dollars. This one-percenter group accounts for 45.8% of total world wealth. The bottom half (55%) of the world adult population account for only 1.3% of total wealth." I don't think a uniform distribution of wealth is optimal but this kind of inequality seems too inequal to me. 
 - **Exploitation and forced labor**: Many people in this world have to work for a very low wage, under poor health conditions, and for long working hours.
 - **Pollution of the environment**: See the first part of this post.
 
