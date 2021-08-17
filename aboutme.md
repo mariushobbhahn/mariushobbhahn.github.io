@@ -160,7 +160,7 @@ If you want to get a better picture of my character/how I think, my posts on opi
 
             <h4>Programming Experience</h4>
             <div><b>Programming Languages:</b> Python > R > Java, JavaScript, C++, SQL, Julia</div>
-	    <div><b>ML related:</b> Pytorch, Tensorflow, Keras, Cuda</div>
+	    <div><b>ML related:</b> Pytorch, Jax, Tensorflow, Keras, Cuda</div>
         </div>
     </div>
 
