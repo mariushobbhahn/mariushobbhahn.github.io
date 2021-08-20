@@ -159,7 +159,7 @@ If you want to get a better picture of my character/how I think, my posts on opi
             <div>Successfully completed over 20 lectures related to ML, AI, NNs, RL, Stats, etc. at the University of Tübingen</div>
 
             <h4>Programming Experience</h4>
-            <div><b>Programming Languages:</b> Python > R > Java, JavaScript, C++, SQL, Julia</div>
+            <div><b>Programming Languages:</b> Python > R > Java, Julia, JavaScript, C++, SQL</div>
 	    <div><b>ML related:</b> Pytorch, Jax, Tensorflow, Keras, Cuda</div>
         </div>
     </div>
