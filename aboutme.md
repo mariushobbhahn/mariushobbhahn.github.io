@@ -104,7 +104,7 @@ If you want to get a better picture of my character/how I think, my posts on opi
 			[<a href='https://github.com/mariushobbhahn/Laplace_Matching_for_GLMs'>code</a>]
 			[<a>Blog post (soon)</a>]
 
-	     <div class="row" style="padding-bottom: 2em"></div>
+	    <div class="row" style="padding-bottom: 1em"></div>
 		    
             <h4>Fast Predictive Uncertainty for Classification with Bayesian Deep Networks</h4>
             <div>
@@ -115,16 +115,16 @@ If you want to get a better picture of my character/how I think, my posts on opi
                 [<a href='http://www.mariushobbhahn.com/2020-11-03-LB_for_BNNs/'>Blog post</a>]
                 
             
-            <div class="row" style="padding-bottom: 2em"></div>
+            <div class="row" style="padding-bottom: 1em"></div>
 		    
             <h4>Should Altruistic benchmarks be the norm in Machine Learning?</h4>
             <div>
-                <i>Hobbhahn, Marius</i>
+                <i>Hobbhahn, Marius</i>; ICML2021 Workshop for Socially Responsible Machine Learning
             </div>
                 [<a href="https://icmlsrml2021.github.io/paper.html">paper</a>]
             
 
-            <div class="row" style="padding-bottom: 2em"></div>
+            <div class="row" style="padding-bottom: 1em"></div>
 
             <h4>Sequence Classification using Ensembles of Recurrent Generative Expert Modules</h4>
             <div>
