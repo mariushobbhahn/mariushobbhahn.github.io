@@ -113,6 +113,16 @@ If you want to get a better picture of my character/how I think, my posts on opi
                 [<a href="https://arxiv.org/abs/2003.01227">arxiv</a>]
                 [<a href="https://github.com/mariushobbhahn/LB_for_BNNs_official">code</a>]
                 [<a href='http://www.mariushobbhahn.com/2020-11-03-LB_for_BNNs/'>Blog post</a>]
+                
+            
+            <div class="row" style="padding-bottom: 2em"></div>
+		    
+            <h4>Should Altruistic benchmarks be the norm in Machine Learning?</h4>
+            <div>
+                <i>Hobbhahn, Marius</i>
+            </div>
+                [<a href="https://icmlsrml2021.github.io/paper.html">paper</a>]
+            
 
             <div class="row" style="padding-bottom: 2em"></div>
 
