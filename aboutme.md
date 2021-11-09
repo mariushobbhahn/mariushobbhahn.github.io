@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CV
-subtitle: as of May 2021
+subtitle: as of November 2021
 ---
 
 <!--
@@ -177,10 +177,9 @@ If you want to get a better picture of how I think, my posts on opinions I chang
     <div class="row" style="padding-top: 3em;">
         <div class="col-md-3"><h3>Teaching</h3></div>
         <div class="col-md-9">
-            <ul>
-                <li>Math Summer Course (2 weeks) 2016, 2017</li>
-                <li>Teaching assistant for Probablistic ML (2020, 2021) and Data literacy (2021, 2022)</li>
-                <li>Supervised 2 Bachelor's theses</li>
+            <div>Math Summer Course (2 weeks) 2016, 2017</div>
+            <div>Teaching assistant for Probablistic ML (2020, 2021) and Data literacy (2021, 2022)</div>
+            <div>Supervised 2 Bachelor's theses</div>
             </ul>
         </div>
     </div>
