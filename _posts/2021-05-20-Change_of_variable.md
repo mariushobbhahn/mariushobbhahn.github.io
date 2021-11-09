@@ -87,7 +87,7 @@ On the **left** we interpolate between the function $$x$$ and $$2x$$. On the **r
 ### Non-linear transformation: y = log(x)
  
 Applying a non-linear transformation to our random variable, e.g $$y = \log(x)$$, can be interpreted as a non-linear stretch or compression of the wire.
-In the case of the logarithm we map small values $$(0 < x < 1)$$ to larger negative numbers, i.e. we stretch the wire. Larger values $$(x > 1)$$ will be mapped to smaller numbers since $$\log(x)$$ < x$$ when $$x > 1$$, i.e. we compress the wire.
+In the case of the logarithm we map small values $$(0 < x < 1)$$ to larger negative numbers, i.e. we stretch the wire. Larger values $$(x > 1)$$ will be mapped to smaller numbers since $$\log(x) < x$$ when $$x > 1$$, i.e. we compress the wire.
 
 For a Gamma random variable, the log transformation becomes
 
