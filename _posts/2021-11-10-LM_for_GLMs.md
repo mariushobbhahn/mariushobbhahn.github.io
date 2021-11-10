@@ -49,7 +49,7 @@ I have written a separate <a href='https://www.mariushobbhahn.com/2021-05-20-Cha
 Laplace approximations are a simple way to fit a Gaussian to a function - in our case a probability distribution. The mode of the function is taken as the mean of the Gaussian and the curvature at the mode is used to determine the variance of the Gaussian. Image is taken from <a href='https://bookdown.org/rdpeng/advstatcomp/laplace-approximation.html'>this website</a>.
 
 <figure>
-  <img src="/img/LM_GLMs/laplace_approximations.png"/>
+  <img src="/img/LM_GLMs/laplace_approximation.png"/>
 </figure>
 
 Most of the time it's easy to get a Laplace approximation. You just have to differentiate the function once and set it to zero to get the mode. Then you have to differentiate it another time and invert the negative of the second derivative to get the variance. 
@@ -107,7 +107,7 @@ Laplace Matching can be applied to any exponential family. A core part of this w
 </figure>
 
 <figure>
-  <img src="/img/LM_GLMs/transformation_table"/>
+  <img src="/img/LM_GLMs/transformation_table.png"/>
 </figure>
 
 ### LM+GPs
