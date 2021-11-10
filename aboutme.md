@@ -178,9 +178,15 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         <div class="col-md-3"><h3>Teaching</h3></div>
         <div class="col-md-9">
             <div>Math Summer Course (2 weeks) 2016, 2017</div>
-            <div>Teaching assistant for Probablistic ML (2020, 2021) and Data literacy (2021, 2022)</div>
+            <div>Teaching assistant for Probablistic ML (2020, 2021) and Data Literacy (2021, 2022)</div>
             <div>Supervised 2 Bachelor's theses</div>
-            </ul>
+        </div>
+    </div>
+    
+    <div class="row" style="padding-top: 3em;">
+        <div class="col-md-3"><h3>Work Experience</h3></div>
+        <div class="col-md-9">
+            <div>Aug-Nov 2021: part time ML engineer for KSC trading (EA-aligned sports betting company)</div>
         </div>
     </div>
     
@@ -209,14 +215,14 @@ If you want to get a better picture of how I think, my posts on opinions I chang
             <h4>Academia</h4>
             <ul>
                 <li>Participated at multiple ML Summer Schools and conferences including: PAISS2019, ICML2020, GPSS2020, ESANN2020</li>
-                <li>Organized an ML master overview for 9 European Universities [<a href='https://www.lesswrong.com/posts/3aHESQA4xdP6ydefN/european-master-s-programs-in-machine-learning-artificial'>link</a>]</li> 
-                <li>Lead-organizer of the <a href='https://ellisds.eu/>ELLIS doctoral symposium</a> </li>
+                <li>Organized an <a href='https://www.lesswrong.com/posts/3aHESQA4xdP6ydefN/european-master-s-programs-in-machine-learning-artificial'>ML master overview</a> for 9 European Universities</li> 
+                <li>Lead-organizer of the <a href='https://ellisds.eu/'>ELLIS doctoral symposium</a> </li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
 	
-            <h4>Debating</h4>
+            <h4>University Debating</h4>
             <ul>
-                <li>Broke at 35+ tournaments, were in the top 10 speakers 20+ times and won 10 of them.</li>
+                <li>Broke at 35+ tournaments, were in the top 10 speakers 20+ times and won 10+ of them.</li>
                 <li>My most prestigious speaker achievements include: 3x breaking ESL at EUDC, Winning Tilbury 2019 and Doxbridge 2020 (Oxford final), Winning 2 Campus Debatten and the Southern German Championship, breaking as 3rd (2018), 2nd (2019) and 1st (2020) team at the German National Championships (DDM) and being best speaker and grand finalist at the DDM 2020</li>
                 <li>Broke at 20+ tournaments as adjudicator and chaired 5+ finals. I chief-adjudicated 15+ tournaments.</li>
             </ul>
