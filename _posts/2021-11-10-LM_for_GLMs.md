@@ -32,8 +32,7 @@ There are three core techniques that underlie Laplace matching. If you properly 
 A probability density function is connected to a random variable. If you transform the random variable, e.g. you take its logarithm, then the corresponding pdf changes as well. Mathematically, this can be described with 
 
 $$\begin{aligned}
-p_Y(y) &= p_X(g^{-1}(y)) \\
-&= p_X(g^{-1}(y)) \left\vert \frac{d}{dy}(g^{-1}(y)) \right\vert
+p_Y(y) &= p_X(g^{-1}(y)) \left\vert \frac{d}{dy}(g^{-1}(y)) \right\vert
 \end{aligned}$$
 
 where $$g^{-1}$$ describes the inverse function of $$g$$, $$X$$ is the original variable, $$Y$$ the transformed variable and $$\left\vert \frac{d}{dy}(g^{-1}(y)) \right\vert$$ the Jacobian of the inverse transformation.

@@ -24,8 +24,7 @@ If you have constructive feedback don't hesitate to write me. If you like it, sh
 If we apply a transformation $$g(x): \mathbb{R} \rightarrow \mathbb{R}$$ to a random variable $$X$$ then its pdf $$p_X(x)$$ changes. If $$g(x)$$ is a monotonic function then the pdf $$p_Y(y)$$ of the transformed random variable $$Y$$ can be computed with
 
 $$\begin{aligned}
-p_Y(y) &= f_X(g^{-1}(y)) p_Y(y) \\
-&= f_X(g^{-1}(y)) \left\vert \frac{d}{dy}(g^{-1}(y)) \right\vert
+p_Y(y) &= p_X(g^{-1}(y)) \left\vert \frac{d}{dy}(g^{-1}(y)) \right\vert
 \end{aligned}$$
 
 where $$g^{-1}$$ describes the inverse function of $$g$$.
