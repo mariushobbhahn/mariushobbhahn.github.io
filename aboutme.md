@@ -216,7 +216,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
             <ul>
                 <li>Participated at multiple ML Summer Schools and conferences including: PAISS2019, ICML2020, GPSS2020, ESANN2020</li>
                 <li>Organized an <a href='https://www.lesswrong.com/posts/3aHESQA4xdP6ydefN/european-master-s-programs-in-machine-learning-artificial'>ML master overview</a> for 9 European Universities</li> 
-                <li>Lead-organizer of the <a href='https://ellisds.eu/'>ELLIS doctoral symposium</a> </li>
+                <li>Lead-organizer of the <a href='https://ellisds.eu/'>ELLIS doctoral symposium</a> in 2021</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
 	
@@ -225,6 +225,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
                 <li>Broke at 35+ tournaments, were in the top 10 speakers 20+ times and won 10+ of them.</li>
                 <li>My most prestigious speaker achievements include: 3x breaking ESL at EUDC, Winning Tilbury 2019 and Doxbridge 2020 (Oxford final), Winning 2 Campus Debatten and the Southern German Championship, breaking as 3rd (2018), 2nd (2019) and 1st (2020) team at the German National Championships (DDM) and being best speaker and grand finalist at the DDM 2020</li>
                 <li>Broke at 20+ tournaments as adjudicator and chaired 5+ finals. I chief-adjudicated 15+ tournaments.</li>
+                <li>Organized 5+ tournaments and was (vice-)president of the debating club for two years.</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
 
