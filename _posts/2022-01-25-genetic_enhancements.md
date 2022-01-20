@@ -16,7 +16,7 @@ When you go into the supermarket in Germany, a lot of food packaging contains ph
 
 <figure>
   <img src="/img/genetic_modification/ohne_gentechnik1.png" width="300"/>
-   <img src="/img/genetic_modification/ohne_gentechnik2.png" width="300"/>
+   <img src="/img/genetic_modification/ohne_gentechnik2.png" width="270"/>
 </figure>
 
 In general, most people in Germany strongly oppose [genetically modified organisms (GMO)](https://en.wikipedia.org/wiki/Genetically_modified_organism).
