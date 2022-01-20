@@ -207,7 +207,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
             <ul>
                 <li>Co-founded the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 (still organizing it)</li>
                 <li>Co-founded the <a href='https://aisafetytuebingen.wordpress.com/'>Tübingen AI safety reading group</a> in 2020 (currently inactive)</li>
-                <li>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019), EAG reconnect (2021), EA Unconference 2021, EAG2021, EAGx2021 Prague</li>
+                <li>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019), EAG reconnect (2021), EA Unconference 2021, EAG2021</li>
                 <li>Posts on the <a href='https://forum.effectivealtruism.org/users/mariushobbhahn'>EA Forum</a> and <a href='https://www.lesswrong.com/users/marius-hobbhahn'>LessWrong</a> </li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
