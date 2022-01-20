@@ -15,7 +15,7 @@ tags:       [Miscellanious, Improve, Effective Altruism]
 When you go into the supermarket in Germany, a lot of food packaging contains phrases such as "not genetically modified". 
 
 <figure>
-  <img src="/img/genetic_modification/ohne_gentechnik1.png" width="200"/>
+  <img src="/img/genetic_modification/ohne_gentechnik1.png" width="300"/>
    <img src="/img/genetic_modification/ohne_gentechnik2.png" width="300"/>
 </figure>
 
@@ -47,7 +47,6 @@ This trend is not unique to animals. Plants have been selectively bred as well. 
 <figure>
   <img src="/img/genetic_modification/foods_before_after.jpeg" width="400"/>
 </figure>
-
 
 So in nearly all cases, the alternative to genetically modified is not "natural" but rather selectively bred. For this post, I will endorse both methods, because they basically achieve the same goal through a slightly different path. In both cases, an organism is changed with a specific goal in mind. Breeding takes longer and is less targeted but genetic modifications require more understanding of the organism. In the end, though, you get a more resistant crop or a bigger chicken either way. 
 
@@ -106,7 +105,7 @@ For this article, I really wanted to understand why there is so much hesitancy a
 Just to be clear, I would prefer a world in which we would be vegan or vegetarian. Then, a lot of genetic changes and selective breeding wouldn't be necessary to begin with. Unfortunately, this is not (yet) the world we live in. Meat and dairy consumption is rising globally and thus I think it is necessary to talk about animals. 
 
 <figure>
-  <img src="/img/genetic_modification/foods_before_after.jpeg" width="400"/>
+  <img src="/img/genetic_modification/global-meat-production.png"/>
 </figure>
 
 ### The pros
@@ -180,7 +179,7 @@ When we look back on technology we are happy about how far we have come. We can 
 
 After reading more about genetic engineering, I think it belongs in the second category. For plants it’s mostly the question of “do we want more food with better properties?”, for humans, it is “do we want medicine that is so good that it treats the disease before it arises?” and for animals, it is “Do we want to increase the output-efficiency of animals and possibly improve their well-being?”. 
 
-I know that I’m an unusually strong proponent of genetic engineering and I have picked a side. But I want to make one thing clear: **there is no neutral ground, every non-decision is a decision, everyone has picked a side whether they want to or not_._** There are some downsides to genetic modifications but the alternative world is not a utopia, it is a world full of disease and hunger. You are free to choose a side but be aware that team “anti-GMOs” is team “pro-disease” just as team “anti-vax” is “team-pro-covid”. 
+I know that I’m an unusually strong proponent of genetic engineering and I have picked a side. But I want to make one thing clear: **there is no neutral ground, every non-decision is a decision, everyone picks a side whether they want to or not!** There are some downsides to genetic modifications but the alternative world is not a utopia, it is a world full of disease and hunger. You are free to choose a side but be aware that team “anti-GMOs” is team “pro-disease” just as team “anti-vax” is “team-pro-covid”. 
 
 ### One last note
 
