@@ -45,8 +45,15 @@ Both frustrated with the outcome. Bad. > Better to go as far as possible and mar
 
 If you suggest experiments, it has to be clear why. If you suggest citations it has to be clear why. It's not that hard to review but still most people do it wrong. 
 
+### Collaborate with others. It's usually good.
+
+
+### We are missing a crucial form of information sharing
+
+Something between twitter and a paper. A short blogpost. But it doesn't get any reward so most people don't do it. 
+
 #### ***One last note***
 
-If you want to get informed about new posts you can <a href='https://twitter.com/MariusHobbhahn'>follow me on Twitter</a> or <a href='http://www.mariushobbhahn.com/subscribe/'>subscribe to my mailing list</a>.
+If you want to get informed about new posts you can <a href='https://twitter.com/MariusHobbhahn'>follow me on Twitter</a>.
 
 If you have any feedback regarding anything (i.e. layout or opinions) please tell me in a constructive manner via your preferred means of communication.
