@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "TODO"
+title:      "PhD Year 2: Scientist or papermaker?"
 subtitle:   "TODO"
 date:       2021-10-22 20:28:00
 author:     "Marius Hobbhahn"
@@ -11,10 +11,21 @@ tags:       [Miscellanious]
 
 ## **What is this post about?**
 
-TODO
+TODO short overview
+
+Looks like a lot but feels like little. 
 
 ### Disclaimers
 
+
+### Scientist of papermaker?
+
+
+### Ambition in academia
+
+One the one hand, everyone pretends to be unambitious while being very ambitious + intelligent.
+
+On the other hand, the ambition is weird. Mostly path dependencies + rationalization. Little high-level thinking about why stuff is important. "What is the theory of change / impact / whatever" is seen as insult, not as help. For some projects it's just clear that nobody ever asked why it would matter. I'm guilty of that too. Keeping busy rather than doing something that matters. 
 
 ### Work on the basics
 
