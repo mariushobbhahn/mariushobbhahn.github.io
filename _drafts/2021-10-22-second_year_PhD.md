@@ -39,6 +39,14 @@ Chasing a citation == bad; wanting to share something you found == good;
 
 Currently everyone is asked to compare against other methods. Bad training for rest, mega training for mine TADA. Either, allow people to say their method doesn't beat everything else and make sure they actually train the other methods reasonably or allow them to publish with less comparisons. SQ == worst of both worlds
 
+### I changed my mind about specialization
+
+It's just so fucking boring. 
+
+Depends on what your goal is. Details will be worked out by private actors. Your goals change over the time of your research.
+
+Artificially constraining yourself is bad.
+
 ### Trade-off between reading a lot and finding new ideas
 
 It's not obvious that you should read everything that everyone else has done. 
@@ -62,6 +70,10 @@ If you suggest experiments, it has to be clear why. If you suggest citations it 
 ### We are missing a crucial form of information sharing
 
 Something between twitter and a paper. A short blogpost. But it doesn't get any reward so most people don't do it. 
+
+### Papers are partly about looks
+
+Papers are about information sharing. If the plot is unreadable that's bad. This manifests in an expectation, see Philipps way to create plots. "you see some lines and some numbers, that should be enough". But I really WANT to understand Philipp's plots. 
 
 #### ***One last note***
 

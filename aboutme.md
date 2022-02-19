@@ -96,13 +96,20 @@ If you want to get a better picture of how I think, my posts on opinions I chang
     <div class="col-md-3"><h3>Publications</h3></div>
         <div class="col-md-9">
         
-		<h4>Laplace Matching for fast Approximate Inference in Generalized Linear Models</h4>
-		    <div>
-			<i>Hobbhahn, Marius</i> and Hennig, Philipp. (2021).
-		    </div>
-			[<a href="https://arxiv.org/abs/2105.03109">arxiv</a>]
-			[<a href='https://github.com/mariushobbhahn/Laplace_Matching_for_GLMs'>code</a>]
-			[<a>Blog post (soon)</a>]
+        	     <h4>Compute Trends Across Three Eras of Machine Learning</h4>
+	     <div>
+		Jaime Sevilla, Lennart Heim, Anson Ho, Tamay Besiroglu, <i>Marius Hobbhahn</i>, Pablo Villalobos (2022).
+	     </div>
+		[<a href="https://arxiv.org/abs/2202.05924">arxiv</a>]
+		[<a href='https://ourworldindata.org/grapher/ai-training-computation'>Our World in Data</a>]
+        
+	     <h4>Laplace Matching for fast Approximate Inference in Generalized Linear Models</h4>
+	     <div>
+		<i>Hobbhahn, Marius</i> and Hennig, Philipp. (2021).
+	     </div>
+		[<a href="https://arxiv.org/abs/2105.03109">arxiv</a>]
+		[<a href='https://github.com/mariushobbhahn/Laplace_Matching_for_GLMs'>code</a>]
+		[<a href='https://www.mariushobbhahn.com/2021-11-10-LM_for_GLMs/'>blog</a>]
 
 	    <div class="row" style="padding-bottom: 1em"></div>
 		    
@@ -203,9 +210,19 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         <div class="col-md-3"><h3>Miscellaneous</h3></div>
         <div class="col-md-9">
         
+       	    <h4>AI safety/alignment</h4>
+            <ul>
+                <li>Received funding for independent research on AI safety from the <a href='https://funds.effectivealtruism.org/funds/far-future'>Long-Term Future Fund</a>(2022)</li>
+                <li>Participant in the <a href='https://aisafety.camp/'>AI safety camp</a> 2022 (supervised by Beth Barnes from OpenAI)</li>
+                <li>Contributer to the <a href='https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi'>ML progress research group</a>(2022)</li>
+                <li>Participant in the 2022 <a href='https://www.eacambridge.org/technical-alignment-curriculum'>AGI fundamentals reading group</a></li>
+                <li>Participant in the 2022 s-risks intro fellowship by <a href='https://longtermrisk.org/'>CLR</a>
+            </ul>
+            <div class="row" style="padding-bottom: 1em"></div>
+        
             <h4>Effective Altruism</h4>
             <ul>
-                <li>Co-founded the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 (still organizing it)</li>
+                <li>Co-founded the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 (still co-organizing it)</li>
                 <li>Co-founded the <a href='https://aisafetytuebingen.wordpress.com/'>Tübingen AI safety reading group</a> in 2020 (currently inactive)</li>
                 <li>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019), EAG reconnect (2021), EA Unconference 2021, EAG2021</li>
                 <li>Posts on the <a href='https://forum.effectivealtruism.org/users/mariushobbhahn'>EA Forum</a> and <a href='https://www.lesswrong.com/users/marius-hobbhahn'>LessWrong</a> </li>
