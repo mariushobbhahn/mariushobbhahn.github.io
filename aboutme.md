@@ -212,9 +212,9 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         
        	    <h4>AI safety/alignment</h4>
             <ul>
-                <li>Received funding for independent research on AI safety from the <a href='https://funds.effectivealtruism.org/funds/far-future'>Long-Term Future Fund</a>(2022)</li>
+                <li>Received funding for independent research on AI safety from the <a href='https://funds.effectivealtruism.org/funds/far-future'>Long-Term Future Fund</a> (2022)</li>
                 <li>Participant in the <a href='https://aisafety.camp/'>AI safety camp</a> 2022 (supervised by Beth Barnes from OpenAI)</li>
-                <li>Contributer to the <a href='https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi'>ML progress research group</a>(2022)</li>
+                <li>Contributer to the <a href='https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi'>ML progress research group</a> (2022)</li>
                 <li>Participant in the 2022 <a href='https://www.eacambridge.org/technical-alignment-curriculum'>AGI fundamentals reading group</a></li>
                 <li>Participant in the 2022 s-risks intro fellowship by <a href='https://longtermrisk.org/'>CLR</a></li>
             </ul>
