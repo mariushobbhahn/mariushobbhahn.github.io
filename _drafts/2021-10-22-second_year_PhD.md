@@ -13,23 +13,26 @@ tags:       [Miscellanious]
 
 TODO short overview
 
+EDS, wrote a new paper, have some new ideas, collab with AMF?
 Looks like a lot but feels like little. 
 
 ### Disclaimers
 
+Covid, Philipp is good, etc. 
 
 ### Scientist of papermaker?
 
+Most intense love-hate relationship of my life. I love science, the exploration, the knowledge gain, the feeling of improving the world step by step. I hate the politics of academia, parts of the review system, the expectation that you do everything "for science" while getting a bad salary with bad working hours, etc. 
 
-### Ambition in academia
+It's actually hard because so easy to rationalize "just guiding their attention, can't check everything, everyone does it and thus knows about it, etc." ... 
+
+Pattern is "how can we get this through review" not how can we increase knowledge / value for others. It's like the high-brow version of Instagram "bro, yesterday I did 50 push ups, for real!" but with more figures and tables.  In my mind the reviewers have become the gatekeepers to good science not their facilitators. I don't know what the solution is. So far I just write an honest shorter version of the paper on my blog. 
+
+### Ambition in academia is weird
 
 One the one hand, everyone pretends to be unambitious while being very ambitious + intelligent.
 
 On the other hand, the ambition is weird. Mostly path dependencies + rationalization. Little high-level thinking about why stuff is important. "What is the theory of change / impact / whatever" is seen as insult, not as help. For some projects it's just clear that nobody ever asked why it would matter. I'm guilty of that too. Keeping busy rather than doing something that matters. 
-
-### Work on the basics
-
-Git, coding practices, etc. 
 
 ### Content is the best motivation
 
@@ -47,13 +50,13 @@ Depends on what your goal is. Details will be worked out by private actors. Your
 
 Artificially constraining yourself is bad.
 
-### Trade-off between reading a lot and finding new ideas
-
-It's not obvious that you should read everything that everyone else has done. 
-
 ### Every paper is two papers in one
 
 One for readers who just want to get a gist and another for people who want to reproduce the results. 
+
+### It's very tough to know how well you are doing
+
+
 
 ### Who is responsible for feedback and when?
 
@@ -74,6 +77,10 @@ Something between twitter and a paper. A short blogpost. But it doesn't get any 
 ### Papers are partly about looks
 
 Papers are about information sharing. If the plot is unreadable that's bad. This manifests in an expectation, see Philipps way to create plots. "you see some lines and some numbers, that should be enough". But I really WANT to understand Philipp's plots. 
+
+### Work on the basics
+
+Git, coding practices, etc. 
 
 #### ***One last note***
 
