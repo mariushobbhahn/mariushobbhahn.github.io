@@ -2,7 +2,7 @@
 layout:     post
 title:      "How to write better blogposts"
 subtitle:   "Things I've learned by writing a lot"
-date:       2022-03-08 20:28:00
+date:       2022-03-07 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/writing.jpeg"
 category:   opinion

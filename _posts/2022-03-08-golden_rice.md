@@ -2,7 +2,7 @@
 layout:     post
 title:      "Should GMOs (e.g. golden rice) be a cause area?"
 subtitle:   "Or why is it illegal to feed the hungry?"
-date:       2022-03-08 19:28:00
+date:       2022-03-07 19:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/golden_rice.jpeg"
 category:   opinion
