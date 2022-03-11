@@ -2,7 +2,7 @@
 layout:     post
 title:      "I want to be replaced"
 subtitle:   "By a better future self"
-date:       2022-03-08 17:28:00
+date:       2022-03-08 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/replace.png"
 category:   opinion
