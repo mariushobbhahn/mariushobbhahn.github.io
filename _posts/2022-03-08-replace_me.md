@@ -6,7 +6,7 @@ date:       2022-03-08 17:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/replace.png"
 category:   opinion
-tags:       [Miscellanious, Effective Altruism]
+tags:       [Improve, Effective Altruism]
 ---
 
 ## **What is this post about?**

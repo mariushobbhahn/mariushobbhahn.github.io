@@ -42,6 +42,10 @@ Chasing a citation == bad; wanting to share something you found == good;
 
 Currently everyone is asked to compare against other methods. Bad training for rest, mega training for mine TADA. Either, allow people to say their method doesn't beat everything else and make sure they actually train the other methods reasonably or allow them to publish with less comparisons. SQ == worst of both worlds
 
+### Organising Academic events
+
+Well, it sucks.
+
 ### I changed my mind about specialization
 
 It's just so fucking boring. 
