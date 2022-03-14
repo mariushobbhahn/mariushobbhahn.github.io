@@ -17,13 +17,17 @@ I’d like to thank Max Räuker, Moritz Hanke and Simon Grimm for their feedback
 
 **Clarification:** these tips are intended for less experienced writers. I don’t claim to know everything and am interested in improving further. Feedback is welcome. 
 
+**Clarification 2:** Ronja has posted <a href='https://ronjalustig.wordpress.com/2022/03/14/how-to-write-perfectly-adequate-blogposts/?fbclid=IwAR3SVDDtwkcb-SlGbmLKc5WwV3Qw80XgzsEHrVFCuLhSOja-5FJJp4eKmgE'>a response</a> to this post in which she argues that my post sets the bar too high. I think my post can be read as such but my intention is to lower the bar of writing posts and get more people to do it. 
+1. **Time:** I'd argue that following my suggestions doesn't require much more time than not following them. A good structure makes the writing process faster and iterating doesn't take that long but both lead to much better posts.
+2. **Quality matters:** It's perfectly fine to write your thoughts in a post and put them online. However, your posts reflect on you. If people don't like what they see they will not think it's worth their time and not come back in the future. 
+
 **TL;DR**: writing blog posts is good for lots of reasons, e.g. gaining clarity, education, interaction with others and career building. There are different tips and tricks to write better ranging from cutting content aggressively to quantifying uncertainty. The most important one is to just start writing and then iterate. If you dislike having your own blog, write posts on the forum and hop on other people’s projects.
 
 This was previously posted on the <a href='https://forum.effectivealtruism.org/posts/mMs7eo8AosNBF4v6s/how-to-write-better-blog-posts'>EA forum</a>.
 
 ## Why write a blog post?
 
-1.  **You learn a lot:** Aiming at writing a post is a way of gaining clarity on what you know and what you don't know. It will structure your thinking and lead you to research more thoroughly. Expecting others to read your post will likely also give you extra motivation to improve the article. Furthermore, I think people underestimate how much you can learn with 20 hours of focused googling, reading abstracts, skimming papers or videos, etc. By now, when I want to get a better grasp of a topic, I start writing a blog post.
+1.  **You learn a lot:** Aiming at writing a post is a way of gaining clarity on what you know and what you don't know. It will structure your thinking and lead you to research more thoroughly. Expecting others to read your post will likely also give you extra motivation to improve the article. Furthermore, I think people underestimate how much you can learn with 5 hours of focused googling, reading abstracts, skimming papers or videos, etc. By now, when I want to get a better grasp of a topic, I start writing a blog post.
 2.  **It’s a positive experience:** Most of my initial intuitive concerns were very wrong. The world didn’t fall apart after sharing the first post and the feedback I got was positive. Most of the time, not that many people read your first posts and they are usually part of some ingroup, thus more forgiving.   
     On the other hand, once my blog posts got better, the experience just became more and more satisfying. People responded to my posts, answered important questions, reached out via DM or mail, etc. It makes me feel like I contribute something to solving important problems, which is a great experience.
 3.  **You help others:** We don’t have the time and energy to research every topic or think about every question in detail. However, we can read a 10-minute summary to get a sufficiently good grasp of the issue. If you did a decent job with your post, most people will be very thankful for that.
