@@ -4,7 +4,7 @@ title:      "Nuclear Energy"
 subtitle:   "Good but not the silver bullet we were hoping for"
 date:       2022-04-10 20:28:00
 author:     "Marius Hobbhahn"
-header-img: "img/img-headers/TODO"
+header-img: "img/header-imgs/nuclear_header.jpeg"
 category:   opinion
 tags:       [Miscellanious]
 ---
