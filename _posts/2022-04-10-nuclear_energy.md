@@ -31,13 +31,14 @@ On the other hand, there are a couple of other questions that carry more uncerta
 
 ### Practical implications:
 
+
 1. It **does NOT make any sense to close existing nuclear power plants** unless you can guarantee that their energy will be replaced by 100% renewables and storage+distribution has been sorted out.
 2. Nuclear is **nearly always better than fossil fuels**. It creates way fewer health problems and GHG emissions. However, it needs more time to ramp up a nuclear reactor than to turn a gas burner on and off. Therefore, nuclear is mostly useful for baseload energy production and not to offset fluctuations in renewables. 
 3. We think there are two possible pathways forward
     1. **Do nuclear but the right way: **reform nuclear regulations to allow for more innovation, build explicit testing hubs where it is possible to do research into new reactor designs with relative ease, build smaller reactors that follow a standard design to use economies of scale, and do more research on how to integrate nuclear into a grid dominated by renewables.
     2. **Double down on renewables and storage: **The price of solar power and batteries has dropped exponentially while their installed capacity has increased exponentially (see figure below). Doubling down would mean investing in large stationary batteries or hydrogen for storage, investing in better electrical grids to balance the consumption-production-asymmetries, and so forth. 
 
-    These two paths are, of course, **not** **entirely mutually exclusive**, but if we had to design a budget right now, we would put much more resources towards renewables and storage than nuclear after doing this research. 
+These two paths are, of course, **not** **entirely mutually exclusive**, but if we had to design a budget right now, we would put much more resources towards renewables and storage than nuclear after doing this research. 
 
 <figure>
   <img src="/img/nuclear/energy_prices_time_OWID.png"/>
@@ -55,7 +56,7 @@ First of all, **it’s clean energy**. During deployment, nuclear power plants p
 
 Secondly, nuclear power is a **stable baseload**, i.e. it is independent of wind, sun and other circumstances. It takes about [12 hours to ramp up](https://www.eia.gov/todayinenergy/detail.php?id=45956#:~:text=Almost%20all%20nuclear%20power%20plants,day%20to%20reach%20full%20load.) a nuclear power plant and it requires high uptime to be economically feasible. This might make it unfit to counterbalance the rapidly changing energy production of renewables (details in later section). 
 
-Thirdly, nuclear power gives you **energy independence**. This became very clear during Russia’s invasion of Ukraine. France, for example, had much fewer problems cutting ties with Russia than e.g. Germany. While countries might still have to import Uranium, the global supplies are distributed more evenly than with fossil fuels, thereby decreasing geopolitical relevance. Uranium can be found nearly everywhere. 
+Thirdly, nuclear power gives you **energy independence**. This became very clear during Russia’s invasion of Ukraine. France, for example, had much fewer problems cutting ties with Russia than e.g. Germany. While countries might still have to import Uranium, the global supplies are distributed more evenly than with fossil fuels, thereby decreasing geopolitical relevance. Uranium can be found <a href='https://www.wise-uranium.org/umaps.html'>nearly everywhere</a>. 
 
 <figure>
   <img src="/img/nuclear/energy_mix_france.png"/>
@@ -217,7 +218,7 @@ We speculate that this difference in trajectory can be explained by market condi
 Furthermore, energy storage such as batteries has seen very steep increases in price/capacity as well---possibly for similar reasons. 
 
 However, in almost all cases, nuclear is much better than fossil fuels. Furthermore, there might be a role for nuclear in the future. It is clean, gives you high energy independence and allows you to build energy production geographically close to where it’s used. 
-Therefore, we think there might be a role for nuclear energy in the future just not a very big one. _If we (as the authors) had to decide now, we would double down on renewables and design the role of nuclear around a future grid in which wind and solar dominate the energy supply. _
+Therefore, we think there might be a role for nuclear energy in the future just not a very big one. *If we (as the authors) had to decide now, we would double down on renewables and design the role of nuclear around a future grid in which wind and solar dominate the energy supply.*
 
 We would like to thank Maria Heitmeier, Laurenz Hemmen, Peter Ruschhaupt, Emil Iftekhar, and Mona Bukenberger for their feedback and comments. 
 
