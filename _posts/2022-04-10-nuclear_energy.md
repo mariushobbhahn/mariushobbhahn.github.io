@@ -21,7 +21,7 @@ Answering questions about nuclear power is more complicated than we assumed. How
 1. Nuclear power is a **carbon-neutral, stable source of energy that gives you high independence** from other countries and conflicts.
 2. Nuclear power is **likely very safe** and creates way less harm than e.g. a coal power plant of similar size. 
 3. The nuclear **waste problem is likely neither very big nor very expensive**. 
-4. On average nuclear energy is **more expensive than renewables (~2x) **and we can expect this gap to widen in the future. 
+4. On average nuclear energy is **more expensive than renewables (~2x)** and we can expect this gap to widen in the future. 
 
 On the other hand, there are a couple of other questions that carry more uncertainty.
 1. Some people argue that **nuclear energy regulation is unreasonably stringent** and thus prevents innovation and inflates prices. The majority of reports (pro- and anti- nuclear) don’t mention overregulation as a major problem. We think the narrative is plausible because of misaligned regulatory incentive structures but we aren’t very confident.
@@ -35,8 +35,8 @@ On the other hand, there are a couple of other questions that carry more uncerta
 1. It **does NOT make any sense to close existing nuclear power plants** unless you can guarantee that their energy will be replaced by 100% renewables and storage+distribution has been sorted out.
 2. Nuclear is **nearly always better than fossil fuels**. It creates way fewer health problems and GHG emissions. However, it needs more time to ramp up a nuclear reactor than to turn a gas burner on and off. Therefore, nuclear is mostly useful for baseload energy production and not to offset fluctuations in renewables. 
 3. We think there are two possible pathways forward
-    1. **Do nuclear but the right way: **reform nuclear regulations to allow for more innovation, build explicit testing hubs where it is possible to do research into new reactor designs with relative ease, build smaller reactors that follow a standard design to use economies of scale, and do more research on how to integrate nuclear into a grid dominated by renewables.
-    2. **Double down on renewables and storage: **The price of solar power and batteries has dropped exponentially while their installed capacity has increased exponentially (see figure below). Doubling down would mean investing in large stationary batteries or hydrogen for storage, investing in better electrical grids to balance the consumption-production-asymmetries, and so forth. 
+    1. **Do nuclear but the right way:** reform nuclear regulations to allow for more innovation, build explicit testing hubs where it is possible to do research into new reactor designs with relative ease, build smaller reactors that follow a standard design to use economies of scale, and do more research on how to integrate nuclear into a grid dominated by renewables.
+    2. **Double down on renewables and storage:** The price of solar power and batteries has dropped exponentially while their installed capacity has increased exponentially (see figure below). Doubling down would mean investing in large stationary batteries or hydrogen for storage, investing in better electrical grids to balance the consumption-production-asymmetries, and so forth. 
 
 These two paths are, of course, **not** **entirely mutually exclusive**, but if we had to design a budget right now, we would put much more resources towards renewables and storage than nuclear after doing this research. 
 
