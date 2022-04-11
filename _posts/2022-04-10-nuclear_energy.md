@@ -81,7 +81,6 @@ There are also more indirect, fuzzy safety concerns with nuclear, e.g. health ef
 There are some people (see e.g. [this post](https://rootsofprogress.org/devanney-on-the-nuclear-flop)) who claim that most radiation standards are based on outdated methodology and thus put an unreasonably high standard on nuclear radiation when compared to literally any other health standard. While we can’t tell what the correct level of allowed radiation should be, we understand where this view is coming from. The regulatory standards for nuclear are much higher than they are for coal, gas, oil, food or medicine. Whether this is good or bad depends on your perspective, but safety regulations in nuclear energy could probably be drastically lower and wouldn’t increase harm in any meaningful way.
 
 Our overall impression is that nuclear energy is very safe, especially when compared to fossil fuel alternatives. Most nuclear power plants have [passive built-in safety mechanisms](https://world-nuclear.org/information-library/safety-and-security/safety-of-plants/safety-of-nuclear-power-reactors.aspx), e.g. such that cooling systems don’t break when they lose power or the chain reaction in the reactor is stopped automatically. 
-
  \
 Furthermore, even the worst-case scenarios seem less problematic than commonly assumed. Contrary to portrayals in pop culture, nuclear power plants [don’t explode](https://en.wikipedia.org/wiki/Nuclear_meltdown) like an atomic bomb. Usually, they get really hot and possibly melt down. Under specific circumstances, there can be hydrogen explosions that release some amount of toxic material. In cases of old technology and severe human error, they can make the surrounding area uninhabitable. However, this process is so slow and well-monitored that everyone can be safely evacuated in time and no human casualties occur. There are, of course, human and economic costs if an area becomes uninhabitable but the probability of such an event is extremely low. Furthermore, for the extraction of coal, the [relocation of entire villages](https://de.wikipedia.org/wiki/Liste_abgebaggerter_Ortschaften) and the destruction of the environment is the norm rather than the exception. 
 
@@ -126,13 +125,12 @@ Most of the nuclear power plants in the west were built a long time ago with ver
 
 This is in many ways the opposite trend of technologies like solar panels which have seen rapid cost declines specifically because the sheer scale of production has enabled lots of small savings through standardization processes that compound over time. 
 
-
 ### 2. Overregulation 
 
 Some people [argue](https://rootsofprogress.org/devanney-on-the-nuclear-flop) that the main reason for the cost increase of nuclear power is overzealous regulation from agencies with badly aligned incentives. We tried to see if there was any corroborating evidence, but all other sources we looked at (both pro- and anti- nuclear) did not mention over-regulation as an issue. Even the pro-industry documents say that regulation standards are very high and use that as an argument for why nuclear is safe. Apart from some specific calls around changing the regulation of prototype reactors and some regulatory harmonization, we couldn’t find this narrative of broad over-regulation anywhere else. 
 
 However, we think that some parts of the current regulatory landscape are suboptimal and there are [some concrete measures](https://rootsofprogress.org/devanney-on-the-nuclear-flop) for improvements. These include 
-1. **A complete reform of the current risk model**. The current model assumes that cancer rates scale linearly with radiation which is known to be a bad model. 
+1. **A reform of the current risk model**. The current model assumes that cancer rates scale linearly with radiation which is known to be a bad model. 
 2. **Enable more testing.** In the status quo, test reactors are treated like production reactors and it is thus infeasible to experiment and innovate. 
 3. **Align the incentives of regulators with the industry**. The current system punishes regulators for incidents but doesn’t reward them when we produce more energy. Importantly, most regulators are not elected officials (more like examiners) and thus don’t need to keep energy prices low for their constituents.
 4. **Allow arbitration of regulation.** Currently, regulators hold a monopoly on power and it is nearly impossible to appeal a decision. One single regulator/examiner can shut down a nuclear power plant on their own and it’s nearly impossible to appeal. 
