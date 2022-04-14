@@ -7,7 +7,7 @@ subtitle: as of November 2021
 <!--
 <div id="aboutme" class="row">
 -->
-If you want to get a better picture of how I think, my posts on opinions I changed (<a href='http://www.mariushobbhahn.com/2020-05-10-Opinion_change/'>part I</a>, <a href='https://www.mariushobbhahn.com/2021-04-24-opinion_change_2/'>part II</a>), <a href='http://www.mariushobbhahn.com/2019-12-23-EA_and_me/'>Effective Altruism</a> or <a href='https://www.mariushobbhahn.com/2019-10-20-recommendations/'>my recommendations</a> are a good start.
+If you want to get a better picture of how I think, my posts on opinions I changed (<a href='http://www.mariushobbhahn.com/2020-05-10-Opinion_change/'>part I</a>, <a href='https://www.mariushobbhahn.com/2021-04-24-opinion_change_2/'>part II</a>), <a href='http://www.mariushobbhahn.com/2019-12-23-EA_and_me/'>Effective Altruism</a> or <a href='https://www.mariushobbhahn.com/2019-10-20-recommendations/'>my recommendations</a> are a good start. You can leave me anonymous feedback <a href='https://www.admonymous.co/mariushobbhahn'>here</a>.
 
 <div class="col-md-12">
     <h1 class="section-header" style="padding-bottom: 0.8em;">Marius Hobbhahn</h1>
@@ -217,6 +217,8 @@ If you want to get a better picture of how I think, my posts on opinions I chang
                 <li>Contributer to the <a href='https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi'>ML progress research group</a> (2022)</li>
                 <li>Participant in the 2022 <a href='https://www.eacambridge.org/technical-alignment-curriculum'>AGI fundamentals reading group</a></li>
                 <li>Participant in the 2022 s-risks intro fellowship by <a href='https://longtermrisk.org/'>CLR</a></li>
+                <li>Paid reviewer for the OpenPhil world view investigations team</li>
+                <li>Emergent Ventures grantee for "exploring the role of Bayesian ML for AI safety"</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
         
@@ -224,7 +226,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
             <ul>
                 <li>Co-founded the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 (still co-organizing it)</li>
                 <li>Co-founded the <a href='https://aisafetytuebingen.wordpress.com/'>Tübingen AI safety reading group</a> in 2020 (currently inactive)</li>
-                <li>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019), EAG reconnect (2021), EA Unconference 2021, EAG2021</li>
+                <li>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019), EAG reconnect (2021), EA Unconference 2021, EAGLondon 2021, EASGretreat 2022(organizer), EAGLondon 2022</li>
                 <li>Posts on the <a href='https://forum.effectivealtruism.org/users/mariushobbhahn'>EA Forum</a> and <a href='https://www.lesswrong.com/users/marius-hobbhahn'>LessWrong</a> </li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
