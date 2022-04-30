@@ -28,9 +28,9 @@ On the other hand, there are a couple of other questions that carry more uncerta
 2. The **“true cost” of nuclear energy is hard to determine** because it depends on specific timelines (e.g. waste management) and discount factors. Therefore, all arguments around “nuclear is cheap/expensive” carry considerable uncertainty. Our best guess is that nuclear is and will **stay on the more expensive side of energy production**. 
 3. There are many people who claim that “nuclear just needs more **innovation/research**”. However, governments have invested large amounts of money into nuclear energy research over the last 70 years and progress has remained slow and produced underwhelming results. There is a chance we just haven’t found the breakthrough yet but we think that is unlikely---especially when the alternative is renewable energy which has shown insane speeds of progress (see below). We speculate that this stems from systemic factors, e.g. because nuclear doesn’t profit from economies of scale as much as renewables do. 
 4. **The role of nuclear in a world dominated by renewables is unclear**. Nuclear takes long to ramp up and is only profitable with high uptime. Therefore, it is not very compatible with the high volatility of renewables---at least in its current form.
+5. **Framing:** In general, we find it useful to think of nuclear energy has a high-risk, high-reward investment. There is a small chance we can get the price down significantly and then nuclear will be god-tier and there is a large chance it will always be too expensive. 
 
 ### Practical implications:
-
 
 1. It **does NOT make any sense to close existing nuclear power plants** unless you can guarantee that their energy will be replaced by 100% renewables and storage+distribution has been sorted out.
 2. Nuclear is **nearly always better than fossil fuels**. It creates way fewer health problems and GHG emissions. However, it needs more time to ramp up a nuclear reactor than to turn a gas burner on and off. Therefore, nuclear is mostly useful for baseload energy production and not to offset fluctuations in renewables. 
