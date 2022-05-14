@@ -218,7 +218,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
                 <li>Participant in the 2022 <a href='https://www.eacambridge.org/technical-alignment-curriculum'>AGI fundamentals reading group</a></li>
                 <li>Participant in the 2022 s-risks intro fellowship by <a href='https://longtermrisk.org/'>CLR</a></li>
                 <li>Paid reviewer for the OpenPhil world view investigations team</li>
-                <li>Emergent Ventures grantee for "exploring the role of Bayesian ML for AI safety"</li>
+                <li><a href='https://marginalrevolution.com/marginalrevolution/2022/04/emergent-ventures-winners-19th-cohort.html'>Emergent Ventures grantee</a> for "exploring the role of Bayesian ML for AI safety"</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
         
