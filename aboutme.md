@@ -115,7 +115,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
 		    
             <h4>Fast Predictive Uncertainty for Classification with Bayesian Deep Networks</h4>
             <div>
-                <i>Hobbhahn, Marius</i>; Kristiadi, Agustinus and Hennig, Philipp. arXiv preprint arXiv:2003.01227 (2020).
+                <i>Hobbhahn, Marius</i>; Kristiadi, Agustinus and Hennig, Philipp. UAI 2022.
             </div>
                 [<a href="https://arxiv.org/abs/2003.01227">arxiv</a>]
                 [<a href="https://github.com/mariushobbhahn/LB_for_BNNs_official">code</a>]
