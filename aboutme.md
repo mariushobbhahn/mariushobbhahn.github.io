@@ -26,12 +26,12 @@ If you want to get a better picture of how I think, my posts on opinions I chang
 
     <div class="row">
         <div class="col-md-3"><b>LinkedIn</b></div>
-        <div class="col-md-8"><a href="https://www.linkedin.com/in/marius-hobbhahn-128927175/">https://www.linkedin.com/in/marius-hobbhahn-128927175/</a></div>
+        <div class="col-md-8"><a href="https://www.linkedin.com/in/marius-hobbhahn-128927175/">/in/marius-hobbhahn-128927175/</a></div>
     </div>
 
     <div class="row">
         <div class="col-md-3"><b>Github</b></div>
-        <div class="col-md-8"><a href="https://github.com/mariushobbhahn">https://github.com/mariushobbhahn</a></div>
+        <div class="col-md-8"><a href="https://github.com/mariushobbhahn">/mariushobbhahn</a></div>
     </div>
     
     <div class="row">
@@ -230,14 +230,6 @@ If you want to get a better picture of how I think, my posts on opinions I chang
                 <li>Posts on the <a href='https://forum.effectivealtruism.org/users/mariushobbhahn'>EA Forum</a> and <a href='https://www.lesswrong.com/users/marius-hobbhahn'>LessWrong</a> </li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
-            
-            <h4>Academia</h4>
-            <ul>
-                <li>Participated at multiple ML Summer Schools and conferences including: PAISS2019, ICML2020, GPSS2020, ESANN2020</li>
-                <li>Organized an <a href='https://www.lesswrong.com/posts/3aHESQA4xdP6ydefN/european-master-s-programs-in-machine-learning-artificial'>ML master overview</a> for 9 European Universities</li> 
-                <li>Lead-organizer of the <a href='https://ellisds.eu/'>ELLIS doctoral symposium</a> in 2021</li>
-            </ul>
-            <div class="row" style="padding-bottom: 1em"></div>
 	
             <h4>University Debating</h4>
             <ul>
@@ -247,7 +239,14 @@ If you want to get a better picture of how I think, my posts on opinions I chang
                 <li>Organized 5+ tournaments and was (vice-)president of the debating club for two years.</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
-
+            
+            <h4>Academia</h4>
+            <ul>
+                <li>Participated at multiple ML Summer Schools and conferences including: PAISS2019, ICML2020, GPSS2020, ESANN2020</li>
+                <li>Organized an <a href='https://www.lesswrong.com/posts/3aHESQA4xdP6ydefN/european-master-s-programs-in-machine-learning-artificial'>ML master overview</a> for 9 European Universities</li> 
+                <li>Lead-organizer of the <a href='https://ellisds.eu/'>ELLIS doctoral symposium</a> in 2021</li>
+            </ul>
+            <div class="row" style="padding-bottom: 1em"></div>
 
         </div>
     </div>
