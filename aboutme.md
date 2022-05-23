@@ -1,13 +1,13 @@
 ---
 layout: page
 title: CV
-subtitle: as of April 2022
+subtitle: as of May 2022
 ---
 
 <!--
 <div id="aboutme" class="row">
 -->
-If you want to get a better picture of how I think, my posts on opinions I changed (<a href='http://www.mariushobbhahn.com/2020-05-10-Opinion_change/'>part I</a>, <a href='https://www.mariushobbhahn.com/2021-04-24-opinion_change_2/'>part II</a>), <a href='http://www.mariushobbhahn.com/2019-12-23-EA_and_me/'>Effective Altruism</a> or <a href='https://www.mariushobbhahn.com/2019-10-20-recommendations/'>my recommendations</a> are a good start. You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbhahn'>here</a>.
+If you want to get a better picture of how I think, my posts on opinions I changed (<a href='http://www.mariushobbhahn.com/2020-05-10-Opinion_change/'>part I</a>, <a href='https://www.mariushobbhahn.com/2021-04-24-opinion_change_2/'>part II</a>) or on <a href='http://www.mariushobbhahn.com/2019-12-23-EA_and_me/'>Effective Altruism</a> are a good start. You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbhahn'>here</a>.
 
 <div class="col-md-12">
     <h1 class="section-header" style="padding-bottom: 0.8em;">Marius Hobbhahn</h1>
