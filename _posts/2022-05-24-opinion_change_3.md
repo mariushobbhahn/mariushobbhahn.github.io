@@ -2,7 +2,7 @@
 layout:     post
 title:      "Things I changed my mind about: Part III"
 subtitle:   "Yes, another one!"
-date:       2022-05-24 20:28:00
+date:       2022-05-23 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/opinion_change3.png"
 category:   opinion
