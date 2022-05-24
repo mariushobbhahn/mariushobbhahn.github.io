@@ -13,7 +13,7 @@ tags:       [Miscellanious, Improve]
 
 To keep a <a href='https://www.penguin.co.uk/books/305/305779/the-scout-mindset/9780241308325.html'>scout mindset</a>, I try to keep track of beliefs I changed. This not only serves as a reminder that I regularly change beliefs but also reveals the underlying reason for them. Check out <a href='https://www.mariushobbhahn.com/2020-05-10-Opinion_change/'>part I</a> and <a href='https://www.mariushobbhahn.com/2021-04-24-opinion_change_2/'>part II</a> to get an overview of previous changes and more context/background.
 
-As in the previous edition, will also add things that I newly learned even though I didn’t have an explicit opinion about them before. 
+As in the previous edition, I will also write about things that I newly learned even when I didn’t have an explicit opposite opinion about them before. 
 
 ## Personal
 
@@ -35,7 +35,7 @@ I sometimes catch myself clinging to my current identity even if it is objective
 
 I was honestly very surprised by how good exposition works in EA and my academic community. By exposition I mean publishing blog posts, writing in different forums, posting stuff on Twitter and so on. I expected to get a bit of interaction and some casual conversations but it turned out to be much more. I regularly got helpful feedback on my posts from people I didn't know before, some (probably most) important life opportunities only came due to the existence of my blog, some discussions on Twitter have led to research projects and some of our group posts on the EA forum have drawn the attention of some bigger names in the community. 
 
-I guess I previously overestimated how much work was necessary to create relevant output. It went from "literally unachievable by a mere mortal like me" to "10 hours of focused investment is more than enough to write a valuable post".  Furthermore, I think I underestimated how effectively messages spread around. I guess the Twitter algorithm does a lot of legwork here and recommendations spread fast in human networks. Somehow, my posts sometimes ended up with people who I definitely didn't think of when writing them. This could also be a negative if you share a very controversial opinion. 
+I guess I previously overestimated how much work was necessary to create relevant output. It went from "literally unachievable by a mere mortal like me" to "5 hours of focused investment is more than enough to write a valuable post".  Furthermore, I think I underestimated how effectively messages spread around. I guess the Twitter algorithm does a lot of legwork here and recommendations spread fast in human networks. Somehow, my posts sometimes ended up with people who I definitely didn't think of when writing them. This could also be a negative if you share a very controversial opinion. 
 
 ### Everyone is "just some dude"
 
@@ -55,12 +55,12 @@ Hiring / building a team is one thing that I drastically underestimated. Some re
 1. **Combinatorial explosion**: There are a lot of explicit or implicit conditions for a position. You want the person to be good at the task (which are often multiple conditions), you want them to fit the current team, you want them to have good social skills, and much more. With every additional criterium, your pool gets drastically smaller. So even if you have 100 applicants, there is a decent chance nobody will fit all criteria well enough. 
 2. **It's easy to destroy a good team:** If the ratio of junior to senior people is too high, the senior people will be overworked and some might leave. This amplifies the problem and might lead to the collapse of the team. Furthermore, it often takes just one person to destroy a good team. This might be a person that consistently doesn't comprehend at the same speed as the rest of the team, talks too much, holds inefficient meetings, etc. As soon as this happens the best people leave to form a new team. 
 3. **It's hard to keep up morale:** Even if you found a good team, some things might go wrong, there might be infighting, there might be substantial disagreements or the vibe just feels off. A perfectly good team could be ruined by small things so it makes sense to invest substantially in good vibes in the team. 
-4. **Management matters a lot:** I underestimated the variance between managers. Previously, I thought that managers have some but not a large effect on a teams output or morale. Now I think that good managers can drastically improve a teams output and morale and that bad managers can single-handedly ruin a perfectly good team.
+4. **Management matters a lot:** I underestimated the variance between managers. Previously, I thought that managers have some but not a large effect on a team's output or morale. Now I think that good managers can drastically improve a team's output and morale and that bad managers can single-handedly ruin a perfectly good team.
 
 The consequences of this are 
-that I can totally understand why hiring processes take long and are stochastic, 
-I now see it as a good sign when companies want to make really sure that you are a good fit because it implies that the rest of the team is more likely to be good and 
-once I'm in a position where I hire myself, I will try to take care of these factors because of the large possible downsides of suboptimal hires. 
+1. that I can totally understand why hiring processes take long and are stochastic, 
+2. I now see it as a good sign when companies want to make really sure that you are a good fit because it implies that the rest of the team is more likely to be good and 
+3. once I'm in a position where I hire myself, I will try to take care of these factors because of the large possible downsides of suboptimal hires. 
 
 ### Moving to the US
 
@@ -88,7 +88,11 @@ If you want to get good at something it usually requires pushing your limits, in
 
 ### Gene editing
 
-I was above average bullish on gene editing before researching it. However, since there is such strong opposition to gene editing in plants, animals and humans, I decided to dig in to understand their arguments and I was astonished by my findings. The opposition's arguments were way worse than I expected and often rely on misinformation and very weird trade-offs, e.g. talking about super mutation weeds even though there is no scientific evidence of these super weeds or any of the suggested harms. The proponents' arguments, on the other hand, were even stronger than expected, e.g. by increasing yields of different plants by >3 times. In short, I find it very hard to argue against “we improve the good things and remove the bad things” and most contra-arguments are fixable by a better implementation. You can find my detailed post <a href='https://www.mariushobbhahn.com/2022-01-20-genetic_enhancements/'>here</a>. 
+I was above average bullish on gene editing before researching it. However, since there is such strong opposition to gene editing in plants, animals and humans, I decided to dig in to understand their arguments and I was surprised by my findings. 
+
+The opposition's arguments were way worse than I expected and often rely on misinformation and very weird trade-offs, e.g. talking about super mutation weeds even though there is no scientific evidence or theory of these super weeds' existence or any of the suggested harms. 
+
+The proponents' arguments, on the other hand, were even stronger than expected, e.g. by increasing yields of different plants by >3 times. In short, I find it very hard to argue against “we improve the good things and remove the bad things” and most contra-arguments are fixable by a better implementation. You can find my detailed post <a href='https://www.mariushobbhahn.com/2022-01-20-genetic_enhancements/'>here</a>. 
 
 ## Economic
 
@@ -102,18 +106,18 @@ I often hear the sentiment that "GPD doesn't matter after a certain point" or th
 
 ### Land value tax!!
 
-I didn't know what a land value tax (LVT) is but some of my friends who I trust to have good judgment were really excited about it. So when <a href=’https://astralcodexten.substack.com/p/does-georgism-work-is-land-really?s=r’>Astral Codex Ten hosted a piece on it</a>, I wanted to understand what all the buzz is about---and I understand it now. In short, an LVT taxes a high proportion of the value of land. This simple idea has a bunch of really nice implications.
+I didn't know what a land value tax (LVT) is but some of my friends who I trust to have good judgment were really excited about it. So when <a href=’https://astralcodexten.substack.com/p/does-georgism-work-is-land-really’>Astral Codex Ten hosted a piece on it</a>, I wanted to understand what all the buzz is about---and I understand it now. In short, an LVT taxes a high proportion of the value of land. This simple idea has a bunch of really nice implications.
 1. **It forces you to use the land efficiently.** If you want to keep your extra garden plot in a high-rent area, be prepared to pay a lot of money for the privilege. The space should be used to build houses in which many people live and thrive and your extra garden should be outside of the city where land is less valuable. 
 2. **It doesn't create negative incentives:** Most taxes create negative incentives. An income tax reduces the value of work, a wealth tax reduces the value of wealth creation, a value-added tax reduces the value of production & consumption, etc. The LVT doesn't have this problem. Therefore, if states had more income through an LVT, they would have to take less money from other taxes which would unburden taxpayers by paying less and by having better incentives. 
 
-There are, of course, more pros, cons and technical questions with the LVT that you can and should read up <a href=’https://astralcodexten.substack.com/p/does-georgism-work-is-land-really?s=r’>here</a>. But I think the idea is a very clean way to solve some major social problems and we should at least give it a try.
+There are, of course, more pros, cons and technical questions with the LVT that you can and should read up <a href=’https://astralcodexten.substack.com/p/does-georgism-work-is-land-really'>here</a>. But I think the idea is a very clean way to solve some major social problems and we should at least give it a try.
 
 ### Nuclear power
 
 I was a fan of nuclear power. It’s carbon-neutral, it’s relatively safe and it provides a stable independent source of energy. However, when I looked into it in more detail (see [my post with Samu](https://www.mariushobbhahn.com/2022-04-10-nuclear_energy/) for more), I changed my mind a bit. My main conclusions are
-Nuclear is pretty safe and waste is not that much of a problem. It’s not perfect, but the public perception is overblown. 
-Nuclear is almost always better than fossil fuel alternatives. If states close a nuclear plant and then compensate for the loss with coal or gas, this is clearly bad. 
-However, nuclear is really expensive. There are people arguing that regulations are too high and that future innovation will reduce the price but even if all of this is true, solar+batteries seem to be cheaper. This trend is likely to continue because the price of batteries and solar are exponentially decreasing, while the gains in nuclear are likely not.
+1. Nuclear is pretty safe and waste is not that much of a problem. It’s not perfect, but the public perception is overblown. 
+2. Nuclear is almost always better than fossil fuel alternatives. If states close a nuclear plant and then compensate for the loss with coal or gas, this is clearly bad. 
+3. However, nuclear is really expensive. There are people arguing that regulations are too high and that future innovation will reduce the price but even if all of this is true, solar+batteries seem to be cheaper. This trend is likely to continue because the price of batteries and solar are exponentially decreasing, while the gains in nuclear are likely not.
 
 ### Urban planning
 
@@ -134,7 +138,7 @@ However, there are a lot of people who have a zero-sum perspective on the world.
 This, of course, doesn’t mean that current militaries are optimal, they usually have problems with inefficient spending or bad norms.  
 
 There are two further observations. 
-1. Signal boosting one's own pacifism by voting for defunding of the military or lobbying against international military cooperation might feel purifying but usually just leads to more harm. For example, not joining the fight against ISIS might feel like “not being responsible for bad things” but still be worse counterfactually for the people killed by ISIS. 
+1. Signal boosting one's own pacifism by voting for defunding of the military or lobbying against international military cooperation might feel purifying but usually just leads to more harm. For example, not joining the fight against ISIS might feel like “not being responsible for bad things” but is still worse counterfactually for the people killed by ISIS. 
 2. The more you denounce the military the worse it becomes. If people present a picture of the military as a bunch of Nazis who primarily engage in war crimes the most qualified people will choose not to join. Thus, the pool of candidates gets worse and the probability of people with strong ideological reasons, e.g. the Nazis and maniacs, getting selected for lack of better candidates is higher, thus increasing the likelihood of Nazis and war crimes.
 
 Both of these are prime examples of signaling that makes you feel better but is worse for the world. 
@@ -144,14 +148,14 @@ Both of these are prime examples of signaling that makes you feel better but is 
 I used to think that technocracy was a clearly superior form of government in nearly all aspects. It just seemed weird to me that the median opinion could be better than that of experts. And I still think this is somewhat true. However, I updated on a bunch of things
 1. **Experts are no saints.** They have their own personal goals, they have biases and they like people in their ideological/ethnic/tribe. If a technocratic government is implemented just the right way, it will create better outcomes but it’s much less robust to disturbances and less self-correcting than democracies. Technocracies’ upsides can be higher but so can their downsides.
 2. **Good decisions are often meaningless without the buy-in of the population.** A mask mandate or a lockdown only make sense when the people wear a mask or stay home. If they don't understand or disagree, the perfect policy in a vacuum just doesn't stick in the real world. I would expect democracies to have higher buy-in since the people feel a partial responsibility for whatever the government decides.
-3. However, this doesn't mean that democracies are perfect and I still much prefer a representative over a direct democracy. People systematically vote against their own long-term self-interest and e.g. questions of interest rates or immigration policy should just be left to the economists. Furthermore, people have a bad track record of caring about future people, e.g. in pandemics, or caring about people in other parts of the world, e.g. with foreign aid. Therefore, I still tend to like technocratic elements but I have toned down my perspective slightly. My rule of thumb is "the more complex and the further away from people's direct lives a topic is, the bigger the proportion of expert influence vs. people's influence". 
+3. **However, this doesn't mean that democracies are perfect and I still much prefer a representative over a direct democracy**. People systematically vote against their own long-term self-interest and e.g. questions of interest rates or immigration policy should just be left to the economists. Furthermore, people have a bad track record of caring about future people, e.g. in pandemics, or caring about people in other parts of the world, e.g. with foreign aid. Therefore, I still tend to like technocratic elements but I have toned down my perspective slightly. My rule of thumb is "the more complex and the further away from people's direct lives a topic is, the bigger the proportion of expert influence vs. people's influence". 
 
 ### Underpopulation vs. overpopulation
 
 In school, we were taught about population growth and resource scarcity along the lines of "if every person lived like the average Western person, we would require 3 worlds". This instilled the belief in me that population growth is bad. 
 Now, I think resource use is a problem but the focus should be on better distribution and more efficient production rather than reducing the number of people. For example, if more people would be vegetarian or vegan, there would be drastically less land use for agriculture and much more people could be fed than are alive today. If we sped up the deployment of renewables, energy scarcity wouldn't be much of a problem either. 
 
-On the other hand, I think underpopulation is a real problem. This belief was influenced by <a href='https://www.amazon.de/-/en/Matthew-Yglesias-ebook/dp/B082ZR6827'>One Billion Americans</a> where Matthew Yglesias makes the case that more people means more growth means more progress and political power which is simple but true. Furthermore, the belief was influenced by the Our World in Data graph on fertility which seems to be shrinking much faster than I expected. 
+On the other hand, I think underpopulation is a real problem. This belief was influenced by <a href='https://www.amazon.de/-/en/Matthew-Yglesias-ebook/dp/B082ZR6827'>One Billion Americans</a> where Matthew Yglesias makes the case that more people means more growth means more progress and political power which is simple but true. Furthermore, the belief was influenced by the <a href='https://ourworldindata.org/fertility-rate'>Our World in Data graph</a> on fertility which seems to be shrinking much faster than I expected. 
 
 <figure>
   <img src="/img/opinion_change3/world_fertility.png"/>
@@ -161,7 +165,7 @@ My high-level conclusion from all of this is two-fold: a) underpopulation is at 
 
 ### Policy design matters a lot
 
-I think finding a good policy goal is already hard. You need to balance interests, find compromises, and so forth. However, one part of the policy pipeline that I find highly underrated are the nitty-gritty details of its exact design. For example, whether a child benefit comes in form of a direct payment to your bank account or a tax deduction seems irrelevant on paper but results in two completely different realities. Wealthy, literate native speakers will get the money either way but people who are less fortunate or non-natives might not understand what they have to do or even know that the policy exists. Another example would be opt-in vs. opt-out solutions to e.g. organ donations. On paper, the people who want to donate their organs do it either way but in practice, the two systems result in <20% vs. >95% participation. This one seemingly irrelevant paragraph in the law translates to thousands of lives saved or not saved. 
+Finding a good policy goal is already hard. You need to balance interests, find compromises, and so forth. However, one part of the policy pipeline that I find highly underrated are the nitty-gritty details of its exact design. For example, whether a child benefit comes in form of a direct payment to your bank account or a tax deduction seems irrelevant on paper but results in two completely different realities. Wealthy, literate native speakers will get the money either way but people who are less fortunate or non-natives might not understand what they have to do or even know that the policy exists. Another example would be opt-in vs. opt-out solutions to e.g. organ donations. On paper, the people who want to donate their organs do it either way but in practice, the two systems result in <20% vs. >95% participation. This one seemingly irrelevant paragraph in the law translates to thousands of lives saved or not saved. 
 
 Getting the right goals is one thing but executing it correctly is a whole new problem that lawmakers seem to only slowly catch up on in many areas. 
 
@@ -190,7 +194,8 @@ I think the default social secrecy about sex means that most people's sex life c
 2. **Talk to your friends about sex.** You don't need to provide a detailed account of what you are doing but sharing broad insights is already helpful. I think it's kind of weird that we are happy to tell our friends how to get better at cooking, sports, video games, etc. but rarely about sex even though the latter probably has a bigger impact on our lives. 
 3. **Use technology.** A vibrator doesn't replace you, it frees one hand. 
 
-#### ***One last note***
+
+### ***One last note***
 
 If you want to get informed about new posts you can <a href='https://twitter.com/MariusHobbhahn'>follow me on Twitter</a>.
 
