@@ -114,11 +114,11 @@ I often hear the sentiment that "GPD doesn't matter after a certain point" or th
 
 ### Land value tax!!
 
-I didn't know what a land value tax (LVT) is but some of my friends who I trust to have good judgment were really excited about it. So when <a href=’https://astralcodexten.substack.com/p/does-georgism-work-is-land-really’>Astral Codex Ten hosted a piece on it</a>, I wanted to understand what all the buzz is about---and I understand it now. In short, an LVT taxes a high proportion of the value of land. This simple idea has a bunch of really nice implications.
+I didn't know what a land value tax (LVT) is but some of my friends who I trust to have good judgment were really excited about it. So when [Astral Codex Ten hosted a piece on it](https://astralcodexten.substack.com/p/does-georgism-work-is-land-really), I wanted to understand what all the buzz is about---and I understand it now. In short, an LVT taxes a high proportion of the value of land. This simple idea has a bunch of really nice implications.
 1. **It forces you to use the land efficiently.** If you want to keep your extra garden plot in a high-rent area, be prepared to pay a lot of money for the privilege. The space should be used to build houses in which many people live and thrive and your extra garden should be outside of the city where land is less valuable. 
 2. **It doesn't create negative incentives:** Most taxes create negative incentives. An income tax reduces the value of work, a wealth tax reduces the value of wealth creation, a value-added tax reduces the value of production & consumption, etc. The LVT doesn't have this problem. Therefore, if states had more income through an LVT, they would have to take less money from other taxes which would unburden taxpayers by paying less and by having better incentives. 
 
-There are, of course, more pros, cons and technical questions with the LVT that you can and should read up <a href=’https://astralcodexten.substack.com/p/does-georgism-work-is-land-really'>here</a>. But I think the idea is a very clean way to solve some major social problems and we should at least give it a try.
+There are, of course, more pros, cons and technical questions with the LVT that you can and should read up  [here](https://astralcodexten.substack.com/p/does-georgism-work-is-land-really). But I think the idea is a very clean way to solve some major social problems and we should at least give it a try.
 
 ### Nuclear power
 
