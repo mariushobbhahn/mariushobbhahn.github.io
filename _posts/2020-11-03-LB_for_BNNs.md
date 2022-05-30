@@ -1,13 +1,24 @@
 ---
 layout:     post
 title:      "The Laplace Bridge for Bayesian Neural Networks"
-subtitle:   "Easy-to-understand summary of our paper: Fast Predictive Uncertainty for Classification with Bayesian Deep Networks"
-date:       2020-11-03 20:28:00
+subtitle:   "Easy-to-understand summary of our paper: Fast Predictive Uncertainty for Classification with Bayesian Deep Networks (Updated in 2022)"
+date:       2022-05-29 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/LB_for_BNNs_header.png"
 category:   ML_project
 tags:       [Machine Learning, Laplace Bridge]
 ---
+
+## Update
+
+When I wrote this post, the paper was not accepted yet. Now, after multiple resubmissions it has been accepted to UAI2022. Since we changed some substantial parts of the paper, I decided to rewrite and update this post. The original post was published on the 3rd of November 2020. 
+
+### My personal opinion
+
+The idea underlying the Laplace Bridge for BNNs is very clean--you just take a slow part in a Bayesian Neural Network and replace it with a faster approximation. However, the longer I worked with the LB, the more I realized that the approximation just isn't that good. It has some theoretical problems but more importantly it is very easy to create scenarios where the resulting Dirichlet distribution is very different from the softmax-transformed Gaussian samples. We could fix some of these problems with correction terms but even then the approximation quality of the LB is bad for some relevant cases. Therefore, the main reasons to care about the LB are: a) when inference speed matters **much** more than accuracy, e.g. when you just need some uncertainty estimate very quickly. Since drawing samples has gotten quite faster, I think there is basically nearly no practical use-case for the LB. b) A thought provoking way to think about BNNs. Working with the LB mostly showed me that there are many ways to achieve predictive uncertainty and we have probably only scratched the surface. 
+
+Unfortunately, the current publishing environment doesn't allow me to write papers in which I can express my opinion as honest as here. But on my blog I can say whatever I want and I think it's important for other researchers to get my honest view. In all likelihood, you shouldn't think about the LB for BNNs or use it in practice unless you are in one of the rare use-cases described above. Save yourself the time and work on something more promising. 
+
 ## **What is the paper about?**
 
 Bayesian inference in Neural Networks is typically very costly. However, it is often desirable because it yields distributions as outputs instead of just point estimates. This paper takes one step in the direction of making Bayesian inference faster by speeding up one part of the pipeline significantly. In the following figure, you can see that we approximate the output distribution with a Dirichlet via the Laplace Bridge instead of sampling from the distribution of logits and applying the softmax function.
@@ -19,9 +30,7 @@ Bayesian inference in Neural Networks is typically very costly. However, it is o
 
 While this might look like a small change it turns out to be a pretty drastic speed up and has a non-negligible effect on the overall prediction time while providing estimates of similar quality. Additionally, it yields a fully parameterized distribution instead of just samples.
 
-The paper can be found here: [<a href='https://arxiv.org/abs/2003.01227'>arxiv</a>]
-
-The accompanying code is available here: [<a href='https://github.com/19219181113/LB_for_BNNs'>GitHub</a>]
+The paper can be found here: [<a href='https://arxiv.org/abs/2003.01227'>arxiv</a>] The accompanying code is available here: [<a href='https://github.com/19219181113/LB_for_BNNs'>GitHub</a>]
 
 ## Motivation
 
@@ -62,7 +71,7 @@ The last observation on our way to the Laplace Bridge is that a Dirichlet Distri
 It is already visible that the Dirichlet in the softmax base looks significantly more like a Gaussian than in the standard basis. Now, we can apply a Laplace approximation in both bases to fit a Gaussian to the distribution. We can additionally transform the Gaussian from the Laplace approximation in the softmax basis back to the standard basis (right) and find that it is a better fit than the Laplace approximation in the standard base (left).
 
 <figure>
-  <img src="/img/LB_for_BNNs/beta_logit_bridge.jpg"/>
+  <img src="/img/LB_for_BNNs/beta_logit_bridge.png"/>
 </figure>
 
 Furthermore, the Laplace approximation in the standard base is not always possible. When the Beta distribution encounters parameters that are smaller or equal to 1 it doesn't have a well-defined mode anymore and a Gaussian can't be fit (see the red line in the left figure). However, the same function with the same parameters can be fit in the softmax basis and this fit can also be transformed back to the original base (see red line in middle and right figure).
@@ -101,24 +110,6 @@ Lastly, I want to present a sanity check for the LB and its application to BNNs.
   <img src="/img/LB_for_BNNs/3D_compare.png"/>
 </figure>
 
-<!--
-<figure>
-  <img src="/img/LB_for_BNNs/sMAP_Gaussian_coolwarm_0.png" width="140"/>
-  <img src="/img/LB_for_BNNs/sMAP_Gaussian_coolwarm_1.png" width="140"/>
-  <img src="/img/LB_for_BNNs/Uncertainty_Gaussian_coolwarm_0.png" width="140"/>
-  <img src="/img/LB_for_BNNs/Uncertainty_Gaussian_coolwarm_1.png" width="140"/>
-  <img src="/img/LB_for_BNNs/Uncertainty_Gaussian_coolwarm_2.png" width="140"/>
-</figure>
-
-<figure>
-  <img src="/img/LB_for_BNNs/sMAP_Dirichlet_coolwarm_0.png" width="140"/>
-  <img src="/img/LB_for_BNNs/sMAP_Dirichlet_coolwarm_1.png" width="140"/>
-  <img src="/img/LB_for_BNNs/Uncertainty_Dirichlet_coolwarm_0.png" width="140"/>
-  <img src="/img/LB_for_BNNs/Uncertainty_Dirichlet_coolwarm_1.png" width="140"/>
-  <img src="/img/LB_for_BNNs/Uncertainty_Dirichlet_coolwarm_2.png" width="140"/>
-</figure>
--->
-
 We firstly find that the LB is an imperfect but sufficiently good map, i.e. we can see small differences but the two rows look mostly similar. Secondly, the parameters of the Gaussian have been chosen to stress important ideas. Case **1** and **2** (from left to right) have the same mean but different covariance matrices. This further emphasizes the need for a Bayesian interpretation of ML as uncertainty matters here. Using the mode or mean as point estimate would treat **1** and **2** similarly even though the respective uncertainties are clearly different. Scenarios **3**, **4**, and **5** show similar means with increasing uncertainty. This case was chosen to show that this change of uncertainty in the original Gaussian is successfully mapped through the Laplace Bridge to further convince us that it is worth considering for practical applications.
 
 ### LB applied to BNNs
@@ -131,54 +122,42 @@ In the context of Bayesian Neural Networks, one possibility to generate your dis
 
 The important thing to keep in mind is that the Laplace Bridge works on all kinds of BNNs as long as they produce a Gaussian over the logits. That means it could be applied to Variational Inference or sampling-based schemes like ensembles as well. It is, therefore, a very light-weight addition to the network and can be easily applied in most circumstances.
 
+### Limitations and corrections
+
+While getting deeper and deeper into the LB, I started to notice more and more failure cases. Specifically, when the variance of the Gaussian was very large, the corresponding Dirichlet got overconfident. Intuitively, this also makes sense. If you look at the definition of the Laplace Bridge from $$(\mu, \Sigma)$$ to $$\alpha$$, you can see that the variance terms $$\Sigma_{kk}$$ have a linear influence on $$\alpha_k$$ while $$\mu_k$$'s influence is exponential. If you draw samples from a Gaussian and apply the softmax, this difference in influence is not given. We discuss this limitation and its origins in more detail in the paper. 
+
+We suggest a correction to counteract this behavior by basically rescaling every $$\mu$$ and $$\Sigma$$ back to a range of values where the LB works well. You can see an example of the vanilla LB and the corrected version in the following figure. 
+
+<figure>
+  <img src="/img/LB_for_BNNs/LB_2D_moons.png"/>
+</figure>
+
 ## Experiments
 
 From the framing of the paper so far, I think three questions arise quite naturally: a) How good is the approximation in the context of BNNs?, b) How much faster is it compared to sampling?, and c) Are there use-cases for a Dirichlet distribution that do not exist for a distribution of softmax-Gaussian samples. The experiments aim to answer these questions in chronological order.
 
 ### Out-of-Distribution Experiments
 
-Naturally, when we have a new approximation, we want to know how good its quality is. Since one of the main use-cases of output distributions is out-of-distribution (OOD) detection we tested it first. We use a Laplace approximation of the network to generate our Gaussians over the logits. This becomes computationally expensive very quickly for larger networks and we, therefore, apply a last-layer Laplace approximation for all but the (F-, K-, not-)MNIST experiments. The last-layer Laplace approximation has been shown to yield pretty good uncertainty estimates (see e.g. <a href='https://arxiv.org/abs/2001.08049'>Brosse et al. 2020</a>) but is also very much in the spirit of this paper as we want to get a reasonably good uncertainty estimate very quickly and therefore prioritize speed. We compare the mean of the Dirichlet from the LB on a standard benchmark suite for OOD detection comparing two scenarios. In the first one the Hessian of the Gaussian to yield the covariance matrix is computed via a diagonal approximation (left) and in the second scenario via a Kronecker factorized approximation (right) which usually yields slightly better OOD detection results. Additionally, we measure the time it takes to draw 1000 samples from the Gaussian and apply the softmax vs. the Laplace Bridge. Even though the 1000 samples are unusually high they are motivated by the results from the second experiment.
+Naturally, when we have a new approximation, we want to know how good its quality is. Since one of the main use-cases of output distributions is out-of-distribution (OOD) detection we tested it first. We use a Laplace approximation of the network to generate our Gaussians over the logits. This becomes computationally expensive very quickly for larger networks and we, therefore, apply a last-layer Laplace approximation for all but the (F-, K-, not-)MNIST experiments. The last-layer Laplace approximation has been shown to yield pretty good uncertainty estimates (see e.g. <a href='https://arxiv.org/abs/2001.08049'>Brosse et al. 2020</a>) but is also very much in the spirit of this paper as we want to get a reasonably good uncertainty estimate very quickly and therefore prioritize speed. 
+
+We compare the mean of the Dirichlet from the LB on a standard benchmark suite for OOD detection in multiple scenarios. Firstly, we compare a diagonal approximation of the Hessian vs. a kronecker-factorized (Kron) approximation. As expected, the Kron is better than the diagonal one. Secondly, we compare sampling (MC) vs. the vanilla LB and LB with correction (LB-norm). We find that either the LB or LB-norm can compete with sampling most of the time while being much faster. 
 
 <figure>
   <img src="/img/LB_for_BNNs/OOD_results.png"/>
 </figure>
 
-We find multiple interesting results: a) The LB seems to beat diagonal sampling and draw even with KFAC sampling on average as indicated by the number of black colored numbers in the respective columns. b) The LB is much faster than sampling methods - More specifically, it takes around 400 times as much to sample than to apply the LB. c) The results for the LB are pretty similar between the two conditions. This is likely due to the fact that it is an imperfect approximation and therefore only uses the diagonal entries of the Gaussian which is probably its biggest weakness. Overall though, it is clear that the LB is a really fast and pretty high-quality substition for sampling-based methods of predictive uncertainty.
-
-We are not the first to apply approximations of the integral of a softmax-Gaussian. There are two other approaches that we want to compare the LB to in the following.
-
-The two algorithms we compare to the LB are the Extended MacKay approach (see equation 5.33 in <a href='http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.147.1130&rep=rep1&type=pdf'>here</a>) which uses
-
-$$
-    \int \frac{\exp(a^{(j)})}{\sum_i \exp(a^{(i)})} \frac{1}{Z} \exp \left[-\frac{1}{2} \sum_i\frac{(a^{(i)} - \mathbf{a}^{(i)})^2}{v^{(i)}}\right] \approx \frac{\exp(\tau(v^{(j)}) \mathbf{a}^{(j)})}{\sum_i \exp(\tau(v^{(i)}) \mathbf{a}^{(i)})}
-$$
-
-as an approximation. The logit output of class $$i$$ is denoted by $$a^{(i)}$$, its average by $$\mathbf{a}^{(i)}$$, its variance by $$v^{(i)}$$ and $$\tau(v) = 1/\sqrt{1 + \pi \cdot v/8}$$.
-The second approximation is from (equation 23 in the appendix of <a href='https://arxiv.org/abs/1810.03958'>Wu et al. (2018)</a>) and we will refer to it as the ``second-order delta posterior predictive (SODPP)''. It is given by
-
-$$
-    p(y) \approx p \odot \left[1 + p^\top \Sigma p - \Sigma p +\frac{1}{2} diag(\Sigma)  - \frac{1}{2} diag(\Sigma) \right]
-$$
-
-where $$p$$ is the vector of logit outputs, $$\Sigma$$ is its covariance matrix, and $$\odot$$ represents the entry-wise product.
-
-<figure>
-  <img src="/img/LB_for_BNNs/LB_vs_smGaussian_approx.png"/>
-</figure>
-
-We find that the LB, on average, outperforms the other two approximations while providing not only an estimate of the integral but rather the entire output distribution.
+We ran multiple other experiments to compare the LB. Firstly, we compared it to the extended probit approximation which is another way to approximate the softmax-Gaussian integral. The LB outperforms the extended probit approximation consistently. 
+Secondly, we compared the LB to Prior networks (PNs) since both yield Dirichlet distributions as output. The PNs outperform the LB results very consistently. However, I don't think this is a problem for the LB since PNs are a method to train NNs and the LB is used on top of an already trained NN. Therefore, I think this result is not that relevant for practitioners. Thirdly, we compared a last-layer approximation of the Hessian with an all-layer approach. We find that, as expected, the all-layer approach is slightly more accurate than the last-layer one. However, given that the main goal of the LB is speed, we think the last-layer approach makes more sense for almost all realistic use-cases. 
 
 ### Timing Experiments
 
-As our main priority is achieving fast predictive uncertainty in BNNs we want to first find out what the trade-off between accuracy and speed of the LB is. For that, we consider the KL divergence between the Dirichlet resulting from the LB and the true distribution to the KL divergence from samples to the true distribution where the true distribution is approximated by MCMC-sampling with 100k samples. We compare the KL divergences for three different samples of Gaussian distributions depending on the number of samples (top) and the actual wall-clock time needed for the computations (bottom)
+As our main priority is achieving fast predictive uncertainty in BNNs we want to first find out what the trade-off between accuracy and speed of the LB is. For that, we consider the KL divergence between the Dirichlet resulting from the LB and the true distribution to the KL divergence from samples to the true distribution where the true distribution is approximated by MCMC-sampling with 100k samples. We compare the KL divergences for three different samples of Gaussian distributions depending on the number of samples (left) and the actual wall-clock time needed for the computations (right)
 
 <figure>
-  <img src="/img/LB_for_BNNs/KLDivSamples.jpg"/>
-  <img src="/img/LB_for_BNNs/KLDivTime.jpg"/>
+  <img src="/img/LB_for_BNNs/KL_div.png"/>
 </figure>
 
-
-We find that it takes between 750 and 10k samples to achieve the same KL divergence to the true distribution as the LB (which is the motivation for taking 1000 samples for the OOD experiments) and around  100 times much longer to get the same accuracy. This further indicates that we should use the LB if our goal is to maximize speed while accepting a small but fixed drop in quality.
+We find that it takes between 750 and 10k samples to achieve the same KL divergence to the true distribution as the LB (which is the motivation for taking 1000 samples for the OOD experiments) and around 100 times much longer to get the same accuracy. This further indicates that we should use the LB if our goal is to maximize speed while accepting a small but fixed drop in quality.
 
 Another question is how much this speed-up does in the grand scheme of things. After all, if the last step would only make up one percent of the entire costs there would be no large benefit in improving it. To test these timings we measure the time it takes to do one forward pass and compare it with the time for the final prediction for sampling and the LB, respectively. We use a ResNet-18 with last-layer Laplace approximation for the CIFAR10 dataset. We compare the times it takes to draw 10, 100, or 1000 samples from the Gaussian.
 
@@ -195,8 +174,7 @@ Lastly, one could assume that computing the mean and covariance matrix for the L
 The performance of image classification networks in the context of ImageNet which is a large dataset with 1000 classes is often measured along a top-1 and a top-5 metric. While it seems plausible to not only look at the highest-rated estimate but also the following ones the specific number of five seems both arbitrary and pretty inflexible. We can, for example, easily think of situations where this is either too large or too small of a number. Imagine a scenario in which your network receives the image of a fish and decides it is one of the ten possible fish species available in the training data but can't decide between them. Then it is a coin flip if the correct class is in your top-5. If, on the other hand, the network is pretty sure that the image either belongs to the class "eagle" or "hawk" then the three remaining classes within the top-5 don't add any value to the classification. What we would want is a more flexible solution that includes the network’s own uncertainty estimates to create a border between possible candidates and unlikely estimates. We use the Dirichlet resulting from the LB to construct an uncertainty-aware top-$$k$$ metric. Marginal distributions of the Dirichlet are Dirichlets again and can be computed in closed-form by $$\mathrm{Beta}(\alpha_i, \sum_{j\neq i} \alpha_j)$$. Importantly, this means we can estimate a marginal Beta distribution (the 1D special case of the Dirichlet) for every single class in a given prediction. We can use the overlap between sorted estimates to decide whether they are inside or outside of the top-k estimate similar to T-tests or their Bayesian equivalents. For example, we could say that all classes that have a five percent overlap to the next class are inside the estimate. This concept is illustrated with the following figure.
 
 <figure>
-  <img src="/img/LB_for_BNNs/imagenet_images.jpg"/>
-  <img src="/img/LB_for_BNNs/imagenet_marginal_betas.jpg"/>
+  <img src="/img/LB_for_BNNs/imagenet_experiment.png"/>
 </figure>
 
 As you can see these four images yield vastly different top-$$k$$ estimates. From left to right we have a top-$$1000$$ estimate where all classes overlap sufficiently to say we don't really have a confident prediction, a top-$$2$$ estimate, a top-$$3$$ estimate, and a top-$$1$$ estimate. In all cases using a top-$$5$$ estimate as the default would be either insufficient or wasteful. As the above examples have been cherry-picked to illustrate the point we should also look at the distribution of $$k$$ for the top-$$k$$ estimates.

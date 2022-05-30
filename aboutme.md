@@ -7,7 +7,7 @@ subtitle: as of May 2022
 <!--
 <div id="aboutme" class="row">
 -->
-If you want to get a better picture of how I think, my posts on opinions I changed (<a href='http://www.mariushobbhahn.com/2020-05-10-Opinion_change/'>part I</a>, <a href='https://www.mariushobbhahn.com/2021-04-24-opinion_change_2/'>part II</a>) or on <a href='http://www.mariushobbhahn.com/2019-12-23-EA_and_me/'>Effective Altruism</a> are a good start. You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbhahn'>here</a>.
+If you want to get a better picture of how I think, my posts on opinions I changed (<a href='http://www.mariushobbhahn.com/2020-05-10-Opinion_change/'>part I</a>, <a href='https://www.mariushobbhahn.com/2021-04-24-opinion_change_2/'>part II</a>, <a href='https://www.mariushobbhahn.com/2022-05-23-opinion_change_3/'>part III</a>) or on <a href='http://www.mariushobbhahn.com/2019-12-23-EA_and_me/'>Effective Altruism</a> are a good start. You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbhahn'>here</a>.
 
 <div class="col-md-12">
     <h1 class="section-header" style="padding-bottom: 0.8em;">Marius Hobbhahn</h1>
@@ -20,7 +20,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
 <!--
     <div class="row">
         <div class="col-md-3"><b>Google Scholar</b></div>
-        <div class="col-md-8"><a href="https://scholar.google.com/citations?user=_1qe2mYAAAAJ&hl=en">https://scholar.google.com/citations?user=_1qe2mYAAAAJ&hl=en</a></div>
+        <div class="col-md-8"><a href="https://scholar.google.com/citations?user=_1qe2mYAAAAJ&hl=en">Google Scholar</a></div>
     </div>
 -->
 
