@@ -98,7 +98,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         
         	     <h4>Compute Trends Across Three Eras of Machine Learning</h4>
 	     <div>
-		Jaime Sevilla, Lennart Heim, Anson Ho, Tamay Besiroglu, <i>Marius Hobbhahn</i>, Pablo Villalobos (2022).
+		Jaime Sevilla, Lennart Heim, Anson Ho, Tamay Besiroglu, <i>Marius Hobbhahn</i>, Pablo Villalobos (2022). <a href='https://wcci2022.org/call-for-papers/'>IJCNN</a>.
 	     </div>
 		[<a href="https://arxiv.org/abs/2202.05924">arxiv</a>]
 		[<a href='https://ourworldindata.org/grapher/ai-training-computation'>Our World in Data</a>]
