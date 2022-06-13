@@ -93,6 +93,51 @@ If you want to get a better picture of how I think, my posts on opinions I chang
     </div>
 
     <div class="row" style="padding-top: 3em;">
+        <div class="col-md-3"><h3>Miscellaneous</h3></div>
+        <div class="col-md-9">
+        
+       	    <h4>AI safety/alignment</h4>
+            <ul>
+                <li>Received funding for independent research on AI safety from the <a href='https://funds.effectivealtruism.org/funds/far-future'>Long-Term Future Fund</a> (2022)</li>
+                <li>Participant in the <a href='https://aisafety.camp/'>AI safety camp</a> 2022 (supervised by Beth Barnes from OpenAI)</li>
+                <li>Contributer to the <a href='https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi'>ML progress research group</a> (2022)</li>
+                <li>Participant in the 2022 <a href='https://www.eacambridge.org/technical-alignment-curriculum'>AGI fundamentals reading group</a></li>
+                <li>Participant in the 2022 s-risks intro fellowship by <a href='https://longtermrisk.org/'>CLR</a></li>
+                <li>Paid reviewer for the OpenPhil world view investigations team</li>
+                <li><a href='https://marginalrevolution.com/marginalrevolution/2022/04/emergent-ventures-winners-19th-cohort.html'>Emergent Ventures grantee</a> for "exploring the role of Bayesian ML for AI safety"</li>
+            </ul>
+            <div class="row" style="padding-bottom: 1em"></div>
+        
+            <h4>Effective Altruism</h4>
+            <ul>
+                <li>Co-founded the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 (still co-organizing it)</li>
+                <li>Co-founded the <a href='https://aisafetytuebingen.wordpress.com/'>Tübingen AI safety reading group</a> in 2020 (currently inactive)</li>
+                <li>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019), EAG reconnect (2021), EA Unconference 2021, EAGLondon 2021, EASGretreat 2022(organizer), EAGLondon 2022</li>
+                <li>Posts on the <a href='https://forum.effectivealtruism.org/users/mariushobbhahn'>EA Forum</a> and <a href='https://www.lesswrong.com/users/marius-hobbhahn'>LessWrong</a> </li>
+            </ul>
+            <div class="row" style="padding-bottom: 1em"></div>
+	
+            <h4>University Debating</h4>
+            <ul>
+                <li>Broke at 35+ tournaments, were in the top 10 speakers 20+ times and won 10+ of them.</li>
+                <li>My most prestigious speaker achievements include: 3x breaking ESL at EUDC, Winning Tilbury 2019 and Doxbridge 2020 (Oxford final), Winning 2 Campus Debatten and the Southern German Championship, breaking as 3rd (2018), 2nd (2019) and 1st (2020) team at the German National Championships (DDM) and being best speaker and grand finalist at the DDM 2020</li>
+                <li>Broke at 20+ tournaments as adjudicator and chaired 5+ finals. I chief-adjudicated 15+ tournaments.</li>
+                <li>Organized 5+ tournaments and was (vice-)president of the debating club for two years.</li>
+            </ul>
+            <div class="row" style="padding-bottom: 1em"></div>
+            
+            <h4>Academia</h4>
+            <ul>
+                <li>Participated at multiple ML Summer Schools and conferences including: PAISS2019, ICML2020, GPSS2020, ESANN2020</li>
+                <li>Organized an <a href='https://www.lesswrong.com/posts/3aHESQA4xdP6ydefN/european-master-s-programs-in-machine-learning-artificial'>ML master overview</a> for 9 European Universities</li> 
+                <li>Lead-organizer of the <a href='https://ellisds.eu/'>ELLIS doctoral symposium</a> in 2021</li>
+            </ul>
+            <div class="row" style="padding-bottom: 1em"></div>
+
+        </div>
+    </div>
+    
+     <div class="row" style="padding-top: 3em;">
     <div class="col-md-3"><h3>Publications</h3></div>
         <div class="col-md-9">
         
@@ -203,51 +248,6 @@ If you want to get a better picture of how I think, my posts on opinions I chang
             <div>English (C2 = IELTS 8.0)</div>
             <div>French (B2)</div>
             <div>German (native)</div>
-        </div>
-    </div>
-
-    <div class="row" style="padding-top: 3em;">
-        <div class="col-md-3"><h3>Miscellaneous</h3></div>
-        <div class="col-md-9">
-        
-       	    <h4>AI safety/alignment</h4>
-            <ul>
-                <li>Received funding for independent research on AI safety from the <a href='https://funds.effectivealtruism.org/funds/far-future'>Long-Term Future Fund</a> (2022)</li>
-                <li>Participant in the <a href='https://aisafety.camp/'>AI safety camp</a> 2022 (supervised by Beth Barnes from OpenAI)</li>
-                <li>Contributer to the <a href='https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi'>ML progress research group</a> (2022)</li>
-                <li>Participant in the 2022 <a href='https://www.eacambridge.org/technical-alignment-curriculum'>AGI fundamentals reading group</a></li>
-                <li>Participant in the 2022 s-risks intro fellowship by <a href='https://longtermrisk.org/'>CLR</a></li>
-                <li>Paid reviewer for the OpenPhil world view investigations team</li>
-                <li><a href='https://marginalrevolution.com/marginalrevolution/2022/04/emergent-ventures-winners-19th-cohort.html'>Emergent Ventures grantee</a> for "exploring the role of Bayesian ML for AI safety"</li>
-            </ul>
-            <div class="row" style="padding-bottom: 1em"></div>
-        
-            <h4>Effective Altruism</h4>
-            <ul>
-                <li>Co-founded the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 (still co-organizing it)</li>
-                <li>Co-founded the <a href='https://aisafetytuebingen.wordpress.com/'>Tübingen AI safety reading group</a> in 2020 (currently inactive)</li>
-                <li>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019), EAG reconnect (2021), EA Unconference 2021, EAGLondon 2021, EASGretreat 2022(organizer), EAGLondon 2022</li>
-                <li>Posts on the <a href='https://forum.effectivealtruism.org/users/mariushobbhahn'>EA Forum</a> and <a href='https://www.lesswrong.com/users/marius-hobbhahn'>LessWrong</a> </li>
-            </ul>
-            <div class="row" style="padding-bottom: 1em"></div>
-	
-            <h4>University Debating</h4>
-            <ul>
-                <li>Broke at 35+ tournaments, were in the top 10 speakers 20+ times and won 10+ of them.</li>
-                <li>My most prestigious speaker achievements include: 3x breaking ESL at EUDC, Winning Tilbury 2019 and Doxbridge 2020 (Oxford final), Winning 2 Campus Debatten and the Southern German Championship, breaking as 3rd (2018), 2nd (2019) and 1st (2020) team at the German National Championships (DDM) and being best speaker and grand finalist at the DDM 2020</li>
-                <li>Broke at 20+ tournaments as adjudicator and chaired 5+ finals. I chief-adjudicated 15+ tournaments.</li>
-                <li>Organized 5+ tournaments and was (vice-)president of the debating club for two years.</li>
-            </ul>
-            <div class="row" style="padding-bottom: 1em"></div>
-            
-            <h4>Academia</h4>
-            <ul>
-                <li>Participated at multiple ML Summer Schools and conferences including: PAISS2019, ICML2020, GPSS2020, ESANN2020</li>
-                <li>Organized an <a href='https://www.lesswrong.com/posts/3aHESQA4xdP6ydefN/european-master-s-programs-in-machine-learning-artificial'>ML master overview</a> for 9 European Universities</li> 
-                <li>Lead-organizer of the <a href='https://ellisds.eu/'>ELLIS doctoral symposium</a> in 2021</li>
-            </ul>
-            <div class="row" style="padding-bottom: 1em"></div>
-
         </div>
     </div>
 
