@@ -44,9 +44,9 @@ If you want to get a better picture of how I think, my posts on opinions I chang
     <div class="row">
         <div class="col-md-3"><h3>Research Interests</h3></div>
         <div class="col-md-9">
+            <div>AI Safety and Alignment</div>
             <div>Bayesian Inference & Probabilistic Modeling</div>
             <div>Uncertainty Quantification in Deep Learning</div>
-            <div>AI Safety and Alignment</div>
         </div>
     </div>
 
@@ -231,7 +231,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         <div class="col-md-9">
             <div>Math Summer Course (2 weeks) 2016, 2017</div>
             <div>Teaching assistant for Probablistic ML (2020, 2021) and Data Literacy (2021, 2022)</div>
-            <div>Supervised 2 Bachelor's theses</div>
+            <div>Supervised 3 Bachelor's theses and 1 Master thesis</div>
         </div>
     </div>
     
