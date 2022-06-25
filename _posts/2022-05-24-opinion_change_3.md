@@ -33,7 +33,7 @@ To prevent misunderstandings--I still think that other problems are very importa
 
 As a teenager, I used to like the narrative that "we shouldn't be so narrow-minded about other cultures" and "other political systems can be good too". While there might be a spark of truth to that, I now think liberal democracies got it mostly right. Liberal democracies that hold individual freedoms high and only curb them when necessary to protect others, e.g. in a pandemic, are probably the best political system we currently have. Similarly, social market economies are the best economic system we currently have. We can discuss the details like how direct the democracy should be and how much redistribution the society should have (see further below) but when compared to other historically tested systems, democracies with social market economies are just better. 
 
-This is obviously not a defense of everything the status quo has to offer--there are clearly a lot of injustices and inefficiencies in the current system that still need to be fixed. But there would be more problems in an alternative system such as communism or authoritarianism. 
+This is obviously not a defense of everything the status quo has to offer--there are clearly a lot of injustices and inefficiencies in the current system that still need to be fixed. But there would be more problems in an alternative system such as nations that claimed to be communist or authoritarianism. We can have a long discussion about whether they were truly communist or not but I guess we can agree that whatever they implemented wasn't optimal. 
 
 ### I want to be replaced
 

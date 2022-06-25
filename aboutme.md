@@ -105,6 +105,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
                 <li>Participant in the 2022 s-risks intro fellowship by <a href='https://longtermrisk.org/'>CLR</a></li>
                 <li>Paid reviewer for the OpenPhil world view investigations team</li>
                 <li><a href='https://marginalrevolution.com/marginalrevolution/2022/04/emergent-ventures-winners-19th-cohort.html'>Emergent Ventures grantee</a> for "exploring the role of Bayesian ML for AI safety"</li>
+                <li>Won the fourth prize at the <a href='https://www.metaculus.com/questions/11429/results-from-the-ai-progress-essay-contest/#comment-95404'>Metaculus AI progress forecasting tournament</a></li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
         
@@ -190,39 +191,13 @@ If you want to get a better picture of how I think, my posts on opinions I chang
     <div class="row" style="padding-top: 3em;">
         <div class="col-md-3"><h3>CS Experience</h3></div>
         <div class="col-md-9">
-        
-        <!---
-            <h4>Object Detection using the Scattering Transform (Grade: 1.7)</h4>
-                [<a href="/files/Scattering_transform_Marius_Hobbhahn.pdf">pdf</a>]
-                [<a href="https://github.com/mariushobbhahn/CompSci_Bachelor_201819">code</a>]
-
-            <div class="row" style="padding-bottom: 2em"></div>
-
-            <h4>Inverse Classification using Generative Models (Grade: 1.3)</h4>
-                [<a href="/files/Bachelor_Kogni_Marius_Hobbhahn_2018.pdf">pdf</a>]
-                [<a href="https://github.com/mariushobbhahn/cogsci_bachelor_2018">code</a>]
-
-            <div class="row" style="padding-bottom: 2em"></div>
-
-            <h4>Reconstruction of the Paper "Reading Scene Text in Deep Convolutional Sequences" (Grade: 1.3)</h4>
-                [<a href="https://github.com/mariushobbhahn/Reading-scene-text-in-deep-convolutional-sequences/blob/master/report/report_deep_sequences.pdf">arxiv</a>]
-                [<a href="https://github.com/mariushobbhahn/Reading-scene-text-in-deep-convolutional-sequences">code</a>]
-
-            <div class="row" style="padding-bottom: 2em"></div>
-
-            <h4>Bayesian Prediction of Winprobability in League of Legends (Grade: 1.0)</h4>
-            [<a href="https://github.com/mariushobbhahn/BayesLoLPredictions/blob/master/Project/BDA%2BCM_Project_Hobbhahn.html">html</a>]
-            [<a href="https://github.com/mariushobbhahn/BayesLoLPredictions/tree/master/Project">code</a>]
-
-            <div class="row" style="padding-bottom: 2em"></div>
-	-->
 	
             <h4>ML related</h4>
             <div>Successfully completed over 20 lectures related to ML, AI, NNs, RL, Stats, etc. at the University of Tübingen</div>
 
             <h4>Programming Experience</h4>
             <div><b>Programming Languages:</b> Python > R > Java, Julia, JavaScript, C++, SQL</div>
-	    <div><b>ML related:</b> Pytorch, Jax > Tensorflow, Keras, Cuda</div>
+	    <div><b>ML related:</b> Pytorch > Jax > Tensorflow, Keras, Cuda</div>
         </div>
     </div>
     
