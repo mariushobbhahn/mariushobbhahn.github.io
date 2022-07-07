@@ -99,13 +99,14 @@ If you want to get a better picture of how I think, my posts on opinions I chang
        	    <h4>AI safety/alignment</h4>
             <ul>
                 <li>Received funding for independent research on AI safety from the <a href='https://funds.effectivealtruism.org/funds/far-future'>Long-Term Future Fund</a> (2022)</li>
-                <li>Participant in the <a href='https://aisafety.camp/'>AI safety camp</a> 2022 (supervised by Beth Barnes from OpenAI)</li>
-                <li>Contributer to the <a href='https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi'>ML progress research group</a> (2022)</li>
+                <li>Participant in the <a href='https://aisafety.camp/'>AI safety camp</a> 2022 (supervised by Beth Barnes)</li>
+                <li>Contributer to the <a href='https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi'>ML progress research group</a> (now <a href='https://epochai.org/'>Epoch</a>)</li>
                 <li>Participant in the 2022 <a href='https://www.eacambridge.org/technical-alignment-curriculum'>AGI fundamentals reading group</a></li>
                 <li>Participant in the 2022 s-risks intro fellowship by <a href='https://longtermrisk.org/'>CLR</a></li>
                 <li>Paid reviewer for the OpenPhil world view investigations team</li>
                 <li><a href='https://marginalrevolution.com/marginalrevolution/2022/04/emergent-ventures-winners-19th-cohort.html'>Emergent Ventures grantee</a> for "exploring the role of Bayesian ML for AI safety"</li>
                 <li>Won the fourth prize at the <a href='https://www.metaculus.com/questions/11429/results-from-the-ai-progress-essay-contest/#comment-95404'>Metaculus AI progress forecasting tournament</a></li>
+                <li>Mentoring 5-10 novices in AI safety; founded a new program to make mentoring easier (currently in pilot stage; will be public after summer 2022)</a></li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
         
