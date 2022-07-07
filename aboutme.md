@@ -106,7 +106,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
                 <li>Paid reviewer for the OpenPhil world view investigations team</li>
                 <li><a href='https://marginalrevolution.com/marginalrevolution/2022/04/emergent-ventures-winners-19th-cohort.html'>Emergent Ventures grantee</a> for "exploring the role of Bayesian ML for AI safety"</li>
                 <li>Won the fourth prize at the <a href='https://www.metaculus.com/questions/11429/results-from-the-ai-progress-essay-contest/#comment-95404'>Metaculus AI progress forecasting tournament</a></li>
-                <li>Mentoring 5-10 novices in AI safety; founded a new program to make mentoring easier (currently in pilot stage; will be public after summer 2022)</a></li>
+                <li>Mentoring 5-10 novices in AI safety; founded a new program to make mentoring easier (currently in pilot stage; will be public after summer 2022)</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
         
