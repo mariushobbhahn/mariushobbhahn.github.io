@@ -130,9 +130,10 @@ If you want to get a better picture of how I think, my posts on opinions I chang
             
             <h4>Academia</h4>
             <ul>
-                <li>Participated at multiple ML Summer Schools and conferences including: PAISS2019, ICML2020, GPSS2020, ESANN2020</li>
+                <li>Participated at multiple ML Summer Schools and conferences including: PAISS2019, ICML2020, GPSS2020, ESANN2020, UAI2022</li>
                 <li>Organized an <a href='https://www.lesswrong.com/posts/3aHESQA4xdP6ydefN/european-master-s-programs-in-machine-learning-artificial'>ML master overview</a> for 9 European Universities</li> 
-                <li>Lead-organizer of the <a href='https://ellisds.eu/'>ELLIS doctoral symposium</a> in 2021</li>
+                <li>Lead-organizer of the ELLIS doctoral symposium in 2021</li>
+                <li>Reviewer for ICML22 and NeurIPS22</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
 
@@ -215,6 +216,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         <div class="col-md-3"><h3>Work Experience</h3></div>
         <div class="col-md-9">
             <div>Aug-Nov 2021: part time ML engineer for KSC trading (EA-aligned sports betting company)</div>
+            <div>June 2022 -: research fellow for <a href='https://epochai.org/'>Epoch</a></div>
         </div>
     </div>
     
