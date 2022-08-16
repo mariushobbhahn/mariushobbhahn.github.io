@@ -2,7 +2,7 @@
 layout:     post
 title:      "Honest thoughts of the first author"
 subtitle:   "Brief summary of my takeaways from my little social experiment"
-date:       2022-08-15 20:28:00
+date:       2022-08-14 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/honest_thoughts_first_author.jpeg"
 category:   [ML_project, opinion]
