@@ -78,7 +78,7 @@ It is technically possible to ride your bike in SF and Berkeley but it seemed a 
 
 ### Amenities
 
-## The parks I visited in SF were much nicer than the parks in Germany. In most of Europe, a park is an empty space covered with grass and trees, a bunch of benches, and maybe a playground for children. This is probably true for most parks in the US as well but not the ones I visited in SF. We walked through ~1/4th of the golden gate park and we experienced at least three different biotopes. We also stumbled into a rollerblade dance party and a separate public queer rave on Saturday afternoon. Even after walking in just a few parks in SF, I’m confident that they were nicer than any park I had ever been to before. 
+The parks I visited in SF were much nicer than the parks in Germany. In most of Europe, a park is an empty space covered with grass and trees, a bunch of benches, and maybe a playground for children. This is probably true for most parks in the US as well but not the ones I visited in SF. We walked through ~1/4th of the golden gate park and we experienced at least three different biotopes. We also stumbled into a rollerblade dance party and a separate public queer rave on Saturday afternoon. Even after walking in just a few parks in SF, I’m confident that they were nicer than any park I had ever been to before. 
 
 There are also more options when it comes to entertainment, restaurants and supermarkets. For example, there was just way more choice in most supermarkets than in Europe. No matter how exotic your desire, some fancy supermarket likely has it in store. 
 
