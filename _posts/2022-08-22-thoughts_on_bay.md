@@ -34,6 +34,14 @@ I’m a bit unhappy with this proposal as many people don’t have the time or m
 
 Also, EAG SF was really amazing. I got to learn some really cool people and had some valuable chats. I would really recommend everyone who wants to get deeper into EA to go to an EAG.
 
+### Cost of living and services
+
+The main expense for people is housing. This is also true for Western Europe but rents are through the roof in the Bay area (I'll talk more about this in the next section). Other costs of living such as food and transport are also more expensive than in Western Europe. I'd say that a typical meal at a restaurant is 1.5x more expensive than in Europe on the menu and 2x more expensive after tax (taxes are not included on the menu for some weird reason) and tipping. Your phone and internet plan is likely much more expensive (maybe 1.5 - 2x) than in Europe and your groceries are too. 
+
+The service economy is much better than in Western Europe (at least the parts of Germany where I have lived), e.g. ordering food, Ubering around, laundry services, etc. is much easier to handle and they have a bigger range of options. This can make life much easier and save some time if you have the finances for it. 
+
+My main takeaway is that money is much more important in the Bay than in Western Europe. If you can afford the prices and services, life can be very easy. If you can't afford them, life can be much worse. Therefore, my advice for people who want to explore the Bay (e.g. EAs that are up-skilling) is to make sure you have some funding secured and some runway. Otherwise you might be unpleasantly surprised by the sudden increase in cost of living compared to Western Europe (I'd say 2-3x in cost of living for the same standards compared to Germany and maybe 1-1.5x compared to London).
+
 ### Housing
 
 Most people know that housing prices in the Bay are completely insane. I think the main update from my visit was how completely unnecessary that is. There is lots of space in the Bay it’s just not used at all. Most houses in SF are the two-story houses that it is culturally known for. 
