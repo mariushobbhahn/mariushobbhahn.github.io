@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CV
-subtitle: as of July 2022
+subtitle: as of September 2022
 ---
 
 <!--
@@ -17,13 +17,6 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         <div class="col-md-8"><a href='marius.hobbhahn@gmail.com'>marius.hobbhahn[at]gmail.com</a></div>
     </div>
 
-<!--
-    <div class="row">
-        <div class="col-md-3"><b>Google Scholar</b></div>
-        <div class="col-md-8"><a href="https://scholar.google.com/citations?user=_1qe2mYAAAAJ&hl=en">Google Scholar</a></div>
-    </div>
--->
-
     <div class="row">
         <div class="col-md-3"><b>LinkedIn</b></div>
         <div class="col-md-8"><a href="https://www.linkedin.com/in/marius-hobbhahn-128927175/">/in/marius-hobbhahn-128927175/</a></div>
@@ -37,6 +30,11 @@ If you want to get a better picture of how I think, my posts on opinions I chang
     <div class="row">
         <div class="col-md-3"><b>Twitter</b></div>
         <div class="col-md-8"><a href="https://twitter.com/MariusHobbhahn">MariusHobbhahn</a></div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-3"><b>Google Scholar</b></div>
+        <div class="col-md-8"><a href="https://scholar.google.com/citations?user=SJ1y8o0AAAAJ&hl=en">Google Scholar</a></div>
     </div>
 
     <div class="row" style="padding-bottom: 3em;"></div>
@@ -141,7 +139,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
     </div>
     
      <div class="row" style="padding-top: 3em;">
-    <div class="col-md-3"><h3>Publications</h3></div>
+    <div class="col-md-3"><h3>Selected Publications</h3></div>
         <div class="col-md-9">
         
         	     <h4>Compute Trends Across Three Eras of Machine Learning</h4>
@@ -170,8 +168,22 @@ If you want to get a better picture of how I think, my posts on opinions I chang
                 [<a href='http://www.mariushobbhahn.com/2020-11-03-LB_for_BNNs/'>Blog post</a>]
                 
             
-            <div class="row" style="padding-bottom: 1em"></div>
-		    
+    </div>
+    
+    
+    <div class="row" style="padding-top: 3em;">
+    <div class="col-md-3"><h3>Other Publications</h3></div>
+        <div class="col-md-9">
+        
+	   <h4>What are the Red Flags for Neural Network Suffering?</h4>
+            <div>
+                <i>Hobbhahn, Marius</i> and Jan Kirchner. Seeds of Science. 2022.
+            </div>
+                [<a href="https://www.theseedsofscience.org/2022-red-flags-for-neural-network-suffering">paper</a>]
+            
+
+            <div class="row" style="padding-bottom: 1em"></div>	
+		           		   
             <h4>Should Altruistic benchmarks be the norm in Machine Learning?</h4>
             <div>
                 <i>Hobbhahn, Marius</i>; ICML2021 Workshop for Socially Responsible Machine Learning
@@ -198,8 +210,8 @@ If you want to get a better picture of how I think, my posts on opinions I chang
             <div>Successfully completed over 20 lectures related to ML, AI, NNs, RL, Stats, etc. at the University of Tübingen</div>
 
             <h4>Programming Experience</h4>
-            <div><b>Programming Languages:</b> Python > R > Java, Julia, JavaScript, C++, SQL</div>
-	    <div><b>ML related:</b> PyTorch > JAX > Tensorflow, Keras, Cuda</div>
+            <div><b>Programming Languages:</b> Python (since 2016) > R > Java, Julia, JavaScript, C++, SQL</div>
+	    <div><b>ML related:</b> PyTorch (since 2018) > JAX > Tensorflow, Keras, Cuda</div>
         </div>
     </div>
     
