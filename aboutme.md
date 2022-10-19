@@ -43,6 +43,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         <div class="col-md-3"><h3>Research Interests</h3></div>
         <div class="col-md-9">
             <div>AI Safety and Alignment</div>
+            <div><href="https://www.lesswrong.com/posts/bumgqvRjTadFFkoAd/science-of-deep-learning-a-technical-agenda">Science of Deep Learning</a></div>
             <div>Bayesian Inference & Probabilistic Modeling</div>
             <div>Uncertainty Quantification in Deep Learning</div>
         </div>
@@ -105,6 +106,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
                 <li><a href='https://marginalrevolution.com/marginalrevolution/2022/04/emergent-ventures-winners-19th-cohort.html'>Emergent Ventures grantee</a> for "exploring the role of Bayesian ML for AI safety"</li>
                 <li>Won the fourth prize at the <a href='https://www.metaculus.com/questions/11429/results-from-the-ai-progress-essay-contest/#comment-95404'>Metaculus AI progress forecasting tournament</a></li>
                 <li>Mentoring 5-10 novices in AI safety; founded a new program to make mentoring easier (currently in pilot stage; will be public after summer 2022)</li>
+                <li>Speaker on AI safety at EAGx Berlin 2022 and X-risk workshop 2022</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
         
@@ -227,6 +229,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
     <div class="row" style="padding-top: 3em;">
         <div class="col-md-3"><h3>Work Experience</h3></div>
         <div class="col-md-9">
+            <div>June 2022 - now: part time researcher for <a href="https://epochai.org/">Epoch</a></div>
             <div>Aug - Nov 2021: part time ML engineer for KSC trading (EA-aligned sports betting company)</div>
             <div>June 2022 - now: research fellow for <a href='https://epochai.org/'>Epoch</a></div>
         </div>
