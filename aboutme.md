@@ -43,7 +43,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         <div class="col-md-3"><h3>Research Interests</h3></div>
         <div class="col-md-9">
             <div>AI Safety and Alignment</div>
-            <div><href="https://www.lesswrong.com/posts/bumgqvRjTadFFkoAd/science-of-deep-learning-a-technical-agenda">Science of Deep Learning</a></div>
+            <div><a href="https://www.lesswrong.com/posts/bumgqvRjTadFFkoAd/science-of-deep-learning-a-technical-agenda">Science of Deep Learning</a></div>
             <div>Bayesian Inference & Probabilistic Modeling</div>
             <div>Uncertainty Quantification in Deep Learning</div>
         </div>
