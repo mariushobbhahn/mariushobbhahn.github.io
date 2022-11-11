@@ -230,7 +230,6 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         <div class="col-md-3"><h3>Work Experience</h3></div>
         <div class="col-md-9">
             <div>June 2022 - now: research fellow for <a href='https://epochai.org/'>Epoch</a></div>
-            <div>Aug - Nov 2021: part time ML engineer for KSC trading (EA-aligned sports betting company)</div> 
         </div>
     </div>
     
