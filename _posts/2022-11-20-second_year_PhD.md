@@ -11,13 +11,13 @@ tags:       [Miscellanious, Improve]
 
 ## **What is this post about?**
 
-I started my Ph.D. a bit more than two years ago. I think it is helpful to reflect on how the journey is going every once in a while and share thoughts that might be helpful for other Ph.D. candidates or people thinking about starting a Ph.D. You can find my first post <a href=’https://www.mariushobbhahn.com/2021-08-22-PhD_1year/’>here</a>.
+I started my Ph.D. a bit more than two years ago. I think it is helpful to reflect on how the journey is going every once in a while and share thoughts that might be helpful for other Ph.D. candidates or people thinking about starting a Ph.D. You can find my first post [here](https://www.mariushobbhahn.com/2021-08-22-PhD_1year/).
 
 ## quick overview
 
-To reconnect Ph.D. students who started during the pandemic, we organized the <’a href=https://ellis.eu/events/ellis-doctoral-symposium’>Ellis doctoral symposium 2021</a>. I was the lead organizer and it required more work than I had anticipated (but it was a big success and has been repeated in 2022 in <a href=’https://ellisalicante.org/eds2022/‘>Allicante</a>). 
+To reconnect Ph.D. students who started during the pandemic, we organized the [Ellis doctoral symposium 2021](https://ellis.eu/events/ellis-doctoral-symposium). I was the lead organizer and it required more work than I had anticipated (but it was a big success and has been repeated in 2022 in [Allicante](https://ellisalicante.org/eds2022/)). 
 
-On the content side, I added some new content to my piece on <a href=’https://www.mariushobbhahn.com/2022-05-29-LB_for_BNNs/’>the Laplace Bridge for BNNs</a> which then got published at UAI. I spent most of my time working on a big new paper that will hopefully be put on arxiv before 2023. And finally, I made some big changes in my paper on <a href=’https://www.mariushobbhahn.com/2021-11-10-LM_for_GLMs/’>Laplace Matching</a> and resubmitted it. I think the reviewers made some really good suggestions and the new version of the paper is genuinely much better than the first one. 
+On the content side, I added some new content to my piece on [the Laplace Bridge for BNNs](https://www.mariushobbhahn.com/2022-05-29-LB_for_BNNs/) which then got published at UAI. I spent most of my time working on a big new paper that will hopefully be put on arxiv before 2023. And finally, I made some big changes in my paper on [Laplace Matching](https://www.mariushobbhahn.com/2021-11-10-LM_for_GLMs/) and resubmitted it. I think the reviewers made some really good suggestions and the new version of the paper is genuinely much better than the first one. 
 
 Overall, I think I can be happy with what I have accomplished but it felt slow and unproductive. I’m currently taking a 6-month break from my Ph.D. from November 22 to April 23 to focus full-time on AI safety research because I’m worried about the problems of misaligned AI and feel like I’m in a good position to contribute something valuable. 
 
@@ -65,7 +65,7 @@ I guess that these rules are in place because there was rampant misuse in the pa
 
 ## I changed my mind a bit about specialization
 
-In <a href=’https://www.mariushobbhahn.com/2021-08-22-PhD_1year/’>the previous post</a>, I recommended broadly sticking to the same topic in your Ph.D. since benefits accumulate and you build more expertise. I still think this is true but I want to emphasize more that it is a trade-off. 
+In [the previous post](https://www.mariushobbhahn.com/2021-08-22-PhD_1year/), I recommended broadly sticking to the same topic in your Ph.D. since benefits accumulate and you build more expertise. I still think this is true but I want to emphasize more that it is a trade-off. 
 
 If you realize that your original research is not as useful as predicted, something else is much more important, someone else has already solved your problem or even if you are just bored with it, you should switch. In my personal case, I have come to the conclusion that AI alignment is very important and therefore took the 6-month break to explore it further. I’m not exactly sure what will happen afterward but I intend to work mostly on AI safety and alignment in the near future.
 
@@ -89,7 +89,7 @@ I think the conclusion from this is mostly that there is a lot of miscommunicati
 
 #### ***One last note***
 
-If you want to get informed about new posts you can <a href='https://twitter.com/MariusHobbhahn'>follow me on Twitter</a>.
+If you want to get informed about new posts you can [follow me on Twitter](https://twitter.com/MariusHobbhahn).
 
 If you have any feedback regarding anything (i.e. layout or opinions) please tell me in a constructive manner via your preferred means of communication.
 
