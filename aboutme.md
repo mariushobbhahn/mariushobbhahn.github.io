@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CV
-subtitle: as of September 2022
+subtitle: as of November 2022
 ---
 
 <!--
@@ -107,6 +107,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
                 <li>Won the fourth prize at the <a href='https://www.metaculus.com/questions/11429/results-from-the-ai-progress-essay-contest/#comment-95404'>Metaculus AI progress forecasting tournament</a></li>
                 <li>Mentoring 5-10 novices in AI safety; founded a new program to make mentoring easier (currently in pilot stage; will be public after summer 2022)</li>
                 <li>Speaker on AI safety at EAGx Berlin 2022 and X-risk workshop 2022</li>
+                <li>SERI MATS scholar (winter 2022 cohort)</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
         
