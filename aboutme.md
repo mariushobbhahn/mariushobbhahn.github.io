@@ -178,13 +178,28 @@ If you want to get a better picture of how I think, my posts on opinions I chang
     <div class="col-md-3"><h3>Other Publications</h3></div>
         <div class="col-md-9">
         
+            <h4>Reflection Mechanisms as an Alignment Target: A Survey</h4>
+            <div>
+                <i>Hobbhahn, Marius</i>, Eric Landgrebe and Elizabeth Barnes. NeurIPS ML Safety Workshop. 2022.
+            </div>
+                [<a href="https://openreview.net/pdf?id=4eMzKmZ6xW">paper</a>]
+        
+            <div class="row" style="padding-bottom: 1em"></div>	
+            
+            <h4>Investigating Causal Understanding in LLMs</h4>
+            <div>
+                <i>Hobbhahn, Marius</i>, Tom Lieberum and David Seiler. NeurIPS Workshop on Causality for Real-world Impact. 2022.
+            </div>
+                [<a href="https://openreview.net/pdf?id=st6jtGdW8Ke">paper</a>]
+        
+            <div class="row" style="padding-bottom: 1em"></div>	
+        
 	   <h4>What are the Red Flags for Neural Network Suffering?</h4>
             <div>
                 <i>Hobbhahn, Marius</i> and Jan Kirchner. Seeds of Science. 2022.
             </div>
                 [<a href="https://www.theseedsofscience.org/2022-red-flags-for-neural-network-suffering">paper</a>]
-            
-
+        
             <div class="row" style="padding-bottom: 1em"></div>	
 		           		   
             <h4>Should Altruistic benchmarks be the norm in Machine Learning?</h4>
