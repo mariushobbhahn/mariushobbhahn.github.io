@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CV
-subtitle: as of November 2022
+subtitle: as of April 2023
 ---
 
 <!--
@@ -105,9 +105,9 @@ If you want to get a better picture of how I think, my posts on opinions I chang
                 <li>Paid reviewer for the OpenPhil world view investigations team</li>
                 <li><a href='https://marginalrevolution.com/marginalrevolution/2022/04/emergent-ventures-winners-19th-cohort.html'>Emergent Ventures grantee</a> for "exploring the role of Bayesian ML for AI safety"</li>
                 <li>Won the fourth prize at the <a href='https://www.metaculus.com/questions/11429/results-from-the-ai-progress-essay-contest/#comment-95404'>Metaculus AI progress forecasting tournament</a></li>
-                <li>Founded [AI safety mentors and mentees](https://www.lesswrong.com/posts/EjX63wQoMSoCHMrmY/announcing-ai-safety-mentors-and-mentees)</li>
+                <li>Founded <a href="https://www.lesswrong.com/posts/EjX63wQoMSoCHMrmY/announcing-ai-safety-mentors-and-mentees">AI safety mentors and mentees</a></li>
                 <li>Speaker on AI safety at EAGx Berlin 2022 and X-risk workshop 2022</li>
-                <li>[SERI MATS](https://www.serimats.org/) scholar (winter 2022 cohort)</li>
+                <li>a href="https://www.serimats.org/"SERI MATS</a> scholar (winter 2022 cohort)</li>
                 <li>Mentor of 7 AI safety students for [SPAR](https://berkeleyaisafety.com/spar) by UC Berkeley</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
@@ -117,7 +117,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
                 <li>Co-founded the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 (still co-organizing it)</li>
                 <li>Co-founded the <a href='https://aisafetytuebingen.wordpress.com/'>Tübingen AI safety reading group</a> in 2020 (currently inactive)</li>
                 <!--- <li>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019), EAG reconnect (2021), EA Unconference 2021, EAGLondon 2021, EASGretreat 2022(organizer), EAGLondon 2022</li> -->
-                <li> participated in 10+ EAGs, EAGxs and other EA conferences. 
+                <li> participated in 10+ EAGs, EAGxs and other EA conferences</li>
                 <li>Posts on the <a href='https://forum.effectivealtruism.org/users/mariushobbhahn'>EA Forum</a> and <a href='https://www.lesswrong.com/users/marius-hobbhahn'>LessWrong</a> </li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
