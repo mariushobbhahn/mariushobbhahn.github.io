@@ -4,11 +4,9 @@ title: Subscribe
 subtitle: You can unsubscribe whenever you want!
 ---
 
-Instead of an e-mail subscription you can also just <a href='https://twitter.com/MariusHobbhahn'>follow me on Twitter</a>. The e-mail list is only used to inform you of new blog posts. 
+I decided to discontinue the email subscription because I didn't use it continuously. You can just <a href='https://twitter.com/MariusHobbhahn'>follow me on Twitter</a> to see my latests post. 
 
-If you want to support me financially, you can send me a donation via my <a href='https://www.paypal.me/mariushobbhahn'>PayPal</a>. 
-
-<!-- Begin Mailchimp Signup Form -->
+<!-- Begin Mailchimp Signup Form
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
@@ -26,11 +24,11 @@ If you want to support me financially, you can send me a donation via my <a href
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
 		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+	</div>    
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_35c83786eba8cc20b467580ed_1718a3115c" tabindex="-1" value=""></div>
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
 </div>
 
-<!--End mc_embed_signup-->
+End mc_embed_signup-->
