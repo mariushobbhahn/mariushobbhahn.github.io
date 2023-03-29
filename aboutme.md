@@ -107,8 +107,8 @@ If you want to get a better picture of how I think, my posts on opinions I chang
                 <li>Won the fourth prize at the <a href='https://www.metaculus.com/questions/11429/results-from-the-ai-progress-essay-contest/#comment-95404'>Metaculus AI progress forecasting tournament</a></li>
                 <li>Founded <a href="https://www.lesswrong.com/posts/EjX63wQoMSoCHMrmY/announcing-ai-safety-mentors-and-mentees">AI safety mentors and mentees</a></li>
                 <li>Speaker on AI safety at EAGx Berlin 2022 and X-risk workshop 2022</li>
-                <li>a href="https://www.serimats.org/"SERI MATS</a> scholar (winter 2022 cohort)</li>
-                <li>Mentor of 7 AI safety students for [SPAR](https://berkeleyaisafety.com/spar) by UC Berkeley</li>
+                <li><a href="https://www.serimats.org/">SERI MATS</a> scholar (winter 2022 cohort)</li>
+                <li>Mentor of 7 AI safety students for <a href="https://berkeleyaisafety.com/spar">SPAR</a> by UC Berkeley</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
         
