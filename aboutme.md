@@ -37,9 +37,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         <div class="col-md-8"><a href="https://scholar.google.com/citations?user=SJ1y8o0AAAAJ&hl=en">Google Scholar</a></div>
     </div>
 
-    <div class="row" style="padding-bottom: 3em;"></div>
-
-    <div class="row" style="padding-top: 3em;">
+    <div class="row" style="padding-top: 2em;">
         <div class="col-md-3"><h3>Work Experience</h3></div>
         <div class="col-md-9">
         	<div>May 2023 - now: Co-founder and CEO of <a href='https://www.apolloresearch.ai/'>Apollo Research</a></div>
@@ -47,7 +45,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         </div>
     </div>
 
-    <div class="row" style="padding-top: 3em;">
+    <div class="row" style="padding-top: 2em;">
         <div class="col-md-3"><h3>Education</h3></div>
         <div class="col-md-9">
             <h4>International Max-Planck Research School Tübingen, Germany</h4>
@@ -55,7 +53,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
             <div>Topic: <i>Making Bayesian ML fast and scalable</i></div>
             <div></div>
 
-            <div class="row" style="padding-bottom: 2em"></div>		
+            <div class="row" style="padding-bottom: 1em"></div>		
 
             <h4>University of Tübingen, Germany</h4>
             <div>M.Sc., Machine Learning, 2018-2020</div>
@@ -63,31 +61,33 @@ If you want to get a better picture of how I think, my posts on opinions I chang
             <div></div>
             <div>Grade (1.5)</div>
 
-            <div class="row" style="padding-bottom: 2em"></div>
+            <div class="row" style="padding-bottom: 1em"></div>
             
             <div>Member of the <a href='https://www.studienstiftung.de/en/'>German scholarship foundation (Studienstiftung)</a> since 2017</div>
             
-            <div class="row" style="padding-bottom: 2em"></div>
+            <div class="row" style="padding-bottom: 1em"></div>
 
             <h4>University of Tübingen, Germany</h4>
             <div>B.Sc., Computer Science, 2016-2019</div>
             <div>Thesis: <i><a href="/files/Scattering_transform_Marius_Hobbhahn.pdf">Object Detection using the Scattering Transform</a></i></div>
             <div>Grade: 1.7 (3.3 <a href="https://en.wikipedia.org/wiki/Academic_grading_in_Germany#Overview">GPA equivalent</a>)</div>
 
-            <div class="row" style="padding-bottom: 2em"></div>
+            <div class="row" style="padding-bottom: 1em"></div>
 
              <h4>University of Tübingen, Germany</h4>
             <div>B.Sc., Cognitive Science, 2015-2018</div>
             <div>Thesis: <i><a href="/files/Bachelor_Kogni_Marius_Hobbhahn_2018.pdf">Inverse Classification using Generative Models</a></i></div>
             <div>Grade: 1.8 (3.2 <a href="https://en.wikipedia.org/wiki/Academic_grading_in_Germany#Overview">GPA equivalent</a>)</div>
 	    
-	    <div class="row" style="padding-bottom: 2em"></div>	
+	    <div class="row" style="padding-bottom: 1em"></div>	
 
 	     <h4>Willstätter Gymnasium Nürnberg, Germany</h4>
             <div>Abitur, 2007 - 2015</div>
             <div>Grade: 1.4 (3.6 <a href="https://en.wikipedia.org/wiki/Academic_grading_in_Germany#Overview">GPA equivalent</a>)</div>
         </div>
     </div>
+
+    <div class="row" style="padding-bottom: 2em"></div>
 
     <div class="row">
         <div class="col-md-3"><h3>Research Interests</h3></div>
@@ -108,10 +108,10 @@ If you want to get a better picture of how I think, my posts on opinions I chang
             <ul>
                 <li><strong>SPAR23 mentor:</strong> Mentor of 7 AI safety students for <a href="https://berkeleyaisafety.com/spar">SPAR</a> by UC Berkeley</li>
                 <li><strong>LTFF grantee:</strong> Received funding for independent research on AI safety from the <a href='https://funds.effectivealtruism.org/funds/far-future'>Long-Term Future Fund</a> (2022)</li>
-                <li><a href="https://www.serimats.org/"><strong>SERI MATS scholar:</strong></a> Research on deceptive alignment mentored by Evan Hubinger</li>
-                <li><a href='https://marginalrevolution.com/marginalrevolution/2022/04/emergent-ventures-winners-19th-cohort.html'><strong>Emergent Ventures grantee</strong></a> Explored the role of Bayesian ML for AI safety</li>
-                <li>P<a href='https://aisafety.camp/'><strong>AI safety camp participant:</strong></a> Researched reflection mechanisms as an alignment target (supervised by Beth Barnes)</li>
-                <li><a href="https://www.lesswrong.com/posts/EjX63wQoMSoCHMrmY/announcing-ai-safety-mentors-and-mentees"><strong>AI safety mentors and mentees founder</strong></a> Founded a program that connects talented individuals with senior AI experts</li>
+                <li><strong><a href="https://www.serimats.org/">SERI MATS</a> scholar:</strong> Research on deceptive alignment mentored by Evan Hubinger</li>
+                <li><strong><a href='https://marginalrevolution.com/marginalrevolution/2022/04/emergent-ventures-winners-19th-cohort.html'>Emergent Ventures</a> grantee</strong> Explored the role of Bayesian ML for AI safety</li>
+                <li><strong><a href='https://aisafety.camp/'>AI safety</a> camp participant:</strong> Researched reflection mechanisms as an alignment target (supervised by Beth Barnes)</li>
+                <li><strong><a href="https://www.lesswrong.com/posts/EjX63wQoMSoCHMrmY/announcing-ai-safety-mentors-and-mentees">AI safety mentors and mentees</a> founder</strong> Founded a program that connects talented individuals with senior AI experts</li>
                 <li><strong>OpenPhil reviewer:</strong> Reviewed articles for the Open Philanthropy worldview investigations team</li>
 				<li><strong>Reading group participant:</strong> Participated in the <a href='https://www.eacambridge.org/technical-alignment-curriculum'>AGI fundamentals reading group</a> and in <a href='https://longtermrisk.org/'>CLR</a>'s s-risks intro fellowship by </li>
             </ul>
@@ -147,7 +147,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         </div>
     </div>
 
-    <div class="row" style="padding-top: 3em;">
+    <div class="row" style="padding-top: 2em;">
         <div class="col-md-3"><h3>Skills</h3></div>
         <div class="col-md-9">
         	<ul>
@@ -159,7 +159,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         </div>
     </div>
     
-     <div class="row" style="padding-top: 3em;">
+     <div class="row" style="padding-top: 2em;">
     <div class="col-md-3"><h3>Selected Publications</h3></div>
         <div class="col-md-9">
         
