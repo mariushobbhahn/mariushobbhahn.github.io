@@ -106,22 +106,22 @@ If you want to get a better picture of how I think, my posts on opinions I chang
 
         	<h4>AI safety/alignment</h4>
             <ul>
-                <li>**SPAR23 mentor:** Mentor of 7 AI safety students for <a href="https://berkeleyaisafety.com/spar">SPAR</a> by UC Berkeley</li>
-                <li>**LTFF grantee:** Received funding for independent research on AI safety from the <a href='https://funds.effectivealtruism.org/funds/far-future'>Long-Term Future Fund</a> (2022)</li>
-                <li><a href="https://www.serimats.org/">**SERI MATS scholar:**</a> Research on deceptive alignment mentored by Evan Hubinger</li>
-                <li><a href='https://marginalrevolution.com/marginalrevolution/2022/04/emergent-ventures-winners-19th-cohort.html'>**Emergent Ventures grantee**</a> Explored the role of Bayesian ML for AI safety</li>
-                <li>P<a href='https://aisafety.camp/'>**AI safety camp participant:**</a> Researched reflection mechanisms as an alignment target (supervised by Beth Barnes)</li>
-                <li><a href="https://www.lesswrong.com/posts/EjX63wQoMSoCHMrmY/announcing-ai-safety-mentors-and-mentees">**AI safety mentors and mentees founder**</a> Founded a program that connects talented individuals with senior AI experts</li>
-                <li>**OpenPhil reviewer:** Reviewed articles for the OpenPhil worldview investigations team</li>
-				<li>**Reading group participant:** Participated in the <a href='https://www.eacambridge.org/technical-alignment-curriculum'>AGI fundamentals reading group</a> and in <a href='https://longtermrisk.org/'>CLR</a>'s s-risks intro fellowship by </li>
+                <li><strong>SPAR23 mentor:</strong> Mentor of 7 AI safety students for <a href="https://berkeleyaisafety.com/spar">SPAR</a> by UC Berkeley</li>
+                <li><strong>LTFF grantee:</strong> Received funding for independent research on AI safety from the <a href='https://funds.effectivealtruism.org/funds/far-future'>Long-Term Future Fund</a> (2022)</li>
+                <li><a href="https://www.serimats.org/"><strong>SERI MATS scholar:</strong></a> Research on deceptive alignment mentored by Evan Hubinger</li>
+                <li><a href='https://marginalrevolution.com/marginalrevolution/2022/04/emergent-ventures-winners-19th-cohort.html'><strong>Emergent Ventures grantee</strong></a> Explored the role of Bayesian ML for AI safety</li>
+                <li>P<a href='https://aisafety.camp/'><strong>AI safety camp participant:</strong></a> Researched reflection mechanisms as an alignment target (supervised by Beth Barnes)</li>
+                <li><a href="https://www.lesswrong.com/posts/EjX63wQoMSoCHMrmY/announcing-ai-safety-mentors-and-mentees"><strong>AI safety mentors and mentees founder</strong></a> Founded a program that connects talented individuals with senior AI experts</li>
+                <li><strong>OpenPhil reviewer:</strong> Reviewed articles for the Open Philanthropy worldview investigations team</li>
+				<li><strong>Reading group participant:</strong> Participated in the <a href='https://www.eacambridge.org/technical-alignment-curriculum'>AGI fundamentals reading group</a> and in <a href='https://longtermrisk.org/'>CLR</a>'s s-risks intro fellowship by </li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
         
             <h4>Effective Altruism</h4>
             <ul>
-                <li>**EA Tübingen co-founder:** Co-founded the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 and co-organized until early 2022</li>
-                <li>**Writer** on <a href='https://www.lesswrong.com/users/marius-hobbhahn'>LessWrong</a> and the <a href='https://forum.effectivealtruism.org/users/mariushobbhahn'>EA Forum</a></li>
-                <li>**Participant/Speaker** at 10+ EAG, EAGx and other EA conferences</li>
+                <li><strong>EA Tübingen co-founder:</strong> Co-founded the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 and co-organized until early 2022</li>
+                <li><strong>Writer</strong> on <a href='https://www.lesswrong.com/users/marius-hobbhahn'>LessWrong</a> and the <a href='https://forum.effectivealtruism.org/users/mariushobbhahn'>EA Forum</a></li>
+                <li><strong>Participant/Speaker</strong> at 10+ EAG, EAGx and other EA conferences</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
 	
@@ -136,11 +136,11 @@ If you want to get a better picture of how I think, my posts on opinions I chang
             
             <h4>Academia</h4>
             <ul>
-            	<li>**Lead-organizer** of the ELLIS doctoral symposium in 2021. I led a team of 12 and the event had 100 participants.</li>
+            	<li><strong>Lead-organizer</strong> of the ELLIS doctoral symposium in 2021. I led a team of 12 and the event had 100 participants.</li>
               	<div></div>
-            	<li>**Teaching** Teaching assistant for Probablistic ML (2020, 2021), Data Literacy (2021, 2022) and math summer course (2016, 2017)</li>
-            	<li>**Supervisor** for 3 Bachelor and 1 Master theses</li>
-                <li>**Reviewer** for various conferences including ICML22 and NeurIPS22</li>
+            	<li><strong>Teaching</strong> Teaching assistant for Probablistic ML (2020, 2021), Data Literacy (2021, 2022) and math summer course (2016, 2017)</li>
+            	<li><strong>Supervisor</strong> for 3 Bachelor and 1 Master theses</li>
+                <li><strong>Reviewer</strong> for various conferences including ICML22 and NeurIPS22</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
 
@@ -151,10 +151,10 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         <div class="col-md-3"><h3>Skills</h3></div>
         <div class="col-md-9">
         	<ul>
-            	<li>**Languages** English (C2), German (native), French (B2)</li>
+            	<li><strong>Languages</strong> English (C2), German (native), French (B2)</li>
               	<div></div>
-            	<li>**Coding** Python > R, > Julia, Java</li>
-            	<li>**Machine Learning** Pytorch > JAX > Tensorflow</li>
+            	<li><strong>Coding</strong> Python > R, > Julia, Java</li>
+            	<li><strong>Machine Learning</strong> Pytorch > JAX > Tensorflow</li>
             </ul>
         </div>
     </div>
