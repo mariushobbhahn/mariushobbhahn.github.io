@@ -17,10 +17,6 @@ As in the previous edition, I will also write about things that I newly learned 
 
 ## Personal
 
-### Doubling down on EA 
-
-I've been an EA since late 2015 and it has always been a strong part of my identity since then. However, at some point over the last two years, I had a simple realization that made me really double down on it. I noticed that I buy the premise of EA, e.g. "If you believe helping matters you should do so in the most effective way possible" to 100%. There was no doubt left that it could be somehow incorrect. Some of EA's current priorities might be wrong, some current implementations may be suboptimal but the main idea just seems completely true. The rest then just followed naturally, I wrote more posts, hopped on more projects, went to even more EA events, and basically spend most of my time engaging with it. I'm also currently pivoting my Ph.D. further to AI alignment. So I guess I just went all-in on EA. So far, I don’t regret it! Actually, it feels really good!
-
 ### Doubling down on AI safety
 
 In 2016, when I first heard about AI safety, I thought "Oh shit. This sounds pretty important". Already then, I thought it was important enough to focus my career on it. Over time, this belief has only increased in strength and recent achievements in large language models and various other applications of transformers have added an additional feeling of urgency. 
@@ -34,6 +30,12 @@ To prevent misunderstandings--I still think that other problems are very importa
 As a teenager, I used to like the narrative that "we shouldn't be so narrow-minded about other cultures" and "other political systems can be good too". While there might be a spark of truth to that, I now think liberal democracies got it mostly right. Liberal democracies that hold individual freedoms high and only curb them when necessary to protect others, e.g. in a pandemic, are probably the best political system we currently have. Similarly, social market economies are the best economic system we currently have. We can discuss the details like how direct the democracy should be and how much redistribution the society should have (see further below) but when compared to other historically tested systems, democracies with social market economies are just better. 
 
 This is obviously not a defense of everything the status quo has to offer--there are clearly a lot of injustices and inefficiencies in the current system that still need to be fixed. But there would be more problems in an alternative system such as nations that claimed to be communist or authoritarianism. We can have a long discussion about whether they were truly communist or not but I guess we can agree that whatever they implemented wasn't optimal. 
+
+### Doubling down on EA 
+
+I've considered myself an EA since late 2015 and it has been a part of my identity since then. However, at some point over the last two years, I had this strengthened. I noticed that I buy the premise of EA, e.g. "If you believe helping matters you should do so in the most effective way possible" to a large extent. There was no doubt left that it could be somehow incorrect. Some of EA's current priorities might be wrong, some current implementations may be suboptimal but the main idea just seems mostly true. The rest then just followed naturally, I wrote more posts, hopped on more projects, went to more EA events, and basically spend a lot of time engaging with it.
+
+Update Nov 2023: Over the last year or so, I changed my mind about this. While I still think the EA principles are mostly right (though not the naive utilitarian version), I identify less with the movement than before. This is partly due to the whole SBF drama but also has other reasons. For example, branding AI safety as a long-term risk seems unhelpful given that I expect to see very powerful AI within this decade. Furthermore, I had multiple "never meet your heros" moments with some EAs that strongly reduced my confidence in some of the supposed "adults in the room". 
 
 ### I want to be replaced
 
