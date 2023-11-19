@@ -1,13 +1,13 @@
 ---
 layout: page
 title: CV
-subtitle: as of April 2023
+subtitle: as of July 2023
 ---
 
 <!--
 <div id="aboutme" class="row">
 -->
-If you want to get a better picture of how I think, my posts on opinions I changed (<a href='http://www.mariushobbhahn.com/2020-05-10-Opinion_change/'>part I</a>, <a href='https://www.mariushobbhahn.com/2021-04-24-opinion_change_2/'>part II</a>, <a href='https://www.mariushobbhahn.com/2022-05-23-opinion_change_3/'>part III</a>) or on <a href='http://www.mariushobbhahn.com/2019-12-23-EA_and_me/'>Effective Altruism</a> are a good start. You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbhahn'>here</a>.
+If you want to get a better picture of how I think, my posts on opinions I changed (<a href='http://www.mariushobbhahn.com/2020-05-10-Opinion_change/'>part I</a>, <a href='https://www.mariushobbhahn.com/2021-04-24-opinion_change_2/'>part II</a>, <a href='https://www.mariushobbhahn.com/2022-05-23-opinion_change_3/'>part III</a>) or on <a href='http://www.mariushobbhahn.com/2019-12-23-EA_and_me/'>Effective Altruism</a> are a good start. You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbhahn'>here</a> and download a pdf version of the CV <a href='https://drive.google.com/file/d/1VTv2Jegkek6t6QY0-W3PDG3a7hYh5iIU/view?usp=sharing'>here</a>.
 
 <div class="col-md-12">
     <h1 class="section-header" style="padding-bottom: 0.8em;">Marius Hobbhahn</h1>
@@ -37,19 +37,15 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         <div class="col-md-8"><a href="https://scholar.google.com/citations?user=SJ1y8o0AAAAJ&hl=en">Google Scholar</a></div>
     </div>
 
-    <div class="row" style="padding-bottom: 3em;"></div>
-
-    <div class="row">
-        <div class="col-md-3"><h3>Research Interests</h3></div>
+    <div class="row" style="padding-top: 2em;">
+        <div class="col-md-3"><h3>Work Experience</h3></div>
         <div class="col-md-9">
-            <div>AI Safety and Alignment</div>
-            <div>Interpretability</div>
-            <div><a href="https://www.lesswrong.com/posts/bumgqvRjTadFFkoAd/science-of-deep-learning-a-technical-agenda">Science of Deep Learning</a></div>
-            <div>Bayesian Inference</div>
+        	<div>May 2023 - now: Co-founder and CEO of <a href='https://www.apolloresearch.ai/'>Apollo Research</a></div>
+            <div>June 2022 - April 2023: part-time research fellow for <a href='https://epochai.org/'>Epoch</a></div>
         </div>
     </div>
 
-    <div class="row" style="padding-top: 3em;">
+    <div class="row" style="padding-top: 2em;">
         <div class="col-md-3"><h3>Education</h3></div>
         <div class="col-md-9">
             <h4>International Max-Planck Research School Tübingen, Germany</h4>
@@ -57,7 +53,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
             <div>Topic: <i>Making Bayesian ML fast and scalable</i></div>
             <div></div>
 
-            <div class="row" style="padding-bottom: 2em"></div>		
+            <div class="row" style="padding-bottom: 1em"></div>		
 
             <h4>University of Tübingen, Germany</h4>
             <div>M.Sc., Machine Learning, 2018-2020</div>
@@ -65,25 +61,25 @@ If you want to get a better picture of how I think, my posts on opinions I chang
             <div></div>
             <div>Grade (1.5)</div>
 
-            <div class="row" style="padding-bottom: 2em"></div>
+            <div class="row" style="padding-bottom: 1em"></div>
             
             <div>Member of the <a href='https://www.studienstiftung.de/en/'>German scholarship foundation (Studienstiftung)</a> since 2017</div>
             
-            <div class="row" style="padding-bottom: 2em"></div>
+            <div class="row" style="padding-bottom: 1em"></div>
 
             <h4>University of Tübingen, Germany</h4>
             <div>B.Sc., Computer Science, 2016-2019</div>
             <div>Thesis: <i><a href="/files/Scattering_transform_Marius_Hobbhahn.pdf">Object Detection using the Scattering Transform</a></i></div>
             <div>Grade: 1.7 (3.3 <a href="https://en.wikipedia.org/wiki/Academic_grading_in_Germany#Overview">GPA equivalent</a>)</div>
 
-            <div class="row" style="padding-bottom: 2em"></div>
+            <div class="row" style="padding-bottom: 1em"></div>
 
              <h4>University of Tübingen, Germany</h4>
             <div>B.Sc., Cognitive Science, 2015-2018</div>
             <div>Thesis: <i><a href="/files/Bachelor_Kogni_Marius_Hobbhahn_2018.pdf">Inverse Classification using Generative Models</a></i></div>
             <div>Grade: 1.8 (3.2 <a href="https://en.wikipedia.org/wiki/Academic_grading_in_Germany#Overview">GPA equivalent</a>)</div>
 	    
-	    <div class="row" style="padding-bottom: 2em"></div>	
+	    <div class="row" style="padding-bottom: 1em"></div>	
 
 	     <h4>Willstätter Gymnasium Nürnberg, Germany</h4>
             <div>Abitur, 2007 - 2015</div>
@@ -91,41 +87,48 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         </div>
     </div>
 
+    <div class="row" style="padding-bottom: 2em"></div>
+
+    <div class="row">
+        <div class="col-md-3"><h3>Research Interests</h3></div>
+        <div class="col-md-9">
+            <div>AI Safety and Alignment</div>
+            <div>Interpretability</div>
+            <div><a href="https://www.lesswrong.com/posts/bumgqvRjTadFFkoAd/science-of-deep-learning-a-technical-agenda">Science of Deep Learning</a></div>
+            <div>Model evaluations</div>
+            <div>Deceptive Alignment</div>
+        </div>
+    </div>
+
     <div class="row" style="padding-top: 3em;">
         <div class="col-md-3"><h3>Miscellaneous</h3></div>
         <div class="col-md-9">
-        
-       	    <h4>AI safety/alignment</h4>
+
+        	<h4>AI safety/alignment</h4>
             <ul>
-                <li>Received funding for independent research on AI safety from the <a href='https://funds.effectivealtruism.org/funds/far-future'>Long-Term Future Fund</a> (2022)</li>
-                <li>Participant in the <a href='https://aisafety.camp/'>AI safety camp</a> 2022 (supervised by Beth Barnes)</li>
-                <li>Contributer to the <a href='https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi'>ML progress research group</a> (now <a href='https://epochai.org/'>Epoch</a>)</li>
-                <li>Participant in the 2022 <a href='https://www.eacambridge.org/technical-alignment-curriculum'>AGI fundamentals reading group</a></li>
-                <li>Participant in the 2022 s-risks intro fellowship by <a href='https://longtermrisk.org/'>CLR</a></li>
-                <li>Paid reviewer for the OpenPhil world view investigations team</li>
-                <li><a href='https://marginalrevolution.com/marginalrevolution/2022/04/emergent-ventures-winners-19th-cohort.html'>Emergent Ventures grantee</a> for "exploring the role of Bayesian ML for AI safety"</li>
-                <li>Won the fourth prize at the <a href='https://www.metaculus.com/questions/11429/results-from-the-ai-progress-essay-contest/#comment-95404'>Metaculus AI progress forecasting tournament</a></li>
-                <li>Founded <a href="https://www.lesswrong.com/posts/EjX63wQoMSoCHMrmY/announcing-ai-safety-mentors-and-mentees">AI safety mentors and mentees</a></li>
-                <li>Speaker on AI safety at EAGx Berlin 2022 and X-risk workshop 2022</li>
-                <li><a href="https://www.serimats.org/">SERI MATS</a> scholar (winter 2022 cohort)</li>
-                <li>Mentor of 7 AI safety students for <a href="https://berkeleyaisafety.com/spar">SPAR</a> by UC Berkeley</li>
+                <li><strong>SPAR23 mentor:</strong> Mentor of 7 AI safety students for <a href="https://berkeleyaisafety.com/spar">SPAR</a> by UC Berkeley</li>
+                <li><strong>LTFF grantee:</strong> Received funding for independent research on AI safety from the <a href='https://funds.effectivealtruism.org/funds/far-future'>Long-Term Future Fund</a> (2022)</li>
+                <li><strong><a href="https://www.serimats.org/">SERI MATS</a> scholar:</strong> Research on deceptive alignment mentored by Evan Hubinger</li>
+                <li><strong><a href='https://marginalrevolution.com/marginalrevolution/2022/04/emergent-ventures-winners-19th-cohort.html'>Emergent Ventures</a> grantee</strong> Explored the role of Bayesian ML for AI safety</li>
+                <li><strong><a href='https://aisafety.camp/'>AI safety</a> camp participant:</strong> Researched reflection mechanisms as an alignment target (supervised by Beth Barnes)</li>
+                <li><strong><a href="https://www.lesswrong.com/posts/EjX63wQoMSoCHMrmY/announcing-ai-safety-mentors-and-mentees">AI safety mentors and mentees</a> founder</strong> Founded a program that connects talented individuals with senior AI experts</li>
+                <li><strong>OpenPhil reviewer:</strong> Reviewed articles for the Open Philanthropy worldview investigations team</li>
+				<li><strong>Reading group participant:</strong> Participated in the <a href='https://www.eacambridge.org/technical-alignment-curriculum'>AGI fundamentals reading group</a> and in <a href='https://longtermrisk.org/'>CLR</a>'s s-risks intro fellowship by </li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
         
             <h4>Effective Altruism</h4>
             <ul>
-                <li>Co-founded the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 (still co-organizing it)</li>
-                <li>Co-founded the <a href='https://aisafetytuebingen.wordpress.com/'>Tübingen AI safety reading group</a> in 2020 (currently inactive)</li>
-                <!--- <li>Attended multiple EA conferences including: Five worlds collide Vienna (2016), Sentience Conference Berlin (2017), EAGx Utrecht (2018), EAG London (2019), EAG reconnect (2021), EA Unconference 2021, EAGLondon 2021, EASGretreat 2022(organizer), EAGLondon 2022</li> -->
-                <li> participated in 10+ EAGs, EAGxs and other EA conferences</li>
-                <li>Posts on the <a href='https://forum.effectivealtruism.org/users/mariushobbhahn'>EA Forum</a> and <a href='https://www.lesswrong.com/users/marius-hobbhahn'>LessWrong</a> </li>
+                <li><strong>EA Tübingen co-founder:</strong> Co-founded the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 and co-organized until early 2022</li>
+                <li><strong>Writer</strong> on <a href='https://www.lesswrong.com/users/marius-hobbhahn'>LessWrong</a> and the <a href='https://forum.effectivealtruism.org/users/mariushobbhahn'>EA Forum</a></li>
+                <li><strong>Participant/Speaker</strong> at 10+ EAG, EAGx and other EA conferences</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
 	
             <h4>University Debating</h4>
             <ul>
-                <li>Broke at 35+ tournaments, were in the top 10 speakers 20+ times and won 10+ of them.</li>
                 <li>My most prestigious speaker achievements include: 3x breaking ESL at EUDC, Winning Tilbury 2019 and Doxbridge 2020 (Oxford final), Winning 2 Campus Debatten and the Southern German Championship, breaking as 3rd (2018), 2nd (2019) and 1st (2020) team at the German National Championships (DDM) and being best speaker and grand finalist at the DDM 2020</li>
+                <li>Broke at 35+ tournaments, were in the top 10 speakers 20+ times and won 10+ of them.</li>
                 <li>Broke at 20+ tournaments as adjudicator and chaired 5+ finals. I chief-adjudicated 15+ tournaments.</li>
                 <li>Organized 5+ tournaments and was (vice-)president of the debating club for two years.</li>
             </ul>
@@ -133,17 +136,30 @@ If you want to get a better picture of how I think, my posts on opinions I chang
             
             <h4>Academia</h4>
             <ul>
-                <li>Participated at multiple ML Summer Schools and conferences including: PAISS2019, ICML2020, GPSS2020, ESANN2020, UAI2022</li>
-                <li>Organized an <a href='https://www.lesswrong.com/posts/3aHESQA4xdP6ydefN/european-master-s-programs-in-machine-learning-artificial'>ML master overview</a> for 9 European Universities</li> 
-                <li>Lead-organizer of the ELLIS doctoral symposium in 2021</li>
-                <li>Reviewer for ICML22 and NeurIPS22</li>
+            	<li><strong>Lead-organizer</strong> of the ELLIS doctoral symposium in 2021. I led a team of 12 and the event had 100 participants.</li>
+              	<div></div>
+            	<li><strong>Teaching</strong> Teaching assistant for Probablistic ML (2020, 2021), Data Literacy (2021, 2022) and math summer course (2016, 2017)</li>
+            	<li><strong>Supervisor</strong> for 3 Bachelor and 1 Master theses</li>
+                <li><strong>Reviewer</strong> for various conferences including ICML22 and NeurIPS22</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
 
         </div>
     </div>
+
+    <div class="row" style="padding-top: 2em;">
+        <div class="col-md-3"><h3>Skills</h3></div>
+        <div class="col-md-9">
+        	<ul>
+            	<li><strong>Languages</strong> English (C2), German (native), French (B2)</li>
+              	<div></div>
+            	<li><strong>Coding</strong> Python > R, > Julia, Java</li>
+            	<li><strong>Machine Learning</strong> Pytorch > JAX > Tensorflow</li>
+            </ul>
+        </div>
+    </div>
     
-     <div class="row" style="padding-top: 3em;">
+     <div class="row" style="padding-top: 2em;">
     <div class="col-md-3"><h3>Selected Publications</h3></div>
         <div class="col-md-9">
         
@@ -174,7 +190,6 @@ If you want to get a better picture of how I think, my posts on opinions I chang
                 
             
     </div>
-    
     
     <div class="row" style="padding-top: 3em;">
     <div class="col-md-3"><h3>Other Publications</h3></div>
@@ -219,44 +234,6 @@ If you want to get a better picture of how I think, my posts on opinions I chang
             </div>
                 [<a href='https://www.esann.org/proceedings/2020'>ESANN2020 proceedings</a>]
                 [<a href="https://github.com/mariushobbhahn/Modular-Inverse-Classification">code</a>]
-        </div>
-    </div>
-
-    <div class="row" style="padding-top: 3em;">
-        <div class="col-md-3"><h3>CS Experience</h3></div>
-        <div class="col-md-9">
-	
-            <h4>ML related</h4>
-            <div>Successfully completed over 20 lectures related to ML, AI, NNs, RL, Stats, etc. at the University of Tübingen</div>
-
-            <h4>Programming Experience</h4>
-            <div><b>Programming Languages:</b> Python (since 2016) > R > Java, Julia, JavaScript, C++, SQL</div>
-	    <div><b>ML related:</b> PyTorch (since 2018) > JAX > Tensorflow, Keras, Cuda</div>
-        </div>
-    </div>
-    
-    <div class="row" style="padding-top: 3em;">
-        <div class="col-md-3"><h3>Teaching</h3></div>
-        <div class="col-md-9">
-            <div>Math Summer Course (2 weeks) 2016, 2017</div>
-            <div>Teaching assistant for Probablistic ML (2020, 2021) and Data Literacy (2021, 2022)</div>
-            <div>Supervised 3 Bachelor's theses and 1 Master thesis</div>
-        </div>
-    </div>
-    
-    <div class="row" style="padding-top: 3em;">
-        <div class="col-md-3"><h3>Work Experience</h3></div>
-        <div class="col-md-9">
-            <div>June 2022 - now: research fellow for <a href='https://epochai.org/'>Epoch</a></div>
-        </div>
-    </div>
-    
-    <div class="row" style="padding-top: 3em;">
-        <div class="col-md-3"><h3>Language</h3></div>
-        <div class="col-md-9">
-            <div>English (C2 = IELTS 8.0)</div>
-            <div>French (B2)</div>
-            <div>German (native)</div>
         </div>
     </div>
 
