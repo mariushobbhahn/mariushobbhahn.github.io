@@ -7,7 +7,7 @@ subtitle: as of July 2023
 <!--
 <div id="aboutme" class="row">
 -->
-If you want to get a better picture of how I think, my posts on opinions I changed (<a href='http://www.mariushobbhahn.com/2020-05-10-Opinion_change/'>part I</a>, <a href='https://www.mariushobbhahn.com/2021-04-24-opinion_change_2/'>part II</a>, <a href='https://www.mariushobbhahn.com/2022-05-23-opinion_change_3/'>part III</a>) or on <a href='http://www.mariushobbhahn.com/2019-12-23-EA_and_me/'>Effective Altruism</a> are a good start. You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbhahn'>here</a> and download a pdf version of the CV <a href='https://drive.google.com/file/d/1VTv2Jegkek6t6QY0-W3PDG3a7hYh5iIU/view?usp=sharing'>here</a>.
+If you want to get a better picture of how I think, my posts on opinions I changed (<a href='http://www.mariushobbhahn.com/2020-05-10-Opinion_change/'>part I</a>, <a href='https://www.mariushobbhahn.com/2021-04-24-opinion_change_2/'>part II</a>, <a href='https://www.mariushobbhahn.com/2022-05-23-opinion_change_3/'>part III</a>) are a good start. You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbhahn'>here</a> and download a pdf version of the CV <a href='https://drive.google.com/file/d/1VTv2Jegkek6t6QY0-W3PDG3a7hYh5iIU/view?usp=sharing'>here</a>.
 
 <div class="col-md-12">
     <h1 class="section-header" style="padding-bottom: 0.8em;">Marius Hobbhahn</h1>
@@ -117,6 +117,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
         
+<!---
             <h4>Effective Altruism</h4>
             <ul>
                 <li><strong>EA Tübingen co-founder:</strong> Co-founded the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 and co-organized until early 2022</li>
@@ -124,6 +125,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
                 <li><strong>Participant/Speaker</strong> at 10+ EAG, EAGx and other EA conferences</li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
+-->
 	
             <h4>University Debating</h4>
             <ul>
