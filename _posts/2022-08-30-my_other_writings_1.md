@@ -25,12 +25,14 @@ I intend to write such an overview post whenever there is a decent number of pos
 6. Tom Lieberum and I have been playing around with GPT-3 to investigate how good its [causal understanding](https://www.lesswrong.com/posts/yZb5eFvDoaqB337X5/investigating-causal-understanding-in-llms) is.
 7. I wrote some fortified essays on Metaculus for a challenge on transformative AI. The first essay looks at [take-off speeds of transformative AI](https://www.metaculus.com/notebooks/10508/will-transformative-ai-come-with-a-bang/), the second looks at how [accurate our predictions were over the last year](https://www.metaculus.com/notebooks/10624/how-good-were-our-ai-timeline-predictions-so-far/) and the third looks at predictions that [will resolve in the next five years](https://www.metaculus.com/notebooks/10655/the-next-five-years/). 
 
+<!---
 ## Effective altruism
 
 1. We compiled a list of many possible [EA megaprojects](https://forum.effectivealtruism.org/posts/faezoENQwSTyw9iop/ea-megaprojects-continued)
 2. We looked into the implications for EA and EA goals of the new [German government’s plans](https://forum.effectivealtruism.org/posts/8v3KyRozxvQEcCb2r/ea-analysis-of-the-german-coalition-agreement-2021-2025).
 3. I wrote a brief post on an EA analogy called “[the train to crazy town](https://forum.effectivealtruism.org/posts/feejxTPvBJY2cfXRp/when-to-get-off-the-train-to-crazy-town)” which was originally coined by Ajeya Cotra on her 80K podcast appearance. 
 4. I asked a couple of questions (and sometimes suggested some answers), e.g. [where would we set up a new EA hub](https://forum.effectivealtruism.org/posts/d7bxPsKZ3TNnuaXaS/where-would-we-set-up-the-next-ea-hubs), [what is the right ratio between mentorship and direct work](https://forum.effectivealtruism.org/posts/wo7aQpkbwA9RJ8N29/what-is-the-right-ratio-between-mentorship-and-direct-work) or [how many EAs failed in high-risk, high-reward projects](https://forum.effectivealtruism.org/posts/JtE2srazz4Yu6NcuQ/how-many-eas-failed-in-high-risk-high-reward-projects).
+-->
 
 #### One last note
 
