@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Should Chronic Pain be a cause area for Effective Altruists?"
+title:      "Should Chronic Pain be a cause area?"
 subtitle:   "TL;DR: too broad to judge in general but specific interventions and research look promising"
 date:       2021-05-10 20:28:00
 author:     "Marius Hobbhahn"
