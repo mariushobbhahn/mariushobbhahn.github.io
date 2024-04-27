@@ -1,13 +1,13 @@
 ---
 layout: page
 title: CV
-subtitle: as of July 2023
+subtitle: Last update: July 2023
 ---
 
 <!--
 <div id="aboutme" class="row">
 -->
-If you want to get a better picture of how I think, my posts on opinions I changed (<a href='http://www.mariushobbhahn.com/2020-05-10-Opinion_change/'>part I</a>, <a href='https://www.mariushobbhahn.com/2021-04-24-opinion_change_2/'>part II</a>, <a href='https://www.mariushobbhahn.com/2022-05-23-opinion_change_3/'>part III</a>) are a good start. You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbhahn'>here</a> and download a pdf version of the CV <a href='https://drive.google.com/file/d/1VTv2Jegkek6t6QY0-W3PDG3a7hYh5iIU/view?usp=sharing'>here</a>.
+You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbhahn'>here</a> and download a pdf version of the CV <a href='https://drive.google.com/file/d/1VTv2Jegkek6t6QY0-W3PDG3a7hYh5iIU/view?usp=sharing'>here</a>.
 
 <div class="col-md-12">
     <h1 class="section-header" style="padding-bottom: 0.8em;">Marius Hobbhahn</h1>
@@ -49,7 +49,7 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         <div class="col-md-3"><h3>Education</h3></div>
         <div class="col-md-9">
             <h4>International Max-Planck Research School Tübingen, Germany</h4>
-            <div>PhD with Philipp Hennig, 2020-2023 (currently writing thesis)</div>
+            <div>PhD with Philipp Hennig, 2020-now (currently writing thesis)</div>
             <div>Topic: <i>Making Bayesian ML fast and scalable</i></div>
             <div></div>
 
@@ -94,7 +94,6 @@ If you want to get a better picture of how I think, my posts on opinions I chang
         <div class="col-md-9">
             <div>AI Safety and Alignment</div>
             <div>Interpretability</div>
-            <div><a href="https://www.lesswrong.com/posts/bumgqvRjTadFFkoAd/science-of-deep-learning-a-technical-agenda">Science of Deep Learning</a></div>
             <div>Model evaluations</div>
             <div>Deceptive Alignment</div>
         </div>
@@ -191,52 +190,6 @@ If you want to get a better picture of how I think, my posts on opinions I chang
                 [<a href='http://www.mariushobbhahn.com/2020-11-03-LB_for_BNNs/'>Blog post</a>]
                 
             
-    </div>
-    
-    <div class="row" style="padding-top: 3em;">
-    <div class="col-md-3"><h3>Other Publications</h3></div>
-        <div class="col-md-9">
-        
-            <h4>Reflection Mechanisms as an Alignment Target: A Survey</h4>
-            <div>
-                <i>Hobbhahn, Marius</i>, Eric Landgrebe and Elizabeth Barnes. NeurIPS ML Safety Workshop. 2022.
-            </div>
-                [<a href="https://openreview.net/pdf?id=4eMzKmZ6xW">paper</a>]
-        
-            <div class="row" style="padding-bottom: 1em"></div>	
-            
-            <h4>Investigating Causal Understanding in LLMs</h4>
-            <div>
-                <i>Hobbhahn, Marius</i>, Tom Lieberum and David Seiler. NeurIPS Workshop on Causality for Real-world Impact. 2022.
-            </div>
-                [<a href="https://openreview.net/pdf?id=st6jtGdW8Ke">paper</a>]
-        
-            <div class="row" style="padding-bottom: 1em"></div>	
-        
-	   <h4>What are the Red Flags for Neural Network Suffering?</h4>
-            <div>
-                <i>Hobbhahn, Marius</i> and Jan Kirchner. Seeds of Science. 2022.
-            </div>
-                [<a href="https://www.theseedsofscience.org/2022-red-flags-for-neural-network-suffering">paper</a>]
-        
-            <div class="row" style="padding-bottom: 1em"></div>	
-		           		   
-            <h4>Should Altruistic benchmarks be the norm in Machine Learning?</h4>
-            <div>
-                <i>Hobbhahn, Marius</i>; ICML2021 Workshop for Socially Responsible Machine Learning
-            </div>
-                [<a href="https://icmlsrml2021.github.io/paper.html">paper</a>]
-            
-
-            <div class="row" style="padding-bottom: 1em"></div>
-
-            <h4>Sequence Classification using Ensembles of Recurrent Generative Expert Modules</h4>
-            <div>
-              <i>Hobbhahn, Marius</i>; Butz, Martin; Fabi, Sarah and Otte, Sebastian. ESANN (2020).
-            </div>
-                [<a href='https://www.esann.org/proceedings/2020'>ESANN2020 proceedings</a>]
-                [<a href="https://github.com/mariushobbhahn/Modular-Inverse-Classification">code</a>]
-        </div>
     </div>
 
 </div>
