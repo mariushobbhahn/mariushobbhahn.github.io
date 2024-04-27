@@ -4,7 +4,7 @@
 title: Machine Learning is Linear Algebra
 
 # Short description of your site
-description: This is the blog of Marius Hobbhahn. I post projects, papers and code related to Machine Learning and opinion pieces on policy and ethics.
+description: This is the blog of Marius Hobbhahn. I'm interested in understanding AI systems better and use that understanding to make them safer.
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -21,7 +21,7 @@ description: This is the blog of Marius Hobbhahn. I post projects, papers and co
 # List of links in the navigation bar
 navbar-links:
   ML Projects: "MLprojects"
-  Opinions: "Opinions"
+  #Opinions: "Opinions"
   About Me/CV: "aboutme"
   Subscribe: "subscribe"
 
