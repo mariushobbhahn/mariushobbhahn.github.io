@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CV
-subtitle: Last update: July 2023
+subtitle: Last update - July 2023
 ---
 
 <!--
