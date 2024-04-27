@@ -4,7 +4,7 @@ title: Subscribe
 subtitle: You can unsubscribe whenever you want!
 ---
 
-I decided to discontinue the email subscription . You can <a href='https://twitter.com/MariusHobbhahn'>follow me on Twitter</a> instead. 
+I decided to discontinue the email subscription. You can <a href='https://twitter.com/MariusHobbhahn'>follow me on Twitter</a> instead. 
 
 <!-- Begin Mailchimp Signup Form
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">

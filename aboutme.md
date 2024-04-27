@@ -4,9 +4,6 @@ title: CV
 subtitle: Last update - July 2023
 ---
 
-<!--
-<div id="aboutme" class="row">
--->
 You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbhahn'>here</a> and download a pdf version of the CV <a href='https://drive.google.com/file/d/1VTv2Jegkek6t6QY0-W3PDG3a7hYh5iIU/view?usp=sharing'>here</a>.
 
 <div class="col-md-12">
