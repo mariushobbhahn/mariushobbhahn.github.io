@@ -96,7 +96,7 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
     </div>
 
     <div class="row" style="padding-top: 2em;">
-        <div class="col-md-3"><h3>Selected Awards and Key Engagements</h3></div>
+        <div class="col-md-3"><h3>Selected Awards and Engagements</h3></div>
         <div class="col-md-9">
             <ul>
                 <li><strong>Pacific Economic Cooperations Councel (2024):</strong> AI workshop Speaker</li>
