@@ -54,7 +54,7 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
         <div class="col-md-3"><h3>Education</h3></div>
         <div class="col-md-9">
             <h4>International Max-Planck Research School Tübingen, Germany</h4>
-            <div>PhD with Philipp Hennig, 2020-now (currently writing thesis)</div>
+            <div>PhD with Philipp Hennig, 2020-2024</div>
             <div>Topic: <i>Making Bayesian ML fast and scalable</i></div>
             <div></div>
 

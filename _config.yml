@@ -20,7 +20,7 @@ description: This is the blog of Marius Hobbhahn. I'm interested in understandin
 
 # List of links in the navigation bar
 navbar-links:
-  Evals: "evals"
+  #Evals: "evals"
   ML Projects: "MLprojects"
   About Me/CV: "aboutme"
   Subscribe: "subscribe"
