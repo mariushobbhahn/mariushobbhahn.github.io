@@ -5,85 +5,85 @@ subtitle: Last update - July 2023
 ---
 
 
-
 You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbhahn'>here</a> and download a pdf version of the CV <a href='https://drive.google.com/file/d/1VTv2Jegkek6t6QY0-W3PDG3a7hYh5iIU/view?usp=sharing'>here</a>.
 
-<h1>Marius Hobbhahn</h1>
+<div class="col-md-12">
+    <h1 class="section-header" style="padding-bottom: 0.8em;">Marius Hobbhahn</h1>
 
-<div class="contact-grid">
-  <div class="contact-label">Email</div>
-  <div><a href="mailto:marius.hobbhahn@gmail.com">marius.hobbhahn[at]gmail.com</a></div>
-  
-  <div class="contact-label">LinkedIn</div>
-  <div><a href="https://www.linkedin.com/in/marius-hobbhahn-128927175/">/in/marius-hobbhahn-128927175/</a></div>
-  
-  <div class="contact-label">Github</div>
-  <div><a href="https://github.com/mariushobbhahn">/mariushobbhahn</a></div>
-  
-  <div class="contact-label">Twitter</div>
-  <div><a href="https://twitter.com/MariusHobbhahn">@MariusHobbhahn</a></div>
-  
-  <div class="contact-label">Google Scholar</div>
-  <div><a href="https://scholar.google.com/citations?user=SJ1y8o0AAAAJ&hl=en">Google Scholar</a></div>
-</div>
+    <div class="row">
+        <div class="col-md-3"><b>Email</b></div>
+        <div class="col-md-8"><a href='marius.hobbhahn@gmail.com'>marius.hobbhahn[at]gmail.com</a></div>
+    </div>
 
-<h2 class="section-header">Work Experience</h2>
-<div class="entry">
-  <div class="entry-date">May 2023 - now</div>
-  <div class="entry-content">
-    <h4>Co-founder and CEO of Apollo Research</h4>
-    <div>17 member strong organization. Technical evaluations lead with 7 direct reports.</div>
-    <div>GPAI evaluation development and execution for UK AISI and frontier AI companies.</div>
-  </div>
-</div>
+    <div class="row">
+        <div class="col-md-3"><b>LinkedIn</b></div>
+        <div class="col-md-8"><a href="https://www.linkedin.com/in/marius-hobbhahn-128927175/">/in/marius-hobbhahn-128927175/</a></div>
+    </div>
 
-<div class="entry">
-  <div class="entry-date">June 2022 - April 2023</div>
-  <div class="entry-content">
-    <h4>Research Fellow at Epoch</h4>
-    <div>Modeling and forecasting AI progress.</div>
-  </div>
-</div>
+    <div class="row">
+        <div class="col-md-3"><b>Github</b></div>
+        <div class="col-md-8"><a href="https://github.com/mariushobbhahn">/mariushobbhahn</a></div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-3"><b>Twitter</b></div>
+        <div class="col-md-8"><a href="https://twitter.com/MariusHobbhahn">MariusHobbhahn</a></div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-3"><b>Google Scholar</b></div>
+        <div class="col-md-8"><a href="https://scholar.google.com/citations?user=SJ1y8o0AAAAJ&hl=en">Google Scholar</a></div>
+    </div>
 
-<h2 class="section-header">Education</h2>
-<div class="entry">
-  <div class="entry-date">2020 - now</div>
-  <div class="entry-content">
-    <h4>International Max-Planck Research School Tübingen, Germany</h4>
-    <div>PhD with Philipp Hennig (currently writing thesis)</div>
-    <div class="thesis-title">Topic: Making Bayesian ML fast and scalable</div>
-  </div>
-</div>
+    <div class="row" style="padding-top: 2em;">
+        <div class="col-md-3"><h3>Work Experience</h3></div>
+        <div class="col-md-9">
+        	<div>May 2023 - now: Co-founder and CEO of <a href='https://www.apolloresearch.ai/'>Apollo Research</a></div>
+            <div>June 2022 - April 2023: part-time research fellow for <a href='https://epochai.org/'>Epoch</a></div>
+        </div>
+    </div>
 
-<div class="entry">
-  <div class="entry-date">2018 - 2020</div>
-  <div class="entry-content">
-    <h4>University of Tübingen, Germany</h4>
-    <div>M.Sc., Machine Learning</div>
-    <div class="thesis-title">Thesis: Fast Predictive Uncertainty for Classification with Bayesian Deep Networks</div>
-    <div>Grade: 1.5</div>
-  </div>
-</div>
+    <div class="row" style="padding-top: 2em;">
+        <div class="col-md-3"><h3>Education</h3></div>
+        <div class="col-md-9">
+            <h4>International Max-Planck Research School Tübingen, Germany</h4>
+            <div>PhD with Philipp Hennig, 2020-now (currently writing thesis)</div>
+            <div>Topic: <i>Making Bayesian ML fast and scalable</i></div>
+            <div></div>
 
-<div class="entry">
-  <div class="entry-date">2016 - 2019</div>
-  <div class="entry-content">
-    <h4>University of Tübingen, Germany</h4>
-    <div>B.Sc., Computer Science</div>
-    <div class="thesis-title">Thesis: Object Detection using the Scattering Transform</div>
-    <div>Grade: 1.7 (3.3 GPA equivalent)</div>
-  </div>
-</div>
+            <div class="row" style="padding-bottom: 1em"></div>		
 
-<div class="entry">
-  <div class="entry-date">2015 - 2018</div>
-  <div class="entry-content">
-    <h4>University of Tübingen, Germany</h4>
-    <div>B.Sc., Cognitive Science</div>
-    <div class="thesis-title">Thesis: Inverse Classification using Generative Models</div>
-    <div>Grade: 1.8 (3.2 GPA equivalent)</div>
-  </div>
-</div>
+            <h4>University of Tübingen, Germany</h4>
+            <div>M.Sc., Machine Learning, 2018-2020</div>
+            <div>Thesis: <i><a href="/files/Master_Thesis_Marius_Hobbhahn.pdf">Fast Predictive Uncertainty for Classification with Bayesian Deep Networks</a></i></div>
+            <div></div>
+            <div>Grade (1.5)</div>
+
+            <div class="row" style="padding-bottom: 1em"></div>
+            
+            <div>Member of the <a href='https://www.studienstiftung.de/en/'>German scholarship foundation (Studienstiftung)</a> since 2017</div>
+            
+            <div class="row" style="padding-bottom: 1em"></div>
+
+            <h4>University of Tübingen, Germany</h4>
+            <div>B.Sc., Computer Science, 2016-2019</div>
+            <div>Thesis: <i><a href="/files/Scattering_transform_Marius_Hobbhahn.pdf">Object Detection using the Scattering Transform</a></i></div>
+            <div>Grade: 1.7 (3.3 <a href="https://en.wikipedia.org/wiki/Academic_grading_in_Germany#Overview">GPA equivalent</a>)</div>
+
+            <div class="row" style="padding-bottom: 1em"></div>
+
+             <h4>University of Tübingen, Germany</h4>
+            <div>B.Sc., Cognitive Science, 2015-2018</div>
+            <div>Thesis: <i><a href="/files/Bachelor_Kogni_Marius_Hobbhahn_2018.pdf">Inverse Classification using Generative Models</a></i></div>
+            <div>Grade: 1.8 (3.2 <a href="https://en.wikipedia.org/wiki/Academic_grading_in_Germany#Overview">GPA equivalent</a>)</div>
+	    
+	    <div class="row" style="padding-bottom: 1em"></div>	
+
+	     <h4>Willstätter Gymnasium Nürnberg, Germany</h4>
+            <div>Abitur, 2007 - 2015</div>
+            <div>Grade: 1.4 (3.6 <a href="https://en.wikipedia.org/wiki/Academic_grading_in_Germany#Overview">GPA equivalent</a>)</div>
+        </div>
+    </div>
 
     <div class="row" style="padding-bottom: 2em"></div>
 
