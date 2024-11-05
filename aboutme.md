@@ -1,11 +1,11 @@
 ---
 layout: page
 title: CV
-subtitle: Last update - July 2023
+subtitle: Last update - October 2024
 ---
 
 
-You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbhahn'>here</a> and download a pdf version of the CV <a href='https://drive.google.com/file/d/1VTv2Jegkek6t6QY0-W3PDG3a7hYh5iIU/view?usp=sharing'>here</a>.
+You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbhahn'>here</a> and download a pdf version of the CV <a href='https://drive.google.com/file/d/1fE8k20FmfHMk1cGTDXgOfppIcqI5Z_aJ/view?usp=sharing'>here</a>.
 
 <div class="col-md-12">
     <h1 class="section-header" style="padding-bottom: 0.8em;">Marius Hobbhahn</h1>
@@ -64,10 +64,6 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
             <div>M.Sc., Machine Learning, 2018-2020</div>
             <div>Thesis: <i><a href="/files/Master_Thesis_Marius_Hobbhahn.pdf">Fast Predictive Uncertainty for Classification with Bayesian Deep Networks</a></i></div>
             <div></div>
-
-            <div class="row" style="padding-bottom: 1em"></div>
-            
-            <div>Member of the <a href='https://www.studienstiftung.de/en/'>German scholarship foundation (Studienstiftung)</a> since 2017</div>
             
             <div class="row" style="padding-bottom: 1em"></div>
 
@@ -90,7 +86,7 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
         <div class="col-md-3"><h3>Mentorship and Academic Appointments</h3></div>
         <div class="col-md-9">
             <ul>
-                <li><strong>SPAR23 mentor (2023):</strong> Mentored 7 AI safety students in mechanistic interpretability</li>
+                <li><strong>SPAR23 mentor (2023):</strong> Mentored 7 <a href="https://berkeleyaisafety.com/spar">AI safety students</a> in mechanistic interpretability</li>
                 <li><strong>Reviewer (2022-now):</strong> For top Machine Learning Conferences, including NeurIPS and ICML</li>
                 <li><strong>Lead organizer (2021):</strong> Of the ELLIS doctoral symposium</li>
                 <li><strong>Supervisor (2020-2022):</strong> For 3 Bachelor and 1 Master thesis</li>
@@ -106,9 +102,9 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
                 <li><strong>Pacific Economic Cooperations Councel (2024):</strong> AI workshop Speaker</li>
                 <li><strong>Beijing Academy of AI (BAAI) (2024):</strong> Speaker at evaluations panel</li>
                 <li><strong>AI safety summit (2023):</strong> Participant at UK AI Safety Summit at Bletchley Park</li>
-                <li><strong>Emergent Ventures (2022):</strong> Award Grantee. 15 awardees per cohort; Grant for AI safety research</li>
+                <li><strong>Emergent Ventures (2022):</strong> <a href='https://marginalrevolution.com/marginalrevolution/2022/04/emergent-ventures-winners-19th-cohort.html'>Award Grantee</a>. 15 awardees per cohort; Grant for AI safety research</li>
                 <li><strong>Best speaker (2020):</strong> German Debate Championships</li>
-                <li><strong>Scholarship (2016):</strong> German Academic Scholarship Foundation</li>
+                <li><strong>Scholarship (2016):</strong> <a href='https://www.studienstiftung.de/en/'>German Academic Scholarship Foundation</a></li>
             </ul>
         </div>
     </div>
@@ -185,12 +181,38 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
     <div class="col-md-3"><h3>Selected Publications</h3></div>
         <div class="col-md-9">
         
-        	     <h4>Compute Trends Across Three Eras of Machine Learning</h4>
+             <h4>Large Language Models can Strategically Deceive their Users when Put Under Pressure</h4>
+	     <div>
+		Jérémy Scheurer, Mikita Balesni, <i>Marius Hobbhahn</i> (2024).
+	     </div>
+		[<a href="https://arxiv.org/abs/2311.07590">arxiv</a>]
+
+        <div class="row" style="padding-bottom: 1em"></div>
+
+             <h4>Black-box access is insufficient for rigorous ai audits</h4>
+	     <div>
+		Stephen Casper, Carson Ezell, Charlotte Siegmann, Noam Kolt, Taylor Lynn Curtis, Benjamin Bucknall, Andreas Haupt, Kevin Wei, Jérémy Scheurer, <i>Marius Hobbhahn</i>, Lee Sharkey, Satyapriya Krishna, Marvin Von Hagen, Silas Alberti, Alan Chan, Qinyi Sun, Michael Gerovitch, David Bau, Max Tegmark, David Krueger, Dylan Hadfield-Menell (2024). FAccT.
+	     </div>
+		[<a href="https://dl.acm.org/doi/pdf/10.1145/3630106.3659037">paper</a>]
+
+        <div class="row" style="padding-bottom: 1em"></div>
+
+             <h4>Compute Trends Across Three Eras of Machine Learning</h4>
 	     <div>
 		Jaime Sevilla, Lennart Heim, Anson Ho, Tamay Besiroglu, <i>Marius Hobbhahn</i>, Pablo Villalobos (2022). <a href='https://wcci2022.org/call-for-papers/'>IJCNN</a>.
 	     </div>
 		[<a href="https://arxiv.org/abs/2202.05924">arxiv</a>]
 		[<a href='https://ourworldindata.org/grapher/ai-training-computation'>Our World in Data</a>]
+
+        <div class="row" style="padding-bottom: 1em"></div>
+
+        <h4>Will we run out of data? Limits of LLM scaling based on human-generated data</h4>
+	     <div>
+		Pablo Villalobos, Anson Ho, Jaime Sevilla, Tamay Besiroglu, Lennart Heim, <i>Marius Hobbhahn</i> (2024).
+	     </div>
+		[<a href="https://arxiv.org/abs/2211.04325">arxiv</a>]
+
+        <div class="row" style="padding-bottom: 1em"></div>
         
 	     <h4>Laplace Matching for fast Approximate Inference in Generalized Linear Models</h4>
 	     <div>
@@ -210,34 +232,5 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
                 [<a href="https://github.com/mariushobbhahn/LB_for_BNNs_official">code</a>]
                 [<a href='http://www.mariushobbhahn.com/2020-11-03-LB_for_BNNs/'>Blog post</a>]
                 
-            
-    </div>
-
-    <div class="row" style="padding-top: 2em;">
-        <div class="col-md-3"><h3>Mentorship and Academic Appointments</h3></div>
-        <div class="col-md-9">
-            <ul>
-                <li><strong>SPAR23 mentor (2023):</strong> Mentored 7 AI safety students in mechanistic interpretability</li>
-                <li><strong>Reviewer (2022-now):</strong> For top Machine Learning Conferences, including NeurIPS and ICML</li>
-                <li><strong>Lead organizer (2021):</strong> Of the ELLIS doctoral symposium</li>
-                <li><strong>Supervisor (2020-2022):</strong> For 3 Bachelor and 1 Master thesis</li>
-                <li><strong>Teaching assistant (2016-2022):</strong> For Probabilistic ML, Data Literacy and Math summer course</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="row" style="padding-top: 2em;">
-        <div class="col-md-3"><h3>Selected Awards and Key Engagements</h3></div>
-        <div class="col-md-9">
-            <ul>
-                <li><strong>Pacific Economic Cooperations Councel (2024):</strong> AI workshop Speaker</li>
-                <li><strong>Beijing Academy of AI (BAAI) (2024):</strong> Speaker at evaluations panel</li>
-                <li><strong>AI safety summit (2023):</strong> Participant at UK AI Safety Summit at Bletchley Park</li>
-                <li><strong>Emergent Ventures (2022):</strong> Award Grantee. 15 awardees per cohort; Grant for AI safety research</li>
-                <li><strong>Best speaker (2020):</strong> German Debate Championships</li>
-                <li><strong>Scholarship (2016):</strong> German Academic Scholarship Foundation</li>
-            </ul>
-        </div>
-    </div>
 
 </div>
