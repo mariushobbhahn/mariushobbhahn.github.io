@@ -38,8 +38,15 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
     <div class="row" style="padding-top: 2em;">
         <div class="col-md-3"><h3>Work Experience</h3></div>
         <div class="col-md-9">
-        	<div>May 2023 - now: Co-founder and CEO of <a href='https://www.apolloresearch.ai/'>Apollo Research</a></div>
+            <h4>Apollo Research</h4>
+            <div>May 2023 - now: Co-founder and CEO of <a href='https://www.apolloresearch.ai/'>Apollo Research</a></div>
+            <div></div>
+            <div class="row" style="padding-bottom: 1em"></div>
+
+            <h4>Epoch</h4>
             <div>June 2022 - April 2023: part-time research fellow for <a href='https://epochai.org/'>Epoch</a></div>
+            <div></div>
+            <div class="row" style="padding-bottom: 1em"></div>
         </div>
     </div>
 
@@ -57,7 +64,6 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
             <div>M.Sc., Machine Learning, 2018-2020</div>
             <div>Thesis: <i><a href="/files/Master_Thesis_Marius_Hobbhahn.pdf">Fast Predictive Uncertainty for Classification with Bayesian Deep Networks</a></i></div>
             <div></div>
-            <div>Grade (1.5)</div>
 
             <div class="row" style="padding-bottom: 1em"></div>
             
@@ -68,35 +74,48 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
             <h4>University of Tübingen, Germany</h4>
             <div>B.Sc., Computer Science, 2016-2019</div>
             <div>Thesis: <i><a href="/files/Scattering_transform_Marius_Hobbhahn.pdf">Object Detection using the Scattering Transform</a></i></div>
-            <div>Grade: 1.7 (3.3 <a href="https://en.wikipedia.org/wiki/Academic_grading_in_Germany#Overview">GPA equivalent</a>)</div>
 
             <div class="row" style="padding-bottom: 1em"></div>
 
              <h4>University of Tübingen, Germany</h4>
             <div>B.Sc., Cognitive Science, 2015-2018</div>
             <div>Thesis: <i><a href="/files/Bachelor_Kogni_Marius_Hobbhahn_2018.pdf">Inverse Classification using Generative Models</a></i></div>
-            <div>Grade: 1.8 (3.2 <a href="https://en.wikipedia.org/wiki/Academic_grading_in_Germany#Overview">GPA equivalent</a>)</div>
 	    
-	    <div class="row" style="padding-bottom: 1em"></div>	
+            <div class="row" style="padding-bottom: 1em"></div>	
 
-	     <h4>Willstätter Gymnasium Nürnberg, Germany</h4>
-            <div>Abitur, 2007 - 2015</div>
-            <div>Grade: 1.4 (3.6 <a href="https://en.wikipedia.org/wiki/Academic_grading_in_Germany#Overview">GPA equivalent</a>)</div>
+        </div>
+    </div>
+
+    <div class="row" style="padding-top: 2em;">
+        <div class="col-md-3"><h3>Mentorship and Academic Appointments</h3></div>
+        <div class="col-md-9">
+            <ul>
+                <li><strong>SPAR23 mentor (2023):</strong> Mentored 7 AI safety students in mechanistic interpretability</li>
+                <li><strong>Reviewer (2022-now):</strong> For top Machine Learning Conferences, including NeurIPS and ICML</li>
+                <li><strong>Lead organizer (2021):</strong> Of the ELLIS doctoral symposium</li>
+                <li><strong>Supervisor (2020-2022):</strong> For 3 Bachelor and 1 Master thesis</li>
+                <li><strong>Teaching assistant (2016-2022):</strong> For Probabilistic ML, Data Literacy and Math summer course</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" style="padding-top: 2em;">
+        <div class="col-md-3"><h3>Selected Awards and Key Engagements</h3></div>
+        <div class="col-md-9">
+            <ul>
+                <li><strong>Pacific Economic Cooperations Councel (2024):</strong> AI workshop Speaker</li>
+                <li><strong>Beijing Academy of AI (BAAI) (2024):</strong> Speaker at evaluations panel</li>
+                <li><strong>AI safety summit (2023):</strong> Participant at UK AI Safety Summit at Bletchley Park</li>
+                <li><strong>Emergent Ventures (2022):</strong> Award Grantee. 15 awardees per cohort; Grant for AI safety research</li>
+                <li><strong>Best speaker (2020):</strong> German Debate Championships</li>
+                <li><strong>Scholarship (2016):</strong> German Academic Scholarship Foundation</li>
+            </ul>
         </div>
     </div>
 
     <div class="row" style="padding-bottom: 2em"></div>
 
-    <div class="row">
-        <div class="col-md-3"><h3>Research Interests</h3></div>
-        <div class="col-md-9">
-            <div>AI Safety and Alignment</div>
-            <div>Interpretability</div>
-            <div>Model evaluations</div>
-            <div>Deceptive Alignment</div>
-        </div>
-    </div>
-
+<!---
     <div class="row" style="padding-top: 3em;">
         <div class="col-md-3"><h3>Miscellaneous</h3></div>
         <div class="col-md-9">
@@ -113,6 +132,7 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
 				<li><strong>Reading group participant:</strong> Participated in the <a href='https://www.eacambridge.org/technical-alignment-curriculum'>AGI fundamentals reading group</a> and in <a href='https://longtermrisk.org/'>CLR</a>'s s-risks intro fellowship by </li>
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
+-->
         
 <!---
             <h4>Effective Altruism</h4>
@@ -124,6 +144,7 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
             <div class="row" style="padding-bottom: 1em"></div>
 -->
 	
+<!---
             <h4>University Debating</h4>
             <ul>
                 <li>My most prestigious speaker achievements include: 3x breaking ESL at EUDC, Winning Tilbury 2019 and Doxbridge 2020 (Oxford final), Winning 2 Campus Debatten and the Southern German Championship, breaking as 3rd (2018), 2nd (2019) and 1st (2020) team at the German National Championships (DDM) and being best speaker and grand finalist at the DDM 2020</li>
@@ -133,6 +154,7 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
             </ul>
             <div class="row" style="padding-bottom: 1em"></div>
             
+
             <h4>Academia</h4>
             <ul>
             	<li><strong>Lead-organizer</strong> of the ELLIS doctoral symposium in 2021. I led a team of 12 and the event had 100 participants.</li>
@@ -145,6 +167,7 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
 
         </div>
     </div>
+-->
 
     <div class="row" style="padding-top: 2em;">
         <div class="col-md-3"><h3>Skills</h3></div>
@@ -152,8 +175,8 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
         	<ul>
             	<li><strong>Languages</strong> English (C2), German (native), French (B2)</li>
               	<div></div>
-            	<li><strong>Coding</strong> Python > R, > Julia, Java</li>
-            	<li><strong>Machine Learning</strong> Pytorch > JAX > Tensorflow</li>
+            	<li><strong>Coding</strong> Python</li>
+            	<li><strong>Machine Learning</strong> Pytorch > JAX </li>
             </ul>
         </div>
     </div>
@@ -188,6 +211,33 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
                 [<a href='http://www.mariushobbhahn.com/2020-11-03-LB_for_BNNs/'>Blog post</a>]
                 
             
+    </div>
+
+    <div class="row" style="padding-top: 2em;">
+        <div class="col-md-3"><h3>Mentorship and Academic Appointments</h3></div>
+        <div class="col-md-9">
+            <ul>
+                <li><strong>SPAR23 mentor (2023):</strong> Mentored 7 AI safety students in mechanistic interpretability</li>
+                <li><strong>Reviewer (2022-now):</strong> For top Machine Learning Conferences, including NeurIPS and ICML</li>
+                <li><strong>Lead organizer (2021):</strong> Of the ELLIS doctoral symposium</li>
+                <li><strong>Supervisor (2020-2022):</strong> For 3 Bachelor and 1 Master thesis</li>
+                <li><strong>Teaching assistant (2016-2022):</strong> For Probabilistic ML, Data Literacy and Math summer course</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" style="padding-top: 2em;">
+        <div class="col-md-3"><h3>Selected Awards and Key Engagements</h3></div>
+        <div class="col-md-9">
+            <ul>
+                <li><strong>Pacific Economic Cooperations Councel (2024):</strong> AI workshop Speaker</li>
+                <li><strong>Beijing Academy of AI (BAAI) (2024):</strong> Speaker at evaluations panel</li>
+                <li><strong>AI safety summit (2023):</strong> Participant at UK AI Safety Summit at Bletchley Park</li>
+                <li><strong>Emergent Ventures (2022):</strong> Award Grantee. 15 awardees per cohort; Grant for AI safety research</li>
+                <li><strong>Best speaker (2020):</strong> German Debate Championships</li>
+                <li><strong>Scholarship (2016):</strong> German Academic Scholarship Foundation</li>
+            </ul>
+        </div>
     </div>
 
 </div>
