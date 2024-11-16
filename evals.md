@@ -10,13 +10,13 @@ I think evals is extremely accessible as a field and very friendly to newcomers 
 
 I intend to update this page from time to time. Feel free to reach out with resources that you think should be included. 
 
-#### A starter Guide to Evals
+### A starter Guide to Evals
 
 We have written [a starter guide to evals](https://www.apolloresearch.ai/blog/a-starter-guide-for-evals) as a general introduction to the field and suggestions on how to get started. If you prefer a presentation, you can watch [this talk](https://www.youtube.com/watch?v=zMmJEOl1Cco) I gave for the Talos fellowship. 
 
 In general, because evals is such an empirical field, I would recommend to get your hands dirty as soon as possible by trying to measure something you're curious about, as described at the bottom of the [starter guide](https://www.apolloresearch.ai/blog/a-starter-guide-for-evals).
 
-#### Inspect
+### Inspect
 
 [Inspect](https://inspect.ai-safety-institute.org.uk/) is an open source evals library designed and maintained by UK AISI and spearheaded by [JJ Allaire](https://en.wikipedia.org/wiki/Joseph_J._Allaire), who intends to develop and support the framework for many years. It supports a wide range of evals and is fairly easy to use. It is already used by a large number of people in the evals community and I think it will become the defacto standard tool for evals similar to how PyTorch is the defacto standard for neural networks. 
 
@@ -24,13 +24,13 @@ At Apollo, we have also decided to switch to using inspect for our evals (see de
 
 I think there is a lot of room for people to contribute to Inspect, e.g. there could be much more detailed tutorials. Contributing to Inspect might be a great way for people who enjoy the software engineering side of evals to test fit and gain career capital. 
 
-#### The ARENA evals materials
+### The ARENA evals materials
 
 I worked with Chloe and James (they did most of the heavy lifting) to develop [evals materials for ARENA](https://arena3-chapter3-llm-evals.streamlit.app/). The materials are designed for a full week of training and aim to give you some basic skills for evals.
 
 This was the first iteration, so there are still a lot of things we want to improve. We're keen to get feedback from people who have either done ARENA or go through the materials in their free time. 
 
-#### The evals gap
+### The evals gap
 
 Evals underpin a lot of important decisions. I think most people have not yet internalized what kind of evals will be required to confidently support billion-dollar decisions. I think it is possible to build these evaluations but we have to try harder than we're doing now. My evals field building efforts are partially motivated by the desire to close the evals gap (more details [here](https://www.apolloresearch.ai/blog/evalsgap)).
 
@@ -38,7 +38,7 @@ Evals underpin a lot of important decisions. I think most people have not yet in
   <img src="/img/evals/evals_gap.png"/>
 </figure>
 
-#### An opinionated Evals Reading list
+### An opinionated Evals Reading list
 
 We have written a detailed [opinionated evals reading list](https://www.apolloresearch.ai/blog/an-opinionated-evals-reading-list). We intend it to be useful both for people who just want to get a quick overview as well as people who want to understand the most important work in detail.
 
