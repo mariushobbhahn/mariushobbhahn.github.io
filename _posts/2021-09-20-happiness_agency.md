@@ -6,7 +6,7 @@ date:       2021-09-20 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/happy_dog.png"
 category:   opinion
-tags:       [Effective Altruism, Miscellaneous, Improve]
+tags:       [Miscellaneous, Improve]
 ---
 
 ## **What is this post about?**

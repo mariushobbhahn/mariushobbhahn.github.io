@@ -1,4 +1,5 @@
 ---
+published:  false
 layout:     post
 title:      "A history of changing my view"
 subtitle:   "A list of beliefs that I changed over the last couple of years"

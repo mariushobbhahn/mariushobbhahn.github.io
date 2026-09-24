@@ -1,4 +1,5 @@
 ---
+published:  false
 layout:     post
 title:      "How much animal suffering is there?"
 subtitle:   "A back-of-the-envelope attempt to quantify animal suffering caused by human consumption"

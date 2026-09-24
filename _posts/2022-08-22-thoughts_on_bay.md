@@ -1,4 +1,5 @@
 ---
+published:  false
 layout:     post
 title:      "Thoughts on the Bay"
 subtitle:   "Brief impressions from my first visit to the US"

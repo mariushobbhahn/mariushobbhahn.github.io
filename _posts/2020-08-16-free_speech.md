@@ -1,4 +1,5 @@
 ---
+published:  false
 layout:     post
 title:      "How much free speech is optimal?"
 subtitle:   "What does good discourse look like? What can you do to improve your conversations? Who should be canceled and when?"

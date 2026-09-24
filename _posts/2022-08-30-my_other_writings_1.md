@@ -1,4 +1,5 @@
 ---
+published:  false
 layout:     post
 title:      "My other writings #1"
 subtitle:   "Brief summary of some posts that are not on my blog"

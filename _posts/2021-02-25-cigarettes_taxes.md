@@ -6,7 +6,7 @@ date:       2021-02-25 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/cigarettes.jpeg"
 category:   opinion
-tags:        [Effective Altruism, Data Analysis]
+tags:        [Data Analysis]
 ---
 
 ## **What is this post about?**

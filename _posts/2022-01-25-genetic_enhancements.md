@@ -6,7 +6,7 @@ date:       2022-01-20 20:28:00
 author:     "Marius Hobbhahn"
 header-img: "img/header-imgs/pro_GMOs.jpeg"
 category:   opinion
-tags:       [Miscellanious, Improve, Effective Altruism]
+tags:       [Miscellanious, Improve]
 
 ---
 
