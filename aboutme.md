@@ -119,7 +119,7 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
         	<h4>AI safety/alignment</h4>
             <ul>
                 <li><strong>SPAR23 mentor:</strong> Mentor of 7 AI safety students for <a href="https://berkeleyaisafety.com/spar">SPAR</a> by UC Berkeley</li>
-                <li><strong>LTFF grantee:</strong> Received funding for independent research on AI safety from the <a href='https://funds.effectivealtruism.org/funds/far-future'>Long-Term Future Fund</a> (2022)</li>
+                <li><strong>LTFF grantee:</strong> Received funding for independent research on AI safety from the Long-Term Future Fund (2022)</li>
                 <li><strong><a href="https://www.serimats.org/">SERI MATS</a> scholar:</strong> Research on deceptive alignment mentored by Evan Hubinger</li>
                 <li><strong><a href='https://marginalrevolution.com/marginalrevolution/2022/04/emergent-ventures-winners-19th-cohort.html'>Emergent Ventures</a> grantee</strong> Explored the role of Bayesian ML for AI safety</li>
                 <li><strong><a href='https://aisafety.camp/'>AI safety</a> camp participant:</strong> Researched reflection mechanisms as an alignment target (supervised by Beth Barnes)</li>
@@ -130,16 +130,6 @@ You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbha
             <div class="row" style="padding-bottom: 1em"></div>
 -->
         
-<!---
-            <h4>Effective Altruism</h4>
-            <ul>
-                <li><strong>EA Tübingen co-founder:</strong> Co-founded the <a href='https://eatuebingen.wordpress.com/'>Tübingen EA chapter</a> in 2016 and co-organized until early 2022</li>
-                <li><strong>Writer</strong> on <a href='https://www.lesswrong.com/users/marius-hobbhahn'>LessWrong</a> and the <a href='https://forum.effectivealtruism.org/users/mariushobbhahn'>EA Forum</a></li>
-                <li><strong>Participant/Speaker</strong> at 10+ EAG, EAGx and other EA conferences</li>
-            </ul>
-            <div class="row" style="padding-bottom: 1em"></div>
--->
-	
 <!---
             <h4>University Debating</h4>
             <ul>
