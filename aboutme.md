@@ -5,6 +5,10 @@ subtitle: Last update - October 2024
 ---
 
 
+<div class="alert alert-info" role="alert" style="text-align: center; font-size: 1.1em;">
+  <b>For all matters related to Apollo Research, please reach out to <a href="mailto:press@apolloresearch.ai">press@apolloresearch.ai</a>.</b>
+</div>
+
 You can leave anonymous feedback <a href='https://www.admonymous.co/mariushobbhahn'>here</a> and download a pdf version of the CV <a href='https://drive.google.com/file/d/1fE8k20FmfHMk1cGTDXgOfppIcqI5Z_aJ/view?usp=sharing'>here</a>.
 
 <div class="col-md-12">
